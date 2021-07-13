@@ -1,0 +1,9 @@
+baseURL = "https://bitesize-codes.vercel.app"
+languageCode = "en-us"
+title = "Bitesize Code"
+
+[params]
+    description = "Code in bitesize"
+
+[permalinks]
+  posts = ":slug"
