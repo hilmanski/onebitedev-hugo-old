@@ -1,0 +1,44 @@
+@media only screen and (min-width: 760px)
+    .on-desktop-only
+        display: block
+
+@media only screen and (max-width: 1000px)
+    body
+        width: 90%
+        font-size: 16px
+
+    .columns
+        display: block
+
+    header
+        font-size: 1rem
+        
+    nav
+        text-align: right
+        a
+            display: block
+
+    .tags
+        li
+            margin: 2px
+
+    .flex-on-mobile
+        display: flex
+
+    .flex
+        display: block
+        .is-half, .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-third
+            width: 100%
+        &.flex-mobile
+            display: flex
+            .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-third
+                width: auto
+
+    .cards
+        padding: 20px 30px
+        width: 95%
+        padding-bottom: 30px
+        img
+            max-width: 50px
+            max-height: 50px
+            min-width: 50px

@@ -1,6 +1,6 @@
-baseURL = "https://bitesize-codes.vercel.app"
+baseURL = "https://bitsize-dev.vercel.app"
 languageCode = "en-us"
-title = "Bitesize Code"
+title = "Bitsize Code"
 
 [params]
     description = "Code in bitesize"

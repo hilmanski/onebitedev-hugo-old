@@ -3,6 +3,13 @@
 <section class="article">
     <h1 id="title" class="py-2">{{ .Title }}</h1>
     <div> {{ .Content }} </div>
+
+     <ul class="tags">Tags:
+                {{ range .Params.tags }}
+                  <li><a class="tags-{{.}}" href="/tags/{{.}}">{{ . }}</a> </li>
+                {{ end }}
+                | <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+            </ul>
 </section>
 
 {{ end }}

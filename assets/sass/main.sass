@@ -1,0 +1,39 @@
+*, *:before, *:after
+    -webkit-box-sizing: border-box !important
+    -moz-box-sizing: border-box !important
+    -ms-box-sizing: border-box !important
+    box-sizing: border-box !important
+
+*
+    margin: 0px
+    padding: 0px
+
+body
+    margin: 5% auto
+    width: 60%
+    max-width: 1100px
+    line-height: 1.6rem
+    font-family: sans-serif
+    color: rgb(87, 87, 87)
+
+a
+    color: rgb(48, 48, 48)
+    text-decoration: none
+    &:hover
+        cursor: pointer
+
+.tags
+    font-size: 1rem
+    list-style: none
+    li
+        display: inline-block
+        margin: 0 1px
+        margin-bottom: 2px
+    a
+        padding: 0px 5px
+        display: inline-block
+        border-radius: 3px
+        font-size: 0.8rem
+
+@import 'labels'
+@import 'responsive'
