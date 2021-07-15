@@ -5,10 +5,9 @@
         <p>{{.Summary}}</p>
     
         <ul class="tags">Tags:
-            {{ range .Params.tags }}
-            <li><a class="tags-{{.}}" href="/tags/{{.}}">{{ . }}</a> </li>
+            {{ range .Params.topic }}
+            <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
             {{ end }}
-            <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
         </ul>
     </div>
     {{ end }}
