@@ -2,7 +2,7 @@
 		{{ range .Site.RegularPages }}
         <div class="mb-20">
             <h2> <a href="{{.Permalink}}"> {{humanize .Title}} </a></h2>
-            <p>{{.Summary}}</p>
+            <p>{{.Description}}</p>
 
             <ul class="tags">Tags:
                 {{ range .Params.topic }}
