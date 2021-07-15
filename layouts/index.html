@@ -1,7 +1,7 @@
 {{ define "main" }}
 		{{ range .Site.RegularPages }}
         <div class="mb-20">
-            <h2> <a href="{{.Permalink}}"> {{humanize .Title}} </a></h2>
+            <h2 class="text-transform: capitalize;"> <a href="{{.Permalink}}"> {{ .Title}} </a></h2>
             <p>{{.Description}}</p>
 
             <ul class="tags">Tags:

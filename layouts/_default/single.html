@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section id="post">
-    <h1>{{humanize .Title }}</h1>
+    <h1 class="text-transform: capitalize;">{{ .Title }}</h1>
     <div class="article"> {{ .Content }} </div>
 
     <ul class="tags">Tags:

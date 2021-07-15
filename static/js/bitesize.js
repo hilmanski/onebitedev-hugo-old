@@ -61,10 +61,11 @@ function initSlideShow() {
     //Add navigation
     insertContent(slideWrapper, `
     <div id="slide-menu">
-        <h1> ${title} </h1>
+        <h1 style="text-align:center;"> ${title} </h1>
+        <br>
         <span id="bs-prev-btn" class="is-hidden" onclick="navBiteSize('PREV')"> &lt; Prev </span>
         <span id="bs-next-btn" onclick="navBiteSize('NEXT')"> Next &gt; </span>
-    </div> <br>
+    </div> <hr><br>
     `)
 
     //Import Slide
