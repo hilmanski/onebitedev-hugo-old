@@ -2,9 +2,11 @@
 title: "bulma is awesome"
 description: "desc bulma is awesome"
 date: 2021-07-14T23:17:00.000Z
-topic: [bulma,css,bootstrap]
+topic: [bulma, bootstrap, material]
 ---
-Im new to bulma stuff!!
+Im new to bulma and material stuff!!
+
+
 
 
 
