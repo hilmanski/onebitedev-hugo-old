@@ -1,9 +1,9 @@
 "use strict";
 
 //trigger by hashtag
-var hash = location.hash.substr(1);
+var url = window.location.href;
 
-if (hash == 'bitesize') {
+if (url.includes('?mode=bitesize')) {
     var convertToBiteSize = function convertToBiteSize() {
         var regexTopic = new RegExp("<".concat(tagTopic, "(.*)</").concat(tagTopic, ">"), 'g');
         var matchedTopic = articleWrapper.innerHTML.match(regexTopic);
@@ -27,7 +27,8 @@ if (hash == 'bitesize') {
     };
 
     var initSlideShow = function initSlideShow() {
-        var title = document.querySelector('h1').innerText; //Add Canvas
+        var title = document.querySelector('h1').innerText;
+        document.body.innerHTML = ''; //Add Canvas
 
         insertContent(document.body, "<div id=\"".concat(slideName, "\" style=\"").concat(basicStyle, "\">\n                                    <div id=\"").concat(slideContentName, "\" class=\"article\"></div>\n                                </div>"));
         var slideWrapper = document.getElementById(slideName); //Add navigation
@@ -61,7 +62,7 @@ if (hash == 'bitesize') {
 
     var finsihBiteSize = function finsihBiteSize() {
         alert('done bitesize!');
-        window.location.href = window.location.href.split('#')[0];
+        window.location.href = window.location.href.split('?mode=bitesize')[0];
     };
     /**
      * parent: div where to put content

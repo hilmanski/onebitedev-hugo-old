@@ -1,6 +1,6 @@
 //trigger by hashtag
-const hash = location.hash.substr(1);
-if(hash == 'bitesize') {
+const url = window.location.href
+if (url.includes('?mode=bitesize')) {
 
 const slideName = "bitesize_wrapper"
 const slideContentName = "slide_content"
@@ -43,13 +43,14 @@ function convertToBiteSize() {
             slide[i + 1] = tempArticle
         }
     })
-
     return slide
 }
 
 function initSlideShow() {
-
     const title = document.querySelector('h1').innerText
+
+
+    document.body.innerHTML = ''
 
     //Add Canvas
     insertContent(document.body, `<div id="${slideName}" style="${basicStyle}">
@@ -94,7 +95,7 @@ function navBiteSize(command) {
 
 function finsihBiteSize() {
     alert('done bitesize!')
-    window.location.href = window.location.href.split('#')[0]
+    window.location.href = window.location.href.split('?mode=bitesize')[0]
 }
 
 /**
