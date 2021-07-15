@@ -11,14 +11,6 @@ Just plug it in, and play!
 
 There are hundreds of frameworks in the JavaScript ecosystem, and each one of these frameworks provide us with a system to create plugins in order to add new things to the framework.
 
-If you take a look at the NPM registry, where almost all JavaScript plugins are published, you will see more than a million plugins published as both simple libraries and frameworks.
-
-How you create plugins for each framework may differ significantly. For example, Vue.js has its own plugin system, which is different from how you’d create plugins for React.js. However, it all boils down to the same JavaScript code.
-
-Therefore, being able to create plugins with Vanilla JavaScript gives you the ability to create a plugin that works regardless of the framework in question.
-
-“A framework-agnostic JavaScript plugin is a plugin that works without needing the context of a framework. You can use the plugin in any framework, and even without a framework”
-
 ## What to keep in mind when building a library
 
 You should have a goal for your plugin — this is the key thing your plugin is meant to achieve
