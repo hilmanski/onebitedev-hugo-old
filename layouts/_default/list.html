@@ -1,18 +1,15 @@
 {{ define "main" }}
-
-<main>
-    <ul id="post">
-        {{ range .Pages }}
-        <div class="posts">
-            <h3 class="title"> <a href="{{.Permalink}}"> {{.Title}} </a></h3>
-            <p class="desc">{{.Summary}}</p>
-
-            <ul class="tags">Tags:
-                <li><a href="?tag={{.Params.Tags}}}">{{ .Params.Tags }}</a> </li>
-            </ul>
-        </div>
-        {{ end }}
-    </ul>
-</main>
-
+     {{ range .Pages }}
+    <div>
+        <h2> <a href="{{.Permalink}}"> {{humanize .Title}} </a></h2>
+        <p>{{.Summary}}</p>
+    
+        <ul class="tags">Tags:
+            {{ range .Params.tags }}
+            <li><a class="tags-{{.}}" href="/tags/{{.}}">{{ . }}</a> </li>
+            {{ end }}
+            <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+        </ul>
+    </div>
+    {{ end }}
 {{ end }}

@@ -2,7 +2,7 @@
 title: "bulma is awesome"
 description: "desc bulma is awesome"
 date: 2021-07-14T23:17:00.000Z
-tags: [bulma,css,bootstrap]
+topic: [bulma,css,bootstrap]
 ---
 Im new to bulma stuff!!
 
