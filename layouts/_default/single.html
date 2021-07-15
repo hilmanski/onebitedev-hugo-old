@@ -11,8 +11,49 @@
       </ul>
 </section>
 
-<!-- <script src="/js/bitesize.js"> </script> -->
-<script src="/js/bitesize-prod.js"> </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<style>
+  #bitesize_wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 100px;
+  }
+  @media only screen and (max-width: 600px) {
+    #bitesize_wrapper {
+    padding: 50px;
+    }
+  }
+
+  #slide-menu{
+    text-align: right;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #slide-menu h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #slide-nav span{
+    font-size: 16px;
+    background: orange;
+    padding: 5px 10px;
+  }
+  #slide-nav span:hover{
+    cursor: pointer;
+  }
+</style>
+
+<!-- <script src="/js/bitesize.js" defer> </script> -->
+<script src="/js/bitesize-prod.js" defer> </script>
 
 {{ end }}

@@ -1,20 +1,13 @@
 //trigger by hashtag
 const url = window.location.href
-if (url.includes('?mode=bitesize')) {
+if (url.includes('mode=bitesize')) {
 
 const slideName = "bitesize_wrapper"
 const slideContentName = "slide_content"
 const articleWrapper = document.getElementsByClassName('article')[0]
 const tagTopic = 'h2'
 
-const basicStyle = `position: absolute;
-                    z-index: 9999;
-                    top: 0px;
-                    left: 0px;
-                    width: 100%;
-                    height: 100%;
-                    background: white;
-                    padding: 50px;`
+const basicStyle = `background: white;`
 
 const slides = convertToBiteSize()
 let active_slide = 0
@@ -48,11 +41,9 @@ function convertToBiteSize() {
 
 function initSlideShow() {
     const title = document.querySelector('h1').innerText
-
-
-    document.body.innerHTML = ''
-
+    
     //Add Canvas
+    articleWrapper.style.display = 'none'
     insertContent(document.body, `<div id="${slideName}" style="${basicStyle}">
                                     <div id="${slideContentName}" class="article"></div>
                                 </div>`)
@@ -62,13 +53,15 @@ function initSlideShow() {
     //Add navigation
     insertContent(slideWrapper, `
     <div id="slide-menu">
-        <h1 style="text-align:center;"> ${title} </h1>
-        <br>
+        <h1> ${title} </h1>
+        <div id="slide-nav">
         <span id="bs-prev-btn" class="is-hidden" onclick="navBiteSize('PREV')"> &lt; Prev </span>
         <span id="bs-next-btn" onclick="navBiteSize('NEXT')"> Next &gt; </span>
-    </div> <hr><br>
-    `)
+        </div>
+    </div>
+    `, 'beforeend')
 
+    console.log(slides)
     //Import Slide
     insertContent(document.getElementById(slideContentName), slides[active_slide])
 }
@@ -91,19 +84,22 @@ function navBiteSize(command) {
     }
 
     insertContent(slideContent, slides[active_slide])
+    //reInitialize highlighter
+    hljs.initHighlighting.called = false
+    hljs.initHighlighting()
 }
 
 function finsihBiteSize() {
     alert('done bitesize!')
-    window.location.href = window.location.href.split('?mode=bitesize')[0]
+    window.location.href = window.location.href.split('mode=bitesize')[0]
 }
 
 /**
  * parent: div where to put content
  * content: any HTML content 
  */
-function insertContent(parent, content) {
-    parent.insertAdjacentHTML('afterbegin', content)
+function insertContent(parent, content, position = 'afterbegin' ) {
+    parent.insertAdjacentHTML(position, content)
 }
 
 }
