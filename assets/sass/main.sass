@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap')
+
+$titleFont: 'Source Code Pro', monospace
+$baseFont: 'Pontano Sans', sans-serif
+$baseblack: #29313D
+
 *, *:before, *:after
     -webkit-box-sizing: border-box !important
     -moz-box-sizing: border-box !important
@@ -14,14 +21,35 @@ body
     max-width: 1100px
     line-height: 1.8rem
     font-size: 20px
-    font-family: sans-serif
-    color: rgb(87, 87, 87)
+    font-family: $baseFont
+    color: $baseblack
 
 a
     color: rgb(48, 48, 48)
     text-decoration: none
     &:hover
         cursor: pointer
+
+.flex, .flex-on-mobile
+    display: flex
+    &.is-space-between
+        justify-content: space-between
+    &.is-space-around
+        justify-content: space-around
+    &.is-align-items
+        align-items: center
+    &.is-flex-end
+        justify-content: flex-end
+    .is-half
+        width: 50%
+    .is-one-fifth
+        width: (1/5 * 100%)
+    .is-four-fifth
+        width: (4/5 * 100%)
+    .is-two-third
+        width: (2/3 * 100%)
+    .is-one-third
+        width: (1/3 * 100%)
 
 .tags
     font-size: 1rem
@@ -34,21 +62,54 @@ a
         padding: 0px 5px
         display: inline-block
         border-radius: 3px
-        font-size: 0.8rem
+
+header
+    margin-bottom: 40px
+    #title
+        font-size: 1.8rem
+        font-weight: bold
+    #subtitle
+        font-size: 1.4rem
+    svg
+        margin-right: 10px
+
+.title
+    font-family: $titleFont
+    text-transform: capitalize
+    font-size: 1.5rem
+    font-weight: bold
 
 #post
     h1
         font-size: 2rem
         line-height: 2.2rem
+        margin-bottom: 5px
+    h2
+        margin-top: 20px
+
+code
+    border-radius: 10px
+    font-size: 1.2rem
+
+button
+    padding: 5px 10px
+    border-radius: 10px    
+    &:hover
+        cursor: pointer
 
 .article
     white-space: pre-wrap
+    a
+        text-decoration: underline
 
 .is-hidden
     display: none
 
 .mb-20
     margin-bottom: 20px
+
+.text-small
+    font-size: 0.8rem
 
 @import 'labels'
 @import 'responsive'

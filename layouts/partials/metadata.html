@@ -1,0 +1,24 @@
+{{ $title := .Title }}
+{{ $desc := "" }}
+
+{{ if .Description }} 
+    {{ $desc = .Description }} 
+{{ else }} 
+    {{ $desc = .Site.Params.Description }}  
+{{ end }}
+
+{{ if hasPrefix .RelPermalink "/topic/" }}
+    {{ $title = printf "%s%s" "Developer blog around " .Title}}
+     {{ $desc = printf "%s%s%s" "Developer and programmer blog around topic " .Title ""}}
+{{ end }}
+
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{$desc}}" property="og:description">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{$desc}}" />

@@ -1,14 +1,5 @@
 {{ define "main" }}
      {{ range .Pages }}
-    <div>
-        <h2> <a href="{{.Permalink}}"> {{humanize .Title}} </a></h2>
-        <p>{{.Summary}}</p>
-    
-        <ul class="tags">Tags:
-            {{ range .Params.topic }}
-            <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
-            {{ end }}
-        </ul>
-    </div>
+         {{ partial "post-list.html" . }}
     {{ end }}
 {{ end }}

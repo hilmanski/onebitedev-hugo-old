@@ -1,0 +1,11 @@
+<div class="mb-20">
+    <p class="title"> <a href="{{.Permalink}}"> {{ .Title}} </a></p>
+    <p>{{.Description}}</p>
+
+    <ul class="tags text-small">
+        {{ range .Params.topic }}
+        <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
+        {{ end }}
+        <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+    </ul>
+</div>

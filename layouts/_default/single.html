@@ -1,19 +1,20 @@
 {{ define "main" }}
 
 <section id="post">
-    <h1 class="text-transform: capitalize;">{{ .Title }}</h1>
+    <h1 class="title">{{ .Title }}</h1>
 
     <div>
-      <button onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
+      <button id="bitesize-btn" onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
     </div>
 
     <div class="article"> {{ .Content }} </div>
 
-    <ul class="tags">Tags:
+    <ul class="tags text-small">
       {{ range .Params.topic }}
       <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
       {{ end }}
-      </ul>
+      <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+    </ul>
 </section>
 
 
@@ -60,5 +61,9 @@
 
 <!-- <script src="/js/bitesize.js" defer> </script> -->
 <script src="/js/bitesize-prod.js" defer> </script>
+<script>
+  if(!document.getElementsByClassName('article')[0].innerHTML.includes("</h2>"))
+    document.getElementById('bitesize-btn').style.display = "none"
+</script>
 
 {{ end }}

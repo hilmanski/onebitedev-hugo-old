@@ -2,19 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> {{ .Title }} </title>
-    <meta name="description"
-        content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}"
-        property="og:description">
-    
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@hilmanski" />
-    <meta name="twitter:creator" content="@hilmanski" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:title" content="{{ .Title }} " />
-    <meta property="og:description"
-        content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
-
+    {{ partial "metadata.html" .}}
     
     <!-- Styles -->
    {{ $style := resources.Get "/sass/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
@@ -23,6 +11,9 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+
     <!-- TODO: Google Analystic -->
 
     <meta charset="UTF-8">
@@ -30,3 +21,52 @@
 </head>
 
 <body>
+    <header class="flex-on-mobile is-align-items">
+        <a href="/">
+<svg width="76" height="98" viewBox="0 0 76 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M32.6195 8.82454L58.3891 95.2081C58.5355 95.6989 58.2711 96.221 57.789 96.3933C57.2908 96.5712 56.7459 96.3106 56.5718 95.8111L26.9111 10.7186C26.3642 9.14962 27.1893 7.42455 28.754 6.86554C30.3693 6.28846 32.129 7.18026 32.6195 8.82454Z"
+        fill="#927A7A" stroke="black" stroke-width="2" />
+    <rect x="4" y="45" width="68" height="33" rx="9" fill="#F4F4F4" stroke="#333333" stroke-width="2" />
+    <rect x="1" y="34" width="74" height="19" rx="9" fill="#E86060" stroke="#333333" stroke-width="2" />
+    <path
+        d="M63.868 5.3237L44.196 93.348C44.0846 93.8466 43.601 94.1676 43.0982 94.0768C42.5787 93.983 42.2319 93.4855 42.3235 92.9657L57.981 4.1217C58.269 2.48742 59.8263 1.4017 61.4593 1.69667C63.1451 2.00117 64.2415 3.65224 63.868 5.3237Z"
+        fill="#927A7A" stroke="black" stroke-width="2" />
+    <line y1="-0.5" x2="10.7885" y2="-0.5" transform="matrix(-0.509802 0.860292 -0.8 -0.6 12.2 34.2188)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="9.68009" y2="-0.5" transform="matrix(0.284088 0.958798 -0.936329 0.351123 6.70001 43.5)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="11.331" y2="-0.5" transform="matrix(-0.573647 0.819102 -0.844329 -0.535824 24 34.2188)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="9.83382" y2="-0.5" transform="matrix(0.330492 0.943809 -0.953166 0.302447 17.5 43.5)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="11.331" y2="-0.5" transform="matrix(-0.573647 0.819102 -0.844329 -0.535824 35.7 34.2188)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="9.83382" y2="-0.5" transform="matrix(0.330492 0.943809 -0.953166 0.302447 29.2 43.5)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="11.331" y2="-0.5" transform="matrix(-0.573647 0.819102 -0.844329 -0.535824 47.4 34.2188)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="9.83382" y2="-0.5" transform="matrix(0.330492 0.943809 -0.953166 0.302447 40.9 43.5)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="11.331" y2="-0.5" transform="matrix(-0.573647 0.819102 -0.844329 -0.535824 68.85 34.2188)"
+        stroke="#F4F4F4" />
+    <line y1="-0.5" x2="9.83382" y2="-0.5" transform="matrix(0.330492 0.943809 -0.953166 0.302447 62.35 43.5)"
+        stroke="#F4F4F4" />
+</svg></a>
+
+        <div>
+            <a href="/"><p id="title">OneBite.Dev</p></a>
+            <p id="subtitle">Developer tips and trick, one bite at a time</p>
+        </div>
+    </header>
+
+    {{ if .IsHome }}
+    <ul class="tags text-small">
+        {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
+            {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
+            <li><a class="tags-{{ $name }}" href="{{ .Permalink }}">{{ $name }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+    <br>
+    {{ end }}

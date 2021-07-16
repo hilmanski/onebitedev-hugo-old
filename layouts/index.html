@@ -1,15 +1,5 @@
 {{ define "main" }}
 		{{ range .Site.RegularPages }}
-        <div class="mb-20">
-            <h2 class="text-transform: capitalize;"> <a href="{{.Permalink}}"> {{ .Title}} </a></h2>
-            <p>{{.Description}}</p>
-
-            <ul class="tags">Tags:
-                {{ range .Params.topic }}
-                  <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
-                {{ end }}
-                <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
-            </ul>
-        </div>
+            {{ partial "post-list.html" . }}
         {{ end }}
 {{ end }}
