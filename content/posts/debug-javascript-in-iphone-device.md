@@ -12,6 +12,8 @@ So it's important for us to learn how to debug our website in an iPhone
 
 
 
+
+
 ## How to debug website on iPhone using Web Inspector
 
 Connect your iPhone/iPad to computer
@@ -34,6 +36,6 @@ In your device, go to chrome://inspect
 Press start logging
 Open website you want to debug at another tab
 Check logs in previous tab
-(read chromium article about this)[https://blog.chromium.org/2019/03/debugging-websites-in-chrome-for-ios.html]
+[read chromium article about this](https://blog.chromium.org/2019/03/debugging-websites-in-chrome-for-ios.html)
 
 
