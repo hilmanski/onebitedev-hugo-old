@@ -69,8 +69,16 @@
 <!-- <script src="/js/bitesize.js" defer> </script> -->
 <script src="/js/bitesize-prod.js" defer> </script>
 <script>
-  if(!document.getElementsByClassName('article')[0].innerHTML.includes("</h2>"))
+  const _article = document.getElementsByClassName('article')[0]
+  //hide bitesizebtn if no H2
+  if(!_article.innerHTML.includes("</h2>"))
     document.getElementById('bitesize-btn').style.display = "none"
+
+  //open all links in new tab
+  const _links = _article.getElementsByTagName('a')
+  for (var i = 0; i<_links.length; i++) {
+    _links[i].setAttribute('target', '_blank')
+  }
 </script>
 
 {{ end }}
