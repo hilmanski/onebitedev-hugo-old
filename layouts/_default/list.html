@@ -1,7 +1,5 @@
 {{ define "main" }}
     {{ if eq .Kind "term" }} <h1> Dev blog around {{ .Title }} </h1> <br> {{end}}
-
-     {{ range .Pages }}
-         {{ partial "post-list.html" . }}
-    {{ end }}
+    {{ partial "post-list.html" . }}
+    {{ partial "pagination.html" . }}
 {{ end }}

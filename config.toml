@@ -1,6 +1,7 @@
 baseURL = "https://onebite.dev"
 languageCode = "en-us"
 title = "Onebite Dev"
+paginate = 15
 
 [params]
     description = "Developer tips and trick one bite at a time"

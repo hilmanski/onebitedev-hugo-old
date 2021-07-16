@@ -1,5 +1,4 @@
 {{ define "main" }}
-		{{ range .Site.RegularPages }}
-            {{ partial "post-list.html" . }}
-        {{ end }}
+    {{ partial "post-list.html" . }}
+    {{ partial "pagination.html" . }}
 {{ end }}

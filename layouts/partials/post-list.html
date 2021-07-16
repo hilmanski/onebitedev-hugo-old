@@ -1,11 +1,13 @@
-<div class="mb-40">
-    <p class="title"> <a href="{{.Permalink}}"> {{ .Title}} </a></p>
-    <p>{{.Description}}</p>
+{{ range .Paginator.Pages }}
+    <div class="mb-40">
+        <p class="title"> <a href="{{.Permalink}}"> {{ .Title}} </a></p>
+        <p>{{.Description}}</p>
 
-    <ul class="tags text-small">
-        {{ range .Params.topic }}
-        <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
-        {{ end }}
-        <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
-    </ul>
-</div>
+        <ul class="tags text-small">
+            {{ range .Params.topic }}
+            <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
+            {{ end }}
+            <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+        </ul>
+    </div>
+{{ end }}
