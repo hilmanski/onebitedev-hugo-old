@@ -1,9 +1,9 @@
-baseURL = "https://bitsize-dev.vercel.app"
+baseURL = "https://onebite.dev"
 languageCode = "en-us"
-title = "Bitsize Code"
+title = "Onebite Dev"
 
 [params]
-    description = "Code in bitesize"
+    description = "Developer tips and trick one bite at a time"
 
 [permalinks]
   posts = ":slug"
