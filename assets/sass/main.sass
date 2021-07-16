@@ -4,6 +4,7 @@
 $titleFont: 'Source Code Pro', monospace
 $baseFont: 'Pontano Sans', sans-serif
 $gold: #c0a344
+$goldHover: #DFBF4D
 $baseblack: #29313D
 $baseWhite: #f2f2f2
 
@@ -33,8 +34,10 @@ img
 a
     color: $gold
     text-decoration: none
+    transition: color 0.5s
     &:hover
         cursor: pointer
+        color: $goldHover
 
 .flex, .flex-on-mobile
     display: flex
@@ -58,7 +61,7 @@ a
         width: (1/3 * 100%)
 
 .tags
-    font-size: 1rem
+    font-size: 0.8rem
     list-style: none
     li
         display: inline-block
@@ -72,8 +75,9 @@ a
 header
     margin-bottom: 40px
     #title
-        font-size: 1.8rem
+        font-size: 2rem
         font-weight: bold
+        color: #19BDFF
     #subtitle
         font-size: 1.4rem
     svg
@@ -82,11 +86,12 @@ header
 .title
     font-family: $titleFont
     text-transform: capitalize
-    font-size: 1.5rem
+    font-size: 1.7rem
     font-weight: bold
 
 #post
     h1
+        color: $gold
         font-size: 2rem
         line-height: 2.2rem
         margin-bottom: 5px
@@ -115,8 +120,8 @@ button
 .is-hidden
     display: none
 
-.mb-20
-    margin-bottom: 20px
+.mb-40
+    margin-bottom: 40px
 
 .text-small
     font-size: 0.8rem

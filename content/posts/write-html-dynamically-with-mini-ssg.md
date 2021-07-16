@@ -2,7 +2,7 @@
 title: "Write HTML dynamically with mini SSG"
 description: "Using mini SSG to write reusable components, layout and partial   code in HTML files"
 date: 2021-07-08T23:38:00.000Z
-topic: [SSG, HTML]
+topic: [SSG, HTML, open-source]
 ---
 This is a story about me:
 
