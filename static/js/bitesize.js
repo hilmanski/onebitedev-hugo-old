@@ -7,7 +7,6 @@ const slideContentName = "slide_content"
 const articleWrapper = document.getElementsByClassName('article')[0]
 const tagTopic = 'h2'
 
-const basicStyle = `background: white;`
 
 const slides = convertToBiteSize()
 let active_slide = 0
@@ -44,7 +43,7 @@ function initSlideShow() {
     
     //Add Canvas
     articleWrapper.style.display = 'none'
-    insertContent(document.body, `<div id="${slideName}" style="${basicStyle}">
+    insertContent(document.body, `<div id="${slideName}">
                                     <div id="${slideContentName}" class="article"></div>
                                 </div>`)
 

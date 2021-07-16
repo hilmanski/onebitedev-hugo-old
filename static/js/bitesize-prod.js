@@ -85,7 +85,7 @@ if (url.includes('mode=bitesize')) {
     var slideContentName = "slide_content";
     var articleWrapper = document.getElementsByClassName('article')[0];
     var tagTopic = 'h2';
-    var basicStyle = "background: white;";
+    var basicStyle = "background: #29313D;";
     var slides = convertToBiteSize();
     var active_slide = 0;
 
