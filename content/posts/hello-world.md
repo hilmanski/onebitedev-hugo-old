@@ -1,12 +1,14 @@
 ---
 title: "Hello World"
-description: "Hi, introducing bitesize code"
+description: "Hi, introducing onebite.dev"
 date: 2021-07-12T20:32:00.000Z
-topic: [sharing, CSS]
+topic: [sharing]
 ---
 Hi, hello world!
 
 My name is Hilman, I come from Indonesia! I always want to write a blog in English, but there’s always fear and shame that haunt me. I’m not a native English speaker, so you’ll see (hope not that much) some grammar mistake at first. I’ll keep practice and make it better.
+
+
 
 
 
