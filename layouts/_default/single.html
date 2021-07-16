@@ -2,6 +2,11 @@
 
 <section id="post">
     <h1 class="text-transform: capitalize;">{{ .Title }}</h1>
+
+    <div>
+      <button onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
+    </div>
+
     <div class="article"> {{ .Content }} </div>
 
     <ul class="tags">Tags:

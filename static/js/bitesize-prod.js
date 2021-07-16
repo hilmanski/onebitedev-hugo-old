@@ -33,8 +33,7 @@ if (url.includes('mode=bitesize')) {
         insertContent(document.body, "<div id=\"".concat(slideName, "\" style=\"").concat(basicStyle, "\">\n                                    <div id=\"").concat(slideContentName, "\" class=\"article\"></div>\n                                </div>"));
         var slideWrapper = document.getElementById(slideName); //Add navigation
 
-        insertContent(slideWrapper, "\n    <div id=\"slide-menu\">\n        <h1> ".concat(title, " </h1>\n        <div id=\"slide-nav\">\n        <span id=\"bs-prev-btn\" class=\"is-hidden\" onclick=\"navBiteSize('PREV')\"> &lt; Prev </span>\n        <span id=\"bs-next-btn\" onclick=\"navBiteSize('NEXT')\"> Next &gt; </span>\n        </div>\n    </div>\n    "), 'beforeend');
-        console.log(slides); //Import Slide
+        insertContent(slideWrapper, "\n    <div id=\"slide-menu\">\n        <h1> ".concat(title, " </h1>\n        <div id=\"slide-nav\">\n        <span id=\"bs-prev-btn\" class=\"is-hidden\" onclick=\"navBiteSize('PREV')\"> &lt; Prev </span>\n        <span id=\"bs-next-btn\" onclick=\"navBiteSize('NEXT')\"> Next &gt; </span>\n        </div>\n    </div>\n    "), 'beforeend'); //Import Slide
 
         insertContent(document.getElementById(slideContentName), slides[active_slide]);
     };
@@ -48,24 +47,27 @@ if (url.includes('mode=bitesize')) {
             active_slide = active_slide + 1;
 
             if (active_slide >= slides.length) {
-                finsihBiteSize();
+                return finsihBiteSize();
             }
         } else {
             active_slide = active_slide - 1;
 
             if (active_slide < 0) {
-                finsihBiteSize();
+                return finsihBiteSize();
             }
         }
 
-        insertContent(slideContent, slides[active_slide]); //reInitialize highlighter
+        insertContent(slideContent, slides[active_slide]);
+        document.body.scrollTop = 0; // For Safari
 
-        hljs.initHighlighting.called = false;
-        hljs.initHighlighting();
+        document.documentElement.scrollTop = 0; // 
+        //reInitialize highlighter
+
+        hljs.highlightAll();
     };
 
     var finsihBiteSize = function finsihBiteSize() {
-        alert('done bitesize!');
+        alert('Thanks for reading it in bitesize!');
         window.location.href = window.location.href.split('mode=bitesize')[0];
     };
     /**

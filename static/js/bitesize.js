@@ -61,7 +61,6 @@ function initSlideShow() {
     </div>
     `, 'beforeend')
 
-    console.log(slides)
     //Import Slide
     insertContent(document.getElementById(slideContentName), slides[active_slide])
 }
@@ -74,23 +73,25 @@ function navBiteSize(command) {
         document.getElementById('bs-prev-btn').classList.remove('is-hidden')
         active_slide = active_slide + 1
         if(active_slide >= slides.length) {
-            finsihBiteSize()
+            return finsihBiteSize()
         }
     } else {
         active_slide = active_slide - 1
         if(active_slide < 0) {
-            finsihBiteSize()
+            return finsihBiteSize()
         }
     }
 
     insertContent(slideContent, slides[active_slide])
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // 
+
     //reInitialize highlighter
-    hljs.initHighlighting.called = false
-    hljs.initHighlighting()
+    hljs.highlightAll()
 }
 
 function finsihBiteSize() {
-    alert('done bitesize!')
+    alert('Thanks for reading it in bitesize!')
     window.location.href = window.location.href.split('mode=bitesize')[0]
 }
 
