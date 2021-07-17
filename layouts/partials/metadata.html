@@ -1,8 +1,10 @@
 {{ $title := .Title }}
 {{ $desc := "" }}
+{{ $image := "https://ik.imagekit.io/kodingclub/onebite/onebite-card_QBGk9ohj5K.png" }}
 
 {{ if .Description }} 
     {{ $desc = .Description }} 
+    {{ $image = printf "%s%s%s" "https://ogi.sh/article?title=" .Title "&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png" | safeHTML }}
 {{ else }} 
     {{ $desc = .Site.Params.Description }}  
 {{ end }}
@@ -16,9 +18,12 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{$desc}}" property="og:description">
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@hilmanski" />
 <meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='{{ $image }}'>
+
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{$desc}}" />
+<meta property="og:image" content="{{$image}}" />
