@@ -34,7 +34,7 @@
                 //if user type something in search box
                 filteredItems: function () {
                     let itemWithFilter = this.items.filter((item) => {
-                        return item.title.toLowerCase().includes(this.query)
+                        return item.title.toLowerCase().includes(this.query.toLowerCase())
                     })
 
                     return itemWithFilter
