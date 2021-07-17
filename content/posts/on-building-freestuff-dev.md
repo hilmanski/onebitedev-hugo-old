@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: On building freestuff.dev
 description: reason why I start building freestuff.dev
 date: 2021-06-23T05:58:53.475Z

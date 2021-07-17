@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: How to backup database or Laravel App
 description: Learn How to backup database on Laravel App. Remember to always
   backup your database, never underestimate what happen tomorrow

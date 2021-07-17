@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: How to improve your skill as a developer
 description: AI generated content on How to improve your skill as a developer
   made by copyai and edited by me
