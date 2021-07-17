@@ -11,3 +11,6 @@ paginate = 15
 
 [taxonomies]
     tag = "topic"
+
+[outputs]
+    section = ["HTML", "RSS", "JSON"]
