@@ -1,4 +1,4 @@
---- 
+---
 date: 2019-08-29T16:00:00+00:00
 description: "Learn how to upload image or any file in firebase with progress bar to show how many percent your data already uploaded"
 topic: ["firebase"]
