@@ -1,10 +1,12 @@
 ---
 title: "Solution for preflight CORS issue in serverless function"
 description: "This is how you can solve preflight CORS issue in vercel serverless function when building API in nodejs"
-date: 2021-07-20T20:49:00.000Z
+date: 2021-07-21T10:49:00.000Z
 topic: [serverless, nodejs, vercel]
 ---
 CORS (Cross-Origin Resource Sharing) issue is one of developer's enemy when building API that need to be accessed from different domain. CORS itself is a good thing that prevent any user/client to access our API. 
+
+
 
 
 
