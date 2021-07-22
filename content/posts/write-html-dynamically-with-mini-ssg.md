@@ -18,6 +18,8 @@ If I need to change one simple typo in the header, I need to open all files and 
 
 *That’s my story, does it sounds like your problem too?*
 
+
+
 ## Searching for a solution
 
 I have two options here,
@@ -64,7 +66,7 @@ ex: base.html
 	<title>@attach(title)</title> <!-- render your title above -->
 </head>
 <body>
-	@attach(section) <!-- render everything from section above -->
+	@attach(main) <!-- render everything from section above -->
 </body>
 </html>
 			
@@ -79,7 +81,7 @@ To attach those part, we use @section
 
 @section(title, Your Page Title)
 
-@section
+@section(main)
 <main>
 	Hey.. meet your awesome content
 </main>
@@ -100,7 +102,7 @@ We can even combine imports and general layout like this
 </head>
 <body>
 	@import(header)
-	@attach(section) <!-- render everything from section above -->
+	@attach(main) <!-- render everything from section above -->
 	@import(footer)
 </body>
 </html>
