@@ -6,7 +6,9 @@ topic: [moodle]
 ---
 I'm not a moodle developer, but I have a friend that I helped to set up his moodle site years ago. Today the site shows an error "The session partition is full. It is not possible to log in at this time. Please notify the server administrator."
 
-## Solution
+
+
+## Solution I tried
 
 I restarted mysql on my ubuntu service with 
 ```
@@ -38,6 +40,7 @@ delete all files
 rm *
 ```
 
+Currently error still shows up, need to find other solution
 
 ## On finding the problem
 
