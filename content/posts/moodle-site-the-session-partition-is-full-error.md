@@ -6,7 +6,7 @@ topic: [moodle]
 ---
 I'm not a moodle developer, but I have a friend that I helped to set up his moodle site years ago. Today the site shows an error "The session partition is full. It is not possible to log in at this time. Please notify the server administrator."
 
-
+Before you go to technical solution below, one thing you should aware of. Don't update big files (image/video/etc..) directly on your moodle. Depend on your CPU size, you could easily run out of memory because of this. You can use 3rd party storage, like youtube for videos (any services as log as outside your moodle) and embed their link to you moodle site.
 
 ## Solution I tried
 
