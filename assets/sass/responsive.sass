@@ -1,8 +1,17 @@
-@media only screen and (min-width: 760px)
+@media only screen and (min-width: 1000px)
     .on-desktop-only
         display: block
+    
+    .on-mobile-only
+        display: none
 
 @media only screen and (max-width: 1000px)
+    .on-mobile-only
+        display: block
+    
+    .on-desktop-only
+        display: none
+
     body
         width: 90%
         font-size: 16px

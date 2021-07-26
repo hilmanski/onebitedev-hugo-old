@@ -95,12 +95,27 @@
     </header>
 
     {{ if .IsHome }}
-    <ul class="tags text-small">
-        {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
-            {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
-            <li><a class="tags-{{ $name }}" href="{{ .Permalink }}">{{ $name }}</a></li>
+    <div class="on-desktop-only">
+        <ul class="tags text-small">
+            {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
+                {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
+                <li><a class="tags-{{ $name }}" href="{{ .Permalink }}">{{ $name }}</a></li>
+                {{ end }}
             {{ end }}
-        {{ end }}
-    </ul>
+        </ul>
+    </div>
+
+    <div class="on-mobile-only">
+        <details>
+            <summary>Choose category</summary>
+            <ul class="tags text-small">
+                {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
+                {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
+                <li><a class="tags-{{ $name }}" href="{{ .Permalink }}">{{ $name }}</a></li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </details>
+    </div>
     <br>
     {{ end }}
