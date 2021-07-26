@@ -8,14 +8,23 @@ I want to save all linux command that I often needed here.
 
 
 
-## List all files with it's sizes
-```
-du -sh */
-```
 
-## Change root password
+
+## Directory and Files stuff
+
+List all files with it's sizes
+`du -sh */`
+
+Count how many files in a dir
+`ls -1 | wc -l`
+
+## Server stuff
+
+Change root password
 ```
 sudo passwd root
 ```
+
+
 
 
