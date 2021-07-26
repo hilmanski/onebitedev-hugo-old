@@ -10,6 +10,8 @@ I want to save all linux command that I often needed here.
 
 
 
+
+
 ## Directory and Files stuff
 
 List all files with it's sizes
@@ -21,10 +23,9 @@ Count how many files in a dir
 ## Server stuff
 
 Change root password
-```
-sudo passwd root
-```
+`sudo passwd root`
 
-
+Deleting specific key (hostname/IP address) at known_hosts
+`ssh-keygen -R IP-OR-HOSTNAME`
 
 
