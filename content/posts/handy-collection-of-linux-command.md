@@ -6,9 +6,16 @@ topic: [unix, shell]
 ---
 I want to save all linux command that I often needed here.
 
+
+
 ## List all files with it's sizes
 ```
 du -sh */
+```
+
+## Change root password
+```
+sudo passwd root
 ```
 
 
