@@ -1,7 +1,9 @@
+<div style="text-align: right;">
 {{ if .Paginator.HasPrev }}
-<a href="{{ .Paginator.Prev.URL }}"> 👈 Prev </a> |
+<a href="{{ .Paginator.Prev.URL }}"> 👈 Prev Page </a> |
 {{ end }}
 
 {{ if .Paginator.HasNext }}
-<a href="{{ .Paginator.Next.URL }}"> Next 👉 </a>
+<a href="{{ .Paginator.Next.URL }}"> Next Page 👉 </a>
 {{ end }}
+</div>

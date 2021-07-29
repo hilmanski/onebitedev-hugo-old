@@ -1,3 +1,16 @@
+    {{ if .IsHome }}
+    <br><br>
+    <p>Choose Category:</p>
+    <ul class="tags text-small">
+        {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
+            {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
+            <li><a class="tags-{{ $name }}" href="{{ .Permalink }}">{{ $name }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+    <br>
+    {{ end }}
+    
     <footer>
         <br>
         <small>
