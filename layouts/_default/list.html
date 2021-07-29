@@ -1,5 +1,6 @@
 {{ define "main" }}
-    {{ if eq .Kind "term" }} <h1> Dev blog around {{ .Title }} </h1> <br> {{end}}
+    {{ if hasPrefix .RelPermalink "/topic/" }} <h1> Dev blog around {{ .Title }} </h1> <br> {{end}}
+    {{ if hasPrefix .RelPermalink "/series/" }} <h1> {{ .Title }} article series </h1> <br> {{end}}
     {{ partial "post-list.html" . }}
     {{ partial "pagination.html" . }}
 {{ end }}

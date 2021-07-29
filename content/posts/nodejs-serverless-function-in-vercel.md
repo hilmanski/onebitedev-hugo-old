@@ -3,6 +3,7 @@ title: "Nodejs serverless function in vercel"
 description: "Learn how to deploy and write nodejs serverless function in vercel platform for free"
 date: 2021-07-21T00:20:00.000Z
 topic: [serverless, nodejs, vercel]
+series: ["Exploring Serverless function in Vercel"]
 ---
 We can deploy a serverless function with [vercel](https://vercel.com/) for free. In a nutshell, with serverless function, we can write backend languages that read HTTP request and return a response. Vercel supports a lot of backend language, one of them is Nodejs (javascript)
 

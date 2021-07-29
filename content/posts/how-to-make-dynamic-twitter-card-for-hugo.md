@@ -4,8 +4,7 @@ date: 2019-04-04 02:26:14 +0000
 topic: [hugo]
 description: Hot to make a nice dynamic twitter card in Hugo to optimize our twitter
   post
-image: https://res.cloudinary.com/wegoatdev/image/upload/v1554176110/blog/Screen_Shot_2019-04-02_at_11.27.21_AM.png
-
+series: ["Hugo website to the next level"]
 ---
 Let's see how to make a nice dynamic twitter card in Hugo to optimize our twitter post, so it will show us an image, summary and other relevant information when we share it on twitter.
 

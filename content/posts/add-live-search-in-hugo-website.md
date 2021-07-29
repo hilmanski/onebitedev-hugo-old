@@ -3,6 +3,7 @@ date: 2019-10-08T16:00:00+00:00
 description: "How to add search functionality in your Hugo static website. It's a bit tricky, but not that hard"
 topic: [vue, hugo]
 title: "Add live search in Hugo website"
+series: ["Hugo website to the next level"]
 --- 
 At first i don't think there are any way to add search function on any static website including Hugo, but apparently there is! At [hugo documentation](https://gohugo.io/tools/search/) listed bunch of packages for that. I don't like the idea to install nodejs first or any kind of server setup first. So i try to find easier way to implement "search system" on Hugo site.
 

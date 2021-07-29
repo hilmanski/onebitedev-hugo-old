@@ -4,8 +4,7 @@ date: 2019-04-04 05:27:17 +0000
 description: Learn how to customize you pre-defined fields in front matter in your
   hugo app
 topic: [hugo]
-image: https://res.cloudinary.com/wegoatdev/image/upload/v1554254942/blog/Screen_Shot_2019-04-03_at_9.28.01_AM.png
-
+series: ["Hugo website to the next level"]
 ---
 Slowly your Hugo app is growing, the default field you need in your front matter is not just title and date anymore, you always need to include description, tags, or any other field. Hugo provide [archetypes](https://gohugo.io/content-management/archetypes/) as our default template when creating a new content.
 

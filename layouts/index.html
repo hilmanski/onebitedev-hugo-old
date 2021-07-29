@@ -1,4 +1,23 @@
 {{ define "main" }}
     {{ partial "post-list.html" . }}
     {{ partial "pagination.html" . }}
+
+    <br> <hr>
+    <p class="my-10">Choose Category:</p>
+    <ul class="tags text-small">
+        {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
+            {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
+            <li><a class="tags-{{ $name }}" href="{{ .Permalink }}">{{ $name }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+    
+    <br> <hr>
+
+    <p class="my-10">Series:</p> 
+     {{ range $name, $taxonomy := .Site.Taxonomies.series }}
+        {{ with $.Site.GetPage (printf "/series/%s" $name) }}
+        <li><a class="is-pink capitalize" href="{{ .Permalink }}">{{ $name | humanize }}</a></li>
+        {{ end }}
+    {{ end }}
 {{ end }}

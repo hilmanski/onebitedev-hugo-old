@@ -4,7 +4,7 @@ date: 2019-03-30 22:14:17 +0000
 description: Learn how to make a poster with html canvas, in this example we will
   make a poster for making a quoter for instagram post
 topic: [html, javascript,canvas]
-image: https://res.cloudinary.com/dr1pp4pqp/image/upload/v1553983982/blog/poster-sample.png
+series: ["Exploring HTML Canvas"]
 ---
 Website is more powerful that we thought, do you know it has [canvas element](https://www.w3schools.com/html/html5_canvas.asp) to draw graphics on the web? If we combine this with the ability to manipulate DOM in javascript, we can make our poster generator for our next instagram or any social media post.
 

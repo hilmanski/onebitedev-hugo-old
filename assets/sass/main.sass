@@ -39,10 +39,9 @@ a
         cursor: pointer
         color: $goldHover
 
-#post
-    ul, ol
-        list-style-position: inside
-        line-height: 14px
+ul, ol
+    list-style-position: inside
+
 
 .flex, .flex-on-mobile
     display: flex
@@ -90,6 +89,9 @@ header
     svg
         margin-right: 10px
 
+h1
+    line-height: 40px
+
 .title
     font-family: $titleFont
     text-transform: capitalize
@@ -125,6 +127,10 @@ button
 
 .article
     white-space: pre-wrap
+    ul, ol
+        line-height: 16px
+    li
+        line-height: 24px
     a
         text-decoration: underline
         color: pink
@@ -159,6 +165,16 @@ button
     color: white
     font-size: 1rem
 
+.capitalize
+    text-transform: capitalize
+
+.my-10
+    margin: 10px 0
+
+.is-pink
+    color: pink
+    &:hover
+        color: #f98dec
 
 @import 'labels'
 @import 'responsive'

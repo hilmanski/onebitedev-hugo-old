@@ -1,7 +1,7 @@
 ---
 date: 2019-04-06T03:00:00+00:00
 description: "How to manage your static website's media like hugo via forestry with image hosting provider like cloudinary"
-image: "https://res.cloudinary.com/wegoatdev/image/upload/v1554337822/blog/cloudinarybot.png"
+series: ["Hugo website to the next level"]
 topic: ["tool", "hugo"]
 title: "Manage media/image in forestry with cloudinary"
 ---

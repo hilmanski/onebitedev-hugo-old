@@ -3,6 +3,7 @@ title: "Show future post in Hugo SSG"
 description: "How to display future post in Hugo. We will see how you can render between published post and future post in hugo static site generator"
 date: 2021-07-28T04:12:00.000Z
 topic: [hugo]
+series: ["Hugo website to the next level"]
 ---
 Hugo is one of my favorite static site generator, it has so much built in future that makes it super flexible. Today we'll learn how to show future post in Hugo.
 

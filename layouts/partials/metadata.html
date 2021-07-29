@@ -11,7 +11,11 @@
 
 {{ if hasPrefix .RelPermalink "/topic/" }}
     {{ $title = printf "%s%s" "Developer blog around " .Title}}
-     {{ $desc = printf "%s%s%s%s" "Developer and programmer blog around " .Title ", get tips and trick one bite a time about " .Title}}
+    {{ $desc = printf "%s%s%s%s" "Developer and programmer blog around " .Title ", get tips and trick one bite a time about " .Title}}
+{{ end }}
+
+{{ if hasPrefix .RelPermalink "/series/" }}
+    {{ $desc = printf "%s%s%s%s" "Developer article series with topic " .Title ", get tips and trick one bite a time about " .Title}}
 {{ end }}
 
 

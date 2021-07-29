@@ -3,6 +3,7 @@ title: "Handling API request based on method in Vercel Nodejs"
 description: "Learn how to handle API request based on method, example GET, POST, PUT or DELETE request in Vercel Nodejs serverless function"
 date: 2021-07-21T06:39:00.000Z
 topic: [serverless, nodejs, vercel]
+series: ["Exploring Serverless function in Vercel"]
 ---
 Vercel's serverless function, provides `req.method` property to read the incoming method request. We can use this to write a beautiful API url endpoint
 

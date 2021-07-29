@@ -3,7 +3,7 @@ title: "Using forestry as CMS for your Hugo site"
 description: "We need to make our blogging experience as fun and easy as possible, content management system might help us to do that"
 date: 2019-04-05T03:00:00+00:00
 topic: ["hugo"]
-image: "https://res.cloudinary.com/wegoatdev/image/upload/v1554258977/blog/forestry.png"
+series: ["Hugo website to the next level"]
 ---
 
 We need to make our blogging experience as fun and easy as possible, content management system (CMS) might help us to archieve that.  That's why i'm searching CMS for this Hugo site, and i found [forestry](https://forestry.io/) for that.

@@ -1,8 +1,9 @@
 ---
 title: "How to Draw Text in Html Canvas"
-date: 2019-03-31T06:00:02+08:00
+date: 2019-03-30T06:00:02+07:00
 description: "Let's learn how to draw a text with HTML canvas"
 topic: ["html", "javascript", "canvas"]
+series: ["Exploring HTML Canvas"]
 ---
 
 In case you haven't heard about canvas in HTML, this element enable us to draw something on web, by something, it includes text. Why would you want to draw text in canvas, instead just show it normally? well, the case could be like "displaying a captcha image", so bot can't just grab the text via html element to bypass our captcha.
