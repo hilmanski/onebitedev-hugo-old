@@ -3,8 +3,9 @@ title: "Create simple deploy script"
 description: "Learn how to create a simple deploy script, to automate your code deployment when using git or any other things in command"
 date: 2021-07-16T23:09:00.000Z
 topic: [bash, productivity, git]
+series: ["script"]
 ---
-How many times a day did you do this
+How many times a day did you do this on command line?
 
 ```
 git add .
@@ -13,6 +14,8 @@ git push origin branchName
 ```
 
 It's my ritual every time I want to push change on remote git repository. As a developer, we always need to find a way how to make our life easier by using our main principle "Don't Repeat Yourself"
+
+
 
 ## Create a deploy script
 
