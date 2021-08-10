@@ -8,6 +8,8 @@ draft: false
 ---
 Supabase has a row level security that useful for protecting our data. Even though we're using anon key publicly or in client side, it's still safe as long as we enable the row level security for that particular table
 
+
+
 ## Enable RLS in supabase
 
 Go to 'Authentication Menu > Policies > Enable RLS (for any table you want)' 
@@ -24,8 +26,8 @@ Now use the template 'Enable read access to everyone'
 
 This means, any people can read the data.
 
+[![Demo RLS]({https://i.imgur.com/09hcCch.mp4})]({https://i.imgur.com/09hcCch.mp4} "Demo RLS")
+
 *Yes, supabase again make it easy for us to get started, there is a template already. For more advanced use case, you maybe want to write it from scracth
-
-
 
 
