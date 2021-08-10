@@ -18,6 +18,8 @@ The number of things we have to be grateful for is far more than our ability to 
 
 
 
+
+
 ## Supabase's features
 
 These are some features that available for use for free, while they're in beta.
@@ -25,7 +27,7 @@ These are some features that available for use for free, while they're in beta.
 **Database**
 Every project in Supabase is a full Postgres database. For someone who prefers SQL than noSQL, it's an easy win. It also supports "Row Level Security"  
 
-**Authentication**  
+**Authentication**
 Almost every project need an authentication system. Supabase provides it for use. Add user sign ups and login, via magic link, OTP, email/password and even social login.   
 
 **Storage**
