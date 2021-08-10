@@ -4,7 +4,7 @@ description: "Supabase provides an authentications system for us out of the box.
 date: 2021-08-13T20:44:00.000Z
 topic: [supabase]
 series: ["Complete backend service with Supabase"]
-draft: false
+draft: true
 ---
 Supabase provides an authentication system for us out of the box. We can use it to manage our users. It has third party logins (social login) and row level security for security.
 
@@ -17,6 +17,8 @@ There are many options to allow users to register
 - 3rd party login (social login)
 
 Wow.. I'm just amazed after writing that.
+
+
 
 ## Invite Users
 We'll start very simply, by invite users. This is perfect if you want to only allow certain people (maybe only you) to use the app.
@@ -41,6 +43,6 @@ If you're following the previous tutorial, we can display and even create new en
 
 Now we'll take a look how we can combine the auth system with Row Level Security to protect our site.
 
-In your Authentication menu, go to 'Policies' tab, and enable RLS for your table. 
+In your Authentication menu, go to 'Policies' tab, and enable RLS for your table.
 
 
