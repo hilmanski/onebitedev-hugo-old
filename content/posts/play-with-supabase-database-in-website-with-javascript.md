@@ -16,6 +16,8 @@ In this article, we'll see how to load our data from Supabase database via it's 
 
 
 
+
+
 ## init Supabase
 
 Start by creating new index.html file (name it whatever you want). 
@@ -127,5 +129,7 @@ The answer is yes.. Supabase is secure. Normally you only use it with server sid
 But, if you only need a client side for you application, you can secure your application by using [Row Level Security](https://supabase.io/docs/learn/auth-deep-dive/auth-row-level-security), which we'll talk in another article.
 
 As long as you have [Row Level Security enabled](https://supabase.io/docs/guides/auth#row-level-security), it's safe to expose your key on client side
+
+Read more about [supabase database here](https://supabase.io/docs/guides/database)
 
 
