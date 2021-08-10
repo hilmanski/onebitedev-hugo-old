@@ -8,6 +8,8 @@ draft: false
 ---
 In this article, we'll see how to load our data from Supabase database via it's API by using Javascript in our website.
 
+
+
 ## init Supabase
 
 Start by creating new index.html file (name it whatever you want). 
@@ -29,8 +31,7 @@ const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 </script>
 ```
 
-
-## Code!
+## Load data
 
 We use supabase js API to access our data
 In your script tag, add it after _supabase initialization from above
@@ -51,13 +52,34 @@ Here we make an async function named loadData, and use supabase js API to select
 
 Open your console and see your data there
 
-
 ## Display in on browser
 
 Now, instead of logging the data, let's display our data in the browser. So user can see it.
 Create a new div as a holder
 ```
 <div id="holder"></div>
+```
+
+Now change our loadData function to insert our data to holder
+```
+async function loadData() {
+    const { data, error } = await _supabase
+            .from('posts')
+            .select()
+
+    if(!error) {
+        //loop display data here
+        const parent = document.getElementById('holder')
+
+        let contents = ''
+        data.forEach(function(item){
+            contents += `<div> ${item.title} - ${item.tag}</div>` 
+        })
+
+        parent.insertAdjacentHTML('beforeend', contents)
+    }
+    
+}
 ```
 
 
