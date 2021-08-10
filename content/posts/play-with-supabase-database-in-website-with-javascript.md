@@ -14,6 +14,8 @@ In this article, we'll see how to load our data from Supabase database via it's 
 
 
 
+
+
 ## init Supabase
 
 Start by creating new index.html file (name it whatever you want). 
@@ -96,7 +98,6 @@ Example if you need to filter your posts based on the tag
             .eq('tag', 'fun') //change fun with any tag you have
 ```
 
-
 ## Create new entry
 
 Now, let's test our insert query
@@ -124,5 +125,7 @@ But think about it again.. if everyone copy paste our script and run it.. they c
 Hmm... is Supabase secure?
 The answer is yes.. Supabase is secure. Normally you only use it with server side application, so your KEY and other secret stuff is safe there. 
 But, if you only need a client side for you application, you can secure your application by using [Row Level Security](https://supabase.io/docs/learn/auth-deep-dive/auth-row-level-security), which we'll talk in another article.
+
+As long as you have [Row Level Security enabled](https://supabase.io/docs/guides/auth#row-level-security), it's safe to expose your key on client side
 
 
