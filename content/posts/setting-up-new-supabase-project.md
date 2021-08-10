@@ -10,6 +10,8 @@ This will be a short one, we'll see how to set up a new project at supabase. I m
 
 
 
+
+
 ## Register new account
 
 To start a new project on Supabase, we need to sign up first (currently we need to use Github account)
@@ -17,6 +19,8 @@ To start a new project on Supabase, we need to sign up first (currently we need 
 ![login supabase view](https://i.ibb.co/M2137mS/Screen-Shot-2021-08-10-at-7-23-10-AM.png)
 
 The dashboard looks empty for now, let's create a new project. We can use the default organization or you can create new one if you want to.
+
+We can group our projects by organizations. Each organization can have a different team members and billing information. We can invite someone into an organization  so we can collaborate on projects later.
 
 ## Create new project
 
