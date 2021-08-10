@@ -3,13 +3,15 @@ title: "Introducing Supabase, your everything for backend"
 description: "Introducing Supabase, the open source firebase alternative. We can create a backend for our project really fast. Start your project with a Postgres Database, Authentication, instant APIs, realtime subscriptions and Storage with a beautiful dashboard."
 date: 2021-08-09T22:38:00.000Z
 topic: [supabase]
-series: [""]
+series: ["Complete backend service with Supabase"]
 draft: false
 ---
 The number of things we have to be grateful for is far more than our ability to do it. One more thing to be grateful for as a developer is [Supabase](https://supabase.io/), it's an open source firebase alternative. We can create a backend for our project really fast. Including a Postgres Database, Authentication system, instant APIs for all, realtime subscriptions and Storage, all presented with a beautiful dashboard.  
 
 
 ![supabase screenshot](https://i.ibb.co/VSQZP65/Screen-Shot-2021-08-10-at-6-43-17-AM.png)
+
+
 
 
 
