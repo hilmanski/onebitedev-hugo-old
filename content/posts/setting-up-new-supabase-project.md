@@ -3,8 +3,12 @@ title: "Setting up new @Supabase Project"
 description: "Let's see how to start a new project on supabase. And we'll see overview of what we can do on our supabase dahsboard"
 date: 2021-08-10T23:22:00.000Z
 topic: [supabase]
+series: ["Complete backend service with Supabase"]
+draft: false
 ---
 This will be a short one, we'll see how to set up a new project at supabase. I must say it's very intuitive, you might not need this guide. But just in case, there is a tips or trick, that might be useful in future regarding setting up a new project, I'll document it here
+
+
 
 ## Register new account
 
@@ -12,7 +16,7 @@ To start a new project on Supabase, we need to sign up first (currently we need 
 
 ![login supabase view](https://i.ibb.co/M2137mS/Screen-Shot-2021-08-10-at-7-23-10-AM.png)
 
-The dashboard looks empty for now, let's create a new project. We can use the default organization or you can create new one if you want to. 
+The dashboard looks empty for now, let's create a new project. We can use the default organization or you can create new one if you want to.
 
 ## Create new project
 
@@ -39,7 +43,5 @@ You can see there are:
 - API: we can see list of our API that generated based on our usage (it comes down to your table and column name)
 
 That's a quick introduction of how to setup a project in Supabase and overview of our dashboard
-
-
 
 
