@@ -4,7 +4,7 @@ description: "How to optimize laravel app with caching route and config. All it'
 date: 2019-06-15T04:00:00.000Z
 topic: [laravel]
 series: [""]
-draft: false
+draft: true
 ---
 You've done created a pretty big laravel app and now it's ready to be used by hundreds if not thousands of people. Of course we don't want every time a user access our app, it re-read the config or the route part, since it's not changing that much.
 
@@ -13,6 +13,8 @@ php artisan cache:clear
 php artisan config:clear  
 php artisan route:clear  
 ```
+
+
 
 
 
