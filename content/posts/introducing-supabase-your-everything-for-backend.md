@@ -14,6 +14,8 @@ The number of things we have to be grateful for is far more than our ability to 
 
 
 
+
+
 ## Supabase's features
 
 These are some features that available for use for free, while they're in beta.
@@ -24,10 +26,8 @@ Every project in Supabase is a full Postgres database. For someone who prefers S
 **Authentication**  
 Almost every project need an authentication system. Supabase provides it for use. Add user sign ups and login, via magic link, OTP, email/password and even social login.   
 
-
 **Storage**
 No need to register on other services for storage. It's available for storage, organize and serve large files .Any media: ex" videos and images.  
-
 
 **API**
 All services mentioned above comes with API that automatically generated for us.   
@@ -51,6 +51,5 @@ For general QnA and other stuff is at [github discussion](https://github.com/sup
 And also active at [twitter @supabase](https://twitter.com/supabase)
 
 That's it, try [Supabase](https://supabase.io/) now!
-
 
 
