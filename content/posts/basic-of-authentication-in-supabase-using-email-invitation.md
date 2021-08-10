@@ -18,6 +18,8 @@ There are many options to allow users to register
 
 Wow.. I'm just amazed after writing that. In this article, we'll start with the basic one, invite user by email.
 
+
+
 ## Invite Users
 We'll start very simply, by invite users. This is perfect if you want to only allow certain people (maybe only you) to use the app.
 
@@ -71,6 +73,6 @@ You'll get an alert, as the information that we're logged in now.
 
 Do whatever you want by playing with this 'user variable' in the conditional statement, as an example: display a div that tell users is logged in or not.
 
-
+[Repository of this code here](https://github.com/hilmanski/demo-supabase-clientside/blob/auth-basic/index.html)
 
 
