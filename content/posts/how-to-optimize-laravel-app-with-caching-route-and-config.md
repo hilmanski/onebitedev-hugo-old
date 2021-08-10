@@ -16,6 +16,8 @@ php artisan route:clear
 
 
 
+
+
 ## Refresh Cache
 What if you change any configuration and route, suddenly you don't see any new changes in your laravel app. Don't worry, we just need to clear and recache everything
 
