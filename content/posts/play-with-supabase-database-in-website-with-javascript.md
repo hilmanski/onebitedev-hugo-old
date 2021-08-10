@@ -18,6 +18,8 @@ In this article, we'll see how to load our data from Supabase database via it's 
 
 
 
+
+
 ## init Supabase
 
 Start by creating new index.html file (name it whatever you want). 
@@ -131,5 +133,7 @@ But, if you only need a client side for you application, you can secure your app
 As long as you have [Row Level Security enabled](https://supabase.io/docs/guides/auth#row-level-security), it's safe to expose your key on client side
 
 Read more about [supabase database here](https://supabase.io/docs/guides/database)
+
+[Source code for this article](https://github.com/hilmanski/demo-supabase-clientside/blob/init/index.html)
 
 
