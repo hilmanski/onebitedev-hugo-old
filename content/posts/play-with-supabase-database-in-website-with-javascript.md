@@ -12,6 +12,8 @@ In this article, we'll see how to load our data from Supabase database via it's 
 
 
 
+
+
 ## init Supabase
 
 Start by creating new index.html file (name it whatever you want). 
@@ -83,6 +85,17 @@ async function loadData() {
     
 }
 ```
+
+## Filter Posts
+
+Example if you need to filter your posts based on the tag
+```
+ const { data, error } = await _supabase
+            .from('posts')
+            .select('*')
+            .eq('tag', 'fun') //change fun with any tag you have
+```
+
 
 ## Create new entry
 
