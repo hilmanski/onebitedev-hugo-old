@@ -10,6 +10,8 @@ Supabase has a row level security that useful for protecting our data. Even thou
 
 
 
+
+
 ## Enable RLS in supabase
 
 Go to 'Authentication Menu > Policies > Enable RLS (for any table you want)' 
@@ -29,5 +31,9 @@ This means, any people can read the data.
 {{< video "https://i.imgur.com/09hcCch.mp4" >}}
 
 *Yes, supabase again make it easy for us to get started, there is a template already. For more advanced use case, you maybe want to write it from scracth
+
+Now try to read your database again via API, it's available again to read but not other action (write, update, delete)
+
+This means, if you need to create a website/app that need to display the data from database, it's totally safe to only use it in client side
 
 
