@@ -26,8 +26,7 @@ Now use the template 'Enable read access to everyone'
 
 This means, any people can read the data.
 
-*Click to see video
-[![Demo RLS](https://i.imgur.com/YnzlQZA.png)](https://i.imgur.com/09hcCch.mp4 "Demo RLS")
+{{< video "https://i.imgur.com/09hcCch.mp4" >}}
 
 *Yes, supabase again make it easy for us to get started, there is a template already. For more advanced use case, you maybe want to write it from scracth
 
