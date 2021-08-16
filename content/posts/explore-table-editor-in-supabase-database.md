@@ -1,7 +1,7 @@
 ---
 title: "Explore table editor in Supabase database"
 description: "Exploring table editor for managing database in Supabase. It's like an app that has Graphical User Interface (GUI) where we can do something intuitively without knowing any SQL. Supabase's database is built on top of Postgres, an extremely scalable relational Database. We can use the SQL editor or Table Mode which makes it like spreadsheet"
-date: 2021-08-14T16:00:00.000Z
+date: 2021-08-11T04:00:00.000Z
 topic: [supabase]
 series: ["Complete backend service with Supabase"]
 draft: false
@@ -9,6 +9,8 @@ draft: false
 We'll start by exploring the database feature in Supabase, which built on top of Postgres, Relational Database. We can use the SQL editor, where we can run our query or "Table Mode" which makes it like spreadsheet, where we can user the GUI to play around with our data.
 
 ![ss database supabase](https://i.ibb.co/WFZRBzp/Screen-Shot-2021-08-10-at-1-33-11-PM.png)
+
+
 
 
 
