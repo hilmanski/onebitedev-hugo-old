@@ -17,13 +17,16 @@ I create this project as part of Auth0 and Hashnode hackathon #Auth0  #Auth0Hack
 
 
 
+
+
 ## Separating concerns
 
-To make this project maintainable, I need to make 4 separate repository, each have it's own job.
-- Client App : this is where user will create their account and template
-- Main API : The Client App will using this API to interact with our database for stuff like updating template and website's information
-- Template :  Static file. I keep it clean to easily modify our template (image)
-- Screenshot API : When user get the "API Code", they will access our screenshot API to generate an image
+To make this project maintainable, I need to make 4 separate repository, each have it's own job. Here is the link repository with explanation of it's job
+
+- [Client App](https://github.com/hilmanski/imagin-web) : this is where user will create their account and template
+- [Main API](https://github.com/hilmanski/imagin-API) : The Client App will using this API to interact with our database for stuff like updating template and website's information
+- [Template](https://github.com/hilmanski/imagin-template) :  Static file. I keep it clean to easily modify our template (image)
+- [Screenshot API](https://github.com/hilmanski/imagin-screenshot) : When user get the "API Code", they will access our screenshot API to generate an image
 
 ## Authentication
 
@@ -35,14 +38,14 @@ Luckily, to make a prototype, a lot of company has a generous offer for us to ho
 
 Currently I store the image using (imagekit)[https://imagekit.io/]
 
-## How does it work
+## Overview on how it works
 
 - User needs to create an account first. This is  important, since we don't want to just anyone use our API or abuse the service without limit. 
 - User create a template from the client App. They can choose which font, position, logo, color or background for their image's template
 - User get their API-link after creating their template
 - User put this code on their meta image (twitter or on open graph) and change the title, whether manually or dynamically
-- The API will take a screenshot from our template based on user customization
-- Upload the image on Image CDN Service like imagkit
+- The API will take a screenshot from our template based on user customization using Puppeter.
+- Upload the image on Image CDN Service like Imagekit
 - We save this Image's URL at database. So for next time, it will load much faster
 
 
