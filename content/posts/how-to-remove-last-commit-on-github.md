@@ -10,9 +10,16 @@ It's just happened to me yesterday, where I push something to main branch, but n
 
 The code that safe me 
 ```
-git push -f origin HEAD^:master
+git push -f origin HEAD^:main
 ```
 
+change "main" with any branch you want.
+
+The result is flawless. People can't see the accident that just happened on you repository 😅
+
 Take a loot at another options at [this stackoverflow thread](https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github)
+
+
+
 
 
