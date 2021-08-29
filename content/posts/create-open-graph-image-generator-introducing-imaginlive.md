@@ -23,6 +23,8 @@ I create this project as part of Auth0 and Hashnode hackathon #Auth0  #Auth0Hack
 
 
 
+
+
 ## Separating concerns
 
 To make this project maintainable, I need to make 4 separate repository, each have it's own job. Here is the link repository with explanation of it's job
@@ -40,7 +42,7 @@ Auth0 also has an "action flows". Where we can trigger a custom code to our API,
 ![ss flow auth0](https://i.ibb.co/2cTy2xP/Screen-Shot-2021-08-30-at-7-10-35-AM.png)
 
 In this sample, I save a fresh registered user on my database too.
-You can do more with auth0's actiom
+You can do more with auth0's action
 
 ## Hosting and Database
 
@@ -67,6 +69,6 @@ It will take a few seconds, for generating the first image, but since we also sa
 
 ### How to use
 User put this code on their meta image (twitter or on open graph) and change the title, whether manually or dynamically. 
-If you are a developer, you can look at the API, it's very flexible, you can generate more unique image by playing with the paramter
+If you are a developer, you can look at the API, it's very flexible, you can generate more unique image by playing with the parameter
 
 
