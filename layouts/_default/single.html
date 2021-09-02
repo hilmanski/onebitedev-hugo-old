@@ -16,7 +16,7 @@
       <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
     </ul>
 
-    {{ if .Params.series }}
+    {{ if index .Params.series 0 }}
     {{ $name := index .Params.series 0 }}
     <br><hr/><br>
     <p>This is a post in the <a class="is-pink" href='/series/{{$name | urlize }}'>{{$name}}</a> series. </p>
