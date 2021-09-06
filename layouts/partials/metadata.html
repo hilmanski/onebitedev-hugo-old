@@ -31,3 +31,30 @@
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{$desc}}" />
 <meta property="og:image" content="{{$image}}" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": {{ .Title }},
+      "author": {
+        "@type": "Person",
+        "name": "{{ @hilmanski }}"
+      },
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      "description": {{ .Description }},
+      "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+      "image": {
+        "@type": "imageObject",
+        "url": "{{ $image }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Title }}",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
