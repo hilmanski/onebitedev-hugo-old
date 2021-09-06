@@ -15,7 +15,7 @@ We need to concatenate our javascript files, since we separate the concerns for 
 
 ## Introducing GulpJS
 
-All this task need extra seconds of our development process. And as you know, we always try to not repeat ourself.  
+All this task need extra seconds of our development process. And as you know, we always try to not to repeat ourself.  
 Don't worry, GulpJS coming to our rescue.  
 
 ## How does GulpJS works?
@@ -58,6 +58,7 @@ it will initialize our project, such as  name, version, description, etc.
 GulpJs is a dev tool, we only need it during development phase.
 ```
 npm install --save-dev gulp
+```
 
 ### Create a gulpfile
 Create a new file called gulpfile.js  
@@ -75,6 +76,8 @@ exports.default = defaultTask
 ```
 gulp
 ```
-The default task will run and show our console task!
+
+The default task will run and show our console task!  
+That's how to install Gulp, we well explore more on other posts.
 
 
