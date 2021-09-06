@@ -29,7 +29,7 @@ To read more up to date documentation, [go here](https://gulpjs.com/)
 
 ### Install Nodejs
 If you haven't install nodejs before, you need to [install it first.](https://nodejs.org/en/)  
-Check your version by typinf
+Check your version by typing
 ```
 node --version
 ```
