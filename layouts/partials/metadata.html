@@ -36,13 +36,13 @@
     {
       "@context": "http://schema.org",
       "@type": "Article",
-      "headline": {{ .Title }},
+      "headline": {{ $title }},
       "author": {
         "@type": "Person",
         "name": "{{ @hilmanski }}"
       },
       "datePublished": "{{ .Date.Format "2006-01-02" }}",
-      "description": {{ .Description }},
+      "description": {{ $desc }},
       "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
       "image": {
         "@type": "imageObject",
