@@ -2,7 +2,7 @@
 title: "Display categories or tag on meta data Hugo inside head tag"
 description: "Yesterday I struggle with displaying a list of categories or tags inside a head tag of my Hugo project. I want to use this on my meta tag to make it more dynamic a.k.a better for SEO."
 date: 2021-09-03T22:30:00.000Z
-topic: []
+topic: [hugo]
 series: [""]
 draft: false
 ---
@@ -22,5 +22,8 @@ yes, you can
 
 Now you can use $listtags by combine it with another string.
 Learn how to [concatenate a string in Hugo](https://onebite.dev/how-to-concatenate-string-on-hugo-ssg/)
+
+
+
 
 
