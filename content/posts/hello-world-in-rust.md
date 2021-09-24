@@ -1,7 +1,7 @@
 ---
 title: Hello World in Rust
 description: Write our Hello World in Rust. It requires compiling and running
-date: 2021-09-24T20:33:00+00:00
+date: 2021-09-25T00:33:00+00:00
 topic:
 - rust
 series:
