@@ -6,7 +6,9 @@ topic: [rust]
 series: ["start learning Rust"]
 draft: false
 ---
-I always see posts about Rust on dev-related blogs. I don't have the motivation to learn about it, as I heard it's built for people who wants super fast application, which I don't need right now. Maybe I can use this blog to motivate me. 
+I always see posts about Rust on dev-related blogs. I don't have the motivation to learn about it, as I heard it's built for people who wants super fast application, which I don't need right now. 
+
+Maybe I can use this blog to motivate me. 
 
 As long as we have the time, why not learn something new.  
 It might helps in the future. So.. let's go to the [Rust website](https://www.rust-lang.org/)
@@ -28,5 +30,6 @@ Rust team wrote a book: [The Rust Programming Language](https://doc.rust-lang.or
 [Rust by example](https://doc.rust-lang.org/stable/rust-by-example/)
 [Exercises to get used to reading and writing Rust code](https://github.com/rust-lang/rustlings/)
 
-
+## My plan to learn Rust
+I will write my journey as a series on this blog. Every little thing I learn, will be written down here. It motivates me to keep learning about Rust (at least getting started).
 
