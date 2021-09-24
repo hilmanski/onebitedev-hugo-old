@@ -1,5 +1,5 @@
 +++
-date = 2021-09-26T16:00:00Z
+date = 2021-09-25T16:00:00Z
 description = "Learn how to declare a variable in Rust. Also see what is mutable and immutable variable"
 series = ["Start Learning Rust"]
 title = "Declare a variable in Rust and mutability"
