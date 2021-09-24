@@ -1,12 +1,14 @@
 ---
-title: "Hello Cargo in Rust"
-description: "Cargo is Rust's build system and package manager. It's an optional tool, but it handles a lot of tasks to work with Rust"
-date: 2021-09-25T20:33:00.000Z
-topic: [rust]
-series: ["start learning Rust"]
-draft: false
----
+title: What is Cargo in Rust
+description: Cargo is Rust's build system and package manager. It's an optional tool,
+  but it handles a lot of tasks to work with Rust
+date: 2021-09-25T20:33:00.000+00:00
+topic:
+- rust
+series:
+- start learning Rust
 
+---
 Cargo is Rust's build system and package manager. It's an optional tool, but it handles a lot of tasks to work with Rust.
 
 Tasks include:
