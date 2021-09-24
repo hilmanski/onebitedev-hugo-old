@@ -18,4 +18,5 @@ fields:
   name: series
   label: series
 pages:
+- content/posts/data-types-in-rust.md
 - content/posts/declare-a-variable-in-rust-and-mutability.md
