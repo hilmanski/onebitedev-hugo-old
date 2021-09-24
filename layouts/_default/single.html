@@ -2,7 +2,6 @@
 
 <section id="post">
     <h1 class="title">{{ .Title }}</h1>
-
     <div>
       <button id="bitesize-btn" onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
     </div>
@@ -16,6 +15,9 @@
       <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
     </ul>
 
+
+  {{ $currentLink := .Permalink }} 
+
   {{ if .Params.series }}
     {{ if index .Params.series 0 }}
       {{ $name := index .Params.series 0 }}
@@ -26,7 +28,12 @@
         {{ $series := index .Site.Taxonomies.series $name }}
         <ul class="series">
         {{ range sort $series.Pages "Date" }}
-          <small> <li>{{.Date.Format "Jan 02, 2006"}} - <a class="is-pink" href="{{.Permalink}}">{{.LinkTitle}}</a></li></small>
+          <small> <li>{{.Date.Format "Jan 02, 2006"}} - <a class="is-pink" href="{{.Permalink}}">{{.LinkTitle}}</a>
+          {{ if eq $currentLink .Permalink }}
+            👈🏼 You are here
+          {{ end }}
+          </li></small>
+
         {{end}}
         </ul>
       {{end}}
