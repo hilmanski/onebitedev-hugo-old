@@ -1,12 +1,12 @@
 ---
 title: "Getting started with Rust, installation"
-description: "Let's set up our Rust development environment and write our Hello World in Rust"
+description: "Let's set up our Rust development environment. We will use Rustup / Cargo as our installer and package manager."
 date: 2021-09-24T20:33:00.000Z
 topic: [rust]
 series: ["start learning Rust"]
 draft: false
 ---
-Let's set up our Rust development environment and write our Hello World in Rust.
+Let's set up our Rust development environment,
 
 ## Playground
 You can play Rust online, without installing anything. [Play Rust Lang](https://play.rust-lang.org/)
@@ -36,4 +36,12 @@ To make sure everything is installed. Run `cargo --version`
 ## Make it nice on your text editor
 Whatever text-editor you use, make sure to install Rust support (syntax highlight or snippets) to make your experience better
 
+## Fun Fact
+When you install Rust, it also copy the documentation locally to read offline. 
+Try `rustup doc` to open it in browser (locally).
 
+## Want to uninstall?
+You can run
+```
+ rustup self uninstall
+```
