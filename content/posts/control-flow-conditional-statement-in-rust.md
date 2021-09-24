@@ -1,8 +1,9 @@
 +++
 date = 2021-09-28T16:00:00Z
 description = "Learn how to implement a Control flow or Conditional statement in Rust. Using if and else"
+draft = true
 series = ["start learning Rust"]
-title = "Control flow / Conditional statement in Rust"
+title = "Control flow and Conditional statement in Rust"
 topic = ["rust"]
 
 +++
