@@ -1,0 +1,10 @@
+this is just a rawnote. what to write next.
+
+Currently learn from https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+use std::io;
+we need to bring the io (input/output) library into scope.
+It comes from standard librart (std)
+
+In Rust, variables are immutable by default
+let apples = 5; // immutable
+let mut bananas = 5; // mutable

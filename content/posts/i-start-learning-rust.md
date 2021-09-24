@@ -33,3 +33,11 @@ Rust team wrote a book: [The Rust Programming Language](https://doc.rust-lang.or
 ## My plan to learn Rust
 I will write my journey as a series on this blog. Every little thing I learn, will be written down here. It motivates me to keep learning about Rust (at least getting started).
 
+I'll read throught the [book](https://doc.rust-lang.org/book) and write the simple version here (not too detail).
+
+## Context
+I already have programming experience before. I'll assume if you want to follow this series, you also already did.
+
+So this is not for someone who is new to programming language.
+
+Let's roll!
