@@ -17,3 +17,5 @@ fields:
 - type: list
   name: series
   label: series
+pages:
+- content/posts/declare-a-variable-in-rust-and-mutability.md
