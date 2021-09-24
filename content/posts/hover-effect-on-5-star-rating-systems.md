@@ -8,6 +8,8 @@ draft: false
 ---
 This is my solution on how to make a Hover effect on 5 star rating systems
 
+
+
 ## Drawing stars
 
 You can use an image, or generate SVG like this
@@ -61,5 +63,8 @@ We will store the value of choosen rating in variable `rating_nr`
 We give 'mouseenter' event (same as hover) on each of this SVG path (or image if you use images).  
 As long as a star (image/svg) is hovered, we look at it's index and change the color of all previous stars
 
+## How to get the rating value
+
+The rating value is stored in `rating_nr` on your javascript
 
 
