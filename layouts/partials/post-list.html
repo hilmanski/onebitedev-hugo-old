@@ -1,7 +1,11 @@
 {{ range .Paginator.Pages }}
     <div class="mb-40">
-        <p class="title"> <a href="{{.Permalink}}"> {{ .Title}} </a></p>
-        <p>{{.Description}}</p>
+        <div class="content">
+        <a href="{{.Permalink}}">
+            <span class="title">  {{ .Title}} </span>
+            <span>{{.Description}}</span>
+        </a>
+        </div>
 
         <ul class="tags text-small">
             {{ range .Params.topic }}

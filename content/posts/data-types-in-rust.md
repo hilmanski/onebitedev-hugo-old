@@ -34,19 +34,25 @@ A group of values with different types can be compounded into a tuple.
 
 * tuples have a fixed length (they can't be change)
 
-    let tup: (i32, f64, u8) = (500, 6.4, 1); //explicit
-    let tup = (500, 6.4, 1); //simple
+```
+let tup: (i32, f64, u8) = (500, 6.4, 1); //explicit
+let tup = (500, 6.4, 1); //simple
+```
 
 How to get value from a tuple (destructing way)
 
-    let (x, y, z) = tup;
+```
+let (x, y, z) = tup;
+```
 
 How to get value from a tuple (by index/index) by (name(dot)order)
 
-    let x: (i32, f64, u8) = (500, 6.4, 1); 
-    let five_hundred = x.0; 
-    let six_point_four = x.1; 
-    let one = x.2;
+```
+let x: (i32, f64, u8) = (500, 6.4, 1); 
+let five_hundred = x.0; 
+let six_point_four = x.1; 
+let one = x.2;
+```
 
 ## Array
 
@@ -55,27 +61,34 @@ A group of values with same type.
 * length is fixed
 * It's useful when you want data allocated on the stack rather than the heap (on other chapter)
 
-  ### How to declare an array
+### How to declare an array
 
-    let a = [1, 2, 3, 4, 5];
-    //or
-    let months = ["January", "February", "March", "April", "May", "June", "July",
-                  "August", "September", "October", "November", "December"];
+```
+let a = [1, 2, 3, 4, 5];
+//or
+let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+```
 
-\*If you want a flexible number of items (length can grow or shrink, use vector)
+*If you want a flexible number of items (length can grow or shrink, use vector)*
 
 ###  Declare array with same value
 
-    let a = [3; 5];
+```
+let a = [3; 5];
+```
 
 same as
-
-    let a = [3, 3, 3, 3, 3];
+```
+let a = [3, 3, 3, 3, 3];
+```
 
 ### How to access array element
 
 Using the index in square bracket
 
-    let a = [1, 2, 3, 4, 5]; 
-    let first = a[0]; 
-    let second = a[1];
+```
+let a = [1, 2, 3, 4, 5]; 
+let first = a[0]; 
+let second = a[1];
+```
