@@ -22,3 +22,4 @@ pages:
 - content/posts/data-types-in-rust.md
 - content/posts/declare-a-variable-in-rust-and-mutability.md
 - content/posts/function-in-rust.md
+- content/posts/looping-in-rust.md
