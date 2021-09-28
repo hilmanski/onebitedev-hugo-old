@@ -27,6 +27,7 @@ pages:
 - content/posts/references-in-rust.md
 - content/posts/struct-data-type-in-rust.md
 - content/posts/struct-method-in-rust.md
+- content/posts/the-option-enum-in-rust-null-alternative.md
 - content/posts/understand-the-stack-and-the-heap.md
 - content/posts/variable-scope-in-rust.md
 - content/posts/what-is-ownership-in-rust.md
