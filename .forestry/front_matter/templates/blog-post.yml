@@ -24,6 +24,7 @@ pages:
 - content/posts/function-in-rust.md
 - content/posts/looping-in-rust.md
 - content/posts/references-in-rust.md
+- content/posts/struct-data-type-in-rust.md
 - content/posts/understand-the-stack-and-the-heap.md
 - content/posts/variable-scope-in-rust.md
 - content/posts/what-is-ownership-in-rust.md
