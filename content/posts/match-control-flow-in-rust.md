@@ -1,5 +1,5 @@
 +++
-date = 2021-10-04T16:00:00Z
+date = 2021-10-04T17:00:00Z
 description = "There is one more powerful control flow in Rust, which is match. It's pretty straightforward, we would return a value based on match condition"
 series = ["start learning Rust "]
 title = "Match control flow in Rust"
