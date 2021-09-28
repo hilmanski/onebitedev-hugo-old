@@ -1,5 +1,5 @@
 +++
-date = 2021-10-03T16:00:00Z
+date = 2021-10-03T21:00:00Z
 description = "Rust didn't have a null value. But there is an Enum Option that can implement null behavior"
 series = ["start learning Rust"]
 title = "The Option Enum in Rust, null alternative"
