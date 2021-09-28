@@ -39,4 +39,5 @@ pages:
 - content/posts/understand-the-stack-and-the-heap.md
 - content/posts/variable-scope-in-rust.md
 - content/posts/vector-collection-in-rust.md
+- content/posts/what-is-lifetime-in-rust.md
 - content/posts/what-is-ownership-in-rust.md
