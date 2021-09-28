@@ -1,5 +1,5 @@
 +++
-date = 2021-09-05T09:00:00Z
+date = 2021-10-05T09:00:00Z
 description = "When there are many possible values, but we only care about one in a control flow, we can use if and let syntax in rust."
 series = ["start learning Rust"]
 title = "If and let in Rust Control flow"
