@@ -35,6 +35,7 @@ pages:
 - content/posts/struct-data-type-in-rust.md
 - content/posts/struct-method-in-rust.md
 - content/posts/the-option-enum-in-rust-null-alternative.md
+- content/posts/traits-in-rust.md
 - content/posts/understand-the-stack-and-the-heap.md
 - content/posts/variable-scope-in-rust.md
 - content/posts/vector-collection-in-rust.md
