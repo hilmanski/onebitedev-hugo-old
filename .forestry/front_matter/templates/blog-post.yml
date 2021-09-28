@@ -23,6 +23,7 @@ pages:
 - content/posts/declare-a-variable-in-rust-and-mutability.md
 - content/posts/enums-in-rust.md
 - content/posts/function-in-rust.md
+- content/posts/if-and-let-in-rust-control-flow.md
 - content/posts/looping-in-rust.md
 - content/posts/match-control-flow-in-rust.md
 - content/posts/references-in-rust.md
