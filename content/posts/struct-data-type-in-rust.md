@@ -1,5 +1,5 @@
 +++
-date = 2021-09-01T16:00:00Z
+date = 2021-10-02T16:00:00Z
 description = "Learn what is Struct data type in Rust? How to use structure data type in Rust programming language"
 series = ["start learning Rust"]
 title = "Struct data type in Rust"
