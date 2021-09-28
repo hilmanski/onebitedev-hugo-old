@@ -18,6 +18,7 @@ fields:
   name: series
   label: series
 pages:
+- content/posts/collections-data-structure-in-rust.md
 - content/posts/control-flow-conditional-statement-in-rust.md
 - content/posts/data-types-in-rust.md
 - content/posts/declare-a-variable-in-rust-and-mutability.md
