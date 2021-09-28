@@ -29,6 +29,7 @@ pages:
 - content/posts/match-control-flow-in-rust.md
 - content/posts/references-in-rust.md
 - content/posts/slice-data-type-in-rust.md
+- content/posts/string-in-rust.md
 - content/posts/struct-data-type-in-rust.md
 - content/posts/struct-method-in-rust.md
 - content/posts/the-option-enum-in-rust-null-alternative.md
