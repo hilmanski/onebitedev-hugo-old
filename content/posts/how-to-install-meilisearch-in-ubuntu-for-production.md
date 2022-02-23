@@ -1,6 +1,6 @@
 ---
 title: "How to install meilisearch in ubuntu for production?"
-description: ""
+description: "Learn how to install meilisearch in ubuntu for production. This guide will tell you how to add meilisearch search engine on same server where your app runs."
 date: 2022-02-22T22:24:00.000Z
 topic: [search]
 series: [""]
@@ -11,6 +11,8 @@ The new Algolia, Elasticsearch and Typesense alternative is in town! Introducing
 "Meilisearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box."
 
 In this article, I want to share "How to set up meilisearch in ubuntu for production"
+
+
 
 ## Install Meilisearch on Ubuntu
 
@@ -71,7 +73,6 @@ WantedBy=default.target
 ```
 
 !remember to change your password/API key with your own custom key.
-
 
 ## Run and check
 
