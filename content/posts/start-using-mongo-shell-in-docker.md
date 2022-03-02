@@ -15,7 +15,8 @@ docker exec -it name_of_your_running_mongo_service mongo
 
 //-it, is command for interactive shell
 
-Then you're in the shell, to show all databases, run
+Then you're in the shell!   
+To show all databases, run
 ```
 show databases;
 ```
@@ -24,5 +25,12 @@ To go inside one of the collections, run:
 ```
 use collection_name;
 ```
+
+To list data on one of the collections, run:
+```
+db.collectionName.find()
+```
+
+
 
 
