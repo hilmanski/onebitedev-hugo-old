@@ -14,7 +14,7 @@ Here's the raw implementation
 ```
 from sqlalchemy.sql.expression import bindparam
 stmt = update(TableName)\
-    where(TableName.c.id == bindparam('_id')).\
+    where(TableName.id == bindparam('_id')).\
     values({
         'user_id': bindparam('user_id'),
         'email_address': bindparam('email_address'),
@@ -34,5 +34,8 @@ where(TableName.c.id == bindparam('_id')).\
 ```
 What's in bindparam must be different from your column's table name. So in case you have a raw dictionary that have same name, you need to change it first.
 Remember to attach that "_id" as indicator on array when you executing it.
+
+
+
 
 
