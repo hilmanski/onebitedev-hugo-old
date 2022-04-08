@@ -30,10 +30,16 @@ conn.execute(stmt, [
 
 Watchout! the line
 ```
-where(TableName.c.id == bindparam('_id')).\
+where(TableName.id == bindparam('_id')).\
 ```
-What's in bindparam must be different from your column's table name. So in case you have a raw dictionary that have same name, you need to change it first.
-Remember to attach that "_id" as indicator on array when you executing it.
+
+Explanation  
+What's in bindparam must be different from your column's table name. (In this case id and _id).
+So in case you have a raw dictionary that have same name, you need to change it first.
+Remember to attach that "_id" as indicator on each list of your array array when you executing it.
+
+
+
 
 
 
