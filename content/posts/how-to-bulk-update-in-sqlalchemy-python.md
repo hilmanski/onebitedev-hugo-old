@@ -8,7 +8,7 @@ draft: false
 ---
 Update multiple columns one by one is daunting. Learn how to do a bulk update on Sqlalchemy in python programing language to update multiple items at once.
 
-Thanks so much from the gist by victorjabur https://gist.github.com/doobeh/b16e800cdd51d6413c09
+Thanks so much from the gist by doobeh https://gist.github.com/doobeh/b16e800cdd51d6413c09
 
 Here's the raw implementation
 ```
@@ -37,6 +37,9 @@ Explanation
 What's in bindparam must be different from your column's table name. (In this case id and _id).
 So in case you have a raw dictionary that have same name, you need to change it first.
 Remember to attach that "_id" as indicator on each list of your array array when you executing it.
+
+
+
 
 
 
