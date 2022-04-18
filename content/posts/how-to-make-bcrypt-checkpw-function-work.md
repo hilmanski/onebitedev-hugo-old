@@ -22,6 +22,10 @@ if bcrypt.checkpw(password_from_input.encode("utf-8"), password_from_database.en
  return True
 ```
 
+Hope it solves your error "returns TypeError: Unicode-objects must be encoded before checking" on your python project.
+
+
+
 
 
 
