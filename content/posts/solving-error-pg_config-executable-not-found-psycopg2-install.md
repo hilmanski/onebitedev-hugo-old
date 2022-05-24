@@ -2,7 +2,7 @@
 title: "Solving  Error: pg_config executable not found psycopg2 install"
 description: "On my mac machine, I tried to install a new python library with psycopg2 in it, I got pg_config error, here's how I solve this error"
 date: 2022-05-24T02:06:00.000Z
-topic: []
+topic: [python]
 series: [""]
 draft: false
 ---
@@ -37,6 +37,8 @@ When I try to add a new package on my computer that has psycopg2 library, it sho
   ╰─> See above for output.
 ..
 ```
+
+
 
 ## How I solve it
 On mac, I need to install postgre first,
