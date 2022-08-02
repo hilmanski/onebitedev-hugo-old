@@ -21,19 +21,8 @@ const items = [
 
 Let’s make a function to sort this items
 ```
-// sort by number
-items.sort(function(a, b) {
-  const itemA = a.score
-  const itemB = b.score
-  if (itemA < itemB) {
-    return -1;
-  }
-  if (itemA > itemB) {
-    return 1;
-  }
-
-  // names must be equal
-  return 0;
+items.sort(function (a, b) {
+  return a.score - b.score;
 });
 ```
 
@@ -44,5 +33,8 @@ If you put it in separate function don’t forget to return the items
 ```
 return items
 ```
+
+
+
 
 
