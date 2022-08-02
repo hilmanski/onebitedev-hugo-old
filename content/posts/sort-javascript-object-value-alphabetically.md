@@ -37,9 +37,15 @@ items.sort(function(a, b) {
 });
 ```
 
-// If you put it in separate function don't forget to return the items
+Warning:  
+Change `name` with any of your object's key's name  
+
+If you put it in separate function don't forget to return the items
 ```
 return items
 ```
+
+
+
 
 
