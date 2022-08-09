@@ -13,9 +13,13 @@ You might instal phpredis already, but you forgot to install redis itself.
 [Install Redis based on your OS](https://redis.io/docs/getting-started/installation/)
 
 - Make sure to run redis:
+example for mac user using brew
 ```
 brew services start redis
 ```
+
+
+
 
 
 
