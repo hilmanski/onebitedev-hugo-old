@@ -6,7 +6,7 @@ topic: [tool]
 series: [""]
 draft: false
 ---
-Find your next developer tools with FindDevTools As developers, we are always carefully selecting our tools. It has a high effect on our work. 
+We are always carefully selecting our coding tools. It has a high effect on our work. 
 When we consider using an app, we might like a certain feature but not like the other features it offers, or we just don't like the pricing.
 
 That's why I personally often look for an alternative to developer tools out there. But rather than save it privately, I'd like to share it with others. As a bonus, other people might recommend another similar tool that can help us with our coding work.
@@ -19,7 +19,7 @@ ProductHunt is a perfect place to find a new tool. But it's not focusing on deve
 
 ## Challenge making a list of developer tools
 
-Building a site like this might seem trivial, but it has a few challanges (for me) to bring it to the level I like.
+Building a site like this might seem trivial, but it has a few challenges (for me) to bring it to the level I like.
 
 ### Tools must be categorized correctly
 What's hard in making a listing site like this is the categorizing part. We have to very carefully put each tool into the correct programming category. So when people look for an alternative, they will find a correct solution for their problem.
@@ -35,6 +35,9 @@ The manual part is still here. Reviewing a submission and adding features with p
 
 ## Revenue Plan
 To be honest, I'm not sure yet. It's something that I personally use and like gardening it. Maybe a 'mainstream way' where we have a good traffice, then adding a developer-tools sponsor or providing ads with carbonads or ethicalads (something not bothering the viewer).
+
+## That's it
+Hope this collection of developer tools site, can help you find the best tool for your next project! If you want to submit a tool you make or an alternative of a certain popular coding tool, feel free to do so in the site!
 
 Site: [FindDevTools](https://finddev.tools/)
 
