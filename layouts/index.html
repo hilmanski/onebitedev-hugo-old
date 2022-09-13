@@ -3,7 +3,7 @@
     {{ partial "pagination.html" . }}
 
     <br> <hr>
-    <p class="my-10">Choose Category:</p>
+    <p class="my-10 text-l">🏷️ Choose Category:</p>
     <ul class="tags text-small">
         {{ range $name, $taxonomy := .Site.Taxonomies.topic }}
             {{ with $.Site.GetPage (printf "/topic/%s" $name) }}
@@ -14,7 +14,7 @@
     
     <br> <hr>
 
-    <p class="my-10">Series:</p> 
+    <p class="my-10 text-l">🗒 Series:</p> 
      {{ range $name, $taxonomy := .Site.Taxonomies.series }}
         {{ with $.Site.GetPage (printf "/series/%s" $name) }}
         <li><a class="is-pink capitalize" href="{{ .Permalink }}">{{ $name | humanize }}</a></li>
