@@ -36,5 +36,10 @@ By default js file will still works. To start leveraging typescript benefits, ch
 
 You can learn about typescript [from the official website](https://www.typescriptlang.org/)
 
+## Warning
+
+From [official NextJS documentation](https://nextjs.org/docs/basic-features/typescript)
+
+> TypeScript strict mode is turned off by default. When you feel comfortable with TypeScript, it's recommended to turn it on in your tsconfig.json
 
 
