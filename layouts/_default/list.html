@@ -1,6 +1,13 @@
 {{ define "main" }}
-    {{ if hasPrefix .RelPermalink "/topic/" }} <h1> Dev blog around {{ .Title }} </h1> <br> {{end}}
+    {{ if hasPrefix .RelPermalink "/topic/" }} <h1> Developer tips & trick around {{ .Title }} </h1> <br> {{end}}
     {{ if hasPrefix .RelPermalink "/series/" }} <h1> {{ .Title }} article series </h1> <br> {{end}}
     {{ partial "post-list.html" . }}
     {{ partial "pagination.html" . }}
+
+    {{ if hasPrefix .RelPermalink "/topic/" }}
+    <br><br>
+    <p><i>
+       Colleciton of bitesize articles for developer around {{ .Title }}
+    </i></p>
+    {{end}}
 {{ end }}
