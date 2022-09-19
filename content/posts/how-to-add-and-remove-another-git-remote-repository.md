@@ -25,3 +25,9 @@ git push my_new_name main
 ```
 
 *change main, with any branch you want
+
+## How to remove git repository
+Once you don't need a remote repo, you can delete it with
+```
+ git remote remove my_new_name
+ ```
