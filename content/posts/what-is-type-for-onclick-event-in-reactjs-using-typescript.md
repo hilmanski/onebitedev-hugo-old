@@ -2,7 +2,7 @@
 title: "What is type for onClick event in reactJS using typescript"
 description: "What is the correct type when using onClick event in reactJS using typescript"
 date: 2022-09-16T22:51:00.000Z
-topic: [reactjs, typescript]
+topic: [react, typescript]
 series: [""]
 draft: false
 ---
@@ -23,4 +23,5 @@ or
 function handleClick(event: React.MouseEvent<HTMLElement>){
 ..
 }
+
 
