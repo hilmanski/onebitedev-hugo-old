@@ -8,9 +8,11 @@ draft: false
 ---
 Let's learn how to have a hover effect on children element when parent is hovered in Tailwind CSS. 
 
+## Only two steps needed
 1. We identify the parent by adding `group` as a class name
 2. Using `group-hover:$any_style_here` on any children element we want.
 
+## Example
 Here's the example from official Tailwind docs.
 
 ```
@@ -32,3 +34,4 @@ Here's the example from official Tailwind docs.
 All three elements will be changed based on it's value on group-hover, when we hover on the a (parent) tag element.
 
 See the [result here](https://tailwindcss.com/docs/hover-focus-and-other-states#styling-based-on-parent-state)
+
