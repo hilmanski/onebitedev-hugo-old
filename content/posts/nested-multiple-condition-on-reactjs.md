@@ -6,7 +6,8 @@ topic: [react]
 series: [""]
 draft: false
 ---
-How to have a multiple if else condition in ReactJS template that depends on multiple set state variable or just in general.
+How to have a multiple if else condition in ReactJS template?
+It can depend on multiple `state variable` or any value in general.
 
 ```
 {
@@ -19,4 +20,6 @@ How to have a multiple if else condition in ReactJS template that depends on mul
 ```
 
 In above example I have two variables: isLoading and registerMode . Both have boolean values. 
-If isLoading is true, then only show please wait.. while if it's not on loading, it will depend on the value of regsterMode itself.
+
+If `isLoading` value is true, then only show `please wait..` while if it's not on loading, it will depend on the value of `regsterMode` itself.
+
