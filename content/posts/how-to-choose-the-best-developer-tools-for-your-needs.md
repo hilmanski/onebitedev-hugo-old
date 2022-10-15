@@ -1,7 +1,6 @@
 ---
 title: "How to choose the best developer tools for your needs"
-description: "A new developer's guide to choosing the best tools, frameworks, and languages. It's important to do your research before making a decision. 
-"
+description: "A new developer's guide to choosing the best tools, frameworks, and languages. It's important to do your research before making a decision."
 date: 2022-10-14T18:27:00.000Z
 topic: [softskill]
 series: [""]
@@ -20,7 +19,7 @@ When choosing developer tools, it's important to consider your needs and objecti
 
 ## At the early stage of development, what's important is building things.
 
-When you're just starting out as a developer, it's important to focus on building things and not on which tools are the best. There are a lot of different developer tools out there, and it can be overwhelming trying to choose the right ones. The most important thing is to pick the tools that will help you get your job done efficiently and effectively. Remember that you can always change your toolset as your needs evolve
+When you’re starting out as a developer, it’s important to focus on building things and not on which tools are the best. There are a lot of different developer tools out there, and it can be overwhelming trying to choose the right ones. The most important thing is to pick the tools that will help you get your job done. Remember that you can always change your toolset as your needs evolve
 
 ## Ask other people
 
@@ -35,9 +34,9 @@ Don't be afraid to experiment with different tools until you find the ones that 
 
 When choosing a developer tool, it's important to pick one that you're comfortable with. It will make the building process much easier. But it doesn't mean  you shouldn't look out for other good alternative. Keep a balance.
 
-## Look for strong (active) community
+## Look for a strong (active) community
 
-The community behind the tool is also important – look for a strong community of developers who can help you troubleshoot and answer questions. It  also ensure to keep the tool up-to-date and improved over time.
+The community behind the tool is also important – look for a strong community of developers who can help you troubleshoot and answer questions. It  also ensures to keep the tool is up-to-date and improved over time.
 
 ## Others
 
@@ -50,5 +49,6 @@ Be sure to stay up-to-date on new developments in the world of developer tools, 
 ---
 
 Looking for [collection of developer tools? Visiit finddev.tools !](https://finddev.tools/)
+
 
 
