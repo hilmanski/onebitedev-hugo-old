@@ -30,9 +30,11 @@ Make sure to do your research and ask around for advice from experienced develop
 When choosing the best developer tools for your needs, it is important to focus on what you want to achieve. There is no single "best" developer tool - it depends on your needs and preferences. Consider both open source and commercial options when looking for the right tools for you. **Paid tool is also an option.**
 Don't be afraid to experiment with different tools until you find the ones that work best for you. It will save you time and money in the long run. 
 
+There's one thing all developers know about their profession, it's this: There are plenty of free (and often open source) solutions available for every problem imaginable. But when it comes time to get serious about building software or creating an application, nothing beats paying for quality software created by people who care about their product enough to put real engineering hours into making it great.
+
 ## Pick a tool you're comfortable with 
 
-When choosing a developer tool, it's important to pick one that you're comfortable with. It will make the building process much easier. But it doesn't mean  you shouldn't look out for other good alternative. Keep a balance.
+When choosing a developer tool, it's important to pick one that you're comfortable with. It will make the building process much easier. But it doesn't mean that you shouldn't look out for other good alternative. Keep a balance.
 
 ## Look for a strong (active) community
 
@@ -49,6 +51,7 @@ Be sure to stay up-to-date on new developments in the world of developer tools, 
 ---
 
 Looking for [collection of developer tools? Visiit finddev.tools !](https://finddev.tools/)
+
 
 
 
