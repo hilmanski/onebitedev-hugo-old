@@ -17,9 +17,9 @@ When choosing developer tools, it's important to consider your needs and objecti
 5. Check reviews and ratings from other developers to get an idea of what they think of the tool.
 6.  it is important to consider how active the community is. This will help you if you ever have any trouble.
 
-## At the early stage of development, what's important is building things.
+## What's important is building things.
 
-When you’re starting out as a developer, it’s important to focus on building things and not on which tools are the best. There are a lot of different developer tools out there, and it can be overwhelming trying to choose the right ones. The most important thing is to pick the tools that will help you get your job done. Remember that you can always change your toolset as your needs evolve
+At the early stage of development, what's important is building things. Not on which tools are the best. There are a lot of different developer tools out there, and it can be overwhelming trying to choose the right ones. The most important thing is to pick the tools that will help you get your job done. Remember that you can always change your toolset as your needs evolve
 
 ## Ask other people
 
@@ -27,14 +27,15 @@ Make sure to do your research and ask around for advice from experienced develop
 
 ## Paid tool is also an option
 
-When choosing the best developer tools for your needs, it is important to focus on what you want to achieve. There is no single "best" developer tool - it depends on your needs and preferences. Consider both open source and commercial options when looking for the right tools for you. **Paid tool is also an option.**
-Don't be afraid to experiment with different tools until you find the ones that work best for you. It will save you time and money in the long run. 
+When choosing the best developer tools for your needs, it is important to focus on what you want to achieve. There is no single "best" developer tool - it depends on your needs and preferences. 
+
+Consider both open source and commercial options when looking for the right tools for you. **Paid tool is also an option.** It will save you time and money in the long run. 
 
 There's one thing all developers know about their profession, it's this: There are plenty of free (and often open source) solutions available for every problem imaginable. But when it comes time to get serious about building software or creating an application, nothing beats paying for quality software created by people who care about their product enough to put real engineering hours into making it great.
 
 ## Pick a tool you're comfortable with 
 
-When choosing a developer tool, it's important to pick one that you're comfortable with. It will make the building process much easier. But it doesn't mean that you shouldn't look out for other good alternative. Keep a balance.
+When choosing a developer tool, it's important to pick one that you're comfortable with. It will make the building process much easier. But it doesn't mean that you shouldn't look out for other good alternative. Keep a balance. Don't be afraid to experiment with different tools until you find the ones that work best for you.
 
 ## Look for a strong (active) community
 
