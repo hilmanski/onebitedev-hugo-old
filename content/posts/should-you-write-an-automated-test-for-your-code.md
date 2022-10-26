@@ -2,7 +2,7 @@
 title: "Should you write an automated test for your code?"
 description: "Many  developers feel like writing tests is a waste of time because they do not see the immediate benefits. Here is benefits when we write an automated test for our code."
 date: 2022-10-26T23:53:00.000Z
-topic: []
+topic: [testing]
 series: [""]
 draft: false
 ---
@@ -45,5 +45,6 @@ Automation provides consistency among developers and helps ensure that new featu
 ## When you might not need to write a test?
 
 Of course, as a developer, sometimes we want to just prototype some ideas we had or do a proof of concept. Or in the Startup world, when we're building a Minimum Viable Product, a.k.a MVP.  In these cases, it's usually not necessary to write a test as we would just need to figure out our problem.
+
 
 
