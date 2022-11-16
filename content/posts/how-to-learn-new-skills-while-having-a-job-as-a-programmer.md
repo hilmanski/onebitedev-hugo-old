@@ -20,6 +20,8 @@ If you are single, it might be much easier to find time to study on the side. Ju
 
 Creating a study plan will help you achieve your learning goals faster. You can start by creating a calendar with dates for the different topics that you want to cover.
 
+See how other people did it on Quore [how do you find time to learn new skills if you have a family and children to take care](https://www.quora.com/As-a-software-developer-how-do-you-find-time-to-learn-new-skills-if-you-have-a-family-and-children-to-take-care)
+
 ## What should you learn?
 
 Ideally, something you're excited about. Nowadays, almost every passion can translate into a profitable business or become a nice hobby. I would recommend focusing on things that you are really interested in and focus on skills that are practical and useful to you.
@@ -34,6 +36,7 @@ Backend role: Create a backend system that can deal with millions of orders a da
 That's just an example, but you can try about anything you like!
 
 Make sure to publish your code with very clear information (normally on readme) at Github or any other git services.
+
 
 
 
