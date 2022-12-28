@@ -2,7 +2,7 @@
 title: "Mocking next router on Jest test"
 description: "How to mock the next router on Jest test function to be able to past query when rendering a component in React or nextjs App"
 date: 2022-12-28T03:27:00.000Z
-topic: [test, jest]
+topic: [testing, jest]
 series: [""]
 draft: false
 ---
@@ -38,3 +38,5 @@ describe('see function url', () => {
         expect(screen.getByRole('title')).toHaveTextContent('Rotate')
 })
 ```
+
+In this example, mode is one of the query I use on my component
