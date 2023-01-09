@@ -8,6 +8,8 @@ draft: false
 ---
 As a developer, one of the most important things you can do to improve your workflow is to become proficient with a wide range of coding tools. These tools can make your life easier by automating tedious tasks, helping you write and debug code more efficiently, and giving you access to a wealth of information and resources. In this blog post, we'll take a look at some of the most essential coding tools that every developer should know about.
 
+![image](https://i.ibb.co/Yhhx12s/Screen-Shot-2023-01-09-at-10-51-51.png)
+
 > If you're searching for a [list of coding tools](https://finddev.tools/best/coding) that can help you with any programming task, [check out finddev.tools](https://finddev.tools/best/coding).
 > 
 ## 1. Integrated Development Environments (IDEs)
@@ -55,4 +57,5 @@ In conclusion, there are many different coding tools that can help you be more p
 
 > If you're searching for a [list of coding tools](https://finddev.tools/best/coding) that can help you with any programming task, [check out finddev.tools](https://finddev.tools/best/coding).
 > 
+
 
