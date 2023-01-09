@@ -2,7 +2,7 @@
 title: "Case sensitive when multiple select - cursor on VS Code"
 description: "I often found myself selecting multiple variable on VSCode, but the problem is, it is case insensitive. Today I learn how to make it case sensitive"
 date: 2022-10-30T17:23:00.000Z
-topic: [VSCode]
+topic: [VSCode, text-editor]
 series: [""]
 draft: false
 ---

@@ -8,6 +8,8 @@
 
     <div class="article"> {{ .Content }} </div>
 
+    {{ partial "finddevtoolslink.html" . }}
+
     <ul class="tags text-small">
       {{ range .Params.topic }}
       <li><a class="tags-{{.}}" href="/topic/{{lower .}}">{{ . }}</a> </li>
@@ -38,6 +40,7 @@
         </ul>
       {{end}}
   {{end}} 
+
 
     <br>
     <a href="/">🏊🏾‍♀️ Back Home</a>
