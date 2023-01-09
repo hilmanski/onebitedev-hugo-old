@@ -1,6 +1,6 @@
 ---
 title: "What is Coding tools"
-description: ""
+description: "Coding tools can greatly improve your productivity and efficiency as a developer. From beginners to experienced programmers, it's worth exploring and trying out different tools to find the ones that suit your needs best"
 date: 2023-01-09T02:39:00.000Z
 topic: [tool]
 series: [""]
@@ -55,3 +55,4 @@ In conclusion, there are many different coding tools that can help you be more p
 
 > If you're searching for a [list of coding tools](https://finddev.tools/best/coding) that can help you with any programming task, [check out finddev.tools](https://finddev.tools/best/coding).
 > 
+
