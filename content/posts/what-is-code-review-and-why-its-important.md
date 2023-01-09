@@ -1,8 +1,8 @@
 ---
 title: "What is code review and why it's important?"
-description: ""
+description: "Code review is an essential part of the software development process, as it helps ensure that your code is of high quality and meets the needs of your project"
 date: 2023-01-09T02:53:00.000Z
-topic: []
+topic: [softskill]
 series: [""]
 draft: false
 ---
@@ -50,5 +50,6 @@ Code review tools are software tools that help you conduct code reviews more eff
 - **Version control integration**: Allows reviewers to see the changes made to the code and the context in which they were made.
 - **Review assignment**: Allows you to assign code reviews to specific reviewers and track the progress of the review.
 - **Reporting**: Provides metrics on the code review process, such as how long it took to complete a review or how many issues were identified.
+
 
 
