@@ -52,4 +52,4 @@ Code review tools are software tools that help you conduct code reviews more eff
 - **Reporting**: Provides metrics on the code review process, such as how long it took to complete a review or how many issues were identified.
 
 
-
+If you're looking for a [list of code review tools](https://finddev.tools/category/code-review) visit [finddev.tools category "code review"](https://finddev.tools/category/code-review)
