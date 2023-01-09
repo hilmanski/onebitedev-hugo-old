@@ -12,6 +12,8 @@ As a developer, you know that writing code is only one part of the job. Ensuring
 
 But how do you actually conduct a code review? One way is to use code review tools, which are software tools that help automate and streamline the code review process. In this blog post, we'll take a look at what code review tools are and why code review is so important.
 
+If you're looking for a [list of code review tools](https://finddev.tools/category/code-review) visit [finddev.tools category "code review"](https://finddev.tools/category/code-review)
+
 ## How to do a code review
  If you're new to code review, you might be wondering where to start. Here are a few tips on how to do a code review effectively:
 
@@ -48,4 +50,5 @@ Code review tools are software tools that help you conduct code reviews more eff
 - **Version control integration**: Allows reviewers to see the changes made to the code and the context in which they were made.
 - **Review assignment**: Allows you to assign code reviews to specific reviewers and track the progress of the review.
 - **Reporting**: Provides metrics on the code review process, such as how long it took to complete a review or how many issues were identified.
+
 
