@@ -8,6 +8,8 @@ draft: false
 ---
 As a new programmer, it's natural to wonder how many programming languages you should know. The truth is, there's no one-size-fits-all answer to this question. The number of languages you should learn depends on your goals as a developer and the type of projects you want to work on.
 
+![image](https://i.ibb.co/hCvxQRk/Screen-Shot-2023-01-12-at-07-24-38.png)
+
 When you're just starting out, it's important to focus on learning the basics of programming and a single language well. This will give you a solid foundation to build upon as you continue to learn and grow as a developer. Once you have a good grasp of the basics, you can begin to branch out and learn other languages.
 
 > Choose 1 language first, and stick to that for a while
@@ -48,3 +50,4 @@ So don't stress if you find yourself wanting to learn new languages or change yo
 ## Warning
 
 It's also important to keep in mind that programming languages are constantly evolving, so it's essential to stay up to date with the latest trends and developments in the field.
+
