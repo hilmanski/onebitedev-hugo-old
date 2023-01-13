@@ -36,4 +36,6 @@ It just happen to me the other day, where I ask a code of a certain script, it g
 ![image](https://i.ibb.co/3drP4MN/a.png)
 
 ## In conclusion
-AI-powered tools can now predict the output of code snippets, which can save developers a lot of time and effort. These tools can be especially helpful when working with large and complex code bases. However, it's important to keep in mind that AI is not perfect, and developers should still manually review the code and test it to ensure that it is working as intended.
+
+AI-powered tools can now predict the output of [code snippets](https://findout.dev/code-snippets), which can save developers a lot of time and effort. These tools can be especially helpful when working with large and complex code bases. However, it's important to keep in mind that AI is not perfect, and developers should still manually review the code and test it to ensure that it is working as intended.
+
