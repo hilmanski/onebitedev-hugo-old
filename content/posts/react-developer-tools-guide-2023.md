@@ -91,5 +91,8 @@ we can also change the properties like classname related to the component, but n
 
 That's it for now, we may explore other part of react developer tool on next article.
 
+## Other resources
+- If you're interested in the "react profiler dev tool", check [this blog post by Kent C Dodds](https://addyosmani.com/blog/profiling-react-js/)
+- Nice interactive tutorial [react-devtools-tutorial](https://react-devtools-tutorial.vercel.app/element-selector-tool)
 
 
