@@ -2,7 +2,7 @@
 title: "react developer tools guide 2023"
 description: "This is a simple guide on how to use react developer tools in browser like chrome, firefox or safari to help us, debug and inspect: components, props and state"
 date: 2023-01-15T19:25:00.000Z
-topic: []
+topic: [react, tool]
 series: [""]
 draft: false
 ---
@@ -57,7 +57,7 @@ As you know, react is client javascript library that play with Virtual DOM. All 
 You'll what you can explore and do with this tool
 
 ## What to see
-In "components" tab you can see all the react components that is currently rendered on this page in a nice tree view
+In "components" tab you can see all the react components that is currently rendered on this page in a nice tree view. You can also find a specific component in "search form" there.
 
 ![screenshot react dev tools components](https://i.ibb.co/QYK6q13/Screen-Shot-2023-01-16-at-15-37-56.png)
 
@@ -75,3 +75,21 @@ We see on the right corner, there's some little cute icons like "exclamation mar
 
 **exclamation mark**  
 The exclamation mark, is a way to force the selected component to go into "error state". This way we can know what happen with our site, when this particular component is in error.
+
+**eye symbol**  
+is used to find the "matching" DOM element. It'll bring us to the related DOM element in inspect tab
+
+**Ladybug symbol**  
+To show the logs of this component in console.log 
+
+**Code bracket**  
+And last but not least the "code < > bracket, will show use the related code component directly in dev tool. 
+
+Just like inspection tool from browser,  
+we can also change the properties like classname related to the component, but not just that, we're also able to update the state for this component
+
+
+That's it for now, we may explore other part of react developer tool on next article.
+
+
+
