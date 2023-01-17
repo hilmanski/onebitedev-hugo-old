@@ -20,3 +20,5 @@ Now you can visit in your URL
 localhost:3000/yournewfile
 
 Astro automatically pick the file name as your route path
+
+"Astro Components (.astro) and Markdown Files (.md) in the src/pages directory automatically become pages on your website." - [astro routing](https://docs.astro.build/en/core-concepts/routing/)
