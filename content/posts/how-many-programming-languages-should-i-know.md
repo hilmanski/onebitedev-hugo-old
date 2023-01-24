@@ -51,5 +51,3 @@ So don't stress if you find yourself wanting to learn new languages or change yo
 
 It's also important to keep in mind that programming languages are constantly evolving, so it's essential to stay up to date with the latest trends and developments in the field.
 
-
-Explore [list of programming language](https://findout.dev/explore/programming-language) here

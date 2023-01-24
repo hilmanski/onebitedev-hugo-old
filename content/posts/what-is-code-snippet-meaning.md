@@ -26,7 +26,6 @@ Many programming languages have specific websites or forums dedicated to sharing
 
 - [Stackoverflow question](https://stackoverflow.com/)
 - [Gist Github](https://gist.github.com/discover)
-- [Code snippet collection](https://findout.dev/code-snippets)
 
 These snippets can be easily copied and pasted into your own project, saving you time and effort.
 
