@@ -39,6 +39,9 @@ print(__get_UUID_from_link(link4))
 
 Hope it helps you to solve how to convert a link string to a uuid format in Python
 
+## Online tool
+- [UUID Generator online](https://toolboxfordev.com/uuid-generator)
+- [UUID Converter online](https://toolboxfordev.com/uuid-converter)
 
 
 
