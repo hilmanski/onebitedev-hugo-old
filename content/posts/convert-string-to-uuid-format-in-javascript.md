@@ -27,4 +27,7 @@ The idea is we insert a string on each of "X" characters. I use a simple insertS
 
 The number 8, 13, 18, 23 is when the position of dash "-" after we insert each one of them.
 
+## Online tool
+- [UUID Generator online](https://toolboxfordev.com/uuid-generator)
+- [UUID Converter online](https://toolboxfordev.com/uuid-converter)
 
