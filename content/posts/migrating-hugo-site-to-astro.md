@@ -4,7 +4,7 @@ description: "A long time Hugo fans here. I still struggle on doing query, routi
 date: 2023-02-07T23:35:00.000Z
 topic: [astro, hugo]
 series: [""]
-draft: true
+draft: false
 ---
 I've been a long time Hugo fans. But I still struggle on doing certain query, routing or filtering on template in Hugo. I tried Astro and really love it. Here is how you can migrate too
 
@@ -65,6 +65,7 @@ Here's a guide and sample, on [what shortcode Hugo looks like in Astro's collect
 
 ## That's it
 Hope you're having fun with your new Astro site!
+
 
 
 
