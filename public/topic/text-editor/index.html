@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+
+
+ 
+      
+
+
+
+    
+    
+
+
+
+
+
+<title>Developer blog around text-editor</title>
+<meta name="description" content="Developer and programmer blog around text-editor, get tips and trick one bite a time about text-editor" property="og:description">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='https://ik.imagekit.io/kodingclub/onebite/onebite-card_QBGk9ohj5K.png'>
+
+<meta property="og:url" content="https://onebite.dev/topic/text-editor/" />
+<meta property="og:title" content="Developer blog around text-editor" />
+<meta property="og:description" content="Developer and programmer blog around text-editor, get tips and trick one bite a time about text-editor" />
+<meta property="og:image" content="https://ik.imagekit.io/kodingclub/onebite/onebite-card_QBGk9ohj5K.png" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Developer blog around text-editor",
+      "author": {
+        "@type": "Person",
+        "name": "@hilmanski"
+      },
+      "datePublished": "2022-10-30",
+      "description": "Developer and programmer blog around text-editor, get tips and trick one bite a time about text-editor",
+      "dateModified": "2022-10-30",
+      "image": {
+        "@type": "imageObject",
+        "url": "https:\/\/ik.imagekit.io\/kodingclub\/onebite\/onebite-card_QBGk9ohj5K.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Onebite Dev",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
+    
+    
+   
+    <link rel="stylesheet" href="https://onebite.dev/sass/main.min.25fbe381f72d8542aa860aad857a997416d36ca77c878fa79ead99bd1242bcb7.css">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+    <div class="flex is-align-items is-space-between">
+       <div class="flex-on-mobile is-align-items">
+            <a href="/">
+                <svg width="65" height="54" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7035 2.37363C6.18061 2.37363 1.70346 6.85078 1.70346 12.3736V42.8132C1.70346 48.336 6.18061 52.8132 11.7035 52.8132H56.2751C58.991 52.8132 61.4541 51.7305 63.2562 49.9731C59.5478 48.7036 56.3675 45.7708 54.2339 43.8032C53.3572 42.9947 52.6572 42.3492 52.1699 42.049C50.9353 41.2883 51.2262 38.8772 51.5388 36.2859C51.8271 33.8963 52.1339 31.3536 51.28 29.8105C50.5066 28.4128 50.7229 27.836 51.0768 26.8921C51.5373 25.6638 52.2308 23.8139 51.28 18.7249C49.51 9.25073 56.9581 7.64421 64.0807 6.12227C62.2481 3.83689 59.4325 2.37363 56.2751 2.37363H11.7035Z"
+                        fill="url(#paint0_linear)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.47715 0 0 4.47715 0 10V44C0 49.5228 4.47716 54 10 54H51.2893C54.1006 54 56.6409 52.84 58.4577 50.9725C54.9233 49.6204 51.8919 46.4672 49.8602 44.354C49.0281 43.4885 48.3637 42.7974 47.9012 42.4759C46.7293 41.6616 47.0054 39.0803 47.3022 36.306C47.5758 33.7478 47.867 31.0256 47.0565 29.3736C46.3224 27.8773 46.5277 27.2597 46.8636 26.2491C47.3007 24.9341 47.959 22.9537 47.0565 17.5055C45.3738 7.34702 52.4676 5.63738 59.2376 4.00577C59.2536 4.00191 59.2697 3.99804 59.2857 3.99418C57.461 1.5686 54.5584 0 51.2893 0H10Z"
+                        fill="url(#paint1_linear)" />
+                    <rect x="6" y="12" width="35" height="8" rx="4" fill="#FF9F47" />
+                    <rect x="6" y="24" width="30" height="8" rx="4" fill="#EE7D7D" />
+                    <rect x="6" y="36" width="36" height="8" rx="4" fill="#67D3CD" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="8.3746" y1="15.1221" x2="57.7784" y2="43.7947"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#80305C" />
+                            <stop offset="1" stop-color="#385979" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="6.3405" y1="13.6484" x2="55.9436" y2="39.2057"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9A326B" />
+                            <stop offset="1" stop-color="#4C7AA8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+
+            <div>
+                <a href="/"><p id="title">Onebite.dev</p></a>
+                <p id="subtitle">Developer tips & trick, one bite at a time</p>
+            </div>
+        </div>
+
+        <div>
+            <input id="search" type="text" class="searchbox" placeholder="search here...">
+            <script>
+                document.getElementById("search").addEventListener("keyup", function (event) {
+                        if (event.keyCode === 13) {
+                            event.preventDefault();
+                            const searchQ = document.getElementById("search").value
+                            window.location.href = '/search?q=' + searchQ
+                        }
+                    });
+            </script>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/">All</a> /
+        <a href="/series">Series</a> /
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+        <a href="https://freestuff.dev/" target="_blank">Free Stuff for Dev</a> /
+        <a href="https://finddev.tools" target="_blank">Find Developer Tools</a> /
+        <a href="https://tinyletter.com/onebitedev" target="_blank">Newsletter</a>
+    </nav>
+    </header>
+
+     <h1> Developer tips & trick around text-editor </h1> <br> 
+    
+    
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/case-sensitive-when-multiple-select-cursor-on-vs-code/">
+            <span class="title">  Case sensitive when multiple select - cursor on VS Code </span>
+            <span>I often found myself selecting multiple variable on VSCode, but the problem is, it is case insensitive. Today I learn how to make it case sensitive</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-VSCode" href="/topic/vscode">VSCode</a> </li>
+            
+            <li><a class="tags-text-editor" href="/topic/text-editor">text-editor</a> </li>
+            
+            <li id="date"> Sun Oct 30, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/how-to-be-more-productive-with-atom/">
+            <span class="title">  How to Be More Productive With Atom </span>
+            <span>There are many things you can do with atom text editor to make you more productive</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-atom" href="/topic/atom">atom</a> </li>
+            
+            <li><a class="tags-productivity" href="/topic/productivity">productivity</a> </li>
+            
+            <li><a class="tags-text-editor" href="/topic/text-editor">text-editor</a> </li>
+            
+            <li id="date"> Sat Mar 30, 2019 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/my-atom-recommended-packages/">
+            <span class="title">  My Atom Recommended Packages </span>
+            <span>What&#39;s your favorite atom packages? here is some of my atom recommended packages</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-atom" href="/topic/atom">atom</a> </li>
+            
+            <li><a class="tags-text-editor" href="/topic/text-editor">text-editor</a> </li>
+            
+            <li id="date"> Sat Mar 30, 2019 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/how-to-make-custom-atom-snippet/">
+            <span class="title">  How to Make Custom Atom Snippet </span>
+            <span>How to make a custom atom&#39;s snippet, to make your coding time more productive</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-atom" href="/topic/atom">atom</a> </li>
+            
+            <li><a class="tags-productivity" href="/topic/productivity">productivity</a> </li>
+            
+            <li><a class="tags-text-editor" href="/topic/text-editor">text-editor</a> </li>
+            
+            <li id="date"> Sat Mar 30, 2019 </li>
+        </ul>
+    </div>
+
+    <div style="text-align: right;">
+
+
+
+</div>
+
+    
+    <br><br>
+    <p><i>
+       Colleciton of bitesize articles for developer around text-editor
+    </i></p>
+    
+
+    <footer>
+        <br> <hr> <br>
+        <small>
+        <p>
+            <a href="/series">Series</a> /
+            <a href="/index.xml">RSS</a> /
+            <a href="/sitemap.xml">Sitemap</a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+            <a href="https://tinyletter.com/onebitedev" target="_blank">Subscribe newsletter</a>
+        </p>
+
+        <p>
+            <a href="https://freestuff.dev/" target="_blank">Free stuff for Dev</a> /
+            <a href="https://finddev.tools" target="_blank">Best Developer Tools</a> /
+            <a href="https://fromdevtodev.com" target="_blank">Art of teaching Dev</a>
+        </p>
+        </small>
+    </footer>
+
+    <script async defer src="https://sa-api.hilman.space/latest.js"></script>
+    <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>

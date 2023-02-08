@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>softskill on Onebite Dev</title>
+    <link>https://onebite.dev/topic/softskill/</link>
+    <description>Recent content in softskill on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jan 2023 23:09:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/softskill/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How many programming languages should I know</title>
+      <link>https://onebite.dev/how-many-programming-languages-should-i-know/</link>
+      <pubDate>Wed, 11 Jan 2023 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-many-programming-languages-should-i-know/</guid>
+      <description>As a new programmer, it&amp;rsquo;s natural to wonder how many programming languages you should know. The truth is, there&amp;rsquo;s no one-size-fits-all answer to this question. The number of languages you should learn depends on your goals as a developer and the type of projects you want to work on.
+When you&amp;rsquo;re just starting out, it&amp;rsquo;s important to focus on learning the basics of programming and a single language well. This will give you a solid foundation to build upon as you continue to learn and grow as a developer.</description>
+    </item>
+    
+    <item>
+      <title>What is code review and why it&#39;s important?</title>
+      <link>https://onebite.dev/what-is-code-review-and-why-its-important/</link>
+      <pubDate>Mon, 09 Jan 2023 02:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-code-review-and-why-its-important/</guid>
+      <description>As a developer, you know that writing code is only one part of the job. Ensuring that your code is of high quality and meets the requirements of your project is just as important, if not more so. One way to do this is through code review, a process in which other developers review your code and provide feedback on its style, correctness, and overall design. Code review can be a time-consuming process, but it&amp;rsquo;s well worth the effort as it helps catch bugs, improve code quality, and foster a collaborative culture within your team.</description>
+    </item>
+    
+    <item>
+      <title>Why is it like that</title>
+      <link>https://onebite.dev/why-is-it-like-that/</link>
+      <pubDate>Wed, 16 Nov 2022 22:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/why-is-it-like-that/</guid>
+      <description>During debugging my app, I jump between solutions until I found what I want. But I forget to ask what causing the behavior in the first place.
+Let&amp;rsquo;s say I try solution A, it didn&amp;rsquo;t work. Change the code , try solution B. Didn&amp;rsquo;t work either? change the code again to solution C. Until I found the final results I intended.
+Often times it bring me to the same bug again and again.</description>
+    </item>
+    
+    <item>
+      <title>How to learn new skills while having a job as a programmer</title>
+      <link>https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/</link>
+      <pubDate>Tue, 08 Nov 2022 04:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/</guid>
+      <description>On average, we work 40 hours per week. If you&amp;rsquo;re single, that leaves around 16 hours per week to dedicate to learning new skills. Of course, it is different for everyone. Some people may have family and kids that take up most of their time, while others have another job that they are working in addition to their programming job. So learning new skills might not be a priority (or possible) for everyone.</description>
+    </item>
+    
+    <item>
+      <title>A (fake) conversation between the best programmer in the world with a junior</title>
+      <link>https://onebite.dev/a-fake-conversation-between-the-best-programmer-in-the-world-with-a-junior/</link>
+      <pubDate>Fri, 14 Oct 2022 20:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/a-fake-conversation-between-the-best-programmer-in-the-world-with-a-junior/</guid>
+      <description>This is a deep question and answer from the best programmer in the world with a junior coder.
+Q: What makes you the best programmer in the world? A: I don&amp;rsquo;t know – maybe it&amp;rsquo;s because I love what I do and I&amp;rsquo;m really good at it. Or maybe it&amp;rsquo;s because I&amp;rsquo;m always learning and keeping up with the latest trends and technologies. Whatever the reason, I&amp;rsquo;m grateful to be considered the best programmer in the world.</description>
+    </item>
+    
+    <item>
+      <title>How to choose the best developer tools for your needs</title>
+      <link>https://onebite.dev/how-to-choose-the-best-developer-tools-for-your-needs/</link>
+      <pubDate>Fri, 14 Oct 2022 18:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-choose-the-best-developer-tools-for-your-needs/</guid>
+      <description>When choosing developer tools, it&amp;rsquo;s important to consider your needs and objectives. There are many different types of developer tools available, so it&amp;rsquo;s important to do your research before making a decision.
+TLDR; key point  There is no one &amp;ldquo;best&amp;rdquo; developer tool - it depends on your needs and preferences. Consider both open source and commercial options when looking for the right tools for you. Don&amp;rsquo;t be afraid to experiment with different tools until you find the ones that work best for you.</description>
+    </item>
+    
+  </channel>
+</rss>

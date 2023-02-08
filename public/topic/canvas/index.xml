@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>canvas on Onebite Dev</title>
+    <link>https://onebite.dev/topic/canvas/</link>
+    <description>Recent content in canvas on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2019 22:14:17 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/canvas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create Poster With HTML Canvas</title>
+      <link>https://onebite.dev/how-to-create-poster-with-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 22:14:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-poster-with-html-canvas/</guid>
+      <description>Website is more powerful that we thought, do you know it has canvas element to draw graphics on the web? If we combine this with the ability to manipulate DOM in javascript, we can make our poster generator for our next instagram or any social media post.
+For a little warm up, start by drawing text in canvas and drawing image in canvas
+Sample app we will build Here, we will have a nice little app to produce an image dynamically like this.</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Image in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-image-in-html-canvas/</link>
+      <pubDate>Sun, 31 Mar 2019 06:00:02 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-image-in-html-canvas/</guid>
+      <description>Besides, drawing text in canvas, we also can add an image, whether from url link or browse any image on our library.
+Regardless from which method you choose, always prepare the blank canvas
+var canvas = document.getElementById(&amp;#34;myCanvas&amp;#34;); var ctx = canvas.getContext(&amp;#34;2d&amp;#34;) ctx.fillStyle = &amp;#34;white&amp;#34;; ctx.fillRect(0, 0, canvas.width, canvas.height); Draw image from file browser Input file button for drawing image via browse library
+&amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;file&amp;#34; onchange=&amp;#34;uploadImg(event)&amp;#34;&amp;gt; &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Text in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-text-in-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 06:00:02 +0700</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-text-in-html-canvas/</guid>
+      <description>In case you haven&amp;rsquo;t heard about canvas in HTML, this element enable us to draw something on web, by something, it includes text. Why would you want to draw text in canvas, instead just show it normally? well, the case could be like &amp;ldquo;displaying a captcha image&amp;rdquo;, so bot can&amp;rsquo;t just grab the text via html element to bypass our captcha.
+Prepare a canvas to draw &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+  </channel>
+</rss>

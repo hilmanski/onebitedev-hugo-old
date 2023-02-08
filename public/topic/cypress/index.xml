@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cypress on Onebite Dev</title>
+    <link>https://onebite.dev/topic/cypress/</link>
+    <description>Recent content in cypress on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Oct 2022 02:37:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/cypress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My cypress setting to run with GUI or not</title>
+      <link>https://onebite.dev/my-cypress-setting-to-run-with-gui-or-not/</link>
+      <pubDate>Fri, 28 Oct 2022 02:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/my-cypress-setting-to-run-with-gui-or-not/</guid>
+      <description>Sometimes you want to see your test running with GUI, but sometimes not, you just want run CLI and see the test results. Here is my package json setup
+package.json
+&amp;#34;scripts&amp;#34;: { ... &amp;#34;test&amp;#34;: &amp;#34;cypress run&amp;#34;, &amp;#34;test-visual&amp;#34;: &amp;#34;cypress open&amp;#34; }, This way I can easily trigger the test with command npm/yarn , depend if I want to use GUI or not
+Or if you want to do it manually
+To run the test itself, we can run</description>
+    </item>
+    
+    <item>
+      <title>Disable video recording when running Cypress</title>
+      <link>https://onebite.dev/disable-video-recording-when-running-cypress/</link>
+      <pubDate>Fri, 28 Oct 2022 02:30:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/disable-video-recording-when-running-cypress/</guid>
+      <description>When you&amp;rsquo;re using cypress run to run test without GUI, Cypress will automatically generate a videos of your test at cypress/videos folder. It&amp;rsquo;s a good thing, especially when the test failed, so you can see what happen actually while running your test.
+How to disable the video recording To disable the video, go to cypress.config.js file and add video: false attribute
+import { defineConfig } from &amp;#39;cypress&amp;#39; export default defineConfig({ e2e: { setupNodeEvents(on, config) { // implement node event listeners here }, }, video: false, }) It won&amp;rsquo;t fill much of your disk space If you&amp;rsquo;re worried that it will take many spaces, don&amp;rsquo;t worry.</description>
+    </item>
+    
+    <item>
+      <title>Run block of code each time before certain test in Cypress</title>
+      <link>https://onebite.dev/run-block-of-code-each-time-before-certain-test-in-cypress/</link>
+      <pubDate>Fri, 21 Oct 2022 17:47:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/run-block-of-code-each-time-before-certain-test-in-cypress/</guid>
+      <description>Cypress has a very neat API, which is beforeach.
+context(&amp;#39;Aliasing&amp;#39;, () =&amp;gt; { beforeEach(() =&amp;gt; { cy.visit(&amp;#39;https://example.cypress.io/commands/aliasing&amp;#39;) // or do other thing instea }) it(&amp;#39;a&amp;#39;, () =&amp;gt; { ,,, }) it(&amp;#39;b&amp;#39;, () =&amp;gt; { ,,, }) }) In this sample, before running a and b, we&amp;rsquo;ll visit the above URL first. Of course it&amp;rsquo;s not just for visiting a URL, you can do anything on that block
+What if you only want to run before code once.</description>
+    </item>
+    
+    <item>
+      <title>Waiting for element exists in Cypress instead of time</title>
+      <link>https://onebite.dev/waiting-for-element-exists-in-cypress-instead-of-time/</link>
+      <pubDate>Fri, 21 Oct 2022 17:44:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/waiting-for-element-exists-in-cypress-instead-of-time/</guid>
+      <description>Here is how to wait for a certain element until exists in Cypress instead of time.
+We can use the combination of .get() method and should(). For example
+ before(() =&amp;gt; { cy.visit(&amp;#39;http://localhost:3000/&amp;#39;) cy.get(&amp;#39;canvas&amp;#39;).should(&amp;#39;be.visible&amp;#39;) }) it(&amp;#39;...&amp;#39;, ()=&amp;gt;{ ... }) In above sample, I wait until a canvas element is ready on my page, before I run other funciton.
+This is perfect for me , who used time instead, I need to wait for a few seconds when waiting for a dynamic component / element on my page.</description>
+    </item>
+    
+  </channel>
+</rss>

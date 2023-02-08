@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>search on Onebite Dev</title>
+    <link>https://onebite.dev/topic/search/</link>
+    <description>Recent content in search on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Feb 2022 22:24:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install meilisearch in ubuntu for production?</title>
+      <link>https://onebite.dev/how-to-install-meilisearch-in-ubuntu-for-production/</link>
+      <pubDate>Tue, 22 Feb 2022 22:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-install-meilisearch-in-ubuntu-for-production/</guid>
+      <description>The new Algolia, Elasticsearch and Typesense alternative is in town! Introducing Meilisearch
+&amp;ldquo;Meilisearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box.&amp;rdquo;
+In this article, I want to share &amp;ldquo;How to set up meilisearch in ubuntu for production&amp;rdquo;
+Install Meilisearch on Ubuntu Install CURL first
+# Install curl which is required to install Meilisearch in the next step apt install curl -y Install Meilisearch via CURL</description>
+    </item>
+    
+  </channel>
+</rss>

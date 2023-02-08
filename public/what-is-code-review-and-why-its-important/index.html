@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+
+
+ 
+     
+    
+
+
+
+
+
+
+
+<title>What is code review and why it&#39;s important?</title>
+<meta name="description" content="Code review is an essential part of the software development process, as it helps ensure that your code is of high quality and meets the needs of your project" property="og:description">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='https://ogi.sh/article?title=What is code review and why it&#39;s important?&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png'>
+
+<meta property="og:url" content="https://onebite.dev/what-is-code-review-and-why-its-important/" />
+<meta property="og:title" content="What is code review and why it&#39;s important?" />
+<meta property="og:description" content="Code review is an essential part of the software development process, as it helps ensure that your code is of high quality and meets the needs of your project" />
+<meta property="og:image" content="https://ogi.sh/article?title=What is code review and why it&#39;s important?&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "What is code review and why it's important?",
+      "author": {
+        "@type": "Person",
+        "name": "@hilmanski"
+      },
+      "datePublished": "2023-01-09",
+      "description": "Code review is an essential part of the software development process, as it helps ensure that your code is of high quality and meets the needs of your project",
+      "dateModified": "2023-01-09",
+      "image": {
+        "@type": "imageObject",
+        "url": "https:\/\/ogi.sh\/article?title=What is code review and why it\u0027s important?\u0026subtitle=One%20code%20at%20a%20time\u0026unsplashId=TWMI7B4KeLY\u0026logo=https:\/\/ik.imagekit.io\/kodingclub\/onebite\/onebite-logo_QwhRyJ3b0.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Onebite Dev",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
+    
+    
+   
+    <link rel="stylesheet" href="https://onebite.dev/sass/main.min.25fbe381f72d8542aa860aad857a997416d36ca77c878fa79ead99bd1242bcb7.css">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+    <div class="flex is-align-items is-space-between">
+       <div class="flex-on-mobile is-align-items">
+            <a href="/">
+                <svg width="65" height="54" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7035 2.37363C6.18061 2.37363 1.70346 6.85078 1.70346 12.3736V42.8132C1.70346 48.336 6.18061 52.8132 11.7035 52.8132H56.2751C58.991 52.8132 61.4541 51.7305 63.2562 49.9731C59.5478 48.7036 56.3675 45.7708 54.2339 43.8032C53.3572 42.9947 52.6572 42.3492 52.1699 42.049C50.9353 41.2883 51.2262 38.8772 51.5388 36.2859C51.8271 33.8963 52.1339 31.3536 51.28 29.8105C50.5066 28.4128 50.7229 27.836 51.0768 26.8921C51.5373 25.6638 52.2308 23.8139 51.28 18.7249C49.51 9.25073 56.9581 7.64421 64.0807 6.12227C62.2481 3.83689 59.4325 2.37363 56.2751 2.37363H11.7035Z"
+                        fill="url(#paint0_linear)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.47715 0 0 4.47715 0 10V44C0 49.5228 4.47716 54 10 54H51.2893C54.1006 54 56.6409 52.84 58.4577 50.9725C54.9233 49.6204 51.8919 46.4672 49.8602 44.354C49.0281 43.4885 48.3637 42.7974 47.9012 42.4759C46.7293 41.6616 47.0054 39.0803 47.3022 36.306C47.5758 33.7478 47.867 31.0256 47.0565 29.3736C46.3224 27.8773 46.5277 27.2597 46.8636 26.2491C47.3007 24.9341 47.959 22.9537 47.0565 17.5055C45.3738 7.34702 52.4676 5.63738 59.2376 4.00577C59.2536 4.00191 59.2697 3.99804 59.2857 3.99418C57.461 1.5686 54.5584 0 51.2893 0H10Z"
+                        fill="url(#paint1_linear)" />
+                    <rect x="6" y="12" width="35" height="8" rx="4" fill="#FF9F47" />
+                    <rect x="6" y="24" width="30" height="8" rx="4" fill="#EE7D7D" />
+                    <rect x="6" y="36" width="36" height="8" rx="4" fill="#67D3CD" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="8.3746" y1="15.1221" x2="57.7784" y2="43.7947"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#80305C" />
+                            <stop offset="1" stop-color="#385979" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="6.3405" y1="13.6484" x2="55.9436" y2="39.2057"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9A326B" />
+                            <stop offset="1" stop-color="#4C7AA8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+
+            <div>
+                <a href="/"><p id="title">Onebite.dev</p></a>
+                <p id="subtitle">Developer tips & trick, one bite at a time</p>
+            </div>
+        </div>
+
+        <div>
+            <input id="search" type="text" class="searchbox" placeholder="search here...">
+            <script>
+                document.getElementById("search").addEventListener("keyup", function (event) {
+                        if (event.keyCode === 13) {
+                            event.preventDefault();
+                            const searchQ = document.getElementById("search").value
+                            window.location.href = '/search?q=' + searchQ
+                        }
+                    });
+            </script>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/">All</a> /
+        <a href="/series">Series</a> /
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+        <a href="https://freestuff.dev/" target="_blank">Free Stuff for Dev</a> /
+        <a href="https://finddev.tools" target="_blank">Find Developer Tools</a> /
+        <a href="https://tinyletter.com/onebitedev" target="_blank">Newsletter</a>
+    </nav>
+    </header>
+
+
+<section id="post">
+    <h1 class="title">What is code review and why it&#39;s important?</h1>
+    <div>
+      <button id="bitesize-btn" onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
+    </div>
+
+    <div class="article"> <p>As a developer, you know that writing code is only one part of the job. Ensuring that your code is of high quality and meets the requirements of your project is just as important, if not more so. One way to do this is through code review, a process in which other developers review your code and provide feedback on its style, correctness, and overall design. Code review can be a time-consuming process, but it&rsquo;s well worth the effort as it helps catch bugs, improve code quality, and foster a collaborative culture within your team.</p>
+<p><img src="https://i.ibb.co/4KYfXfw/Screen-Shot-2023-01-09-at-11-02-34.png" alt="image"></p>
+<p>But how do you actually conduct a code review? One way is to use code review tools, which are software tools that help automate and streamline the code review process. In this blog post, we&rsquo;ll take a look at what code review tools are and why code review is so important.</p>
+<p>If you&rsquo;re looking for a <a href="https://finddev.tools/category/code-review">list of code review tools</a> visit <a href="https://finddev.tools/category/code-review">finddev.tools category &ldquo;code review&rdquo;</a></p>
+<h2 id="how-to-do-a-code-review">How to do a code review</h2>
+<p>If you&rsquo;re new to code review, you might be wondering where to start. Here are a few tips on how to do a code review effectively:</p>
+<h3 id="understand-the-purpose-of-the-code-review">Understand the purpose of the code review</h3>
+<p>Before you begin, it&rsquo;s important to understand the purpose of the code review. Are you reviewing the code to catch bugs? To ensure that it follows coding standards? To offer suggestions for improvement? Understanding the goals of the code review will help you focus your efforts and provide more useful feedback.</p>
+<h3 id="review-the-code-thoroughly">Review the code thoroughly</h3>
+<p>Take your time to carefully review the code, paying attention to details and looking for issues such as bugs, security vulnerabilities, and style issues. Make sure to review the entire codebase, not just the parts that you&rsquo;re familiar with.</p>
+<h3 id="leave-constructive-feedback">Leave constructive feedback</h3>
+<p>When leaving feedback, try to be specific and provide concrete examples. Instead of just saying &ldquo;this code is confusing,&rdquo; explain why it&rsquo;s confusing and offer suggestions for improvement. Remember that the goal of the code review is to help improve the code, not to criticize the developer.</p>
+<h3 id="follow-up-on-feedback">Follow up on feedback</h3>
+<p>After the code review is complete, it&rsquo;s important to follow up on the feedback you received. If you made any changes based on the feedback, make sure to review those changes with the original reviewers to ensure that they meet the goals of the code review.</p>
+<p>By following these tips, you can conduct a code review that is both effective and respectful of the developers involved. Code review is a valuable tool for improving the quality of your code, so make sure to take the time to do it right.</p>
+<p><img src="https://i.ibb.co/1QmWKHT/Screen-Shot-2023-01-09-at-11-02-46.png" alt="image"></p>
+<h2 id="why-is-code-review-important">Why is code review important?</h2>
+<p>Code review is an essential part of the software development process for several reasons:</p>
+<p><strong>Quality</strong>: Code review helps ensure that your code is of high quality by catching bugs and other issues early in the development process. This can save you time and effort in the long run by preventing issues from slipping through the cracks.
+<strong>Collaboration</strong>: Code review promotes collaboration within your team by allowing developers to share knowledge and ideas. It&rsquo;s also a great opportunity for junior developers to learn from more experienced ones.
+<strong>Consistency</strong>: Code review helps ensure that your codebase is consistent and follows the same style and conventions. This can make it easier for other developers to understand and work with your code.
+<strong>Learning</strong>: Code review is a great way to learn from your peers and improve your own coding skills. By receiving feedback on your code, you can identify areas where you can improve and become a better developer.</p>
+<p><img src="https://i.ibb.co/K27p1yW/Screen-Shot-2023-01-09-at-11-02-53.png" alt="image"></p>
+<h2 id="what-are-code-review-tools">What are code review tools?</h2>
+<p>Code review tools are software tools that help you conduct code reviews more efficiently. They typically provide features such as:</p>
+<ul>
+<li><strong>Commenting and annotation</strong>: Allows reviewers to leave feedback on specific lines of code and discuss changes.</li>
+<li><strong>Version control integration</strong>: Allows reviewers to see the changes made to the code and the context in which they were made.</li>
+<li><strong>Review assignment</strong>: Allows you to assign code reviews to specific reviewers and track the progress of the review.</li>
+<li><strong>Reporting</strong>: Provides metrics on the code review process, such as how long it took to complete a review or how many issues were identified.</li>
+</ul>
+<p>If you&rsquo;re looking for a <a href="https://finddev.tools/category/code-review">list of code review tools</a> visit <a href="https://finddev.tools/category/code-review">finddev.tools category &ldquo;code review&rdquo;</a></p>
+ </div>
+
+    
+<div class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <br>
+
+
+    <ul class="tags text-small">
+      
+      <li><a class="tags-softskill" href="/topic/softskill">softskill</a> </li>
+      
+      <li id="date"> Mon Jan 9, 2023 </li>
+    </ul>
+
+
+   
+
+  
+    
+   
+
+
+    <br>
+    <a href="/">🏊🏾‍♀️ Back Home</a>
+
+</section>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<style>
+  #bitesize_wrapper {
+    background: #29313D;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    padding: 50px 200px;
+  }
+
+  #bitesize_wrapper h2{
+    line-height: 2.2rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    #bitesize_wrapper {
+      left: 0px;
+      width: 100%;
+      padding: 50px;
+    }
+  }
+
+  #slide-menu{
+    text-align: right;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #slide-menu h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #slide-nav span{
+    font-size: 16px;
+    background: orange;
+    padding: 5px 10px;
+  }
+  #slide-nav span:hover{
+    cursor: pointer;
+  }
+</style>
+
+
+<script src="/js/bitesize-prod.js" defer> </script>
+<script>
+  const _article = document.getElementsByClassName('article')[0]
+  
+  if(!_article.innerHTML.includes("</h2>"))
+    document.getElementById('bitesize-btn').style.display = "none"
+
+  
+  const _links = _article.getElementsByTagName('a')
+  for (var i = 0; i<_links.length; i++) {
+    _links[i].setAttribute('target', '_blank')
+  }
+</script>
+
+
+    <footer>
+        <br> <hr> <br>
+        <small>
+        <p>
+            <a href="/series">Series</a> /
+            <a href="/index.xml">RSS</a> /
+            <a href="/sitemap.xml">Sitemap</a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+            <a href="https://tinyletter.com/onebitedev" target="_blank">Subscribe newsletter</a>
+        </p>
+
+        <p>
+            <a href="https://freestuff.dev/" target="_blank">Free stuff for Dev</a> /
+            <a href="https://finddev.tools" target="_blank">Best Developer Tools</a> /
+            <a href="https://fromdevtodev.com" target="_blank">Art of teaching Dev</a>
+        </p>
+        </small>
+    </footer>
+
+    <script async defer src="https://sa-api.hilman.space/latest.js"></script>
+    <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>

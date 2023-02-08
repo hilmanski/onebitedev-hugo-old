@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on Onebite Dev</title>
+    <link>https://onebite.dev/topic/html/</link>
+    <description>Recent content in html on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 18:57:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML code snippet with emmet</title>
+      <link>https://onebite.dev/html-code-snippet-with-emmet/</link>
+      <pubDate>Sun, 15 Jan 2023 18:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/html-code-snippet-with-emmet/</guid>
+      <description>Make your life easier as frontend developer, by using emmet as your HTML code snippet. By installing meet, you can write HTML code much much faster.
+TLDR Here&amp;rsquo;s from Emmet&amp;rsquo;s documentation &amp;ldquo;Basically, most text editors out there allow you to store and re-use commonly used code chunks, called “snippets”. While snippets are a good way to boost your productivity, all implementations have common pitfalls: you have to define the snippet first and you can’t extend them in runtime.</description>
+    </item>
+    
+    <item>
+      <title>How to make zoom effect in HTML with CSS</title>
+      <link>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</link>
+      <pubDate>Sun, 18 Sep 2022 02:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</guid>
+      <description>Let&amp;rsquo;s learn how to make zoom effect in HTML with CSS. We will play with scale transformation on CSS to make the element chosen bigger/smaller
+The properties we need to set are:
+ transform: scale(1); transformOrigin: 0% 0% 0px;  transform accept float value with 1 as default size. You can go step by step with 1.1 to 2. transformOrigin will set the the position with top left as anchor. So our element not moving.</description>
+    </item>
+    
+    <item>
+      <title>Write HTML dynamically with mini SSG</title>
+      <link>https://onebite.dev/write-html-dynamically-with-mini-ssg/</link>
+      <pubDate>Thu, 08 Jul 2021 23:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/write-html-dynamically-with-mini-ssg/</guid>
+      <description>This is a story about me:
+One day, I need to make a simple static website.
+Create a folder with ONE HTML file. “index.html”
+The next day, I want to add a new file “about.html”, so I make a new file, and then copy-paste all the header, footer, and sidebar to make my pages consistent.
+The next day, I need to add a new file again.. again.. and again. Just like before, I need to copy-paste most of the part, let alone the annoying meta tag between head with all the social graph and Twitter cards.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Poster With HTML Canvas</title>
+      <link>https://onebite.dev/how-to-create-poster-with-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 22:14:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-poster-with-html-canvas/</guid>
+      <description>Website is more powerful that we thought, do you know it has canvas element to draw graphics on the web? If we combine this with the ability to manipulate DOM in javascript, we can make our poster generator for our next instagram or any social media post.
+For a little warm up, start by drawing text in canvas and drawing image in canvas
+Sample app we will build Here, we will have a nice little app to produce an image dynamically like this.</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Image in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-image-in-html-canvas/</link>
+      <pubDate>Sun, 31 Mar 2019 06:00:02 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-image-in-html-canvas/</guid>
+      <description>Besides, drawing text in canvas, we also can add an image, whether from url link or browse any image on our library.
+Regardless from which method you choose, always prepare the blank canvas
+var canvas = document.getElementById(&amp;#34;myCanvas&amp;#34;); var ctx = canvas.getContext(&amp;#34;2d&amp;#34;) ctx.fillStyle = &amp;#34;white&amp;#34;; ctx.fillRect(0, 0, canvas.width, canvas.height); Draw image from file browser Input file button for drawing image via browse library
+&amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;file&amp;#34; onchange=&amp;#34;uploadImg(event)&amp;#34;&amp;gt; &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Dark Mode in Website</title>
+      <link>https://onebite.dev/how-to-create-dark-mode-in-website/</link>
+      <pubDate>Sat, 30 Mar 2019 09:38:40 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-dark-mode-in-website/</guid>
+      <description>Oftentimes we see a dark mode in website. For me personally, I can&amp;rsquo;t stare too long on a bright screen, that&amp;rsquo;s why I prefer dark mode for some websites. And as a developer, it&amp;rsquo;s hard not to think &amp;ldquo;how is it made?&amp;rdquo;.
+CSS preparation First, we need to prepare the CSS, both for normal condition and case when it&amp;rsquo;s in dark mode
+body{ /*your normal styling*/ } body.darkmode { background: rgb(57, 57, 57); color: rgb(227, 227, 227); } /*to toggle button*/ .</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Text in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-text-in-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 06:00:02 +0700</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-text-in-html-canvas/</guid>
+      <description>In case you haven&amp;rsquo;t heard about canvas in HTML, this element enable us to draw something on web, by something, it includes text. Why would you want to draw text in canvas, instead just show it normally? well, the case could be like &amp;ldquo;displaying a captcha image&amp;rdquo;, so bot can&amp;rsquo;t just grab the text via html element to bypass our captcha.
+Prepare a canvas to draw &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+  </channel>
+</rss>

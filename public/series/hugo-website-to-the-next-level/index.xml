@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo website to the next level on Onebite Dev</title>
+    <link>https://onebite.dev/series/hugo-website-to-the-next-level/</link>
+    <description>Recent content in Hugo website to the next level on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jul 2021 20:46:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/series/hugo-website-to-the-next-level/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Series of article in Hugo website</title>
+      <link>https://onebite.dev/series-of-article-in-hugo-website/</link>
+      <pubDate>Wed, 28 Jul 2021 20:46:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series-of-article-in-hugo-website/</guid>
+      <description>Learn how to add series for your article in Hugo. This way we can group multiple posts on a certain topic or series
+Set up series in config In your configuration e.g. config.toml, add this to taxonomy blog
+[taxonomies] tag = &amp;#34;tags&amp;#34; category = &amp;#34;categories&amp;#34; series = &amp;#34;series&amp;#34; Give series to a post To group your post into a series, put series tag in your markdown file, in parameter section</description>
+    </item>
+    
+    <item>
+      <title>Show future post in Hugo SSG</title>
+      <link>https://onebite.dev/show-future-post-in-hugo-ssg/</link>
+      <pubDate>Wed, 28 Jul 2021 04:12:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/show-future-post-in-hugo-ssg/</guid>
+      <description>Hugo is one of my favorite static site generator, it has so much built in future that makes it super flexible. Today we&amp;rsquo;ll learn how to show future post in Hugo.
+Using if else Unix time Our tools: We have if else statement in Hugo We have now.Unix time to get current time
+Let&amp;rsquo;s use both of them.
+Assume you render your page like this
+{{ range .Pages }} &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;{{.</description>
+    </item>
+    
+    <item>
+      <title>Add live search in Hugo website</title>
+      <link>https://onebite.dev/add-live-search-in-hugo-website/</link>
+      <pubDate>Tue, 08 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-live-search-in-hugo-website/</guid>
+      <description>At first i don&amp;rsquo;t think there are any way to add search function on any static website including Hugo, but apparently there is! At hugo documentation listed bunch of packages for that. I don&amp;rsquo;t like the idea to install nodejs first or any kind of server setup first. So i try to find easier way to implement &amp;ldquo;search system&amp;rdquo; on Hugo site.
+The idea is output JSON file that will list all our posts, and turn it as our &amp;ldquo;database&amp;rdquo; / &amp;ldquo;api&amp;rdquo; source.</description>
+    </item>
+    
+    <item>
+      <title>Manage media/image in forestry with cloudinary</title>
+      <link>https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/</link>
+      <pubDate>Sat, 06 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/</guid>
+      <description>One of the shortage of using static site like Hugo compare to giant CMS like Wordpress is managing image is not that easy. Normally, you have to add it to your local folder and give a reference to your relative path.
+But storing it in our own local file is not scalable and make our hosting heavier. That&amp;rsquo;s why i&amp;rsquo;m looking for a hosting asset solution, and luckily i found cloudinary , it comes with a generous offer if you just getting started.</description>
+    </item>
+    
+    <item>
+      <title>Using forestry as CMS for your Hugo site</title>
+      <link>https://onebite.dev/using-forestry-as-cms-for-your-hugo-site/</link>
+      <pubDate>Fri, 05 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/using-forestry-as-cms-for-your-hugo-site/</guid>
+      <description>We need to make our blogging experience as fun and easy as possible, content management system (CMS) might help us to archieve that. That&amp;rsquo;s why i&amp;rsquo;m searching CMS for this Hugo site, and i found forestry for that.
+Prepare Go to forestry and sign up if you haven&amp;rsquo;t. You can also use github/gitlab or bitbucket account.
+Add new site In Dashboard you can click &amp;ldquo;add site&amp;rdquo; to add your new static site generated (Hugo) site.</description>
+    </item>
+    
+    <item>
+      <title>How to Customize Front Matter in Hugo</title>
+      <link>https://onebite.dev/how-to-customize-front-matter-in-hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 05:27:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-customize-front-matter-in-hugo/</guid>
+      <description>Slowly your Hugo app is growing, the default field you need in your front matter is not just title and date anymore, you always need to include description, tags, or any other field. Hugo provide archetypes as our default template when creating a new content.
+The default location for this is in &amp;ldquo;archetypes/posts.md&amp;rdquo; or if you want in live in your theme &amp;ldquo;themes/my-theme/archetypes/posts.md&amp;rdquo;. Open this particular file and write
+title: &amp;#34;{{ replace .</description>
+    </item>
+    
+    <item>
+      <title>How to Make Dynamic Twitter Card for Hugo</title>
+      <link>https://onebite.dev/how-to-make-dynamic-twitter-card-for-hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 02:26:14 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-dynamic-twitter-card-for-hugo/</guid>
+      <description>Let&amp;rsquo;s see how to make a nice dynamic twitter card in Hugo to optimize our twitter post, so it will show us an image, summary and other relevant information when we share it on twitter.
+I&amp;rsquo;m sure you have a partial header somewhere in your Hugo blog, where you put HTML tag inside. Open that file, and let&amp;rsquo;s attach this meta information
+&amp;lt;meta name=&amp;#34;twitter:card&amp;#34; content=&amp;#34;summary&amp;#34; /&amp;gt; &amp;lt;meta name=&amp;#34;twitter:site&amp;#34; content=&amp;#34;YOURSITENAME&amp;#34; /&amp;gt; &amp;lt;meta name=&amp;#34;twitter:creator&amp;#34; content=&amp;#34;YOURNAME&amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;og:url&amp;#34; content=&amp;#34;{{ .</description>
+    </item>
+    
+    <item>
+      <title>How to Create Simple Pagination in Hugo</title>
+      <link>https://onebite.dev/how-to-create-simple-pagination-in-hugo/</link>
+      <pubDate>Wed, 03 Apr 2019 14:23:13 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-simple-pagination-in-hugo/</guid>
+      <description>If you start looking how to paginate your blog in Hugo, it&amp;rsquo;s a very good sign 🤗 ! why? it means you take your blog seriously, you post more than once (at least 😅). Luckily, Hugo make it very simple to create a pagination
+Add in config Add pagination info in your config.yaml(.toml) file
+paginate : 12 //depend on how much post per page Loop with page Change how you loop your post with .</description>
+    </item>
+    
+    <item>
+      <title>Create New Hugo Post Faster With Bash</title>
+      <link>https://onebite.dev/create-new-hugo-post-faster-with-bash/</link>
+      <pubDate>Tue, 02 Apr 2019 01:03:49 +0800</pubDate>
+      
+      <guid>https://onebite.dev/create-new-hugo-post-faster-with-bash/</guid>
+      <description>If I can&amp;rsquo;t automate a repetitive task, i always try to find a way to make it faster. One of the pain point in creating new post with hugo is we always have to type.
+hugo new posts/your-new-post.md The dynamic part is only the title itself. So the idea is, i want to run a single word function + title. And i don&amp;rsquo;t like to type minus sign &amp;ldquo;-&amp;rdquo; between words.</description>
+    </item>
+    
+    <item>
+      <title>How to Schedule Post in Future for Hugo</title>
+      <link>https://onebite.dev/how-to-schedule-post-in-future-for-hugo/</link>
+      <pubDate>Mon, 01 Apr 2019 01:46:10 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-schedule-post-in-future-for-hugo/</guid>
+      <description>As i mentioned in previous post, i move my website from github-pages to Netlify , so i can set a schedule for my Hugo post in future.
+How to:
+ in &amp;ldquo;Netlify&amp;rdquo; Menu settings &amp;gt; Build and deploy &amp;gt; check &amp;ldquo;build hooks&amp;rdquo; section, click &amp;ldquo;Add build Hook&amp;rdquo; button.   This will generate a unique url, when we send request post to this link, it will build our site from the repository.</description>
+    </item>
+    
+    <item>
+      <title>Move My Hugo Site From Github Pages to Netlify</title>
+      <link>https://onebite.dev/move-my-hugo-site-from-github-pages-to-netlify/</link>
+      <pubDate>Mon, 01 Apr 2019 08:02:42 +0800</pubDate>
+      
+      <guid>https://onebite.dev/move-my-hugo-site-from-github-pages-to-netlify/</guid>
+      <description>Today i move my static hugo site from github-pages to netlify. I heard a lot of good things about netlify before, but github-pages seems easier to use (less complicated) for me.
+Tiny problem with github-pages Until i found one &amp;ldquo;tiny&amp;rdquo; problem, i can&amp;rsquo;t schedule my post. Since the way github-pages serves our hugo site is by looking what&amp;rsquo;s inside our github public repo, we always have to deploy it manually at the exact time to trigger the changes.</description>
+    </item>
+    
+    <item>
+      <title>How to Get All Hugo Tags</title>
+      <link>https://onebite.dev/how-to-get-all-hugo-tags/</link>
+      <pubDate>Sun, 31 Mar 2019 10:10:28 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-get-all-hugo-tags/</guid>
+      <description>If you need all the tags you currently use for your website built with Hugo, you can grab it from .Site.Taxonomis.tags. You can get the Permalink directly and the name itself.
+&amp;lt;ul&amp;gt; {{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{ with $.Site.GetPage (printf &amp;#34;/tags/%s&amp;#34; $name) }} &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;{{ .Permalink }}&amp;#34;&amp;gt;{{ $name }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; {{ end }} {{ end }} &amp;lt;/ul&amp;gt; Limit display at homepage only Maybe you want to make this as your menu navigation that sticks in Homepage&amp;rsquo;s header.</description>
+    </item>
+    
+    <item>
+      <title>How to Deploy and Host Hugo in Github Pages</title>
+      <link>https://onebite.dev/how-to-deploy-and-host-hugo-in-github-pages/</link>
+      <pubDate>Sat, 30 Mar 2019 06:45:45 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-deploy-and-host-hugo-in-github-pages/</guid>
+      <description>Github offers a service to host your static site for free. But how about blog? don&amp;rsquo;t worry, now we have a static-site-generator like jekyll, hugo, etc. that make static not just &amp;ldquo;static anymore&amp;rdquo;. You could make a blog or any kind of listing site with this, without always have to copy and paste every layout.
+Let&amp;rsquo;s see how I deploy my Hugo blog site to github pages, this will work for user or organization page:</description>
+    </item>
+    
+    <item>
+      <title>Simple Hugo Blogging Site</title>
+      <link>https://onebite.dev/simple-hugo-blogging-site/</link>
+      <pubDate>Sat, 30 Mar 2019 05:43:40 +0800</pubDate>
+      
+      <guid>https://onebite.dev/simple-hugo-blogging-site/</guid>
+      <description>I always search for something simple for any of my problem. Just like every developer who wants to start a blog, deciding which platform to use is really hard. For me, the criteria are something hackable and fast for the reader. Luckily, I met Hugo! The claim “The world’s fastest framework for building websites” they put in their landing page is an honest slogan! I&amp;rsquo;ve got a very good experience so far with Hugo (I’ve tried Jekyll, Nuxt, Next).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unix on Onebite Dev</title>
+    <link>https://onebite.dev/topic/unix/</link>
+    <description>Recent content in unix on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Sep 2021 00:51:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/unix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solve Warning: REMOTE HOST IDENTIFICATION HAS CHANGED</title>
+      <link>https://onebite.dev/solve-warning-remote-host-identification-has-changed/</link>
+      <pubDate>Thu, 02 Sep 2021 00:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-warning-remote-host-identification-has-changed/</guid>
+      <description>Do you got an error that remote host can&amp;rsquo;t be accessed? like this? &amp;ldquo;It is also possible that a host key has just been changed.&amp;rdquo;
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! Someone could be eavesdropping on you right now (man-in-the-middle attack)! It is also possible that a host key has just been changed. The fingerprint for the ECDSA key sent by the remote host is SHA256:XXXX.</description>
+    </item>
+    
+    <item>
+      <title>Handy collection of linux command</title>
+      <link>https://onebite.dev/handy-collection-of-linux-command/</link>
+      <pubDate>Sun, 25 Jul 2021 19:16:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/handy-collection-of-linux-command/</guid>
+      <description>I want to save all linux command that I often needed here.
+Directory and Files stuff List all files with it&amp;rsquo;s sizes du -sh */
+Count how many files in a dir ls -1 | wc -l
+Server stuff Change root password sudo passwd root
+Deleting specific key (hostname/IP address) at known_hosts ssh-keygen -R IP-OR-HOSTNAME</description>
+    </item>
+    
+  </channel>
+</rss>

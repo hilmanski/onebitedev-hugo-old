@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Complete backend service with Supabase on Onebite Dev</title>
+    <link>https://onebite.dev/series/complete-backend-service-with-supabase/</link>
+    <description>Recent content in Complete backend service with Supabase on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Aug 2021 23:26:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/series/complete-backend-service-with-supabase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduce Row Level Security in Supabase</title>
+      <link>https://onebite.dev/introduce-row-level-security-in-supabase/</link>
+      <pubDate>Sat, 14 Aug 2021 23:26:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/introduce-row-level-security-in-supabase/</guid>
+      <description>Supabase has a row level security that useful for protecting our data. Even though we&amp;rsquo;re using anon key publicly or in client side, it&amp;rsquo;s still safe as long as we enable the row level security for that particular table
+Enable RLS in supabase Go to &amp;lsquo;Authentication Menu &amp;gt; Policies &amp;gt; Enable RLS (for any table you want)&amp;rsquo; Different table can have different RLS policy. Maybe you want some table to be protected, some maybe not.</description>
+    </item>
+    
+    <item>
+      <title>Basic of Authentication in Supabase using email invitation</title>
+      <link>https://onebite.dev/basic-of-authentication-in-supabase-using-email-invitation/</link>
+      <pubDate>Fri, 13 Aug 2021 20:44:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/basic-of-authentication-in-supabase-using-email-invitation/</guid>
+      <description>Supabase provides an authentication system for us out of the box. We can use it to manage our users. It has third party logins (social login) and row level security for security.
+There are many options to allow users to register
+ invitation by email magic link via email sign up with email and password Phone confirmation 3rd party login (social login)  Wow.. I&amp;rsquo;m just amazed after writing that. In this article, we&amp;rsquo;ll start with the basic one, invite user by email.</description>
+    </item>
+    
+    <item>
+      <title>Play with Supabase database in website with Javascript</title>
+      <link>https://onebite.dev/play-with-supabase-database-in-website-with-javascript/</link>
+      <pubDate>Thu, 12 Aug 2021 18:40:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/play-with-supabase-database-in-website-with-javascript/</guid>
+      <description>In this article, we&amp;rsquo;ll see how to load our data from Supabase database via it&amp;rsquo;s API by using Javascript in our website.
+init Supabase Start by creating new index.html file (name it whatever you want).
+TO Install supabase, we can use CDN or NPM for this. In this example I&amp;rsquo;ll add it via CDN. Put this in your head tag
+ &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/@supabase/supabase-js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; To start initializing Supabase on our project, create new script tag with this code Change the credential below with yours.</description>
+    </item>
+    
+    <item>
+      <title>Explore table editor in Supabase database</title>
+      <link>https://onebite.dev/explore-table-editor-in-supabase-database/</link>
+      <pubDate>Wed, 11 Aug 2021 04:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/explore-table-editor-in-supabase-database/</guid>
+      <description>We&amp;rsquo;ll start by exploring the database feature in Supabase, which built on top of Postgres, Relational Database. We can use the SQL editor, where we can run our query or &amp;ldquo;Table Mode&amp;rdquo; which makes it like spreadsheet, where we can user the GUI to play around with our data.
+Table Editor Using table editor is just like using a spreadsheet, we have buttons and columns to work with. We can start create a new table, for our database Supabase also allow us to import data by upload a CSV, TSV or XLSV file or even copied text from a spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>Setting up new @Supabase Project</title>
+      <link>https://onebite.dev/setting-up-new-supabase-project/</link>
+      <pubDate>Tue, 10 Aug 2021 23:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/setting-up-new-supabase-project/</guid>
+      <description>This will be a short one, we&amp;rsquo;ll see how to set up a new project at supabase. I must say it&amp;rsquo;s very intuitive, you might not need this guide. But just in case, there is a tips or trick, that might be useful in future regarding setting up a new project, I&amp;rsquo;ll document it here
+Register new account To start a new project on Supabase, we need to sign up first (currently we need to use Github account)</description>
+    </item>
+    
+    <item>
+      <title>Introducing Supabase, your everything for backend</title>
+      <link>https://onebite.dev/introducing-supabase-your-everything-for-backend/</link>
+      <pubDate>Mon, 09 Aug 2021 22:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/introducing-supabase-your-everything-for-backend/</guid>
+      <description>The number of things we have to be grateful for is far more than our ability to do it. One more thing to be grateful for as a developer is Supabase, it&amp;rsquo;s an open source firebase alternative. We can create a backend for our project really fast. Including a Postgres Database, Authentication system, instant APIs for all, realtime subscriptions and Storage, all presented with a beautiful dashboard.
+Supabase&amp;rsquo;s features These are some features that available for use for free, while they&amp;rsquo;re in beta.</description>
+    </item>
+    
+  </channel>
+</rss>

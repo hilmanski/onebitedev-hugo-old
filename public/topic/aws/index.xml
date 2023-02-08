@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on Onebite Dev</title>
+    <link>https://onebite.dev/topic/aws/</link>
+    <description>Recent content in aws on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jan 2023 02:57:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to auto delete files in AWS s3 every X times interval in Nodejs</title>
+      <link>https://onebite.dev/how-to-auto-delete-files-in-aws-s3-every-x-times-interval-in-nodejs/</link>
+      <pubDate>Tue, 24 Jan 2023 02:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-auto-delete-files-in-aws-s3-every-x-times-interval-in-nodejs/</guid>
+      <description>Here is how you can auto delete files from certain bucker in AWS s3 storage every X times interval in Nodejs, whether less than a day, an hour or any time you choose
+Raw logic to choose which files to delete Not like MYSQL query, where we have a where clause to run on a query. We have to implement a different strategy for AWS.
+The big picture:
+ List all the files Collect only where files older than X times Put Keys of selected files in an array delete objest based on this paramter (array of keys)  Initalize the AWS S3 Assume you have .</description>
+    </item>
+    
+    <item>
+      <title>How to fix Amazon S3 error RequestTimeTooSkewed</title>
+      <link>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</link>
+      <pubDate>Wed, 12 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</guid>
+      <description>Suddenly one of my s3 function i use normally got an error with message RequestTimeTooSkewed. Here is how to fix it
+In my case, i use S3 to automate my database backup with Laravel as backend with this error message:
+Exception message: Could not connect to disk s3 because: exception &amp;#39;Aws\\S3\\Exception\\S3Exception&amp;#39; It doesn&amp;rsquo;t really matter what backend language do you use, as long as you got this &amp;ldquo;request time too skewed&amp;rdquo; from S3 message, you can solve this by adjust the timezone on your server</description>
+    </item>
+    
+  </channel>
+</rss>

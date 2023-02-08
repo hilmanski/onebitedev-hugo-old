@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debug on Onebite Dev</title>
+    <link>https://onebite.dev/topic/debug/</link>
+    <description>Recent content in debug on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Nov 2022 22:21:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why is it like that</title>
+      <link>https://onebite.dev/why-is-it-like-that/</link>
+      <pubDate>Wed, 16 Nov 2022 22:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/why-is-it-like-that/</guid>
+      <description>During debugging my app, I jump between solutions until I found what I want. But I forget to ask what causing the behavior in the first place.
+Let&amp;rsquo;s say I try solution A, it didn&amp;rsquo;t work. Change the code , try solution B. Didn&amp;rsquo;t work either? change the code again to solution C. Until I found the final results I intended.
+Often times it bring me to the same bug again and again.</description>
+    </item>
+    
+    <item>
+      <title>Debug javascript in iphone device</title>
+      <link>https://onebite.dev/debug-javascript-in-iphone-device/</link>
+      <pubDate>Fri, 16 Jul 2021 03:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/debug-javascript-in-iphone-device/</guid>
+      <description>&amp;ldquo;But, It works on my computer&amp;rdquo; - said programmer That&amp;rsquo;s what we say when our code not running correctly on other machine. But now, machine is not just a computer, all smartphone including iPhone is also a machine where our code can run.
+So it&amp;rsquo;s important for us to learn how to debug our website in an iPhone
+How to debug website on iPhone using Web Inspector Connect your iPhone/iPad to computer Go to setting on iPhone/iPad Choose Safari Choose &amp;ldquo;advance&amp;rdquo; Enable &amp;ldquo;Web Inspector&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdf-lib on Onebite Dev</title>
+    <link>https://onebite.dev/topic/pdf-lib/</link>
+    <description>Recent content in pdf-lib on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Oct 2022 17:32:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/pdf-lib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rotation on a previously rotated page on PDF-lib not correctly handled</title>
+      <link>https://onebite.dev/rotation-on-a-previously-rotated-page-on-pdf-lib-not-correctly-handled/</link>
+      <pubDate>Wed, 26 Oct 2022 17:32:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/rotation-on-a-previously-rotated-page-on-pdf-lib-not-correctly-handled/</guid>
+      <description>Normally we rotate a page using setRotation like this on PDF-lib
+const newDegree = 90 //for example const page = pages[pageIndex] const newRotationAngle = degrees(parseInt(newDegree)) page.setRotation(newRotationAngle) We pass the newDegree to the setRotation.
+But I found a case, where a PDF, that has been rotated before, not correctly handled. It treated as if the PDF start from 0deg. But that&amp;rsquo;s not always the case, sometimes the PDF has already been rotated before.</description>
+    </item>
+    
+    <item>
+      <title>removing page in PDF-lib show error index must be at least x</title>
+      <link>https://onebite.dev/removing-page-in-pdf-lib-show-error-index-must-be-at-least-x/</link>
+      <pubDate>Mon, 24 Oct 2022 21:12:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/removing-page-in-pdf-lib-show-error-index-must-be-at-least-x/</guid>
+      <description>Here is how to solve error when removing a page in PDF-lib show error
+index must be at least x and at most x , but actually... assertRange error. Even though your PDF pages is correct and removed Index is correct, we can still meet this issue.
+Why? Because, when removing a page, PDFlib will shift the index number. It&amp;rsquo;s a problem when removing a smaller page. Since PDFlib will change all the index number on next pages.</description>
+    </item>
+    
+  </channel>
+</rss>

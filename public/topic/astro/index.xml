@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>astro on Onebite Dev</title>
+    <link>https://onebite.dev/topic/astro/</link>
+    <description>Recent content in astro on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 23:35:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/astro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating Hugo site to Astro</title>
+      <link>https://onebite.dev/migrating-hugo-site-to-astro/</link>
+      <pubDate>Tue, 07 Feb 2023 23:35:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/migrating-hugo-site-to-astro/</guid>
+      <description>I&amp;rsquo;ve been a long time Hugo fans. But I still struggle on doing certain query, routing or filtering on template in Hugo. I tried Astro and really love it. Here is how you can migrate too
+ WARNING
+ Don&amp;rsquo;t move if you&amp;rsquo;re already satisfied and don&amp;rsquo;t have any problem with Hugo. If you&amp;rsquo;re working for a long term project AND used to work with react/js environment, give Astro as a shot   Read here, if you&amp;rsquo;re looking a simple comparation between Hugo and Astro</description>
+    </item>
+    
+    <item>
+      <title>Hugo vs Astro - which static site generator to choose in 2023</title>
+      <link>https://onebite.dev/hugo-vs-astro-which-static-site-generator-to-choose-in-2023/</link>
+      <pubDate>Mon, 06 Feb 2023 21:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hugo-vs-astro-which-static-site-generator-to-choose-in-2023/</guid>
+      <description>Which static site generator to choose in year 2023? should you pick the newcomer Astro or Hugo that been here for a while.
+ TLDR;
+I have built many sites with Hugo, but I still struggle with the things like integrating 3rd party tools or create a complex query/filter.
+Currently, I am trying to migrate a site from Hugo to Astro and I absolutely love the overall experience. So for now, I definitely choose Astro as my main SSG.</description>
+    </item>
+    
+    <item>
+      <title>Hugo shortcode in Astro Components</title>
+      <link>https://onebite.dev/hugo-shortcode-in-astro-components/</link>
+      <pubDate>Sun, 05 Feb 2023 17:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hugo-shortcode-in-astro-components/</guid>
+      <description>Migrating my site from Hugo to Astro, requires me to find out what is a Hugo shortcode relevant in Astro statice site generator.
+Astro shortcode-like Astro components is what I&amp;rsquo;m looking for. We can make a &amp;ldquo;component&amp;rdquo; (in terms of modern front end javascript library) and use it in our astro file or markdown file.
+Read about astro components.
+Now is the fun part.. How to use it?
+Create a component file We&amp;rsquo;ll talk about the detail on separate post.</description>
+    </item>
+    
+    <item>
+      <title>How to create a new file in astro</title>
+      <link>https://onebite.dev/how-to-create-a-new-file-in-astro/</link>
+      <pubDate>Mon, 16 Jan 2023 20:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-a-new-file-in-astro/</guid>
+      <description>To create a new file in astro site generator, we just need to create a new file inside pages folder with .astro extension
+Location
+|_ src |_ pages |_ index.astro (default) |_ yournewfile.astro Now you can visit in your URL localhost:3000/yournewfile
+Astro automatically pick the file name as your route path
+&amp;ldquo;Astro Components (.astro) and Markdown Files (.md) in the src/pages directory automatically become pages on your website.&amp;rdquo; - astro routing</description>
+    </item>
+    
+  </channel>
+</rss>

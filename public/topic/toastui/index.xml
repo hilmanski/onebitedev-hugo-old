@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>toastUI on Onebite Dev</title>
+    <link>https://onebite.dev/topic/toastui/</link>
+    <description>Recent content in toastUI on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Sep 2022 02:39:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/toastui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Toast UI Editor in Browser (without NPM)</title>
+      <link>https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/</link>
+      <pubDate>Tue, 13 Sep 2022 02:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/</guid>
+      <description>Are you looking for great markdown WYSIWYG text editor? Try toast UI Editor, lets see how to use it directly in browser on your HTML file.
+Install via CDN First, we load the Javascript as well as the CSS via UI CDN. By putting the two tags inside head tag.
+&amp;lt;head&amp;gt; .. &amp;lt;script src=&amp;#34;https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://uicdn.toast.com/editor/latest/toastui-editor.min.css&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; Add Div for the editor  &amp;lt;div id=&amp;#34;editor&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; Add script to initialize Toast UI Editor Put this script after before the close body tag.</description>
+    </item>
+    
+  </channel>
+</rss>

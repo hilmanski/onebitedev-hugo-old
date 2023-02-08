@@ -8,8 +8,9 @@ draft: false
 ---
 Which static site generator to choose in year 2023? should you pick the newcomer Astro or Hugo that been here for a while.
 
-> TLDR;
-> I have built many sites with Hugo, but I still struggle with the overall developer experience. Currently, I am trying to migrate a site from Hugo to Astro and I absolutely love the overall experience. So for now, I definitely choose Astro as my main SSG.
+> TLDR;  
+> I have built many sites with Hugo, but I still struggle with the things like integrating 3rd party tools or create a complex query/filter.   
+> Currently, I am trying to migrate a site from Hugo to Astro and I absolutely love the overall experience. So for now, I definitely choose Astro as my main SSG.  
 > Astro uses JSX syntax, so if you come from a background in React or a similar front-end framework, it will feel like home
 
 If you're not familiar with [benefits of static site generator](https://gohugo.io/about/benefits/), feel free to read it first. In general, static site generator are most suitable for content-heavy website, like blogs posts, marketing pages, etc.

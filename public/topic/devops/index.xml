@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on Onebite Dev</title>
+    <link>https://onebite.dev/topic/devops/</link>
+    <description>Recent content in devops on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Jul 2021 21:49:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solve root can&#39;t access server after change password in digital ocean</title>
+      <link>https://onebite.dev/solve-root-cant-access-server-after-change-password-in-digital-ocean/</link>
+      <pubDate>Sun, 25 Jul 2021 21:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-root-cant-access-server-after-change-password-in-digital-ocean/</guid>
+      <description>Digital ocean is a cloud platform that really nailed their Developer Experience (DX). One of the most frustrating thing as a developer is taking care of server or dev ops stuff. Today I can&amp;rsquo;t access my server at all through SSH. There are many problem that can caused this. Let&amp;rsquo;s see each one of them with solution
+Forget your root/user password If you just forget you root or user password. Log in to your Digital Ocean account go to your droplet Choose &amp;lsquo;access&amp;rsquo; in tab Reset root password</description>
+    </item>
+    
+  </channel>
+</rss>

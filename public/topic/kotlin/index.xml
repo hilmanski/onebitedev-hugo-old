@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kotlin on Onebite Dev</title>
+    <link>https://onebite.dev/topic/kotlin/</link>
+    <description>Recent content in kotlin on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2019 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My experience learning android with kotlin from web development background</title>
+      <link>https://onebite.dev/my-experience-learning-android-with-kotlin-from-web-development-background/</link>
+      <pubDate>Wed, 10 Jul 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/my-experience-learning-android-with-kotlin-from-web-development-background/</guid>
+      <description>These last few months have been fun and challenging for me, i started learning &amp;ldquo;how to create an android app&amp;rdquo; with my background as a web developer. After stay in my comfort zone (HTML, CSS, JS and backend server) for around 5 years, i finally made my decision to accept this challenge.
+I turned to google to get my head around android development. There are already some sweet technology that can make me comfortable, like Nativescript(using Vue.</description>
+    </item>
+    
+  </channel>
+</rss>

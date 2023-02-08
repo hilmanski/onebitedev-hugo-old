@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vite on Onebite Dev</title>
+    <link>https://onebite.dev/topic/vite/</link>
+    <description>Recent content in vite on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 18:25:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/vite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to solve  Unable to locate file in Vite manifest app sass at deploy</title>
+      <link>https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/</link>
+      <pubDate>Thu, 05 Jan 2023 18:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/</guid>
+      <description>When deploying my laravel site that use Vite and sass (CSS-preprocessor), I got this error &amp;quot; Unable to locate file in Vite manifest: resources/sass/app.sass&amp;quot;
+Turns out, I need to update the vite config file
+import { defineConfig } from &amp;#39;vite&amp;#39;; import laravel from &amp;#39;laravel-vite-plugin&amp;#39;; export default defineConfig({ plugins: [ laravel({ input: [ &amp;#39;resources/sass/app.sass&amp;#39;, &amp;#39;resources/js/app.js&amp;#39;, ], refresh: true, }), ], }); To that. or whatever the name of your sass file is</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nodejs on Onebite Dev</title>
+    <link>https://onebite.dev/topic/nodejs/</link>
+    <description>Recent content in nodejs on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jan 2023 20:24:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Import function from another file in NodeJS without module </title>
+      <link>https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/</link>
+      <pubDate>Thu, 12 Jan 2023 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/</guid>
+      <description>If you need to add an external function from other file into a nodejs file without changing the type into module type you can use this commonJS method
+You can learn it &amp;lsquo;officialy&amp;rsquo; about commonJS in Nodejs here in the official doc
+How to export function from another file Let&amp;rsquo;s say I have a function to return a random name on a helper function. I put it on ./src/utils/helper.js
+function _getRandomName() { const randomName = Math.</description>
+    </item>
+    
+    <item>
+      <title>How to solve Cannot use import statement outside a module error</title>
+      <link>https://onebite.dev/how-to-solve-cannot-use-import-statement-outside-a-module-error/</link>
+      <pubDate>Tue, 30 Aug 2022 23:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-cannot-use-import-statement-outside-a-module-error/</guid>
+      <description>When using NodeJS, we can import any library with two ways, with require or import statement
+Examples using require
+const express = require(&amp;#39;express&amp;#39;); Examples using import statement
+import express from &amp;#34;express&amp;#34;; If we want to use the import statement, normally we get this error
+Cannot use import statement outside a module To solve this, we need to add type:module on our package.json file
+... &amp;#34;type&amp;#34;: &amp;#34;module&amp;#34;, ... </description>
+    </item>
+    
+    <item>
+      <title>Create Open Graph Image generator, introducing imagin.live</title>
+      <link>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</link>
+      <pubDate>Sat, 28 Aug 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</guid>
+      <description>We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&amp;rsquo;s why you&amp;rsquo;ll love Imagin! I write regularly on my blog, I know it&amp;rsquo;s not fun to have to prepare Social/OpenGraph Image for each one of the post. We just want to write!
+This is a dynamic image generator, where the image will change according to your title.</description>
+    </item>
+    
+    <item>
+      <title>Solution for preflight CORS issue in serverless function</title>
+      <link>https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/</link>
+      <pubDate>Wed, 21 Jul 2021 10:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/</guid>
+      <description>CORS (Cross-Origin Resource Sharing) issue is one of developer&amp;rsquo;s enemy when building API that need to be accessed from different domain. CORS itself is a good thing that prevent any user/client to access our API.
+What is Preflight CORS? Preflight CORS, is a way for browser to check on the server is the current request allowed or not. As the name suggest, &amp;lsquo;pre&amp;rsquo; means before we process the original request, it sends a request before as a verification.</description>
+    </item>
+    
+    <item>
+      <title>Handling API request based on method in Vercel Nodejs</title>
+      <link>https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/</link>
+      <pubDate>Wed, 21 Jul 2021 06:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/</guid>
+      <description>Vercel&amp;rsquo;s serverless function, provides req.method property to read the incoming method request. We can use this to write a beautiful API url endpoint
+For example
+GET: /books GET: /books/{id} POST: /books PUT: /books/{id} DELETE: /books Code example Inside our api/books.js
+module.exports = (req, res) =&amp;gt; { if(req.method === &amp;#39;GET&amp;#39;) { } if(req.method === &amp;#39;POST&amp;#39;) { } if(req.method === &amp;#39;PUT&amp;#39;) { } if(req.method === &amp;#39;DELETE&amp;#39;) { } } You can also use switch case for this.</description>
+    </item>
+    
+    <item>
+      <title>Nodejs serverless function in vercel</title>
+      <link>https://onebite.dev/nodejs-serverless-function-in-vercel/</link>
+      <pubDate>Wed, 21 Jul 2021 00:20:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/nodejs-serverless-function-in-vercel/</guid>
+      <description>We can deploy a serverless function with vercel for free. In a nutshell, with serverless function, we can write backend languages that read HTTP request and return a response. Vercel supports a lot of backend language, one of them is Nodejs (javascript)
+Prepare nodejs file To write our API serverless function in vercel, create a new file called whatever.js (name is up to you) inside a folder called &amp;lsquo;/api&amp;rsquo;,
+As default, vercel provides Nodejs version 14.</description>
+    </item>
+    
+  </channel>
+</rss>

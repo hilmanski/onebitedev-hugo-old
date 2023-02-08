@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nextjs on Onebite Dev</title>
+    <link>https://onebite.dev/topic/nextjs/</link>
+    <description>Recent content in nextjs on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Sep 2022 20:57:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/nextjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use typescript in existing NextJS project</title>
+      <link>https://onebite.dev/how-to-use-typescript-in-existing-nextjs-project/</link>
+      <pubDate>Thu, 15 Sep 2022 20:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-use-typescript-in-existing-nextjs-project/</guid>
+      <description>I already have a running NextJS project but I want to start using typescript. Lets see how to add typescript in existing NextJS project
+ This setup tested in NextJS v12
+ Create tsconfig.json file Go to your project directory , then add new empty file tsconfig.json or via terminal
+touch tsconfig.json Install typescript requirement on NextJS Stop the server if it&amp;rsquo;s currently running. Then run yarn dev or npm run dev.</description>
+    </item>
+    
+    <item>
+      <title>Solving the Next.js Head problem that auto parse HTML entity</title>
+      <link>https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/</link>
+      <pubDate>Thu, 10 Mar 2022 21:52:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/</guid>
+      <description>I want to share how I finally solved the Next.js Head problem that auto parse HTML entity. In my case, I want to remove &amp;amp; (ampersand sign) being encoded by Next.js Head.
+My case I want to hit ogimpact (social image API) which using amp; (ampersand) sign on the query URL.
+How I solved it With helped from Nextjs issue discussion on GIthub, which answered by @lukeshumard.
+ Preparing the API to redirect the request create /pages/api/foldername/[&amp;hellip;url].</description>
+    </item>
+    
+  </channel>
+</rss>

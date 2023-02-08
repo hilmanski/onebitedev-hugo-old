@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postman on Onebite Dev</title>
+    <link>https://onebite.dev/topic/postman/</link>
+    <description>Recent content in postman on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Apr 2022 21:53:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/postman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to allow local certificates in Postman?</title>
+      <link>https://onebite.dev/how-to-allow-local-certificates-in-postman/</link>
+      <pubDate>Sun, 24 Apr 2022 21:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-allow-local-certificates-in-postman/</guid>
+      <description>When you have self assigned certificate in your computer and want to allow Postman to access it, you need to add the certificate from your trusted store. The location is depend on your OS.
+ Go to Postman Go to settings Select certificates tab Toggle CA certificate ON (if not) Locate your rootCA.pem file  For example in Mac, rootCA is located in $users/library/application supports/mkcert (if you are using mkcert)</description>
+    </item>
+    
+  </channel>
+</rss>

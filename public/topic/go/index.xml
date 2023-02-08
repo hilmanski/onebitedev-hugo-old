@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on Onebite Dev</title>
+    <link>https://onebite.dev/topic/go/</link>
+    <description>Recent content in go on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Oct 2019 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read json file with random key in Go Lang</title>
+      <link>https://onebite.dev/read-json-file-with-random-key-in-go-lang/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/read-json-file-with-random-key-in-go-lang/</guid>
+      <description>I stumbled upon a case, where i should import bunch of data in JSON to convert to other thing. (I&amp;rsquo;ll write about this other thing in other post). Go lang become my first language of choice, to do this. Unfortunately the data saved in json each nested in a random key. Here is how i did it
+Assume your data looks like this
+{ { &amp;#34;0BVxYRh8MixS0mYEtZ8v&amp;#34;:{ &amp;#34;title&amp;#34;:&amp;#34;the titls&amp;#34;, &amp;#34;subject&amp;#34;:&amp;#34;the subject&amp;#34; }, &amp;#34;0BVxYRh8MixasdS0mYEtZ8v&amp;#34;:{ &amp;#34;title&amp;#34;:&amp;#34;the titls2&amp;#34;, &amp;#34;subject&amp;#34;:&amp;#34;the subject2&amp;#34; } } Go gile In our Go file</description>
+    </item>
+    
+  </channel>
+</rss>

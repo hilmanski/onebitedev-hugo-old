@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>s3 on Onebite Dev</title>
+    <link>https://onebite.dev/topic/s3/</link>
+    <description>Recent content in s3 on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jun 2019 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/s3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fix Amazon S3 error RequestTimeTooSkewed</title>
+      <link>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</link>
+      <pubDate>Wed, 12 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</guid>
+      <description>Suddenly one of my s3 function i use normally got an error with message RequestTimeTooSkewed. Here is how to fix it
+In my case, i use S3 to automate my database backup with Laravel as backend with this error message:
+Exception message: Could not connect to disk s3 because: exception &amp;#39;Aws\\S3\\Exception\\S3Exception&amp;#39; It doesn&amp;rsquo;t really matter what backend language do you use, as long as you got this &amp;ldquo;request time too skewed&amp;rdquo; from S3 message, you can solve this by adjust the timezone on your server</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1015 @@
+{
+    "data": [
+        
+         {
+            "title": "Migrating Hugo site to Astro",
+            "link": "https://onebite.dev/migrating-hugo-site-to-astro/"
+        }
+        
+        ,  {
+            "title": "Hugo vs Astro - which static site generator to choose in 2023",
+            "link": "https://onebite.dev/hugo-vs-astro-which-static-site-generator-to-choose-in-2023/"
+        }
+        
+        ,  {
+            "title": "Hugo shortcode in Astro Components",
+            "link": "https://onebite.dev/hugo-shortcode-in-astro-components/"
+        }
+        
+        ,  {
+            "title": "How to solve docker containers can not be down or stopped or removed - permission denied error",
+            "link": "https://onebite.dev/how-to-solve-docker-containers-can-not-be-down-or-stopped-or-removed-permission-denied-error/"
+        }
+        
+        ,  {
+            "title": "How to auto delete files in AWS s3 every X times interval in Nodejs",
+            "link": "https://onebite.dev/how-to-auto-delete-files-in-aws-s3-every-x-times-interval-in-nodejs/"
+        }
+        
+        ,  {
+            "title": "How to auto answer yes or no question when installing with apt in docker",
+            "link": "https://onebite.dev/how-to-auto-answer-yes-or-no-question-when-installing-with-apt-in-docker/"
+        }
+        
+        ,  {
+            "title": "Updating poetry package manager from 1.1 to 1.2  1.3 or above",
+            "link": "https://onebite.dev/updating-poetry-package-manager-from-1.1-to-1.2-1.3-or-above/"
+        }
+        
+        ,  {
+            "title": "Solve poetry problem: configuration is invalid properties group was unexpected",
+            "link": "https://onebite.dev/solve-poetry-problem-configuration-is-invalid-properties-group-was-unexpected/"
+        }
+        
+        ,  {
+            "title": "How to create a new file in astro",
+            "link": "https://onebite.dev/how-to-create-a-new-file-in-astro/"
+        }
+        
+        ,  {
+            "title": "react developer tools guide 2023",
+            "link": "https://onebite.dev/react-developer-tools-guide-2023/"
+        }
+        
+        ,  {
+            "title": "HTML code snippet with emmet",
+            "link": "https://onebite.dev/html-code-snippet-with-emmet/"
+        }
+        
+        ,  {
+            "title": "You can ask AI, what is the output of the following code snippet ...",
+            "link": "https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../"
+        }
+        
+        ,  {
+            "title": "What is code snippet meaning",
+            "link": "https://onebite.dev/what-is-code-snippet-meaning/"
+        }
+        
+        ,  {
+            "title": "Import function from another file in NodeJS without module ",
+            "link": "https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/"
+        }
+        
+        ,  {
+            "title": "How many programming languages should I know",
+            "link": "https://onebite.dev/how-many-programming-languages-should-i-know/"
+        }
+        
+        ,  {
+            "title": "What is serverless and why it is important?",
+            "link": "https://onebite.dev/what-is-serverless-and-why-it-is-important/"
+        }
+        
+        ,  {
+            "title": "What is code review and why it's important?",
+            "link": "https://onebite.dev/what-is-code-review-and-why-its-important/"
+        }
+        
+        ,  {
+            "title": "What is Coding tools",
+            "link": "https://onebite.dev/what-is-coding-tools/"
+        }
+        
+        ,  {
+            "title": "How to solve  Unable to locate file in Vite manifest app sass at deploy",
+            "link": "https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/"
+        }
+        
+        ,  {
+            "title": "Empty folder not copied to docker - folder not found on production",
+            "link": "https://onebite.dev/empty-folder-not-copied-to-docker-folder-not-found-on-production/"
+        }
+        
+        ,  {
+            "title": "Print X number of docker logs",
+            "link": "https://onebite.dev/print-x-number-of-docker-logs/"
+        }
+        
+        ,  {
+            "title": "Mocking next router on Jest test",
+            "link": "https://onebite.dev/mocking-next-router-on-jest-test/"
+        }
+        
+        ,  {
+            "title": "Git error push remote branch src refspec does not match any",
+            "link": "https://onebite.dev/git-error-push-remote-branch-src-refspec-does-not-match-any/"
+        }
+        
+        ,  {
+            "title": "Create a local branch from existing remote branch",
+            "link": "https://onebite.dev/create-a-local-branch-from-existing-remote-branch/"
+        }
+        
+        ,  {
+            "title": "Install multiple fonts on docker images",
+            "link": "https://onebite.dev/install-multiple-fonts-on-docker-images/"
+        }
+        
+        ,  {
+            "title": "Passing children on React component results in error objects are not valid as a React child",
+            "link": "https://onebite.dev/passing-children-on-react-component-results-in-error-objects-are-not-valid-as-a-react-child/"
+        }
+        
+        ,  {
+            "title": "Put conditional logic onClick ReactJs",
+            "link": "https://onebite.dev/put-conditional-logic-onclick-reactjs/"
+        }
+        
+        ,  {
+            "title": "Why is it like that",
+            "link": "https://onebite.dev/why-is-it-like-that/"
+        }
+        
+        ,  {
+            "title": "How to learn new skills while having a job as a programmer",
+            "link": "https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/"
+        }
+        
+        ,  {
+            "title": "Case sensitive when multiple select - cursor on VS Code",
+            "link": "https://onebite.dev/case-sensitive-when-multiple-select-cursor-on-vs-code/"
+        }
+        
+        ,  {
+            "title": "My cypress setting to run with GUI or not",
+            "link": "https://onebite.dev/my-cypress-setting-to-run-with-gui-or-not/"
+        }
+        
+        ,  {
+            "title": "Disable video recording when running Cypress",
+            "link": "https://onebite.dev/disable-video-recording-when-running-cypress/"
+        }
+        
+        ,  {
+            "title": "Should you write an automated test for your code?",
+            "link": "https://onebite.dev/should-you-write-an-automated-test-for-your-code/"
+        }
+        
+        ,  {
+            "title": "How to solve Error jest-haste-map Watchman crawl failed.",
+            "link": "https://onebite.dev/how-to-solve-error-jest-haste-map-watchman-crawl-failed./"
+        }
+        
+        ,  {
+            "title": "Rotation on a previously rotated page on PDF-lib not correctly handled",
+            "link": "https://onebite.dev/rotation-on-a-previously-rotated-page-on-pdf-lib-not-correctly-handled/"
+        }
+        
+        ,  {
+            "title": "removing page in PDF-lib show error index must be at least x",
+            "link": "https://onebite.dev/removing-page-in-pdf-lib-show-error-index-must-be-at-least-x/"
+        }
+        
+        ,  {
+            "title": "Run block of code each time before certain test in Cypress",
+            "link": "https://onebite.dev/run-block-of-code-each-time-before-certain-test-in-cypress/"
+        }
+        
+        ,  {
+            "title": "Waiting for element exists in Cypress instead of time",
+            "link": "https://onebite.dev/waiting-for-element-exists-in-cypress-instead-of-time/"
+        }
+        
+        ,  {
+            "title": "A (fake) conversation between the best programmer in the world with a junior",
+            "link": "https://onebite.dev/a-fake-conversation-between-the-best-programmer-in-the-world-with-a-junior/"
+        }
+        
+        ,  {
+            "title": "How to choose the best developer tools for your needs",
+            "link": "https://onebite.dev/how-to-choose-the-best-developer-tools-for-your-needs/"
+        }
+        
+        ,  {
+            "title": "Dragging item on mobile also scrolling the parent",
+            "link": "https://onebite.dev/dragging-item-on-mobile-also-scrolling-the-parent/"
+        }
+        
+        ,  {
+            "title": "Shortcut bash function to review Github Pull Request locally",
+            "link": "https://onebite.dev/shortcut-bash-function-to-review-github-pull-request-locally/"
+        }
+        
+        ,  {
+            "title": "How to have a hover effect on children when parent is hovered in Tailwind",
+            "link": "https://onebite.dev/how-to-have-a-hover-effect-on-children-when-parent-is-hovered-in-tailwind/"
+        }
+        
+        ,  {
+            "title": "Nested multiple condition on ReactJS",
+            "link": "https://onebite.dev/nested-multiple-condition-on-reactjs/"
+        }
+        
+        ,  {
+            "title": "How to add word space in tailwind CSS",
+            "link": "https://onebite.dev/how-to-add-word-space-in-tailwind-css/"
+        }
+        
+        ,  {
+            "title": "Async await function not working in forEach loop Javascript",
+            "link": "https://onebite.dev/async-await-function-not-working-in-foreach-loop-javascript/"
+        }
+        
+        ,  {
+            "title": "How to add and remove another git remote repository",
+            "link": "https://onebite.dev/how-to-add-and-remove-another-git-remote-repository/"
+        }
+        
+        ,  {
+            "title": "How to make zoom effect in HTML with CSS",
+            "link": "https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/"
+        }
+        
+        ,  {
+            "title": "How to declare type in Object destructuring typescript",
+            "link": "https://onebite.dev/how-to-declare-type-in-object-destructuring-typescript/"
+        }
+        
+        ,  {
+            "title": "How to declare object property type in typescript",
+            "link": "https://onebite.dev/how-to-declare-object-property-type-in-typescript/"
+        }
+        
+        ,  {
+            "title": "Declare possible values of string in typescript",
+            "link": "https://onebite.dev/declare-possible-values-of-string-in-typescript/"
+        }
+        
+        ,  {
+            "title": "What is type for onClick event in reactJS using typescript",
+            "link": "https://onebite.dev/what-is-type-for-onclick-event-in-reactjs-using-typescript/"
+        }
+        
+        ,  {
+            "title": "How to resolve Option --resolveJsonModule cannot be specified without node module resolution strategy.ts",
+            "link": "https://onebite.dev/how-to-resolve-option--resolvejsonmodule-cannot-be-specified-without-node-module-resolution-strategy.ts/"
+        }
+        
+        ,  {
+            "title": "How to use typescript in existing NextJS project",
+            "link": "https://onebite.dev/how-to-use-typescript-in-existing-nextjs-project/"
+        }
+        
+        ,  {
+            "title": "Add class name based on ternary operator result in ReactJS",
+            "link": "https://onebite.dev/add-class-name-based-on-ternary-operator-result-in-reactjs/"
+        }
+        
+        ,  {
+            "title": "Play with Image generation tool: MidJourney, Dall-E 2 and Stable Diffusion (DreamStudio)",
+            "link": "https://onebite.dev/play-with-image-generation-tool-midjourney-dall-e-2-and-stable-diffusion-dreamstudio/"
+        }
+        
+        ,  {
+            "title": "Solve Too many re-renders. React limits the number of renders to prevent an infinite loop",
+            "link": "https://onebite.dev/solve-too-many-re-renders.-react-limits-the-number-of-renders-to-prevent-an-infinite-loop/"
+        }
+        
+        ,  {
+            "title": "Solve state variable react can not be read in addEventListener function",
+            "link": "https://onebite.dev/solve-state-variable-react-can-not-be-read-in-addeventlistener-function/"
+        }
+        
+        ,  {
+            "title": "How to get x and y coordinate position when clicking on javascript",
+            "link": "https://onebite.dev/how-to-get-x-and-y-coordinate-position-when-clicking-on-javascript/"
+        }
+        
+        ,  {
+            "title": "How to use Toast UI Editor in Browser (without NPM)",
+            "link": "https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/"
+        }
+        
+        ,  {
+            "title": "Super simple Zoom image vanilla javascript medium like",
+            "link": "https://onebite.dev/super-simple-zoom-image-vanilla-javascript-medium-like/"
+        }
+        
+        ,  {
+            "title": "How to solve Cannot use import statement outside a module error",
+            "link": "https://onebite.dev/how-to-solve-cannot-use-import-statement-outside-a-module-error/"
+        }
+        
+        ,  {
+            "title": "Allow scroll through top iTerm mac",
+            "link": "https://onebite.dev/allow-scroll-through-top-iterm-mac/"
+        }
+        
+        ,  {
+            "title": "Find list of developer tools with FindDevTools",
+            "link": "https://onebite.dev/find-list-of-developer-tools-with-finddevtools/"
+        }
+        
+        ,  {
+            "title": "Error Laravel Please make sure the PHP Redis extension is installed and enabled",
+            "link": "https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/"
+        }
+        
+        ,  {
+            "title": "Solve Class Redis not found on Laravel project",
+            "link": "https://onebite.dev/solve-class-redis-not-found-on-laravel-project/"
+        }
+        
+        ,  {
+            "title": "Sort Javascript Object Value by the number or date",
+            "link": "https://onebite.dev/sort-javascript-object-value-by-the-number-or-date/"
+        }
+        
+        ,  {
+            "title": "Sort javascript Object value alphabetically",
+            "link": "https://onebite.dev/sort-javascript-object-value-alphabetically/"
+        }
+        
+        ,  {
+            "title": "Prisma error when doing upsert",
+            "link": "https://onebite.dev/prisma-error-when-doing-upsert/"
+        }
+        
+        ,  {
+            "title": "Auto Scroll page in Javascript",
+            "link": "https://onebite.dev/auto-scroll-page-in-javascript/"
+        }
+        
+        ,  {
+            "title": "Checkout remote pull request on Github and run locally",
+            "link": "https://onebite.dev/checkout-remote-pull-request-on-github-and-run-locally/"
+        }
+        
+        ,  {
+            "title": "How to test pull request locally",
+            "link": "https://onebite.dev/how-to-test-pull-request-locally/"
+        }
+        
+        ,  {
+            "title": "How to Install Laravel on Mac OS",
+            "link": "https://onebite.dev/how-to-install-laravel-on-mac-os/"
+        }
+        
+        ,  {
+            "title": "Get uuid from a link string in python",
+            "link": "https://onebite.dev/get-uuid-from-a-link-string-in-python/"
+        }
+        
+        ,  {
+            "title": "Solving  Error: pg_config executable not found psycopg2 install",
+            "link": "https://onebite.dev/solving-error-pg_config-executable-not-found-psycopg2-install/"
+        }
+        
+        ,  {
+            "title": "How to add multiple types in pydantic",
+            "link": "https://onebite.dev/how-to-add-multiple-types-in-pydantic/"
+        }
+        
+        ,  {
+            "title": "How to allow local certificates in Postman?",
+            "link": "https://onebite.dev/how-to-allow-local-certificates-in-postman/"
+        }
+        
+        ,  {
+            "title": "How to make bcrypt checkpw function work",
+            "link": "https://onebite.dev/how-to-make-bcrypt-checkpw-function-work/"
+        }
+        
+        ,  {
+            "title": "Solve alembic multiple head revisions are present ",
+            "link": "https://onebite.dev/solve-alembic-multiple-head-revisions-are-present/"
+        }
+        
+        ,  {
+            "title": "How to convert sqlalchemy object to json in FastAPI",
+            "link": "https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/"
+        }
+        
+        ,  {
+            "title": "Solve error Alembic Can't locate revision identified by id_number",
+            "link": "https://onebite.dev/solve-error-alembic-cant-locate-revision-identified-by-id_number/"
+        }
+        
+        ,  {
+            "title": "How to bulk update in sqlalchemy python?",
+            "link": "https://onebite.dev/how-to-bulk-update-in-sqlalchemy-python/"
+        }
+        
+        ,  {
+            "title": "Convert string to UUID format in Javascript",
+            "link": "https://onebite.dev/convert-string-to-uuid-format-in-javascript/"
+        }
+        
+        ,  {
+            "title": "Laravel empty relation when eager loading",
+            "link": "https://onebite.dev/laravel-empty-relation-when-eager-loading/"
+        }
+        
+        ,  {
+            "title": "Solving the Next.js Head problem that auto parse HTML entity",
+            "link": "https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/"
+        }
+        
+        ,  {
+            "title": "Start using mongo shell in docker",
+            "link": "https://onebite.dev/start-using-mongo-shell-in-docker/"
+        }
+        
+        ,  {
+            "title": "How to install meilisearch in ubuntu for production?",
+            "link": "https://onebite.dev/how-to-install-meilisearch-in-ubuntu-for-production/"
+        }
+        
+        ,  {
+            "title": "Remove all unsaved / uncommitted changes in github",
+            "link": "https://onebite.dev/remove-all-unsaved-/-uncommitted-changes-in-github/"
+        }
+        
+        ,  {
+            "title": "Connect Production Docker PostgreSQL In TablePlus/SequelPro",
+            "link": "https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/"
+        }
+        
+        ,  {
+            "title": "Connect Localhost Docker PostgreSQL in TablePlus",
+            "link": "https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/"
+        }
+        
+        ,  {
+            "title": "Traits in Rust",
+            "link": "https://onebite.dev/traits-in-rust/"
+        }
+        
+        ,  {
+            "title": "What is Lifetime in Rust?",
+            "link": "https://onebite.dev/what-is-lifetime-in-rust/"
+        }
+        
+        ,  {
+            "title": "Generic Types in Rust",
+            "link": "https://onebite.dev/generic-types-in-rust/"
+        }
+        
+        ,  {
+            "title": "Hash Map in Rust",
+            "link": "https://onebite.dev/hash-map-in-rust/"
+        }
+        
+        ,  {
+            "title": "Vector: collection in Rust",
+            "link": "https://onebite.dev/vector-collection-in-rust/"
+        }
+        
+        ,  {
+            "title": "Collections data structure in Rust",
+            "link": "https://onebite.dev/collections-data-structure-in-rust/"
+        }
+        
+        ,  {
+            "title": "If and let in Rust Control flow",
+            "link": "https://onebite.dev/if-and-let-in-rust-control-flow/"
+        }
+        
+        ,  {
+            "title": "Match control flow in Rust",
+            "link": "https://onebite.dev/match-control-flow-in-rust/"
+        }
+        
+        ,  {
+            "title": "The Option Enum in Rust, null alternative",
+            "link": "https://onebite.dev/the-option-enum-in-rust-null-alternative/"
+        }
+        
+        ,  {
+            "title": "Enums in Rust",
+            "link": "https://onebite.dev/enums-in-rust/"
+        }
+        
+        ,  {
+            "title": "Struct Method in Rust",
+            "link": "https://onebite.dev/struct-method-in-rust/"
+        }
+        
+        ,  {
+            "title": "Struct data type in Rust",
+            "link": "https://onebite.dev/struct-data-type-in-rust/"
+        }
+        
+        ,  {
+            "title": "Slice data type in Rust",
+            "link": "https://onebite.dev/slice-data-type-in-rust/"
+        }
+        
+        ,  {
+            "title": "References in Rust",
+            "link": "https://onebite.dev/references-in-rust/"
+        }
+        
+        ,  {
+            "title": "Understand the stack and the heap",
+            "link": "https://onebite.dev/understand-the-stack-and-the-heap/"
+        }
+        
+        ,  {
+            "title": "What is ownership in Rust",
+            "link": "https://onebite.dev/what-is-ownership-in-rust/"
+        }
+        
+        ,  {
+            "title": "Looping in Rust",
+            "link": "https://onebite.dev/looping-in-rust/"
+        }
+        
+        ,  {
+            "title": "Variable Scope in Rust",
+            "link": "https://onebite.dev/variable-scope-in-rust/"
+        }
+        
+        ,  {
+            "title": "Conditional statement in Rust",
+            "link": "https://onebite.dev/conditional-statement-in-rust/"
+        }
+        
+        ,  {
+            "title": "String in Rust",
+            "link": "https://onebite.dev/string-in-rust/"
+        }
+        
+        ,  {
+            "title": "Function in Rust",
+            "link": "https://onebite.dev/function-in-rust/"
+        }
+        
+        ,  {
+            "title": "Data types in Rust",
+            "link": "https://onebite.dev/data-types-in-rust/"
+        }
+        
+        ,  {
+            "title": "Declare a variable in Rust and mutability",
+            "link": "https://onebite.dev/declare-a-variable-in-rust-and-mutability/"
+        }
+        
+        ,  {
+            "title": "What is Cargo in Rust",
+            "link": "https://onebite.dev/what-is-cargo-in-rust/"
+        }
+        
+        ,  {
+            "title": "Hello World in Rust",
+            "link": "https://onebite.dev/hello-world-in-rust/"
+        }
+        
+        ,  {
+            "title": "Getting started with Rust, installation",
+            "link": "https://onebite.dev/getting-started-with-rust-installation/"
+        }
+        
+        ,  {
+            "title": "I start learning Rust",
+            "link": "https://onebite.dev/i-start-learning-rust/"
+        }
+        
+        ,  {
+            "title": "Hover effect on 5 star rating systems",
+            "link": "https://onebite.dev/hover-effect-on-5-star-rating-systems/"
+        }
+        
+        ,  {
+            "title": "Solve Unexpected end of JSON input while parsing near... on NPM install",
+            "link": "https://onebite.dev/solve-unexpected-end-of-json-input-while-parsing-near...-on-npm-install/"
+        }
+        
+        ,  {
+            "title": "Add Browser Sync in Gulpjs Project",
+            "link": "https://onebite.dev/add-browser-sync-in-gulpjs-project/"
+        }
+        
+        ,  {
+            "title": "Watch Tasks in Gulpjs",
+            "link": "https://onebite.dev/watch-tasks-in-gulpjs/"
+        }
+        
+        ,  {
+            "title": "Combine Tasks in Gulpjs With Parallel Function",
+            "link": "https://onebite.dev/combine-tasks-in-gulpjs-with-parallel-function/"
+        }
+        
+        ,  {
+            "title": "Compress image with GulpJS",
+            "link": "https://onebite.dev/compress-image-with-gulpjs/"
+        }
+        
+        ,  {
+            "title": "Combine Multiple Javascript (JS) Files With GulpJS",
+            "link": "https://onebite.dev/combine-multiple-javascript-js-files-with-gulpjs/"
+        }
+        
+        ,  {
+            "title": "Minify CSS files with Gulp JS",
+            "link": "https://onebite.dev/minify-css-files-with-gulp-js/"
+        }
+        
+        ,  {
+            "title": "Simple jquery like selector for vanilla javascript",
+            "link": "https://onebite.dev/simple-jquery-like-selector-for-vanilla-javascript/"
+        }
+        
+        ,  {
+            "title": "Working with object in localstorage",
+            "link": "https://onebite.dev/working-with-object-in-localstorage/"
+        }
+        
+        ,  {
+            "title": "Combine multiple CSS files with GulpJS",
+            "link": "https://onebite.dev/combine-multiple-css-files-with-gulpjs/"
+        }
+        
+        ,  {
+            "title": "GulpJS introduction, how to install ",
+            "link": "https://onebite.dev/gulpjs-introduction-how-to-install/"
+        }
+        
+        ,  {
+            "title": "Display or filter a list of post based on a category or tag in Hugo",
+            "link": "https://onebite.dev/display-or-filter-a-list-of-post-based-on-a-category-or-tag-in-hugo/"
+        }
+        
+        ,  {
+            "title": "Display categories or tag on meta data Hugo inside head tag",
+            "link": "https://onebite.dev/display-categories-or-tag-on-meta-data-hugo-inside-head-tag/"
+        }
+        
+        ,  {
+            "title": "How to concatenate string on hugo SSG",
+            "link": "https://onebite.dev/how-to-concatenate-string-on-hugo-ssg/"
+        }
+        
+        ,  {
+            "title": "Solve Warning: REMOTE HOST IDENTIFICATION HAS CHANGED",
+            "link": "https://onebite.dev/solve-warning-remote-host-identification-has-changed/"
+        }
+        
+        ,  {
+            "title": "Create Open Graph Image generator, introducing imagin.live",
+            "link": "https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/"
+        }
+        
+        ,  {
+            "title": "How to remove last commit on github",
+            "link": "https://onebite.dev/how-to-remove-last-commit-on-github/"
+        }
+        
+        ,  {
+            "title": "Introduce Row Level Security in Supabase",
+            "link": "https://onebite.dev/introduce-row-level-security-in-supabase/"
+        }
+        
+        ,  {
+            "title": "Basic of Authentication in Supabase using email invitation",
+            "link": "https://onebite.dev/basic-of-authentication-in-supabase-using-email-invitation/"
+        }
+        
+        ,  {
+            "title": "Play with Supabase database in website with Javascript",
+            "link": "https://onebite.dev/play-with-supabase-database-in-website-with-javascript/"
+        }
+        
+        ,  {
+            "title": "Explore table editor in Supabase database",
+            "link": "https://onebite.dev/explore-table-editor-in-supabase-database/"
+        }
+        
+        ,  {
+            "title": "Setting up new @Supabase Project",
+            "link": "https://onebite.dev/setting-up-new-supabase-project/"
+        }
+        
+        ,  {
+            "title": "Introducing Supabase, your everything for backend",
+            "link": "https://onebite.dev/introducing-supabase-your-everything-for-backend/"
+        }
+        
+        ,  {
+            "title": "How to update useState value based on new value reactjs",
+            "link": "https://onebite.dev/how-to-update-usestate-value-based-on-new-value-reactjs/"
+        }
+        
+        ,  {
+            "title": "Call method only once in useEffect react",
+            "link": "https://onebite.dev/call-method-only-once-in-useeffect-react/"
+        }
+        
+        ,  {
+            "title": "Series of article in Hugo website",
+            "link": "https://onebite.dev/series-of-article-in-hugo-website/"
+        }
+        
+        ,  {
+            "title": "Show future post in Hugo SSG",
+            "link": "https://onebite.dev/show-future-post-in-hugo-ssg/"
+        }
+        
+        ,  {
+            "title": "Solve root can't access server after change password in digital ocean",
+            "link": "https://onebite.dev/solve-root-cant-access-server-after-change-password-in-digital-ocean/"
+        }
+        
+        ,  {
+            "title": "Handy collection of linux command",
+            "link": "https://onebite.dev/handy-collection-of-linux-command/"
+        }
+        
+        ,  {
+            "title": "Moodle site: The session partition is full error [unsolved]",
+            "link": "https://onebite.dev/moodle-site-the-session-partition-is-full-error-unsolved/"
+        }
+        
+        ,  {
+            "title": "Solution for preflight CORS issue in serverless function",
+            "link": "https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/"
+        }
+        
+        ,  {
+            "title": "Handling API request based on method in Vercel Nodejs",
+            "link": "https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/"
+        }
+        
+        ,  {
+            "title": "Nodejs serverless function in vercel",
+            "link": "https://onebite.dev/nodejs-serverless-function-in-vercel/"
+        }
+        
+        ,  {
+            "title": "Create simple deploy script",
+            "link": "https://onebite.dev/create-simple-deploy-script/"
+        }
+        
+        ,  {
+            "title": "How to add _blank or open new tab for link in markdown",
+            "link": "https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/"
+        }
+        
+        ,  {
+            "title": "Debug javascript in iphone device",
+            "link": "https://onebite.dev/debug-javascript-in-iphone-device/"
+        }
+        
+        ,  {
+            "title": "Hello World",
+            "link": "https://onebite.dev/hello-world/"
+        }
+        
+        ,  {
+            "title": "Write HTML dynamically with mini SSG",
+            "link": "https://onebite.dev/write-html-dynamically-with-mini-ssg/"
+        }
+        
+        ,  {
+            "title": "How to improve your skill as a developer",
+            "link": "https://onebite.dev/how-to-improve-your-skill-as-a-developer/"
+        }
+        
+        ,  {
+            "title": "On building freestuff.dev",
+            "link": "https://onebite.dev/on-building-freestuff.dev/"
+        }
+        
+        ,  {
+            "title": "How to backup database or Laravel App",
+            "link": "https://onebite.dev/how-to-backup-database-or-laravel-app/"
+        }
+        
+        ,  {
+            "title": "Add live search in Hugo website",
+            "link": "https://onebite.dev/add-live-search-in-hugo-website/"
+        }
+        
+        ,  {
+            "title": "Migrate from firebase to Hugo",
+            "link": "https://onebite.dev/migrate-from-firebase-to-hugo/"
+        }
+        
+        ,  {
+            "title": "Read json file with random key in Go Lang",
+            "link": "https://onebite.dev/read-json-file-with-random-key-in-go-lang/"
+        }
+        
+        ,  {
+            "title": "How to get random collection /data in firebase firestore",
+            "link": "https://onebite.dev/how-to-get-random-collection-/data-in-firebase-firestore/"
+        }
+        
+        ,  {
+            "title": "How to upload image / file in firebase with progress bar",
+            "link": "https://onebite.dev/how-to-upload-image-/-file-in-firebase-with-progress-bar/"
+        }
+        
+        ,  {
+            "title": "How to solve firebase.database is not a function",
+            "link": "https://onebite.dev/how-to-solve-firebase.database-is-not-a-function/"
+        }
+        
+        ,  {
+            "title": "How to custom style momentum chrome extensions",
+            "link": "https://onebite.dev/how-to-custom-style-momentum-chrome-extensions/"
+        }
+        
+        ,  {
+            "title": "How to upgrade firebase cloud function to node 8",
+            "link": "https://onebite.dev/how-to-upgrade-firebase-cloud-function-to-node-8/"
+        }
+        
+        ,  {
+            "title": "Create future post for firebase blog",
+            "link": "https://onebite.dev/create-future-post-for-firebase-blog/"
+        }
+        
+        ,  {
+            "title": "How to add HTML content inside sweetalert box",
+            "link": "https://onebite.dev/how-to-add-html-content-inside-sweetalert-box/"
+        }
+        
+        ,  {
+            "title": "My experience learning android with kotlin from web development background",
+            "link": "https://onebite.dev/my-experience-learning-android-with-kotlin-from-web-development-background/"
+        }
+        
+        ,  {
+            "title": "How to optimize laravel app with caching route and config",
+            "link": "https://onebite.dev/how-to-optimize-laravel-app-with-caching-route-and-config/"
+        }
+        
+        ,  {
+            "title": "Filter data by interval time (between) in mysql",
+            "link": "https://onebite.dev/filter-data-by-interval-time-between-in-mysql/"
+        }
+        
+        ,  {
+            "title": "Update text between two words in mysql",
+            "link": "https://onebite.dev/update-text-between-two-words-in-mysql/"
+        }
+        
+        ,  {
+            "title": "How to fix Amazon S3 error RequestTimeTooSkewed",
+            "link": "https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/"
+        }
+        
+        ,  {
+            "title": "How to consume API in Vue with Axios",
+            "link": "https://onebite.dev/how-to-consume-api-in-vue-with-axios/"
+        }
+        
+        ,  {
+            "title": "Why do we need to save created_at and update_at field in database",
+            "link": "https://onebite.dev/why-do-we-need-to-save-created_at-and-update_at-field-in-database/"
+        }
+        
+        ,  {
+            "title": "How to export firebase firestore database for free",
+            "link": "https://onebite.dev/how-to-export-firebase-firestore-database-for-free/"
+        }
+        
+        ,  {
+            "title": "How to count most used words in database with python",
+            "link": "https://onebite.dev/how-to-count-most-used-words-in-database-with-python/"
+        }
+        
+        ,  {
+            "title": "Manage media/image in forestry with cloudinary",
+            "link": "https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/"
+        }
+        
+        ,  {
+            "title": "Using forestry as CMS for your Hugo site",
+            "link": "https://onebite.dev/using-forestry-as-cms-for-your-hugo-site/"
+        }
+        
+        ,  {
+            "title": "How to Customize Front Matter in Hugo",
+            "link": "https://onebite.dev/how-to-customize-front-matter-in-hugo/"
+        }
+        
+        ,  {
+            "title": "How to Make Dynamic Twitter Card for Hugo",
+            "link": "https://onebite.dev/how-to-make-dynamic-twitter-card-for-hugo/"
+        }
+        
+        ,  {
+            "title": "How to Create Simple Pagination in Hugo",
+            "link": "https://onebite.dev/how-to-create-simple-pagination-in-hugo/"
+        }
+        
+        ,  {
+            "title": "How to Include JQuery via Inspect Console",
+            "link": "https://onebite.dev/how-to-include-jquery-via-inspect-console/"
+        }
+        
+        ,  {
+            "title": "What Is Bash and How It Can Save Your Time",
+            "link": "https://onebite.dev/what-is-bash-and-how-it-can-save-your-time/"
+        }
+        
+        ,  {
+            "title": "Create New Hugo Post Faster With Bash",
+            "link": "https://onebite.dev/create-new-hugo-post-faster-with-bash/"
+        }
+        
+        ,  {
+            "title": "How to Schedule Post in Future for Hugo",
+            "link": "https://onebite.dev/how-to-schedule-post-in-future-for-hugo/"
+        }
+        
+        ,  {
+            "title": "Move My Hugo Site From Github Pages to Netlify",
+            "link": "https://onebite.dev/move-my-hugo-site-from-github-pages-to-netlify/"
+        }
+        
+        ,  {
+            "title": "Mac Shortcut to Improve Productivity",
+            "link": "https://onebite.dev/mac-shortcut-to-improve-productivity/"
+        }
+        
+        ,  {
+            "title": "How to Tweet Your Blog Post Automatically",
+            "link": "https://onebite.dev/how-to-tweet-your-blog-post-automatically/"
+        }
+        
+        ,  {
+            "title": "Where to Host Website for Free",
+            "link": "https://onebite.dev/where-to-host-website-for-free/"
+        }
+        
+        ,  {
+            "title": "Free and Easy Rest API for Prototype",
+            "link": "https://onebite.dev/free-and-easy-rest-api-for-prototype/"
+        }
+        
+        ,  {
+            "title": "How to Get All Hugo Tags",
+            "link": "https://onebite.dev/how-to-get-all-hugo-tags/"
+        }
+        
+        ,  {
+            "title": "How to Create Poster With HTML Canvas",
+            "link": "https://onebite.dev/how-to-create-poster-with-html-canvas/"
+        }
+        
+        ,  {
+            "title": "How to Draw Image in Html Canvas",
+            "link": "https://onebite.dev/how-to-draw-image-in-html-canvas/"
+        }
+        
+        ,  {
+            "title": "How to Be More Productive With Atom",
+            "link": "https://onebite.dev/how-to-be-more-productive-with-atom/"
+        }
+        
+        ,  {
+            "title": "My Atom Recommended Packages",
+            "link": "https://onebite.dev/my-atom-recommended-packages/"
+        }
+        
+        ,  {
+            "title": "How to Make Custom Atom Snippet",
+            "link": "https://onebite.dev/how-to-make-custom-atom-snippet/"
+        }
+        
+        ,  {
+            "title": "How to Create Dark Mode in Website",
+            "link": "https://onebite.dev/how-to-create-dark-mode-in-website/"
+        }
+        
+        ,  {
+            "title": "How to Draw Text in Html Canvas",
+            "link": "https://onebite.dev/how-to-draw-text-in-html-canvas/"
+        }
+        
+        ,  {
+            "title": "How to Deploy and Host Hugo in Github Pages",
+            "link": "https://onebite.dev/how-to-deploy-and-host-hugo-in-github-pages/"
+        }
+        
+        ,  {
+            "title": "Simple Hugo Blogging Site",
+            "link": "https://onebite.dev/simple-hugo-blogging-site/"
+        }
+        
+    ]
+}

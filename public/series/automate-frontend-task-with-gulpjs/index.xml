@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automate frontend task with GulpJS on Onebite Dev</title>
+    <link>https://onebite.dev/series/automate-frontend-task-with-gulpjs/</link>
+    <description>Recent content in Automate frontend task with GulpJS on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Sep 2021 23:08:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/series/automate-frontend-task-with-gulpjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Browser Sync in Gulpjs Project</title>
+      <link>https://onebite.dev/add-browser-sync-in-gulpjs-project/</link>
+      <pubDate>Thu, 16 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-browser-sync-in-gulpjs-project/</guid>
+      <description>How can we auto reload pages when certain changes happen? we can combine the power of browser sync and gulpjs
+Install browsersync Assume you already have gulp installed
+npm install browser-sync --save-dev Basic usage
+var gulp = require(&amp;#39;gulp&amp;#39;); var browserSync = require(&amp;#39;browser-sync&amp;#39;).create(); // Static server gulp.task(&amp;#39;browser-sync&amp;#39;, function() { browserSync.init({ server: { baseDir: &amp;#34;./&amp;#34; } }); }); // or... gulp.task(&amp;#39;browser-sync&amp;#39;, function() { browserSync.init({ proxy: &amp;#34;yourlocal.dev&amp;#34; }); }); How I use it Here is browsersync sample usage in one of my project using gulp js combine with all previous tasks we&amp;rsquo;ve seen in our gulp series</description>
+    </item>
+    
+    <item>
+      <title>Watch Tasks in Gulpjs</title>
+      <link>https://onebite.dev/watch-tasks-in-gulpjs/</link>
+      <pubDate>Wed, 15 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/watch-tasks-in-gulpjs/</guid>
+      <description>Learn how to watch Tasks in Gulpjs so the files can reload themselves when certain task triggered
+Create watch function To make sure every tasks run at the first load, I&amp;rsquo;ll be using series function, which means run multiples tasks in order.
+//Assume I only want watch if any CSS or Javascript files change //So I can run their tasks function watchTask() { gulp.watch([cssPath, jsPath], gulp.parallel(cssTask, jsTask)) } exports.default = gulp.</description>
+    </item>
+    
+    <item>
+      <title>Combine Tasks in Gulpjs With Parallel Function</title>
+      <link>https://onebite.dev/combine-tasks-in-gulpjs-with-parallel-function/</link>
+      <pubDate>Tue, 14 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/combine-tasks-in-gulpjs-with-parallel-function/</guid>
+      <description>As our project grows, the task lists on our gulpfile js file also getting bigger. We need to learn how to combine this tasks and run it with one script
+Compose gulp tasks with series Luckily, we can compose this tasks
+The very basic version of it is using series
+const { series } = require(&amp;#39;gulp&amp;#39;); function transpile(cb) { // body omitted cb(); } function bundle(cb) { // body omitted cb(); } exports.</description>
+    </item>
+    
+    <item>
+      <title>Compress image with GulpJS</title>
+      <link>https://onebite.dev/compress-image-with-gulpjs/</link>
+      <pubDate>Mon, 13 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/compress-image-with-gulpjs/</guid>
+      <description>One way to make sure our website run faster, is by loading image with small size. But we&amp;rsquo;re too lazy to compress our image, each time there is new assets. Don&amp;rsquo;t worry Gulp JS will do it for us
+How to compress image in gulp js Install gulp imagemin
+npm install --save-dev gulp-imagemin Basic Usage
+import gulp from &amp;#39;gulp&amp;#39;; import imagemin from &amp;#39;gulp-imagemin&amp;#39;; export default () =&amp;gt; ( gulp.src(&amp;#39;src/images/*&amp;#39;) .pipe(imagemin()) .</description>
+    </item>
+    
+    <item>
+      <title>Combine Multiple Javascript (JS) Files With GulpJS</title>
+      <link>https://onebite.dev/combine-multiple-javascript-js-files-with-gulpjs/</link>
+      <pubDate>Sun, 12 Sep 2021 19:58:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/combine-multiple-javascript-js-files-with-gulpjs/</guid>
+      <description>Learn how to combine Multiple Javascript (JS) Files With GulpJS. Sometimes we want to separate our javascript file during development process to make it easy for use to maintain it. But in production we still want to only serve one file for faster request time.
+We&amp;rsquo;ll be using same concat package as in our CSS lesson
+For minifying our javascript file, we&amp;rsquo;ll use gulp-minify
+npm i --save-dev gulp-minify Let&amp;rsquo;s write our javascript file in gulpfile.</description>
+    </item>
+    
+    <item>
+      <title>Minify CSS files with Gulp JS</title>
+      <link>https://onebite.dev/minify-css-files-with-gulp-js/</link>
+      <pubDate>Fri, 10 Sep 2021 19:48:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/minify-css-files-with-gulp-js/</guid>
+      <description>Learn how to Minify CSS files with Gulp JS to make it load faster.
+We will use gulp-clean-css
+Using Gulp Clean CSS install
+npm install gulp-clean-css --save-dev basic usage
+const gulp = require(&amp;#39;gulp&amp;#39;); const cleanCSS = require(&amp;#39;gulp-clean-css&amp;#39;); gulp.task(&amp;#39;minify-css&amp;#39;, () =&amp;gt; { return gulp.src(&amp;#39;styles/*.css&amp;#39;) .pipe(cleanCSS({compatibility: &amp;#39;ie8&amp;#39;})) .pipe(gulp.dest(&amp;#39;dist&amp;#39;)); }); Combine it with previous example We&amp;rsquo;ve seen how to combine multiple CSS files into a single file
+Let&amp;rsquo;s combine it with this minify process</description>
+    </item>
+    
+    <item>
+      <title>Combine multiple CSS files with GulpJS</title>
+      <link>https://onebite.dev/combine-multiple-css-files-with-gulpjs/</link>
+      <pubDate>Mon, 06 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/combine-multiple-css-files-with-gulpjs/</guid>
+      <description>Learn how to combine multiple CSS files into one file with GulpJS, it&amp;rsquo;s useful to make sure our HTML will only request for one file later (reduce request time).
+Our case Assume we have two different CSS files.
+Maybe you want to separate the concerns, like one file for homepage, one file for single page.
+Or in my case, I sometimes, download any utility CSS, such as gridcss. I try not to mix my custom CSS with other files.</description>
+    </item>
+    
+    <item>
+      <title>GulpJS introduction, how to install </title>
+      <link>https://onebite.dev/gulpjs-introduction-how-to-install/</link>
+      <pubDate>Mon, 06 Sep 2021 22:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/gulpjs-introduction-how-to-install/</guid>
+      <description>As a frontend developer, our task is increasing
+It&amp;rsquo;s not just writing HTML and CSS again.
+We need to compress image, CSS or JS files for faster website load.
+We need to compile our SASS / SCSS files, since we love the syntax but browser doesn&amp;rsquo;t understand it. We need to concatenate our javascript files, since we separate the concerns for easier maintenance.
+Introducing GulpJS All this task need extra seconds of our development process.</description>
+    </item>
+    
+  </channel>
+</rss>

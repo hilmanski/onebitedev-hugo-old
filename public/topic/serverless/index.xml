@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serverless on Onebite Dev</title>
+    <link>https://onebite.dev/topic/serverless/</link>
+    <description>Recent content in serverless on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2023 03:51:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is serverless and why it is important?</title>
+      <link>https://onebite.dev/what-is-serverless-and-why-it-is-important/</link>
+      <pubDate>Mon, 09 Jan 2023 03:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-serverless-and-why-it-is-important/</guid>
+      <description>As a developer, you are constantly searching for ways to build and deploy applications more efficiently. One approach that has gained popularity in recent years is the concept of &amp;ldquo;serverless&amp;rdquo; computing. But what exactly is serverless, and how can it benefit developers?
+In a traditional computing environment, you would need to provision and manage servers to host your applications. This involves purchasing and setting up hardware, installing an operating system and necessary software, and configuring the server to meet your needs.</description>
+    </item>
+    
+    <item>
+      <title>Solution for preflight CORS issue in serverless function</title>
+      <link>https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/</link>
+      <pubDate>Wed, 21 Jul 2021 10:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/</guid>
+      <description>CORS (Cross-Origin Resource Sharing) issue is one of developer&amp;rsquo;s enemy when building API that need to be accessed from different domain. CORS itself is a good thing that prevent any user/client to access our API.
+What is Preflight CORS? Preflight CORS, is a way for browser to check on the server is the current request allowed or not. As the name suggest, &amp;lsquo;pre&amp;rsquo; means before we process the original request, it sends a request before as a verification.</description>
+    </item>
+    
+    <item>
+      <title>Handling API request based on method in Vercel Nodejs</title>
+      <link>https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/</link>
+      <pubDate>Wed, 21 Jul 2021 06:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/</guid>
+      <description>Vercel&amp;rsquo;s serverless function, provides req.method property to read the incoming method request. We can use this to write a beautiful API url endpoint
+For example
+GET: /books GET: /books/{id} POST: /books PUT: /books/{id} DELETE: /books Code example Inside our api/books.js
+module.exports = (req, res) =&amp;gt; { if(req.method === &amp;#39;GET&amp;#39;) { } if(req.method === &amp;#39;POST&amp;#39;) { } if(req.method === &amp;#39;PUT&amp;#39;) { } if(req.method === &amp;#39;DELETE&amp;#39;) { } } You can also use switch case for this.</description>
+    </item>
+    
+    <item>
+      <title>Nodejs serverless function in vercel</title>
+      <link>https://onebite.dev/nodejs-serverless-function-in-vercel/</link>
+      <pubDate>Wed, 21 Jul 2021 00:20:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/nodejs-serverless-function-in-vercel/</guid>
+      <description>We can deploy a serverless function with vercel for free. In a nutshell, with serverless function, we can write backend languages that read HTTP request and return a response. Vercel supports a lot of backend language, one of them is Nodejs (javascript)
+Prepare nodejs file To write our API serverless function in vercel, create a new file called whatever.js (name is up to you) inside a folder called &amp;lsquo;/api&amp;rsquo;,
+As default, vercel provides Nodejs version 14.</description>
+    </item>
+    
+  </channel>
+</rss>

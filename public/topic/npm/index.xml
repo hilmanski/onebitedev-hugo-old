@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>npm on Onebite Dev</title>
+    <link>https://onebite.dev/topic/npm/</link>
+    <description>Recent content in npm on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Sep 2021 21:27:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solve Unexpected end of JSON input while parsing near... on NPM install</title>
+      <link>https://onebite.dev/solve-unexpected-end-of-json-input-while-parsing-near...-on-npm-install/</link>
+      <pubDate>Mon, 20 Sep 2021 21:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-unexpected-end-of-json-input-while-parsing-near...-on-npm-install/</guid>
+      <description>Yesterday when my internet really slow, I keep failed on installing npm package. The error shows npm ERR! Unexpected end of JSON input while parsing near &amp;hellip;..&#39;
+npm cache clean --force So when the internet back at the speed again, I just clean the npm cache, then reinstall the package I want</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Onebite Dev</title>
+    <link>https://onebite.dev/topic/git/</link>
+    <description>Recent content in git on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Dec 2022 23:18:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git error push remote branch src refspec does not match any</title>
+      <link>https://onebite.dev/git-error-push-remote-branch-src-refspec-does-not-match-any/</link>
+      <pubDate>Wed, 14 Dec 2022 23:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/git-error-push-remote-branch-src-refspec-does-not-match-any/</guid>
+      <description>If you got error - src refspec does not match any, failed to push some refs to&amp;hellip;- when trying to push change to remote git branch, here is how I solve it
+The problem is we haven&amp;rsquo;t connect our git branch to the remote one. It&amp;rsquo;s actually just like when we first initialize our git on main.
+What we need to do is using the -u or --set-upstream parameter while push the changes.</description>
+    </item>
+    
+    <item>
+      <title>Create a local branch from existing remote branch</title>
+      <link>https://onebite.dev/create-a-local-branch-from-existing-remote-branch/</link>
+      <pubDate>Wed, 14 Dec 2022 23:14:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-a-local-branch-from-existing-remote-branch/</guid>
+      <description>If you want to test remote branch locally, you can use fetch method on git to try it on your machine
+ First, we need to fetch the remote branch  git fetch origin remote-branch-name remote-branch-name is your branch name on remote Git
+What is fetch in Git? Fetch is a command in Git to download commit, files and other info from a remote repository.
+Checkout new branch Now, we can checkout a new branch by pointing to the fetched branch above  git checkout -b local-branch origin/remote-branch-name Your local-branch can be any name you want the branch name on your machine.</description>
+    </item>
+    
+    <item>
+      <title>Shortcut bash function to review Github Pull Request locally</title>
+      <link>https://onebite.dev/shortcut-bash-function-to-review-github-pull-request-locally/</link>
+      <pubDate>Tue, 04 Oct 2022 00:06:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/shortcut-bash-function-to-review-github-pull-request-locally/</guid>
+      <description>We&amp;rsquo;ve learnt how to Checkout Remote Pull Request On Github And Run Locally
+But those steps are pretty long to start reviewing changes in our text editor. So I made a bash function for me to save some time:
+function checkPR() {git fetch origin pull/&amp;#34;$1&amp;#34;/head:&amp;#34;$2&amp;#34; &amp;amp;&amp;amp; git checkout &amp;#34;$2&amp;#34;} usage
+checkPR PRNUMBER BRANCH-NAME This way I just need to above function, and directly on the new branch where PR happened.</description>
+    </item>
+    
+    <item>
+      <title>How to add and remove another git remote repository</title>
+      <link>https://onebite.dev/how-to-add-and-remove-another-git-remote-repository/</link>
+      <pubDate>Sun, 18 Sep 2022 22:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-and-remove-another-git-remote-repository/</guid>
+      <description>You have an origin remote repository for your git. But you need to add other remote repository. Lets see how to do this
+git remote add my_new_name https://github.com/hilmanski/any_remote_repo Now you can verify with
+git remote -v It will list all you remote repositories.
+To push to this new repo, we can just type
+git push my_new_name main *change main, with any branch you want
+How to remove git repository Once you don&amp;rsquo;t need a remote repo, you can delete it with</description>
+    </item>
+    
+    <item>
+      <title>Checkout remote pull request on Github and run locally</title>
+      <link>https://onebite.dev/checkout-remote-pull-request-on-github-and-run-locally/</link>
+      <pubDate>Thu, 07 Jul 2022 22:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/checkout-remote-pull-request-on-github-and-run-locally/</guid>
+      <description>If you need to review someones pull request from Github and run the project locally. Check out this guide.
+For general method, to fetch any remote changes, please see How to test PR locally
+Now, we&amp;rsquo;ll see the step by step to checkout a certain pull request, so we can run it on our machine!
+Get the PR number  Either by looking directly on Pull request&amp;rsquo;s tab on Github. To see the number (that comes after the hashtag) Alternative, install github-cli command.</description>
+    </item>
+    
+    <item>
+      <title>How to test pull request locally</title>
+      <link>https://onebite.dev/how-to-test-pull-request-locally/</link>
+      <pubDate>Thu, 07 Jul 2022 21:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-test-pull-request-locally/</guid>
+      <description>You&amp;rsquo;re assigned to review your teammate&amp;rsquo;s code from remote git repository. But rather than just reviewing it directly in Github, you want to run it locally first. Here&amp;rsquo;s how you can run any pull request locally first and review it.
+Use git fetch The first step is running git fetch so we can see get all things that happen remotely on the origin repository.
+&amp;ldquo;The git fetch command downloads commits, files, and refs from a remote repository into your local repo.</description>
+    </item>
+    
+    <item>
+      <title>Remove all unsaved / uncommitted changes in github</title>
+      <link>https://onebite.dev/remove-all-unsaved-/-uncommitted-changes-in-github/</link>
+      <pubDate>Mon, 21 Feb 2022 01:05:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/remove-all-unsaved-/-uncommitted-changes-in-github/</guid>
+      <description>Here&amp;rsquo;s how to remove all unsaved / uncommitted changes in github. In case you make some changes, and want to get back to the last commit you have
+git stash git stash drop </description>
+    </item>
+    
+    <item>
+      <title>How to remove last commit on github</title>
+      <link>https://onebite.dev/how-to-remove-last-commit-on-github/</link>
+      <pubDate>Tue, 24 Aug 2021 22:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-remove-last-commit-on-github/</guid>
+      <description>It&amp;rsquo;s just happened to me yesterday, where I push something to main branch, but not the main branch that I want. I start panicking and looking for help how to undo my last commit before anyone see the changes
+The code that safe me
+git push -f origin HEAD^:main change &amp;ldquo;main&amp;rdquo; with any branch you want.
+The result is flawless. People can&amp;rsquo;t see the accident that just happened on you repository 😅</description>
+    </item>
+    
+    <item>
+      <title>Create simple deploy script</title>
+      <link>https://onebite.dev/create-simple-deploy-script/</link>
+      <pubDate>Fri, 16 Jul 2021 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-simple-deploy-script/</guid>
+      <description>How many times a day did you do this on command line?
+git add . git commit -m &amp;#34;commit msg&amp;#34; git push origin branchName It&amp;rsquo;s my ritual every time I want to push change on remote git repository. As a developer, we always need to find a way how to make our life easier by using our main principle &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo;
+Create a deploy script Learn how to create a simple deploy script, to automate your code deployment when using git or any other things in command.</description>
+    </item>
+    
+  </channel>
+</rss>

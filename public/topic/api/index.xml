@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>api on Onebite Dev</title>
+    <link>https://onebite.dev/topic/api/</link>
+    <description>Recent content in api on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to consume API in Vue with Axios</title>
+      <link>https://onebite.dev/how-to-consume-api-in-vue-with-axios/</link>
+      <pubDate>Mon, 08 Apr 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-consume-api-in-vue-with-axios/</guid>
+      <description>When playing with javascript library like Vuejs, often times we use an API, to display and consume data. There are many ways to play with API in VueJS, one of them is Axios . Axios itself didn&amp;rsquo;t depend on VueJS, it&amp;rsquo;s a standalone promise based HTTP client for the browser (any framework) and node.js.
+Initialize data from an API To initialize data, we use &amp;ldquo;mounted&amp;rdquo; function from VueJS, since it&amp;rsquo;s the first function will be called in our app.</description>
+    </item>
+    
+    <item>
+      <title>Free and Easy Rest API for Prototype</title>
+      <link>https://onebite.dev/free-and-easy-rest-api-for-prototype/</link>
+      <pubDate>Sun, 31 Mar 2019 05:04:22 +0000</pubDate>
+      
+      <guid>https://onebite.dev/free-and-easy-rest-api-for-prototype/</guid>
+      <description>Do you want to create an app, but not sure how it will go just yet? Thinking about all server setup, managing database, and other stuff is scary. Good news is, we can serve our database from API (Application Programming Interface) without configuring any server or write backend code!
+My JSON Server We can make our own data as easy as make a JSON file and serve it from our github pages with My JSON Server!</description>
+    </item>
+    
+  </channel>
+</rss>

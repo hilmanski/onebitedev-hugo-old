@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hackathon on Onebite Dev</title>
+    <link>https://onebite.dev/topic/hackathon/</link>
+    <description>Recent content in hackathon on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Aug 2021 23:19:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Open Graph Image generator, introducing imagin.live</title>
+      <link>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</link>
+      <pubDate>Sat, 28 Aug 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</guid>
+      <description>We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&amp;rsquo;s why you&amp;rsquo;ll love Imagin! I write regularly on my blog, I know it&amp;rsquo;s not fun to have to prepare Social/OpenGraph Image for each one of the post. We just want to write!
+This is a dynamic image generator, where the image will change according to your title.</description>
+    </item>
+    
+  </channel>
+</rss>

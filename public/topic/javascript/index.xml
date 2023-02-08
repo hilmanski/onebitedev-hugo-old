@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Onebite Dev</title>
+    <link>https://onebite.dev/topic/javascript/</link>
+    <description>Recent content in javascript on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jan 2023 20:24:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Import function from another file in NodeJS without module </title>
+      <link>https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/</link>
+      <pubDate>Thu, 12 Jan 2023 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/</guid>
+      <description>If you need to add an external function from other file into a nodejs file without changing the type into module type you can use this commonJS method
+You can learn it &amp;lsquo;officialy&amp;rsquo; about commonJS in Nodejs here in the official doc
+How to export function from another file Let&amp;rsquo;s say I have a function to return a random name on a helper function. I put it on ./src/utils/helper.js
+function _getRandomName() { const randomName = Math.</description>
+    </item>
+    
+    <item>
+      <title>Dragging item on mobile also scrolling the parent</title>
+      <link>https://onebite.dev/dragging-item-on-mobile-also-scrolling-the-parent/</link>
+      <pubDate>Tue, 04 Oct 2022 02:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/dragging-item-on-mobile-also-scrolling-the-parent/</guid>
+      <description>When working with drag and drop library like interactjs, I got a problem with mobile devices. Where scrolling get buggy and moving the parent as well.
+Here&amp;rsquo;s how I solved this: Using touch-action: none; CSS property.
+We add this property to the class of the element we want to drag. For example in interactJS we initialize draggable element like this:
+interact(`.classname-of-element`).draggable({ .. }) So now in CSS:
+.classname-of-element { touch-action: none; } Caused: It caused by the default behavior on mobile where touch become a way to scroll an overflow parent element.</description>
+    </item>
+    
+    <item>
+      <title>Async await function not working in forEach loop Javascript</title>
+      <link>https://onebite.dev/async-await-function-not-working-in-foreach-loop-javascript/</link>
+      <pubDate>Wed, 21 Sep 2022 00:17:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/async-await-function-not-working-in-foreach-loop-javascript/</guid>
+      <description>This is a quick solve on how to handle async await function not working in forEach loop Javascript.
+It happens many time to me, that my async functions didn&amp;rsquo;t work. I didn&amp;rsquo;t know what&amp;rsquo;s the cause. Apparently it&amp;rsquo;s all because I put it inside forEach loop.
+This is not a long tutorial, of the cause and better way. Rather it&amp;rsquo;s just how you can make your code works again.
+The quick solution will be turn your forEach element into a normal for loop like this:</description>
+    </item>
+    
+    <item>
+      <title>How to make zoom effect in HTML with CSS</title>
+      <link>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</link>
+      <pubDate>Sun, 18 Sep 2022 02:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</guid>
+      <description>Let&amp;rsquo;s learn how to make zoom effect in HTML with CSS. We will play with scale transformation on CSS to make the element chosen bigger/smaller
+The properties we need to set are:
+ transform: scale(1); transformOrigin: 0% 0% 0px;  transform accept float value with 1 as default size. You can go step by step with 1.1 to 2. transformOrigin will set the the position with top left as anchor. So our element not moving.</description>
+    </item>
+    
+    <item>
+      <title>How to get x and y coordinate position when clicking on javascript</title>
+      <link>https://onebite.dev/how-to-get-x-and-y-coordinate-position-when-clicking-on-javascript/</link>
+      <pubDate>Tue, 13 Sep 2022 20:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-get-x-and-y-coordinate-position-when-clicking-on-javascript/</guid>
+      <description>Let&amp;rsquo;s see how to get x and y coordinate position when firing on click event at javascript
+We need to catch event&amp;rsquo;s property, specifically, the pageX and pageY attribute.
+&amp;lt;div onclick=&amp;#34;handleClick(event)&amp;#34;&amp;gt; Test &amp;lt;/div&amp;gt; function handleClick(event){ console.log(&amp;#39;x :&amp;#39;, event.pageX) console.log(&amp;#39;y :&amp;#39;, event.pageY) } Feel free to try!</description>
+    </item>
+    
+    <item>
+      <title>How to use Toast UI Editor in Browser (without NPM)</title>
+      <link>https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/</link>
+      <pubDate>Tue, 13 Sep 2022 02:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/</guid>
+      <description>Are you looking for great markdown WYSIWYG text editor? Try toast UI Editor, lets see how to use it directly in browser on your HTML file.
+Install via CDN First, we load the Javascript as well as the CSS via UI CDN. By putting the two tags inside head tag.
+&amp;lt;head&amp;gt; .. &amp;lt;script src=&amp;#34;https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://uicdn.toast.com/editor/latest/toastui-editor.min.css&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; Add Div for the editor  &amp;lt;div id=&amp;#34;editor&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; Add script to initialize Toast UI Editor Put this script after before the close body tag.</description>
+    </item>
+    
+    <item>
+      <title>Super simple Zoom image vanilla javascript medium like</title>
+      <link>https://onebite.dev/super-simple-zoom-image-vanilla-javascript-medium-like/</link>
+      <pubDate>Mon, 12 Sep 2022 01:20:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/super-simple-zoom-image-vanilla-javascript-medium-like/</guid>
+      <description>I need an ability to zoom images on my site. Luckily I found this javascript plugin by Tholman that very easy to use.
+The library called &amp;ldquo;Intense Images&amp;rdquo; Github Repo
+Here&amp;rsquo;s how I use it:
+ Load from CDN  &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; Assign your elements  &amp;lt;script&amp;gt; window.addEventListener(&amp;#39;load&amp;#39;, function () { Lightense(&amp;#39;img&amp;#39;); }, false); &amp;lt;/script&amp;gt; Done that&amp;rsquo;s it!
+To change only certain element, change your &amp;lsquo;img&amp;rsquo; with any elements indicator, either by id, class or tag name.</description>
+    </item>
+    
+    <item>
+      <title>Sort Javascript Object Value by the number or date</title>
+      <link>https://onebite.dev/sort-javascript-object-value-by-the-number-or-date/</link>
+      <pubDate>Tue, 02 Aug 2022 23:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/sort-javascript-object-value-by-the-number-or-date/</guid>
+      <description>Do you need to sort your object by one of the key value by the number? start from highest or lowest number? We can use javascript sort function fort that. Here is how
+For example we have this object
+const items = [ { name: &amp;#39;Nami&amp;#39;, score: 5 }, { name: &amp;#39;Zolo&amp;#39;, score: 1 }, { name: &amp;#39;Luffy&amp;#39;, score: 10 }, { name: &amp;#39;Sanji&amp;#39;, score: 4 }, ]; Let’s make a function to sort this items</description>
+    </item>
+    
+    <item>
+      <title>Sort javascript Object value alphabetically</title>
+      <link>https://onebite.dev/sort-javascript-object-value-alphabetically/</link>
+      <pubDate>Tue, 02 Aug 2022 23:35:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/sort-javascript-object-value-alphabetically/</guid>
+      <description>Do you need to sort your object by one of the key value alphabetically? We can use javascript sort function fort that. Here is how
+For example we have this object
+const items = [ { name: &amp;#39;Nami&amp;#39;, value: 5 }, { name: &amp;#39;Zolo&amp;#39;, value: 5 }, { name: &amp;#39;Luffy&amp;#39;, value: 10 }, { name: &amp;#39;Sanji&amp;#39;, value: 4 }, ]; Let&amp;rsquo;s make a function to sort this items
+// sort by name items.</description>
+    </item>
+    
+    <item>
+      <title>Auto Scroll page in Javascript</title>
+      <link>https://onebite.dev/auto-scroll-page-in-javascript/</link>
+      <pubDate>Fri, 22 Jul 2022 02:13:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/auto-scroll-page-in-javascript/</guid>
+      <description>Here is the snippet using scrollBy() method in Javascript. You can try this out directly by opening &amp;ldquo;right click -&amp;gt; inspect tab -&amp;gt; console&amp;rdquo; and paste this on that tab
+function pageScroll() { window.scrollBy(0,1); scrolldelay = setTimeout(pageScroll,100); } pageScroll() Feel free to play with the speed by change the number 100 there</description>
+    </item>
+    
+    <item>
+      <title>Convert string to UUID format in Javascript</title>
+      <link>https://onebite.dev/convert-string-to-uuid-format-in-javascript/</link>
+      <pubDate>Tue, 22 Mar 2022 22:40:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/convert-string-to-uuid-format-in-javascript/</guid>
+      <description>This is how to convert a 32 characters string into UUID format with - dash as separator on each 8 - 4 - 4 - 4 - 12 characters.
+function insertString(str, index, value) { return str.substr(0, index) + value + str.substr(index); } function converToUUID(str){ _uuid = insertString(_uuid, 8, &amp;#39;-&amp;#39;) _uuid = insertString(_uuid, 13, &amp;#39;-&amp;#39;) _uuid = insertString(_uuid, 18, &amp;#39;-&amp;#39;) _uuid = insertString(_uuid, 23, &amp;#39;-&amp;#39;) return _uuid } The idea is we insert a string on each of &amp;ldquo;X&amp;rdquo; characters.</description>
+    </item>
+    
+    <item>
+      <title>Hover effect on 5 star rating systems</title>
+      <link>https://onebite.dev/hover-effect-on-5-star-rating-systems/</link>
+      <pubDate>Thu, 23 Sep 2021 20:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hover-effect-on-5-star-rating-systems/</guid>
+      <description>This is my solution on how to make a Hover effect on 5 star rating systems
+Drawing stars You can use an image, or generate SVG like this
+//Your HTML content &amp;lt;div id=&amp;#34;ratingstar-submission&amp;#34;&amp;gt;&amp;lt;/span&amp;gt; //In your javascript file $(&amp;#39;#ratingstar-submission&amp;#39;).innerHTML = drawStarsSVG() //======================== //Draw 5 stars //======================== function drawStarsSVG() { let stars = &amp;#39;&amp;#39; for (let i = 0; i &amp;lt; 5; i++) { stars += ` &amp;lt;svg width=&amp;#34;31&amp;#34; height=&amp;#34;28&amp;#34; viewBox=&amp;#34;0 0 31 28&amp;#34; fill=&amp;#34;none&amp;#34; xmlns=&amp;#34;http://www.</description>
+    </item>
+    
+    <item>
+      <title>Simple jquery like selector for vanilla javascript</title>
+      <link>https://onebite.dev/simple-jquery-like-selector-for-vanilla-javascript/</link>
+      <pubDate>Thu, 09 Sep 2021 19:40:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/simple-jquery-like-selector-for-vanilla-javascript/</guid>
+      <description>jQuery make us love javascript. One of the simplest but most useful feature for me is the selector in jQuery
+With just using $ dollar sign, we can target the element. Let&amp;rsquo;s make it happen in our vanilla javascript
+Custom selector function in vanilla JS Do you know that $ sign is valid for a function name?
+That&amp;rsquo;s the trick! we will create a new function that will return an element based on parameter we used.</description>
+    </item>
+    
+    <item>
+      <title>Working with object in localstorage</title>
+      <link>https://onebite.dev/working-with-object-in-localstorage/</link>
+      <pubDate>Wed, 08 Sep 2021 19:31:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/working-with-object-in-localstorage/</guid>
+      <description>We all love localstorage, no database needed to store simple things for our user.
+But what if the data is more than a string or number?
+Let&amp;rsquo;s see how to store and read object in localstorage?
+How to store object in localstorage We need to turn json into a string with JSON.stringify
+localstorage.setItem(key, JSON.stringify(val)); How to read/retrieve object from localstorage We need to parse into json with JSON.parse
+JSON.parse(localstorage.getItem(key)) Bonus: Helper for read and write objects in localstorage function getObjectLS(key) { return JSON.</description>
+    </item>
+    
+    <item>
+      <title>How to add _blank or open new tab for link in markdown</title>
+      <link>https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/</link>
+      <pubDate>Fri, 16 Jul 2021 22:54:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/</guid>
+      <description>There are some limitations when we&amp;rsquo;re working with markdown, one of them is adding property to our HTML tags. In this case I want to add _blank property on my tag to open a link in a new tab
+Hack it in javascript We don&amp;rsquo;t have control (mostly) with how our markdown will be rendered, but we can hack around it in javascript.
+Let&amp;rsquo;s say you have an article with id &amp;ldquo;article&amp;rdquo; and want to get all the links inside it, here is how</description>
+    </item>
+    
+    <item>
+      <title>Debug javascript in iphone device</title>
+      <link>https://onebite.dev/debug-javascript-in-iphone-device/</link>
+      <pubDate>Fri, 16 Jul 2021 03:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/debug-javascript-in-iphone-device/</guid>
+      <description>&amp;ldquo;But, It works on my computer&amp;rdquo; - said programmer That&amp;rsquo;s what we say when our code not running correctly on other machine. But now, machine is not just a computer, all smartphone including iPhone is also a machine where our code can run.
+So it&amp;rsquo;s important for us to learn how to debug our website in an iPhone
+How to debug website on iPhone using Web Inspector Connect your iPhone/iPad to computer Go to setting on iPhone/iPad Choose Safari Choose &amp;ldquo;advance&amp;rdquo; Enable &amp;ldquo;Web Inspector&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>How to add HTML content inside sweetalert box</title>
+      <link>https://onebite.dev/how-to-add-html-content-inside-sweetalert-box/</link>
+      <pubDate>Thu, 01 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-html-content-inside-sweetalert-box/</guid>
+      <description>Before you do this, make sure you use sweetalert version 2, not the first one. If you&amp;rsquo;re still using the 1st version, i know you&amp;rsquo;ll back up a bit. Since i&amp;rsquo;m using sweetalert boxes all over my webiste, i feel really lazy too to upgrade to 2nd version, but it&amp;rsquo;s actually very easy, in most cases just use swal.fire instead just swal.
+Okay.. now let&amp;rsquo;s see how you can add html content inside your sweetalert box.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Poster With HTML Canvas</title>
+      <link>https://onebite.dev/how-to-create-poster-with-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 22:14:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-poster-with-html-canvas/</guid>
+      <description>Website is more powerful that we thought, do you know it has canvas element to draw graphics on the web? If we combine this with the ability to manipulate DOM in javascript, we can make our poster generator for our next instagram or any social media post.
+For a little warm up, start by drawing text in canvas and drawing image in canvas
+Sample app we will build Here, we will have a nice little app to produce an image dynamically like this.</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Image in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-image-in-html-canvas/</link>
+      <pubDate>Sun, 31 Mar 2019 06:00:02 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-image-in-html-canvas/</guid>
+      <description>Besides, drawing text in canvas, we also can add an image, whether from url link or browse any image on our library.
+Regardless from which method you choose, always prepare the blank canvas
+var canvas = document.getElementById(&amp;#34;myCanvas&amp;#34;); var ctx = canvas.getContext(&amp;#34;2d&amp;#34;) ctx.fillStyle = &amp;#34;white&amp;#34;; ctx.fillRect(0, 0, canvas.width, canvas.height); Draw image from file browser Input file button for drawing image via browse library
+&amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;file&amp;#34; onchange=&amp;#34;uploadImg(event)&amp;#34;&amp;gt; &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Dark Mode in Website</title>
+      <link>https://onebite.dev/how-to-create-dark-mode-in-website/</link>
+      <pubDate>Sat, 30 Mar 2019 09:38:40 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-dark-mode-in-website/</guid>
+      <description>Oftentimes we see a dark mode in website. For me personally, I can&amp;rsquo;t stare too long on a bright screen, that&amp;rsquo;s why I prefer dark mode for some websites. And as a developer, it&amp;rsquo;s hard not to think &amp;ldquo;how is it made?&amp;rdquo;.
+CSS preparation First, we need to prepare the CSS, both for normal condition and case when it&amp;rsquo;s in dark mode
+body{ /*your normal styling*/ } body.darkmode { background: rgb(57, 57, 57); color: rgb(227, 227, 227); } /*to toggle button*/ .</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Text in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-text-in-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 06:00:02 +0700</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-text-in-html-canvas/</guid>
+      <description>In case you haven&amp;rsquo;t heard about canvas in HTML, this element enable us to draw something on web, by something, it includes text. Why would you want to draw text in canvas, instead just show it normally? well, the case could be like &amp;ldquo;displaying a captcha image&amp;rdquo;, so bot can&amp;rsquo;t just grab the text via html element to bypass our captcha.
+Prepare a canvas to draw &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+  </channel>
+</rss>

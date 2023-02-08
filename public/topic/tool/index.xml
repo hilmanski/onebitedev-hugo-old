@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tool on Onebite Dev</title>
+    <link>https://onebite.dev/topic/tool/</link>
+    <description>Recent content in tool on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 19:25:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>react developer tools guide 2023</title>
+      <link>https://onebite.dev/react-developer-tools-guide-2023/</link>
+      <pubDate>Sun, 15 Jan 2023 19:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/react-developer-tools-guide-2023/</guid>
+      <description>This is a simple guide on how to use react developer tools in browser like chrome, firefox or safari to help us, debug and inspect everything from components, props and state to identify potential or current problem on our React application.
+How to install React developer tools React developer tool is available as browser extension. Here&amp;rsquo;s the link to install based on your browser
+React dev tool for chrome React dev tool for Edge React dev tool for Firefox</description>
+    </item>
+    
+    <item>
+      <title>HTML code snippet with emmet</title>
+      <link>https://onebite.dev/html-code-snippet-with-emmet/</link>
+      <pubDate>Sun, 15 Jan 2023 18:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/html-code-snippet-with-emmet/</guid>
+      <description>Make your life easier as frontend developer, by using emmet as your HTML code snippet. By installing meet, you can write HTML code much much faster.
+TLDR Here&amp;rsquo;s from Emmet&amp;rsquo;s documentation &amp;ldquo;Basically, most text editors out there allow you to store and re-use commonly used code chunks, called “snippets”. While snippets are a good way to boost your productivity, all implementations have common pitfalls: you have to define the snippet first and you can’t extend them in runtime.</description>
+    </item>
+    
+    <item>
+      <title>You can ask AI, what is the output of the following code snippet ...</title>
+      <link>https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../</link>
+      <pubDate>Fri, 13 Jan 2023 01:31:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../</guid>
+      <description>As a programmer, you may have come across a situation where you&amp;rsquo;re not sure what the output of a certain code snippet will be.
+TLDR Go to ChatGPT3 site and ask it something about your code! you&amp;rsquo;ll be suprised how detail the explanation is.
+Or you may try Github Copilot to get an AI suggestion on your text editor while you code.
+Why do you need it ? Maybe it&amp;rsquo;s code you&amp;rsquo;ve inherited from another developer, or maybe it&amp;rsquo;s code you wrote a while ago and have since forgotten how it works.</description>
+    </item>
+    
+    <item>
+      <title>What is code snippet meaning</title>
+      <link>https://onebite.dev/what-is-code-snippet-meaning/</link>
+      <pubDate>Fri, 13 Jan 2023 01:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-code-snippet-meaning/</guid>
+      <description>Welcome to the world of programming! You may have heard the term &amp;ldquo;code snippet&amp;rdquo; and wondered what it means. In this post, we&amp;rsquo;ll explore what code snippets are, how they can be used, and where to find them.
+Code snippet meaning.. A code snippet is a small piece of code that serves a specific purpose. It can be a single line or a more that accomplish a specific task.
+Code snippets are often used by programmers to quickly add functionality to their projects without having to write the code from scratch.</description>
+    </item>
+    
+    <item>
+      <title>What is Coding tools</title>
+      <link>https://onebite.dev/what-is-coding-tools/</link>
+      <pubDate>Mon, 09 Jan 2023 02:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-coding-tools/</guid>
+      <description>As a developer, one of the most important things you can do to improve your workflow is to become proficient with a wide range of coding tools. These tools can make your life easier by automating tedious tasks, helping you write and debug code more efficiently, and giving you access to a wealth of information and resources. In this blog post, we&amp;rsquo;ll take a look at some of the most essential coding tools that every developer should know about.</description>
+    </item>
+    
+    <item>
+      <title>Find list of developer tools with FindDevTools</title>
+      <link>https://onebite.dev/find-list-of-developer-tools-with-finddevtools/</link>
+      <pubDate>Wed, 10 Aug 2022 18:50:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/find-list-of-developer-tools-with-finddevtools/</guid>
+      <description>We are always carefully selecting our coding tools. It has a high effect on our work. When we consider using an app, we might like a certain feature but not like the other features it offers, or we just don&amp;rsquo;t like the pricing.
+That&amp;rsquo;s why I personally often look for an alternative to developer tools out there. But rather than save it privately, I&amp;rsquo;d like to share it with others. As a bonus, other people might recommend another similar tool that can help us with our coding work.</description>
+    </item>
+    
+    <item>
+      <title>How to fix Amazon S3 error RequestTimeTooSkewed</title>
+      <link>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</link>
+      <pubDate>Wed, 12 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</guid>
+      <description>Suddenly one of my s3 function i use normally got an error with message RequestTimeTooSkewed. Here is how to fix it
+In my case, i use S3 to automate my database backup with Laravel as backend with this error message:
+Exception message: Could not connect to disk s3 because: exception &amp;#39;Aws\\S3\\Exception\\S3Exception&amp;#39; It doesn&amp;rsquo;t really matter what backend language do you use, as long as you got this &amp;ldquo;request time too skewed&amp;rdquo; from S3 message, you can solve this by adjust the timezone on your server</description>
+    </item>
+    
+    <item>
+      <title>Manage media/image in forestry with cloudinary</title>
+      <link>https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/</link>
+      <pubDate>Sat, 06 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/</guid>
+      <description>One of the shortage of using static site like Hugo compare to giant CMS like Wordpress is managing image is not that easy. Normally, you have to add it to your local folder and give a reference to your relative path.
+But storing it in our own local file is not scalable and make our hosting heavier. That&amp;rsquo;s why i&amp;rsquo;m looking for a hosting asset solution, and luckily i found cloudinary , it comes with a generous offer if you just getting started.</description>
+    </item>
+    
+    <item>
+      <title>How to Schedule Post in Future for Hugo</title>
+      <link>https://onebite.dev/how-to-schedule-post-in-future-for-hugo/</link>
+      <pubDate>Mon, 01 Apr 2019 01:46:10 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-schedule-post-in-future-for-hugo/</guid>
+      <description>As i mentioned in previous post, i move my website from github-pages to Netlify , so i can set a schedule for my Hugo post in future.
+How to:
+ in &amp;ldquo;Netlify&amp;rdquo; Menu settings &amp;gt; Build and deploy &amp;gt; check &amp;ldquo;build hooks&amp;rdquo; section, click &amp;ldquo;Add build Hook&amp;rdquo; button.   This will generate a unique url, when we send request post to this link, it will build our site from the repository.</description>
+    </item>
+    
+    <item>
+      <title>How to Tweet Your Blog Post Automatically</title>
+      <link>https://onebite.dev/how-to-tweet-your-blog-post-automatically/</link>
+      <pubDate>Sun, 31 Mar 2019 19:03:13 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-tweet-your-blog-post-automatically/</guid>
+      <description>There are many social media manager out there, like Hootsuite and Buffer, but not many people have heard about dlvr.it. Just like other, it offers a scheduling feature, with a bonus: we can connect our RSS blog feed with dlvr.it to automatically tweet our new post.
+Step by step auto post blog  Sign up to dlvr.it connect one of your social media account Submit your RSS Feed (create, if you don&amp;rsquo;t have one) and choose your social media (Optional) In &amp;ldquo;settings&amp;rdquo; menu you can define how many times and when to look for any new updates  Other alternative: I just found out, there&amp;rsquo;s an IFTTT alternative for this, check this wesferrel&amp;rsquo;s applet</description>
+    </item>
+    
+    <item>
+      <title>Where to Host Website for Free</title>
+      <link>https://onebite.dev/where-to-host-website-for-free/</link>
+      <pubDate>Sun, 31 Mar 2019 05:42:26 +0000</pubDate>
+      
+      <guid>https://onebite.dev/where-to-host-website-for-free/</guid>
+      <description>Is there any place to host your website for free? short answer is YES, long answer.. YEEEEEEES. Today, there are so many generous companies offer us a hosting service for free and very reliable. Many websites already run on these platforms, now is your turn.
+Gitub Pages If you already love github, you&amp;rsquo;ll love them even more. With Github pages you can easily make a website just like creating a new repository.</description>
+    </item>
+    
+    <item>
+      <title>Free and Easy Rest API for Prototype</title>
+      <link>https://onebite.dev/free-and-easy-rest-api-for-prototype/</link>
+      <pubDate>Sun, 31 Mar 2019 05:04:22 +0000</pubDate>
+      
+      <guid>https://onebite.dev/free-and-easy-rest-api-for-prototype/</guid>
+      <description>Do you want to create an app, but not sure how it will go just yet? Thinking about all server setup, managing database, and other stuff is scary. Good news is, we can serve our database from API (Application Programming Interface) without configuring any server or write backend code!
+My JSON Server We can make our own data as easy as make a JSON file and serve it from our github pages with My JSON Server!</description>
+    </item>
+    
+  </channel>
+</rss>

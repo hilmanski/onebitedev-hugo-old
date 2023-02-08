@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Onebite Dev</title>
+    <link>https://onebite.dev/topic/python/</link>
+    <description>Recent content in python on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jan 2023 21:37:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updating poetry package manager from 1.1 to 1.2  1.3 or above</title>
+      <link>https://onebite.dev/updating-poetry-package-manager-from-1.1-to-1.2-1.3-or-above/</link>
+      <pubDate>Tue, 17 Jan 2023 21:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/updating-poetry-package-manager-from-1.1-to-1.2-1.3-or-above/</guid>
+      <description>Normally we can just update our poetry version like this
+poetry self update But not if you have poetry &amp;lt; 1.1 version
+If you look at the poetry documentation there&amp;rsquo;s this warning
+ Poetry 1.1 series releases are not able to update in-place to 1.2 or newer series releases. To migrate to newer releases, uninstall using your original install method, and then reinstall using the methods above.
+ How to uninstall Uninstall the poetry version first.</description>
+    </item>
+    
+    <item>
+      <title>Solve poetry problem: configuration is invalid properties group was unexpected</title>
+      <link>https://onebite.dev/solve-poetry-problem-configuration-is-invalid-properties-group-was-unexpected/</link>
+      <pubDate>Tue, 17 Jan 2023 21:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-poetry-problem-configuration-is-invalid-properties-group-was-unexpected/</guid>
+      <description>Here is how I solve my poetry python configuration problem, where Additional properties are not allowed (group was unexpected) issue
+Background problem New poetry (I believe from version 1.2) introduce a &amp;ldquo;group&amp;rdquo; dependecy
+Which causing this error if you have version &amp;lt; 1.2
+You can spot this in your pyproject.toml, if you have something like [tool.poetry..group..]
+Solution Upgrade your poetry to recent version or at least 1.2 (better communicate with your team).</description>
+    </item>
+    
+    <item>
+      <title>Get uuid from a link string in python</title>
+      <link>https://onebite.dev/get-uuid-from-a-link-string-in-python/</link>
+      <pubDate>Mon, 30 May 2022 23:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/get-uuid-from-a-link-string-in-python/</guid>
+      <description>Learn how to get UUID from a string link on a python programming language. This could be useful for example when you are working with Notion site then need to grab the id or any other need.
+First we need to import uuid with uuid.UUID(string) will convert &amp;ldquo;anythathasdash&amp;rdquo; to &amp;ldquo;any-that-has-dash&amp;rdquo;
+return str(uuid.UUID(string_id)) But let&amp;rsquo;s assume our string is not clean. It has several possibilites, like having string before or having question mark that normally shows up on a link, ect.</description>
+    </item>
+    
+    <item>
+      <title>Solving  Error: pg_config executable not found psycopg2 install</title>
+      <link>https://onebite.dev/solving-error-pg_config-executable-not-found-psycopg2-install/</link>
+      <pubDate>Tue, 24 May 2022 02:06:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solving-error-pg_config-executable-not-found-psycopg2-install/</guid>
+      <description>On my mac machine, I tried to install a new python library with psycopg2 in it, I got pg_config error, here&amp;rsquo;s how I solve this error
+Case: When I try to add a new package on my computer that has psycopg2 library, it shows me this error
+ Error: pg_config executable not found. pg_config is required to build psycopg2 from source. Please add the directory containing pg_config to the $PATH or specify the full executable path with the option: python setup.</description>
+    </item>
+    
+    <item>
+      <title>How to add multiple types in pydantic</title>
+      <link>https://onebite.dev/how-to-add-multiple-types-in-pydantic/</link>
+      <pubDate>Thu, 28 Apr 2022 22:26:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-multiple-types-in-pydantic/</guid>
+      <description>To allow pydantic to accept multiple values we can use Union and put the values inside the square brackets
+For example:
+favicon_link: Union[str, bool] This way we allow favicon_link to be any str or bool</description>
+    </item>
+    
+    <item>
+      <title>How to make bcrypt checkpw function work</title>
+      <link>https://onebite.dev/how-to-make-bcrypt-checkpw-function-work/</link>
+      <pubDate>Mon, 18 Apr 2022 22:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-bcrypt-checkpw-function-work/</guid>
+      <description>If you&amp;rsquo;re using bcrypt package in python, and try to use checkpw but keep failing, probably you save the hashed password in database wrong. Here&amp;rsquo;s how I solve it.
+On storing the hashed password to database
+password = password_from_user.encode(&amp;#34;utf-8&amp;#34;) hash = bcrypt.hashpw(password, bcrypt.gensalt()) stored_password = hash.decode(&amp;#34;utf-8&amp;#34;) #The key is to decode it first # continue by saving it to DB And how you compare it alter, using checkpw is like this:</description>
+    </item>
+    
+    <item>
+      <title>Solve alembic multiple head revisions are present </title>
+      <link>https://onebite.dev/solve-alembic-multiple-head-revisions-are-present/</link>
+      <pubDate>Sun, 17 Apr 2022 20:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-alembic-multiple-head-revisions-are-present/</guid>
+      <description>Just like git, When you have multiple branches on your migrations of sqlalchemy&amp;rsquo;s alembic. It will tell you that you have two different versions that need to be solved. Normally, it happens when you and your teammate working together and each add migrations. So you need to merge it.
+If you check you heads, with
+alembic history It&amp;rsquo;ll show you that it got&amp;rsquo;s more than one head.
+Two ways to merge your heads in sqlalchemy First,</description>
+    </item>
+    
+    <item>
+      <title>How to convert sqlalchemy object to json in FastAPI</title>
+      <link>https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/</link>
+      <pubDate>Fri, 15 Apr 2022 21:36:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/</guid>
+      <description>Have you struggled on How to convert sqlalchemy object to json in FastAPI? Do you know that fastapi has jsonable_encoder to do exactly this job?
+You just need to import
+from fastapi.encoders import jsonable_encoder Then use it on any sqlachemy object, or any object you want
+jsonable_encoder(Item) It&amp;rsquo;ll turn this object into a json</description>
+    </item>
+    
+    <item>
+      <title>Solve error Alembic Can&#39;t locate revision identified by id_number</title>
+      <link>https://onebite.dev/solve-error-alembic-cant-locate-revision-identified-by-id_number/</link>
+      <pubDate>Thu, 14 Apr 2022 18:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-error-alembic-cant-locate-revision-identified-by-id_number/</guid>
+      <description>If you&amp;rsquo;re using Alembic as your migration tool for sqlalchemy project on your python program, you might encountered this problem before -Alembic Can&amp;rsquo;t locate revision identified by id_number- when running command alembic upgrade head
+Here&amp;rsquo;s how to solve it.
+What caused this error You might delete your revision file on alembic folder manually. While in your database, the version pointed to that version. So it can&amp;rsquo;t find the file. That&amp;rsquo;s why this error shows up.</description>
+    </item>
+    
+    <item>
+      <title>How to bulk update in sqlalchemy python?</title>
+      <link>https://onebite.dev/how-to-bulk-update-in-sqlalchemy-python/</link>
+      <pubDate>Fri, 08 Apr 2022 02:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-bulk-update-in-sqlalchemy-python/</guid>
+      <description>Update multiple columns one by one is daunting. Learn how to do a bulk update on Sqlalchemy in python programing language to update multiple items at once.
+Thanks so much from the gist by doobeh here
+Here&amp;rsquo;s the raw implementation
+from sqlalchemy.sql.expression import bindparam stmt = update(TableName)\ where(TableName.id == bindparam(&amp;#39;_id&amp;#39;)).\ values({ &amp;#39;user_id&amp;#39;: bindparam(&amp;#39;user_id&amp;#39;), &amp;#39;email_address&amp;#39;: bindparam(&amp;#39;email_address&amp;#39;), }) conn.execute(stmt, [ {&amp;#39;user_id&amp;#39;: 1, &amp;#39;email_address&amp;#39; : &amp;#39;me@you.com&amp;#39;, &amp;#39;_id&amp;#39;:1}, {&amp;#39;user_id&amp;#39;: 2, &amp;#39;email_address&amp;#39; : &amp;#39;test@yahoo.com&amp;#39;, &amp;#39;_id&amp;#39;:2}, {&amp;#39;user_id&amp;#39;: 3, &amp;#39;email_address&amp;#39; : &amp;#39;now@then.</description>
+    </item>
+    
+    <item>
+      <title>How to count most used words in database with python</title>
+      <link>https://onebite.dev/how-to-count-most-used-words-in-database-with-python/</link>
+      <pubDate>Sat, 06 Apr 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-count-most-used-words-in-database-with-python/</guid>
+      <description>Data is one of the hottest things during past few years, being able to get a particular information from data that you collect could be very helpful.
+Here&amp;rsquo;s a little script how you can get / count most common words from your database. In this case we&amp;rsquo;ll be using a mysql, but you can absolutely change it to other database engine, API or any file. We&amp;rsquo;re using Collection Counter from python</description>
+    </item>
+    
+  </channel>
+</rss>

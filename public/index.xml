@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onebite Dev</title>
+    <link>https://onebite.dev/</link>
+    <description>Recent content on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 23:35:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating Hugo site to Astro</title>
+      <link>https://onebite.dev/migrating-hugo-site-to-astro/</link>
+      <pubDate>Tue, 07 Feb 2023 23:35:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/migrating-hugo-site-to-astro/</guid>
+      <description>I&amp;rsquo;ve been a long time Hugo fans. But I still struggle on doing certain query, routing or filtering on template in Hugo. I tried Astro and really love it. Here is how you can migrate too
+ WARNING
+ Don&amp;rsquo;t move if you&amp;rsquo;re already satisfied and don&amp;rsquo;t have any problem with Hugo. If you&amp;rsquo;re working for a long term project AND used to work with react/js environment, give Astro as a shot   Read here, if you&amp;rsquo;re looking a simple comparation between Hugo and Astro</description>
+    </item>
+    
+    <item>
+      <title>Hugo vs Astro - which static site generator to choose in 2023</title>
+      <link>https://onebite.dev/hugo-vs-astro-which-static-site-generator-to-choose-in-2023/</link>
+      <pubDate>Mon, 06 Feb 2023 21:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hugo-vs-astro-which-static-site-generator-to-choose-in-2023/</guid>
+      <description>Which static site generator to choose in year 2023? should you pick the newcomer Astro or Hugo that been here for a while.
+ TLDR;
+I have built many sites with Hugo, but I still struggle with the things like integrating 3rd party tools or create a complex query/filter.
+Currently, I am trying to migrate a site from Hugo to Astro and I absolutely love the overall experience. So for now, I definitely choose Astro as my main SSG.</description>
+    </item>
+    
+    <item>
+      <title>Hugo shortcode in Astro Components</title>
+      <link>https://onebite.dev/hugo-shortcode-in-astro-components/</link>
+      <pubDate>Sun, 05 Feb 2023 17:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hugo-shortcode-in-astro-components/</guid>
+      <description>Migrating my site from Hugo to Astro, requires me to find out what is a Hugo shortcode relevant in Astro statice site generator.
+Astro shortcode-like Astro components is what I&amp;rsquo;m looking for. We can make a &amp;ldquo;component&amp;rdquo; (in terms of modern front end javascript library) and use it in our astro file or markdown file.
+Read about astro components.
+Now is the fun part.. How to use it?
+Create a component file We&amp;rsquo;ll talk about the detail on separate post.</description>
+    </item>
+    
+    <item>
+      <title>How to solve docker containers can not be down or stopped or removed - permission denied error</title>
+      <link>https://onebite.dev/how-to-solve-docker-containers-can-not-be-down-or-stopped-or-removed-permission-denied-error/</link>
+      <pubDate>Thu, 26 Jan 2023 03:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-docker-containers-can-not-be-down-or-stopped-or-removed-permission-denied-error/</guid>
+      <description>A lot of advice is running aa-remove-unkown or teardown the apparmore. Which I HAVE NO KNOWLEDGE ABOUT apparmore and scared to do anything in HOST level.
+So I found much simpler solution (but more hard work).
+How to kill docker container from the inside Find you container-name by running docker ps
+Run.
+docker exec -it &amp;lt;container-name&amp;gt; sh Now you&amp;rsquo;re on a shell, run
+kill 1 Verified the docker stop running by run docker ps again</description>
+    </item>
+    
+    <item>
+      <title>How to auto delete files in AWS s3 every X times interval in Nodejs</title>
+      <link>https://onebite.dev/how-to-auto-delete-files-in-aws-s3-every-x-times-interval-in-nodejs/</link>
+      <pubDate>Tue, 24 Jan 2023 02:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-auto-delete-files-in-aws-s3-every-x-times-interval-in-nodejs/</guid>
+      <description>Here is how you can auto delete files from certain bucker in AWS s3 storage every X times interval in Nodejs, whether less than a day, an hour or any time you choose
+Raw logic to choose which files to delete Not like MYSQL query, where we have a where clause to run on a query. We have to implement a different strategy for AWS.
+The big picture:
+ List all the files Collect only where files older than X times Put Keys of selected files in an array delete objest based on this paramter (array of keys)  Initalize the AWS S3 Assume you have .</description>
+    </item>
+    
+    <item>
+      <title>How to auto answer yes or no question when installing with apt in docker</title>
+      <link>https://onebite.dev/how-to-auto-answer-yes-or-no-question-when-installing-with-apt-in-docker/</link>
+      <pubDate>Thu, 19 Jan 2023 17:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-auto-answer-yes-or-no-question-when-installing-with-apt-in-docker/</guid>
+      <description>When running a docker image, sometimes we need to install a package that requires us to answering a yes and no question. But docker will exit because of this.
+So we need to &amp;ldquo;auto answer&amp;rdquo; this question for us during installation.
+Solution That&amp;rsquo;s where -y command parameter comes
+for example, previously I have
+RUN apt-get install libreoffice Docker will exit this, because the question mentioned above. So I need to install it with -y parameter to let it auto anwer for me</description>
+    </item>
+    
+    <item>
+      <title>Updating poetry package manager from 1.1 to 1.2  1.3 or above</title>
+      <link>https://onebite.dev/updating-poetry-package-manager-from-1.1-to-1.2-1.3-or-above/</link>
+      <pubDate>Tue, 17 Jan 2023 21:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/updating-poetry-package-manager-from-1.1-to-1.2-1.3-or-above/</guid>
+      <description>Normally we can just update our poetry version like this
+poetry self update But not if you have poetry &amp;lt; 1.1 version
+If you look at the poetry documentation there&amp;rsquo;s this warning
+ Poetry 1.1 series releases are not able to update in-place to 1.2 or newer series releases. To migrate to newer releases, uninstall using your original install method, and then reinstall using the methods above.
+ How to uninstall Uninstall the poetry version first.</description>
+    </item>
+    
+    <item>
+      <title>Solve poetry problem: configuration is invalid properties group was unexpected</title>
+      <link>https://onebite.dev/solve-poetry-problem-configuration-is-invalid-properties-group-was-unexpected/</link>
+      <pubDate>Tue, 17 Jan 2023 21:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-poetry-problem-configuration-is-invalid-properties-group-was-unexpected/</guid>
+      <description>Here is how I solve my poetry python configuration problem, where Additional properties are not allowed (group was unexpected) issue
+Background problem New poetry (I believe from version 1.2) introduce a &amp;ldquo;group&amp;rdquo; dependecy
+Which causing this error if you have version &amp;lt; 1.2
+You can spot this in your pyproject.toml, if you have something like [tool.poetry..group..]
+Solution Upgrade your poetry to recent version or at least 1.2 (better communicate with your team).</description>
+    </item>
+    
+    <item>
+      <title>How to create a new file in astro</title>
+      <link>https://onebite.dev/how-to-create-a-new-file-in-astro/</link>
+      <pubDate>Mon, 16 Jan 2023 20:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-a-new-file-in-astro/</guid>
+      <description>To create a new file in astro site generator, we just need to create a new file inside pages folder with .astro extension
+Location
+|_ src |_ pages |_ index.astro (default) |_ yournewfile.astro Now you can visit in your URL localhost:3000/yournewfile
+Astro automatically pick the file name as your route path
+&amp;ldquo;Astro Components (.astro) and Markdown Files (.md) in the src/pages directory automatically become pages on your website.&amp;rdquo; - astro routing</description>
+    </item>
+    
+    <item>
+      <title>react developer tools guide 2023</title>
+      <link>https://onebite.dev/react-developer-tools-guide-2023/</link>
+      <pubDate>Sun, 15 Jan 2023 19:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/react-developer-tools-guide-2023/</guid>
+      <description>This is a simple guide on how to use react developer tools in browser like chrome, firefox or safari to help us, debug and inspect everything from components, props and state to identify potential or current problem on our React application.
+How to install React developer tools React developer tool is available as browser extension. Here&amp;rsquo;s the link to install based on your browser
+React dev tool for chrome React dev tool for Edge React dev tool for Firefox</description>
+    </item>
+    
+    <item>
+      <title>HTML code snippet with emmet</title>
+      <link>https://onebite.dev/html-code-snippet-with-emmet/</link>
+      <pubDate>Sun, 15 Jan 2023 18:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/html-code-snippet-with-emmet/</guid>
+      <description>Make your life easier as frontend developer, by using emmet as your HTML code snippet. By installing meet, you can write HTML code much much faster.
+TLDR Here&amp;rsquo;s from Emmet&amp;rsquo;s documentation &amp;ldquo;Basically, most text editors out there allow you to store and re-use commonly used code chunks, called “snippets”. While snippets are a good way to boost your productivity, all implementations have common pitfalls: you have to define the snippet first and you can’t extend them in runtime.</description>
+    </item>
+    
+    <item>
+      <title>You can ask AI, what is the output of the following code snippet ...</title>
+      <link>https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../</link>
+      <pubDate>Fri, 13 Jan 2023 01:31:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../</guid>
+      <description>As a programmer, you may have come across a situation where you&amp;rsquo;re not sure what the output of a certain code snippet will be.
+TLDR Go to ChatGPT3 site and ask it something about your code! you&amp;rsquo;ll be suprised how detail the explanation is.
+Or you may try Github Copilot to get an AI suggestion on your text editor while you code.
+Why do you need it ? Maybe it&amp;rsquo;s code you&amp;rsquo;ve inherited from another developer, or maybe it&amp;rsquo;s code you wrote a while ago and have since forgotten how it works.</description>
+    </item>
+    
+    <item>
+      <title>What is code snippet meaning</title>
+      <link>https://onebite.dev/what-is-code-snippet-meaning/</link>
+      <pubDate>Fri, 13 Jan 2023 01:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-code-snippet-meaning/</guid>
+      <description>Welcome to the world of programming! You may have heard the term &amp;ldquo;code snippet&amp;rdquo; and wondered what it means. In this post, we&amp;rsquo;ll explore what code snippets are, how they can be used, and where to find them.
+Code snippet meaning.. A code snippet is a small piece of code that serves a specific purpose. It can be a single line or a more that accomplish a specific task.
+Code snippets are often used by programmers to quickly add functionality to their projects without having to write the code from scratch.</description>
+    </item>
+    
+    <item>
+      <title>Import function from another file in NodeJS without module </title>
+      <link>https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/</link>
+      <pubDate>Thu, 12 Jan 2023 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/import-function-from-another-file-in-nodejs-without-module/</guid>
+      <description>If you need to add an external function from other file into a nodejs file without changing the type into module type you can use this commonJS method
+You can learn it &amp;lsquo;officialy&amp;rsquo; about commonJS in Nodejs here in the official doc
+How to export function from another file Let&amp;rsquo;s say I have a function to return a random name on a helper function. I put it on ./src/utils/helper.js
+function _getRandomName() { const randomName = Math.</description>
+    </item>
+    
+    <item>
+      <title>How many programming languages should I know</title>
+      <link>https://onebite.dev/how-many-programming-languages-should-i-know/</link>
+      <pubDate>Wed, 11 Jan 2023 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-many-programming-languages-should-i-know/</guid>
+      <description>As a new programmer, it&amp;rsquo;s natural to wonder how many programming languages you should know. The truth is, there&amp;rsquo;s no one-size-fits-all answer to this question. The number of languages you should learn depends on your goals as a developer and the type of projects you want to work on.
+When you&amp;rsquo;re just starting out, it&amp;rsquo;s important to focus on learning the basics of programming and a single language well. This will give you a solid foundation to build upon as you continue to learn and grow as a developer.</description>
+    </item>
+    
+    <item>
+      <title>What is serverless and why it is important?</title>
+      <link>https://onebite.dev/what-is-serverless-and-why-it-is-important/</link>
+      <pubDate>Mon, 09 Jan 2023 03:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-serverless-and-why-it-is-important/</guid>
+      <description>As a developer, you are constantly searching for ways to build and deploy applications more efficiently. One approach that has gained popularity in recent years is the concept of &amp;ldquo;serverless&amp;rdquo; computing. But what exactly is serverless, and how can it benefit developers?
+In a traditional computing environment, you would need to provision and manage servers to host your applications. This involves purchasing and setting up hardware, installing an operating system and necessary software, and configuring the server to meet your needs.</description>
+    </item>
+    
+    <item>
+      <title>What is code review and why it&#39;s important?</title>
+      <link>https://onebite.dev/what-is-code-review-and-why-its-important/</link>
+      <pubDate>Mon, 09 Jan 2023 02:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-code-review-and-why-its-important/</guid>
+      <description>As a developer, you know that writing code is only one part of the job. Ensuring that your code is of high quality and meets the requirements of your project is just as important, if not more so. One way to do this is through code review, a process in which other developers review your code and provide feedback on its style, correctness, and overall design. Code review can be a time-consuming process, but it&amp;rsquo;s well worth the effort as it helps catch bugs, improve code quality, and foster a collaborative culture within your team.</description>
+    </item>
+    
+    <item>
+      <title>What is Coding tools</title>
+      <link>https://onebite.dev/what-is-coding-tools/</link>
+      <pubDate>Mon, 09 Jan 2023 02:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-coding-tools/</guid>
+      <description>As a developer, one of the most important things you can do to improve your workflow is to become proficient with a wide range of coding tools. These tools can make your life easier by automating tedious tasks, helping you write and debug code more efficiently, and giving you access to a wealth of information and resources. In this blog post, we&amp;rsquo;ll take a look at some of the most essential coding tools that every developer should know about.</description>
+    </item>
+    
+    <item>
+      <title>How to solve  Unable to locate file in Vite manifest app sass at deploy</title>
+      <link>https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/</link>
+      <pubDate>Thu, 05 Jan 2023 18:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/</guid>
+      <description>When deploying my laravel site that use Vite and sass (CSS-preprocessor), I got this error &amp;quot; Unable to locate file in Vite manifest: resources/sass/app.sass&amp;quot;
+Turns out, I need to update the vite config file
+import { defineConfig } from &amp;#39;vite&amp;#39;; import laravel from &amp;#39;laravel-vite-plugin&amp;#39;; export default defineConfig({ plugins: [ laravel({ input: [ &amp;#39;resources/sass/app.sass&amp;#39;, &amp;#39;resources/js/app.js&amp;#39;, ], refresh: true, }), ], }); To that. or whatever the name of your sass file is</description>
+    </item>
+    
+    <item>
+      <title>Empty folder not copied to docker - folder not found on production</title>
+      <link>https://onebite.dev/empty-folder-not-copied-to-docker-folder-not-found-on-production/</link>
+      <pubDate>Tue, 03 Jan 2023 03:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/empty-folder-not-copied-to-docker-folder-not-found-on-production/</guid>
+      <description>If your empty folder not copied to docker while on production and you getting error folder not found - here is how I solve it
+Problem The problem is actually not in docker, but in my case, it&amp;rsquo;s a git issue. Where an empty folder is not copied by my git.
+Add empty folder to git To add your empty folder to git, on your empty directory run
+touch .gitkeep Then re add, commit and push your changes</description>
+    </item>
+    
+    <item>
+      <title>Print X number of docker logs</title>
+      <link>https://onebite.dev/print-x-number-of-docker-logs/</link>
+      <pubDate>Tue, 03 Jan 2023 02:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/print-x-number-of-docker-logs/</guid>
+      <description>Here is how to print certain amount of logs on docker. It is helpful for me to debug what is happening recently
+docker logs -f --tail NUMBER container_name Change NUMBER with how many logs do you want to print, for example we want to show last 10 logs:
+docker logs -f --tail 10 container_name What about CONTAINER_NAME ? You can get container name by running docker ps and copy your desired image</description>
+    </item>
+    
+    <item>
+      <title>Mocking next router on Jest test</title>
+      <link>https://onebite.dev/mocking-next-router-on-jest-test/</link>
+      <pubDate>Wed, 28 Dec 2022 03:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/mocking-next-router-on-jest-test/</guid>
+      <description>How to mock the next router on Jest test function to be able to past query when rendering a component in React or nextjs App.
+I got this tips from article: how to mock next router with jest
+At your test file, add the following mock
+import { useRouter } from &amp;#39;next/router&amp;#39; jest.mock(&amp;#39;next/router&amp;#39;, () =&amp;gt; ({ useRouter: jest.fn() })) useRouter.mockReturnValue({ query: {}, push: () =&amp;gt; {} }) Now, everytime we render a component, we can call this useRouter function with query that we want.</description>
+    </item>
+    
+    <item>
+      <title>Git error push remote branch src refspec does not match any</title>
+      <link>https://onebite.dev/git-error-push-remote-branch-src-refspec-does-not-match-any/</link>
+      <pubDate>Wed, 14 Dec 2022 23:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/git-error-push-remote-branch-src-refspec-does-not-match-any/</guid>
+      <description>If you got error - src refspec does not match any, failed to push some refs to&amp;hellip;- when trying to push change to remote git branch, here is how I solve it
+The problem is we haven&amp;rsquo;t connect our git branch to the remote one. It&amp;rsquo;s actually just like when we first initialize our git on main.
+What we need to do is using the -u or --set-upstream parameter while push the changes.</description>
+    </item>
+    
+    <item>
+      <title>Create a local branch from existing remote branch</title>
+      <link>https://onebite.dev/create-a-local-branch-from-existing-remote-branch/</link>
+      <pubDate>Wed, 14 Dec 2022 23:14:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-a-local-branch-from-existing-remote-branch/</guid>
+      <description>If you want to test remote branch locally, you can use fetch method on git to try it on your machine
+ First, we need to fetch the remote branch  git fetch origin remote-branch-name remote-branch-name is your branch name on remote Git
+What is fetch in Git? Fetch is a command in Git to download commit, files and other info from a remote repository.
+Checkout new branch Now, we can checkout a new branch by pointing to the fetched branch above  git checkout -b local-branch origin/remote-branch-name Your local-branch can be any name you want the branch name on your machine.</description>
+    </item>
+    
+    <item>
+      <title>Install multiple fonts on docker images</title>
+      <link>https://onebite.dev/install-multiple-fonts-on-docker-images/</link>
+      <pubDate>Mon, 12 Dec 2022 03:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/install-multiple-fonts-on-docker-images/</guid>
+      <description>Looking for a way on how to install multiple fonts on your docker images? here is how I did it
+... WORKDIR /app COPY fonts ./ RUN mkdir -p /usr/share/fonts/truetype RUN install -m644 ./*.ttf /usr/share/fonts/truetype/ RUN rm ./*.ttf ... Explanation:
+ First put all your fonts on fonts folder -&amp;gt; Copy it to docker image Create a new directory to install our fonts /usr/share/fonts/truetype Install with correct permission all *ttf files (assume all you fonts on this file extension) on that new created folder Remove all .</description>
+    </item>
+    
+    <item>
+      <title>Passing children on React component results in error objects are not valid as a React child</title>
+      <link>https://onebite.dev/passing-children-on-react-component-results-in-error-objects-are-not-valid-as-a-react-child/</link>
+      <pubDate>Thu, 24 Nov 2022 17:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/passing-children-on-react-component-results-in-error-objects-are-not-valid-as-a-react-child/</guid>
+      <description>How to solve error &amp;ldquo;objects are not valid as a React child&amp;rdquo; when passing a children into nested React Component.
+The error &amp;ldquo;objects are not valid as a React child&amp;rdquo; has many various cases. In this article, we&amp;rsquo;re talking specifically when passing a children between React Component
+Say we have a child component like this.
+export default function ChildComponent(children) { return ( &amp;lt;div&amp;gt; {children} &amp;lt;/div&amp;gt; ) } It&amp;rsquo;ll show the above error, because we&amp;rsquo;re passing the children the wrong way.</description>
+    </item>
+    
+    <item>
+      <title>Put conditional logic onClick ReactJs</title>
+      <link>https://onebite.dev/put-conditional-logic-onclick-reactjs/</link>
+      <pubDate>Fri, 18 Nov 2022 22:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/put-conditional-logic-onclick-reactjs/</guid>
+      <description>If you need a different behavior of your on click action in ReactJS, depend on if else logic you have, try this
+&amp;lt;div onClick={() =&amp;gt; { (checkLogic == true) ? doSomething() : doSomethingElse() }} &amp;gt; Content &amp;lt;/div&amp;gt; Our on click event now have two different possibilities, depend on checkLogic result. If it&amp;rsquo;s true it will do something, if not then do something else
+Or if you want to turn off the onClick (do nothing), we can pass empty bracket</description>
+    </item>
+    
+    <item>
+      <title>Why is it like that</title>
+      <link>https://onebite.dev/why-is-it-like-that/</link>
+      <pubDate>Wed, 16 Nov 2022 22:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/why-is-it-like-that/</guid>
+      <description>During debugging my app, I jump between solutions until I found what I want. But I forget to ask what causing the behavior in the first place.
+Let&amp;rsquo;s say I try solution A, it didn&amp;rsquo;t work. Change the code , try solution B. Didn&amp;rsquo;t work either? change the code again to solution C. Until I found the final results I intended.
+Often times it bring me to the same bug again and again.</description>
+    </item>
+    
+    <item>
+      <title>How to learn new skills while having a job as a programmer</title>
+      <link>https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/</link>
+      <pubDate>Tue, 08 Nov 2022 04:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/</guid>
+      <description>On average, we work 40 hours per week. If you&amp;rsquo;re single, that leaves around 16 hours per week to dedicate to learning new skills. Of course, it is different for everyone. Some people may have family and kids that take up most of their time, while others have another job that they are working in addition to their programming job. So learning new skills might not be a priority (or possible) for everyone.</description>
+    </item>
+    
+    <item>
+      <title>Case sensitive when multiple select - cursor on VS Code</title>
+      <link>https://onebite.dev/case-sensitive-when-multiple-select-cursor-on-vs-code/</link>
+      <pubDate>Sun, 30 Oct 2022 17:23:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/case-sensitive-when-multiple-select-cursor-on-vs-code/</guid>
+      <description>I often found myself selecting multiple variable on VSCode, but the problem is, it is case insensitive. Today I learn how to make it case sensitive.
+When selecting with cmmd/ctrl + D, in right corner on that file, you&amp;rsquo;ll see the toolbar shows up. See the &amp;ldquo;Aa, ab, .*&amp;rdquo; toolbar.
+If you click on the &amp;lsquo;Aa&amp;rsquo; button , then it&amp;rsquo;ll only select the exact case sensitive for you
+Shortcut to make selection case sensitive To be able to use this feature without moving cursor/mouse, we can use shortcut to make selection case sensitive -&amp;gt; cmmd + opt + c</description>
+    </item>
+    
+    <item>
+      <title>My cypress setting to run with GUI or not</title>
+      <link>https://onebite.dev/my-cypress-setting-to-run-with-gui-or-not/</link>
+      <pubDate>Fri, 28 Oct 2022 02:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/my-cypress-setting-to-run-with-gui-or-not/</guid>
+      <description>Sometimes you want to see your test running with GUI, but sometimes not, you just want run CLI and see the test results. Here is my package json setup
+package.json
+&amp;#34;scripts&amp;#34;: { ... &amp;#34;test&amp;#34;: &amp;#34;cypress run&amp;#34;, &amp;#34;test-visual&amp;#34;: &amp;#34;cypress open&amp;#34; }, This way I can easily trigger the test with command npm/yarn , depend if I want to use GUI or not
+Or if you want to do it manually
+To run the test itself, we can run</description>
+    </item>
+    
+    <item>
+      <title>Disable video recording when running Cypress</title>
+      <link>https://onebite.dev/disable-video-recording-when-running-cypress/</link>
+      <pubDate>Fri, 28 Oct 2022 02:30:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/disable-video-recording-when-running-cypress/</guid>
+      <description>When you&amp;rsquo;re using cypress run to run test without GUI, Cypress will automatically generate a videos of your test at cypress/videos folder. It&amp;rsquo;s a good thing, especially when the test failed, so you can see what happen actually while running your test.
+How to disable the video recording To disable the video, go to cypress.config.js file and add video: false attribute
+import { defineConfig } from &amp;#39;cypress&amp;#39; export default defineConfig({ e2e: { setupNodeEvents(on, config) { // implement node event listeners here }, }, video: false, }) It won&amp;rsquo;t fill much of your disk space If you&amp;rsquo;re worried that it will take many spaces, don&amp;rsquo;t worry.</description>
+    </item>
+    
+    <item>
+      <title>Should you write an automated test for your code?</title>
+      <link>https://onebite.dev/should-you-write-an-automated-test-for-your-code/</link>
+      <pubDate>Wed, 26 Oct 2022 23:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/should-you-write-an-automated-test-for-your-code/</guid>
+      <description>Should you write a test for your code?
+We all know that writing tests are important, but it can feel like a drag to take the time to do it. After all, we&amp;rsquo;re developers and we want to spend our time building new features rather than writing tests. Many developers feel like writing tests is a waste of time because they don&amp;rsquo;t see the immediate benefits.
+I would argue that the benefits are actually quite significant!</description>
+    </item>
+    
+    <item>
+      <title>How to solve Error jest-haste-map Watchman crawl failed.</title>
+      <link>https://onebite.dev/how-to-solve-error-jest-haste-map-watchman-crawl-failed./</link>
+      <pubDate>Wed, 26 Oct 2022 20:02:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-error-jest-haste-map-watchman-crawl-failed./</guid>
+      <description>When using Jest for the first time, you might encounter this error
+Error: jest-haste-map: Watchman crawl failed. Retrying once with node crawler. which happen on Mac OS.
+We need to install watchman for this. Example using brew
+brew uninstall watchman Or if you need to reinstall it
+brew reinstall watchman AND you need to give it access (permission to your folder).
+By go to &amp;gt; System Preferences &amp;gt; Security &amp;amp; Privacy &amp;gt; Privacy &amp;gt; Files and Folders</description>
+    </item>
+    
+    <item>
+      <title>Rotation on a previously rotated page on PDF-lib not correctly handled</title>
+      <link>https://onebite.dev/rotation-on-a-previously-rotated-page-on-pdf-lib-not-correctly-handled/</link>
+      <pubDate>Wed, 26 Oct 2022 17:32:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/rotation-on-a-previously-rotated-page-on-pdf-lib-not-correctly-handled/</guid>
+      <description>Normally we rotate a page using setRotation like this on PDF-lib
+const newDegree = 90 //for example const page = pages[pageIndex] const newRotationAngle = degrees(parseInt(newDegree)) page.setRotation(newRotationAngle) We pass the newDegree to the setRotation.
+But I found a case, where a PDF, that has been rotated before, not correctly handled. It treated as if the PDF start from 0deg. But that&amp;rsquo;s not always the case, sometimes the PDF has already been rotated before.</description>
+    </item>
+    
+    <item>
+      <title>removing page in PDF-lib show error index must be at least x</title>
+      <link>https://onebite.dev/removing-page-in-pdf-lib-show-error-index-must-be-at-least-x/</link>
+      <pubDate>Mon, 24 Oct 2022 21:12:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/removing-page-in-pdf-lib-show-error-index-must-be-at-least-x/</guid>
+      <description>Here is how to solve error when removing a page in PDF-lib show error
+index must be at least x and at most x , but actually... assertRange error. Even though your PDF pages is correct and removed Index is correct, we can still meet this issue.
+Why? Because, when removing a page, PDFlib will shift the index number. It&amp;rsquo;s a problem when removing a smaller page. Since PDFlib will change all the index number on next pages.</description>
+    </item>
+    
+    <item>
+      <title>Run block of code each time before certain test in Cypress</title>
+      <link>https://onebite.dev/run-block-of-code-each-time-before-certain-test-in-cypress/</link>
+      <pubDate>Fri, 21 Oct 2022 17:47:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/run-block-of-code-each-time-before-certain-test-in-cypress/</guid>
+      <description>Cypress has a very neat API, which is beforeach.
+context(&amp;#39;Aliasing&amp;#39;, () =&amp;gt; { beforeEach(() =&amp;gt; { cy.visit(&amp;#39;https://example.cypress.io/commands/aliasing&amp;#39;) // or do other thing instea }) it(&amp;#39;a&amp;#39;, () =&amp;gt; { ,,, }) it(&amp;#39;b&amp;#39;, () =&amp;gt; { ,,, }) }) In this sample, before running a and b, we&amp;rsquo;ll visit the above URL first. Of course it&amp;rsquo;s not just for visiting a URL, you can do anything on that block
+What if you only want to run before code once.</description>
+    </item>
+    
+    <item>
+      <title>Waiting for element exists in Cypress instead of time</title>
+      <link>https://onebite.dev/waiting-for-element-exists-in-cypress-instead-of-time/</link>
+      <pubDate>Fri, 21 Oct 2022 17:44:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/waiting-for-element-exists-in-cypress-instead-of-time/</guid>
+      <description>Here is how to wait for a certain element until exists in Cypress instead of time.
+We can use the combination of .get() method and should(). For example
+ before(() =&amp;gt; { cy.visit(&amp;#39;http://localhost:3000/&amp;#39;) cy.get(&amp;#39;canvas&amp;#39;).should(&amp;#39;be.visible&amp;#39;) }) it(&amp;#39;...&amp;#39;, ()=&amp;gt;{ ... }) In above sample, I wait until a canvas element is ready on my page, before I run other funciton.
+This is perfect for me , who used time instead, I need to wait for a few seconds when waiting for a dynamic component / element on my page.</description>
+    </item>
+    
+    <item>
+      <title>A (fake) conversation between the best programmer in the world with a junior</title>
+      <link>https://onebite.dev/a-fake-conversation-between-the-best-programmer-in-the-world-with-a-junior/</link>
+      <pubDate>Fri, 14 Oct 2022 20:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/a-fake-conversation-between-the-best-programmer-in-the-world-with-a-junior/</guid>
+      <description>This is a deep question and answer from the best programmer in the world with a junior coder.
+Q: What makes you the best programmer in the world? A: I don&amp;rsquo;t know – maybe it&amp;rsquo;s because I love what I do and I&amp;rsquo;m really good at it. Or maybe it&amp;rsquo;s because I&amp;rsquo;m always learning and keeping up with the latest trends and technologies. Whatever the reason, I&amp;rsquo;m grateful to be considered the best programmer in the world.</description>
+    </item>
+    
+    <item>
+      <title>How to choose the best developer tools for your needs</title>
+      <link>https://onebite.dev/how-to-choose-the-best-developer-tools-for-your-needs/</link>
+      <pubDate>Fri, 14 Oct 2022 18:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-choose-the-best-developer-tools-for-your-needs/</guid>
+      <description>When choosing developer tools, it&amp;rsquo;s important to consider your needs and objectives. There are many different types of developer tools available, so it&amp;rsquo;s important to do your research before making a decision.
+TLDR; key point  There is no one &amp;ldquo;best&amp;rdquo; developer tool - it depends on your needs and preferences. Consider both open source and commercial options when looking for the right tools for you. Don&amp;rsquo;t be afraid to experiment with different tools until you find the ones that work best for you.</description>
+    </item>
+    
+    <item>
+      <title>Dragging item on mobile also scrolling the parent</title>
+      <link>https://onebite.dev/dragging-item-on-mobile-also-scrolling-the-parent/</link>
+      <pubDate>Tue, 04 Oct 2022 02:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/dragging-item-on-mobile-also-scrolling-the-parent/</guid>
+      <description>When working with drag and drop library like interactjs, I got a problem with mobile devices. Where scrolling get buggy and moving the parent as well.
+Here&amp;rsquo;s how I solved this: Using touch-action: none; CSS property.
+We add this property to the class of the element we want to drag. For example in interactJS we initialize draggable element like this:
+interact(`.classname-of-element`).draggable({ .. }) So now in CSS:
+.classname-of-element { touch-action: none; } Caused: It caused by the default behavior on mobile where touch become a way to scroll an overflow parent element.</description>
+    </item>
+    
+    <item>
+      <title>Shortcut bash function to review Github Pull Request locally</title>
+      <link>https://onebite.dev/shortcut-bash-function-to-review-github-pull-request-locally/</link>
+      <pubDate>Tue, 04 Oct 2022 00:06:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/shortcut-bash-function-to-review-github-pull-request-locally/</guid>
+      <description>We&amp;rsquo;ve learnt how to Checkout Remote Pull Request On Github And Run Locally
+But those steps are pretty long to start reviewing changes in our text editor. So I made a bash function for me to save some time:
+function checkPR() {git fetch origin pull/&amp;#34;$1&amp;#34;/head:&amp;#34;$2&amp;#34; &amp;amp;&amp;amp; git checkout &amp;#34;$2&amp;#34;} usage
+checkPR PRNUMBER BRANCH-NAME This way I just need to above function, and directly on the new branch where PR happened.</description>
+    </item>
+    
+    <item>
+      <title>How to have a hover effect on children when parent is hovered in Tailwind</title>
+      <link>https://onebite.dev/how-to-have-a-hover-effect-on-children-when-parent-is-hovered-in-tailwind/</link>
+      <pubDate>Wed, 28 Sep 2022 23:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-have-a-hover-effect-on-children-when-parent-is-hovered-in-tailwind/</guid>
+      <description>Let&amp;rsquo;s learn how to have a hover effect on children element when parent is hovered in Tailwind CSS.
+Only two steps needed  We identify the parent by adding group as a class name Using group-hover:$any_style_here on any children element we want.  Example Here&amp;rsquo;s the example from official Tailwind docs.
+&amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;flex items-center space-x-3&amp;#34;&amp;gt; &amp;lt;svg class=&amp;#34;h-6 w-6 stroke-sky-500 group-hover:stroke-white&amp;#34; fill=&amp;#34;none&amp;#34; viewBox=&amp;#34;0 0 24 24&amp;#34;&amp;gt;&amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>Nested multiple condition on ReactJS</title>
+      <link>https://onebite.dev/nested-multiple-condition-on-reactjs/</link>
+      <pubDate>Mon, 26 Sep 2022 01:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/nested-multiple-condition-on-reactjs/</guid>
+      <description>How to have a multiple if else condition in ReactJS template? It can depend on multiple state variable or any value in general.
+{ isLoading ? &amp;#39;Please wait...&amp;#39; : &amp;lt;&amp;gt; { registerMode ? &amp;#39;Join for free&amp;#39; : &amp;#39;Login&amp;#39; } &amp;lt;/&amp;gt; } In above example I have two variables: isLoading and registerMode . Both have boolean values.
+If isLoading value is true, then only show please wait.. while if it&amp;rsquo;s not on loading, it will depend on the value of regsterMode itself.</description>
+    </item>
+    
+    <item>
+      <title>How to add word space in tailwind CSS</title>
+      <link>https://onebite.dev/how-to-add-word-space-in-tailwind-css/</link>
+      <pubDate>Fri, 23 Sep 2022 21:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-word-space-in-tailwind-css/</guid>
+      <description>Is there any way to have a word space in tailwind? Yes, this is useful if you want to have a distance / space between word.
+Even though it&amp;rsquo;s not part of utility yet (not sure why). We can use the flexibility of tailwind using arbitary values. Here&amp;rsquo;s how I implemented it
+&amp;lt;div class=&amp;#34;[word-spacing:-20px]&amp;#34;&amp;gt; my words is long&amp;lt;/div&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Async await function not working in forEach loop Javascript</title>
+      <link>https://onebite.dev/async-await-function-not-working-in-foreach-loop-javascript/</link>
+      <pubDate>Wed, 21 Sep 2022 00:17:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/async-await-function-not-working-in-foreach-loop-javascript/</guid>
+      <description>This is a quick solve on how to handle async await function not working in forEach loop Javascript.
+It happens many time to me, that my async functions didn&amp;rsquo;t work. I didn&amp;rsquo;t know what&amp;rsquo;s the cause. Apparently it&amp;rsquo;s all because I put it inside forEach loop.
+This is not a long tutorial, of the cause and better way. Rather it&amp;rsquo;s just how you can make your code works again.
+The quick solution will be turn your forEach element into a normal for loop like this:</description>
+    </item>
+    
+    <item>
+      <title>How to add and remove another git remote repository</title>
+      <link>https://onebite.dev/how-to-add-and-remove-another-git-remote-repository/</link>
+      <pubDate>Sun, 18 Sep 2022 22:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-and-remove-another-git-remote-repository/</guid>
+      <description>You have an origin remote repository for your git. But you need to add other remote repository. Lets see how to do this
+git remote add my_new_name https://github.com/hilmanski/any_remote_repo Now you can verify with
+git remote -v It will list all you remote repositories.
+To push to this new repo, we can just type
+git push my_new_name main *change main, with any branch you want
+How to remove git repository Once you don&amp;rsquo;t need a remote repo, you can delete it with</description>
+    </item>
+    
+    <item>
+      <title>How to make zoom effect in HTML with CSS</title>
+      <link>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</link>
+      <pubDate>Sun, 18 Sep 2022 02:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</guid>
+      <description>Let&amp;rsquo;s learn how to make zoom effect in HTML with CSS. We will play with scale transformation on CSS to make the element chosen bigger/smaller
+The properties we need to set are:
+ transform: scale(1); transformOrigin: 0% 0% 0px;  transform accept float value with 1 as default size. You can go step by step with 1.1 to 2. transformOrigin will set the the position with top left as anchor. So our element not moving.</description>
+    </item>
+    
+    <item>
+      <title>How to declare type in Object destructuring typescript</title>
+      <link>https://onebite.dev/how-to-declare-type-in-object-destructuring-typescript/</link>
+      <pubDate>Sun, 18 Sep 2022 00:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-declare-type-in-object-destructuring-typescript/</guid>
+      <description>Learn how to declare type in typescript when using Object destructuring in Javascript.
+At first, I tried using semicolon(:) and type but it keeps showing me an error.
+function TextElement({el: TextEl, text: string}){ .. } What&amp;rsquo;s wrong with above is, in Javascript putting semicolon on object desctructuring means assign the value to it. So it&amp;rsquo;ll find TextEl variable and assign to El. That&amp;rsquo;s not what we want!
+What we should do to be able to use typescript in &amp;ldquo;Javascript Object Desctrucure&amp;rdquo; is the following:</description>
+    </item>
+    
+    <item>
+      <title>How to declare object property type in typescript</title>
+      <link>https://onebite.dev/how-to-declare-object-property-type-in-typescript/</link>
+      <pubDate>Fri, 16 Sep 2022 23:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-declare-object-property-type-in-typescript/</guid>
+      <description>Let&amp;rsquo;s learn How to declare object property type in typescript using interface.
+Assume we have a TextElement object that have several properties, and we want to safely type it.
+Here&amp;rsquo;s how to declare it in typescript:
+interface TextEl { x: number, y: number, text: String, fontSize: number, fontWeight: String, fontStyle: String, color: String, pageNumber: number, id: String, isRemoved: boolean, } Using interface keyword, followed by name we want. We can declare any property we need with it&amp;rsquo;s type, either number, String, boolean, ect.</description>
+    </item>
+    
+    <item>
+      <title>Declare possible values of string in typescript</title>
+      <link>https://onebite.dev/declare-possible-values-of-string-in-typescript/</link>
+      <pubDate>Fri, 16 Sep 2022 22:59:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/declare-possible-values-of-string-in-typescript/</guid>
+      <description>How to declare possible values of string in typescript. So we get an error if the provided parameter is wrong or have a typo?
+We use type $NAME = &amp;quot;possibleVal1&amp;quot; | &amp;quot;possibleVal2&amp;quot;
+For example I have a type called Actions with three possible values:
+type Actions = &amp;#34;strong&amp;#34; | &amp;#34;italic&amp;#34; | &amp;#34;remove&amp;#34; Now if I want to proved value for Actions type with a typo like &amp;lsquo;stronk&amp;rsquo; , then VS Code will warn me about it.</description>
+    </item>
+    
+    <item>
+      <title>What is type for onClick event in reactJS using typescript</title>
+      <link>https://onebite.dev/what-is-type-for-onclick-event-in-reactjs-using-typescript/</link>
+      <pubDate>Fri, 16 Sep 2022 22:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-type-for-onclick-event-in-reactjs-using-typescript/</guid>
+      <description>What is the correct type when using onClick event in reactJS using typescript?
+Right now, I have two possibilites:
+ React.MouseEvent&amp;lt;Element&amp;gt; React.MouseEvent&amp;lt;HTMLElement&amp;gt;  function handleClick(event: React.MouseEvent&amp;lt;Element&amp;gt;){ .. } or
+function handleClick(event: React.MouseEvent&amp;lt;HTMLElement&amp;gt;){ .. } </description>
+    </item>
+    
+    <item>
+      <title>How to resolve Option --resolveJsonModule cannot be specified without node module resolution strategy.ts</title>
+      <link>https://onebite.dev/how-to-resolve-option--resolvejsonmodule-cannot-be-specified-without-node-module-resolution-strategy.ts/</link>
+      <pubDate>Thu, 15 Sep 2022 21:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-resolve-option--resolvejsonmodule-cannot-be-specified-without-node-module-resolution-strategy.ts/</guid>
+      <description>This is how to resolve Option &amp;lsquo;&amp;ndash;resolveJsonModule&amp;rsquo; cannot be specified without &amp;rsquo;node&amp;rsquo; module resolution strategy.ts error on typescript tsconfig.json file
+How to solve this issue?
+What we need is adding
+&amp;#34;moduleResolution&amp;#34;: &amp;#34;node&amp;#34;, inside compilerOptions property in tsconfig.json file
+Read about module resolution in typescript</description>
+    </item>
+    
+    <item>
+      <title>How to use typescript in existing NextJS project</title>
+      <link>https://onebite.dev/how-to-use-typescript-in-existing-nextjs-project/</link>
+      <pubDate>Thu, 15 Sep 2022 20:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-use-typescript-in-existing-nextjs-project/</guid>
+      <description>I already have a running NextJS project but I want to start using typescript. Lets see how to add typescript in existing NextJS project
+ This setup tested in NextJS v12
+ Create tsconfig.json file Go to your project directory , then add new empty file tsconfig.json or via terminal
+touch tsconfig.json Install typescript requirement on NextJS Stop the server if it&amp;rsquo;s currently running. Then run yarn dev or npm run dev.</description>
+    </item>
+    
+    <item>
+      <title>Add class name based on ternary operator result in ReactJS</title>
+      <link>https://onebite.dev/add-class-name-based-on-ternary-operator-result-in-reactjs/</link>
+      <pubDate>Wed, 14 Sep 2022 17:44:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-class-name-based-on-ternary-operator-result-in-reactjs/</guid>
+      <description>To toggle an element, normally I add .is-hidden class name on CSS. Any elements I want to hide will use this class
+.is-hidden{ display: none; } Simple usage on single class name Now we can use ternary operator to toggle an element based on other state variable value
+&amp;lt;div className={elementSelected &amp;amp;&amp;amp; &amp;#39;is-hidden&amp;#39;}&amp;gt; In this sample. I have a variable called elementSelected . It will show is-hidden class to this div only if the value is true or not null in general.</description>
+    </item>
+    
+    <item>
+      <title>Play with Image generation tool: MidJourney, Dall-E 2 and Stable Diffusion (DreamStudio)</title>
+      <link>https://onebite.dev/play-with-image-generation-tool-midjourney-dall-e-2-and-stable-diffusion-dreamstudio/</link>
+      <pubDate>Wed, 14 Sep 2022 02:46:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/play-with-image-generation-tool-midjourney-dall-e-2-and-stable-diffusion-dreamstudio/</guid>
+      <description>I was stunned, the first time I saw Dall-E 2. I really want to use it. While waiting for the beta invitation. I got my hand on other image generation, such as: StableDiffusion (via dream studio) and Midjourney.
+This is not a comparing blog post between the three. It&amp;rsquo;s just my raw result from my experience.
+Midjourney  Easy UI. Very fun to play in discord. The image is not as accurate as I want though  StableDiffusion (via Dream Studio)  Image is very far from what I want Found a local-installation (no credit applied?</description>
+    </item>
+    
+    <item>
+      <title>Solve Too many re-renders. React limits the number of renders to prevent an infinite loop</title>
+      <link>https://onebite.dev/solve-too-many-re-renders.-react-limits-the-number-of-renders-to-prevent-an-infinite-loop/</link>
+      <pubDate>Tue, 13 Sep 2022 21:36:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-too-many-re-renders.-react-limits-the-number-of-renders-to-prevent-an-infinite-loop/</guid>
+      <description>I got an error on my react app says: Too many re-renders. React limits the number of renders to prevent an infinite loop. How can I solve this?
+I&amp;rsquo;m just calling a function event from my component and try to call usestate function.
+&amp;lt;span onClick={editTextElement(&amp;#39;strong&amp;#39;)}&amp;gt; &amp;lt;strong&amp;gt;B&amp;lt;/strong&amp;gt; &amp;lt;/span&amp;gt; But this error occured.
+Solution After searching this problem on stackoverflow: Uncaught Invariant Violation: Too many re-renders. React limits the number of renders to prevent an infinite loop .</description>
+    </item>
+    
+    <item>
+      <title>Solve state variable react can not be read in addEventListener function</title>
+      <link>https://onebite.dev/solve-state-variable-react-can-not-be-read-in-addeventlistener-function/</link>
+      <pubDate>Tue, 13 Sep 2022 20:45:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-state-variable-react-can-not-be-read-in-addeventlistener-function/</guid>
+      <description>I&amp;rsquo;m used to adding .addEventListener function on a particular element in Javascript. This behavior follows me when I&amp;rsquo;m writing React App.
+Today I learned, that we can&amp;rsquo;t access the variable inside addEventListener function we manually write for an element in React, Javascript.
+So I need to move the onClick , directly as attribute of element I want inside the React component.
+// sample &amp;lt;Page key={pageNumber} onClick={event =&amp;gt; handleClick(event)}&amp;gt; Test &amp;lt;/Page&amp;gt; Read this discussion on stackoverflow React.</description>
+    </item>
+    
+    <item>
+      <title>How to get x and y coordinate position when clicking on javascript</title>
+      <link>https://onebite.dev/how-to-get-x-and-y-coordinate-position-when-clicking-on-javascript/</link>
+      <pubDate>Tue, 13 Sep 2022 20:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-get-x-and-y-coordinate-position-when-clicking-on-javascript/</guid>
+      <description>Let&amp;rsquo;s see how to get x and y coordinate position when firing on click event at javascript
+We need to catch event&amp;rsquo;s property, specifically, the pageX and pageY attribute.
+&amp;lt;div onclick=&amp;#34;handleClick(event)&amp;#34;&amp;gt; Test &amp;lt;/div&amp;gt; function handleClick(event){ console.log(&amp;#39;x :&amp;#39;, event.pageX) console.log(&amp;#39;y :&amp;#39;, event.pageY) } Feel free to try!</description>
+    </item>
+    
+    <item>
+      <title>How to use Toast UI Editor in Browser (without NPM)</title>
+      <link>https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/</link>
+      <pubDate>Tue, 13 Sep 2022 02:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-use-toast-ui-editor-in-browser-without-npm/</guid>
+      <description>Are you looking for great markdown WYSIWYG text editor? Try toast UI Editor, lets see how to use it directly in browser on your HTML file.
+Install via CDN First, we load the Javascript as well as the CSS via UI CDN. By putting the two tags inside head tag.
+&amp;lt;head&amp;gt; .. &amp;lt;script src=&amp;#34;https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://uicdn.toast.com/editor/latest/toastui-editor.min.css&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; Add Div for the editor  &amp;lt;div id=&amp;#34;editor&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; Add script to initialize Toast UI Editor Put this script after before the close body tag.</description>
+    </item>
+    
+    <item>
+      <title>Super simple Zoom image vanilla javascript medium like</title>
+      <link>https://onebite.dev/super-simple-zoom-image-vanilla-javascript-medium-like/</link>
+      <pubDate>Mon, 12 Sep 2022 01:20:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/super-simple-zoom-image-vanilla-javascript-medium-like/</guid>
+      <description>I need an ability to zoom images on my site. Luckily I found this javascript plugin by Tholman that very easy to use.
+The library called &amp;ldquo;Intense Images&amp;rdquo; Github Repo
+Here&amp;rsquo;s how I use it:
+ Load from CDN  &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/lightense-images@1.0.17/dist/lightense.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; Assign your elements  &amp;lt;script&amp;gt; window.addEventListener(&amp;#39;load&amp;#39;, function () { Lightense(&amp;#39;img&amp;#39;); }, false); &amp;lt;/script&amp;gt; Done that&amp;rsquo;s it!
+To change only certain element, change your &amp;lsquo;img&amp;rsquo; with any elements indicator, either by id, class or tag name.</description>
+    </item>
+    
+    <item>
+      <title>How to solve Cannot use import statement outside a module error</title>
+      <link>https://onebite.dev/how-to-solve-cannot-use-import-statement-outside-a-module-error/</link>
+      <pubDate>Tue, 30 Aug 2022 23:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-cannot-use-import-statement-outside-a-module-error/</guid>
+      <description>When using NodeJS, we can import any library with two ways, with require or import statement
+Examples using require
+const express = require(&amp;#39;express&amp;#39;); Examples using import statement
+import express from &amp;#34;express&amp;#34;; If we want to use the import statement, normally we get this error
+Cannot use import statement outside a module To solve this, we need to add type:module on our package.json file
+... &amp;#34;type&amp;#34;: &amp;#34;module&amp;#34;, ... </description>
+    </item>
+    
+    <item>
+      <title>Allow scroll through top iTerm mac</title>
+      <link>https://onebite.dev/allow-scroll-through-top-iterm-mac/</link>
+      <pubDate>Fri, 19 Aug 2022 00:01:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/allow-scroll-through-top-iterm-mac/</guid>
+      <description>If you print or log bunch of data in Terminal (Iterm) normally, you can&amp;rsquo;t scroll back to your latest command. Here is how to do it
+Go to iTerm &amp;gt; Preferences &amp;gt; Profile Tab &amp;gt; Teriminal Check the &amp;ldquo;Unlimited scrollback&amp;rdquo; option
+Now, you can get to the top of your terminal with this</description>
+    </item>
+    
+    <item>
+      <title>Find list of developer tools with FindDevTools</title>
+      <link>https://onebite.dev/find-list-of-developer-tools-with-finddevtools/</link>
+      <pubDate>Wed, 10 Aug 2022 18:50:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/find-list-of-developer-tools-with-finddevtools/</guid>
+      <description>We are always carefully selecting our coding tools. It has a high effect on our work. When we consider using an app, we might like a certain feature but not like the other features it offers, or we just don&amp;rsquo;t like the pricing.
+That&amp;rsquo;s why I personally often look for an alternative to developer tools out there. But rather than save it privately, I&amp;rsquo;d like to share it with others. As a bonus, other people might recommend another similar tool that can help us with our coding work.</description>
+    </item>
+    
+    <item>
+      <title>Error Laravel Please make sure the PHP Redis extension is installed and enabled</title>
+      <link>https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/</link>
+      <pubDate>Mon, 08 Aug 2022 18:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/</guid>
+      <description>Encountered this error? Error Laravel Please make sure the PHP Redis extension is installed and enabled. Lets see how to solve it.
+Using Redis can make our site faster by enabling in-memory cache data. Instead of always requesting to database. If you just install redis on Laravel but not working with the error above. Here&amp;rsquo;s what you need to do:
+Add REDIS_CLIENT=predis on your .env file. Don&amp;rsquo;t forget to restart your server</description>
+    </item>
+    
+    <item>
+      <title>Solve Class Redis not found on Laravel project</title>
+      <link>https://onebite.dev/solve-class-redis-not-found-on-laravel-project/</link>
+      <pubDate>Mon, 08 Aug 2022 17:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-class-redis-not-found-on-laravel-project/</guid>
+      <description>Do you encounter error Class Redis not found on Laravel project and looking for a solution how to resolve this bug?
+You might instal phpredis already, but you forgot to install redis itself.
+  Make sure to install redis Install Redis based on your OS
+  Make sure to run redis: example for mac user using brew
+  brew services start redis </description>
+    </item>
+    
+    <item>
+      <title>Sort Javascript Object Value by the number or date</title>
+      <link>https://onebite.dev/sort-javascript-object-value-by-the-number-or-date/</link>
+      <pubDate>Tue, 02 Aug 2022 23:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/sort-javascript-object-value-by-the-number-or-date/</guid>
+      <description>Do you need to sort your object by one of the key value by the number? start from highest or lowest number? We can use javascript sort function fort that. Here is how
+For example we have this object
+const items = [ { name: &amp;#39;Nami&amp;#39;, score: 5 }, { name: &amp;#39;Zolo&amp;#39;, score: 1 }, { name: &amp;#39;Luffy&amp;#39;, score: 10 }, { name: &amp;#39;Sanji&amp;#39;, score: 4 }, ]; Let’s make a function to sort this items</description>
+    </item>
+    
+    <item>
+      <title>Sort javascript Object value alphabetically</title>
+      <link>https://onebite.dev/sort-javascript-object-value-alphabetically/</link>
+      <pubDate>Tue, 02 Aug 2022 23:35:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/sort-javascript-object-value-alphabetically/</guid>
+      <description>Do you need to sort your object by one of the key value alphabetically? We can use javascript sort function fort that. Here is how
+For example we have this object
+const items = [ { name: &amp;#39;Nami&amp;#39;, value: 5 }, { name: &amp;#39;Zolo&amp;#39;, value: 5 }, { name: &amp;#39;Luffy&amp;#39;, value: 10 }, { name: &amp;#39;Sanji&amp;#39;, value: 4 }, ]; Let&amp;rsquo;s make a function to sort this items
+// sort by name items.</description>
+    </item>
+    
+    <item>
+      <title>Prisma error when doing upsert</title>
+      <link>https://onebite.dev/prisma-error-when-doing-upsert/</link>
+      <pubDate>Wed, 27 Jul 2022 03:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/prisma-error-when-doing-upsert/</guid>
+      <description>When implementing upsert through Prisma you need to make sure that the where clause contains a unique column only.
+Here is an example on how to do an upsert in Prisma
+const upsertUser = await prisma.user.upsert({ where: { email: &amp;#39;viola@prisma.io&amp;#39;, }, update: { name: &amp;#39;Viola the Magnificent&amp;#39;, }, create: { email: &amp;#39;viola@prisma.io&amp;#39;, name: &amp;#39;Viola the Magnificent&amp;#39;, }, }) In where clause, we include the column that we want to check on database, is it exists or not.</description>
+    </item>
+    
+    <item>
+      <title>Auto Scroll page in Javascript</title>
+      <link>https://onebite.dev/auto-scroll-page-in-javascript/</link>
+      <pubDate>Fri, 22 Jul 2022 02:13:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/auto-scroll-page-in-javascript/</guid>
+      <description>Here is the snippet using scrollBy() method in Javascript. You can try this out directly by opening &amp;ldquo;right click -&amp;gt; inspect tab -&amp;gt; console&amp;rdquo; and paste this on that tab
+function pageScroll() { window.scrollBy(0,1); scrolldelay = setTimeout(pageScroll,100); } pageScroll() Feel free to play with the speed by change the number 100 there</description>
+    </item>
+    
+    <item>
+      <title>Checkout remote pull request on Github and run locally</title>
+      <link>https://onebite.dev/checkout-remote-pull-request-on-github-and-run-locally/</link>
+      <pubDate>Thu, 07 Jul 2022 22:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/checkout-remote-pull-request-on-github-and-run-locally/</guid>
+      <description>If you need to review someones pull request from Github and run the project locally. Check out this guide.
+For general method, to fetch any remote changes, please see How to test PR locally
+Now, we&amp;rsquo;ll see the step by step to checkout a certain pull request, so we can run it on our machine!
+Get the PR number  Either by looking directly on Pull request&amp;rsquo;s tab on Github. To see the number (that comes after the hashtag) Alternative, install github-cli command.</description>
+    </item>
+    
+    <item>
+      <title>How to test pull request locally</title>
+      <link>https://onebite.dev/how-to-test-pull-request-locally/</link>
+      <pubDate>Thu, 07 Jul 2022 21:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-test-pull-request-locally/</guid>
+      <description>You&amp;rsquo;re assigned to review your teammate&amp;rsquo;s code from remote git repository. But rather than just reviewing it directly in Github, you want to run it locally first. Here&amp;rsquo;s how you can run any pull request locally first and review it.
+Use git fetch The first step is running git fetch so we can see get all things that happen remotely on the origin repository.
+&amp;ldquo;The git fetch command downloads commits, files, and refs from a remote repository into your local repo.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Laravel on Mac OS</title>
+      <link>https://onebite.dev/how-to-install-laravel-on-mac-os/</link>
+      <pubDate>Wed, 06 Jul 2022 02:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-install-laravel-on-mac-os/</guid>
+      <description>Laravel has a lot of fans around the world. Maybe you just want to tryout Laravel as well. Welcome to the club!
+If you&amp;rsquo;re using Mac, I hope this guide can help you install it.
+Install brew Hombrew, is a package manager for Mac OS. It can help us, as a developer to install various things. Including PHP , composer and other necessary package later. So let&amp;rsquo;s install this first</description>
+    </item>
+    
+    <item>
+      <title>Get uuid from a link string in python</title>
+      <link>https://onebite.dev/get-uuid-from-a-link-string-in-python/</link>
+      <pubDate>Mon, 30 May 2022 23:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/get-uuid-from-a-link-string-in-python/</guid>
+      <description>Learn how to get UUID from a string link on a python programming language. This could be useful for example when you are working with Notion site then need to grab the id or any other need.
+First we need to import uuid with uuid.UUID(string) will convert &amp;ldquo;anythathasdash&amp;rdquo; to &amp;ldquo;any-that-has-dash&amp;rdquo;
+return str(uuid.UUID(string_id)) But let&amp;rsquo;s assume our string is not clean. It has several possibilites, like having string before or having question mark that normally shows up on a link, ect.</description>
+    </item>
+    
+    <item>
+      <title>Solving  Error: pg_config executable not found psycopg2 install</title>
+      <link>https://onebite.dev/solving-error-pg_config-executable-not-found-psycopg2-install/</link>
+      <pubDate>Tue, 24 May 2022 02:06:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solving-error-pg_config-executable-not-found-psycopg2-install/</guid>
+      <description>On my mac machine, I tried to install a new python library with psycopg2 in it, I got pg_config error, here&amp;rsquo;s how I solve this error
+Case: When I try to add a new package on my computer that has psycopg2 library, it shows me this error
+ Error: pg_config executable not found. pg_config is required to build psycopg2 from source. Please add the directory containing pg_config to the $PATH or specify the full executable path with the option: python setup.</description>
+    </item>
+    
+    <item>
+      <title>How to add multiple types in pydantic</title>
+      <link>https://onebite.dev/how-to-add-multiple-types-in-pydantic/</link>
+      <pubDate>Thu, 28 Apr 2022 22:26:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-multiple-types-in-pydantic/</guid>
+      <description>To allow pydantic to accept multiple values we can use Union and put the values inside the square brackets
+For example:
+favicon_link: Union[str, bool] This way we allow favicon_link to be any str or bool</description>
+    </item>
+    
+    <item>
+      <title>How to allow local certificates in Postman?</title>
+      <link>https://onebite.dev/how-to-allow-local-certificates-in-postman/</link>
+      <pubDate>Sun, 24 Apr 2022 21:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-allow-local-certificates-in-postman/</guid>
+      <description>When you have self assigned certificate in your computer and want to allow Postman to access it, you need to add the certificate from your trusted store. The location is depend on your OS.
+ Go to Postman Go to settings Select certificates tab Toggle CA certificate ON (if not) Locate your rootCA.pem file  For example in Mac, rootCA is located in $users/library/application supports/mkcert (if you are using mkcert)</description>
+    </item>
+    
+    <item>
+      <title>How to make bcrypt checkpw function work</title>
+      <link>https://onebite.dev/how-to-make-bcrypt-checkpw-function-work/</link>
+      <pubDate>Mon, 18 Apr 2022 22:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-bcrypt-checkpw-function-work/</guid>
+      <description>If you&amp;rsquo;re using bcrypt package in python, and try to use checkpw but keep failing, probably you save the hashed password in database wrong. Here&amp;rsquo;s how I solve it.
+On storing the hashed password to database
+password = password_from_user.encode(&amp;#34;utf-8&amp;#34;) hash = bcrypt.hashpw(password, bcrypt.gensalt()) stored_password = hash.decode(&amp;#34;utf-8&amp;#34;) #The key is to decode it first # continue by saving it to DB And how you compare it alter, using checkpw is like this:</description>
+    </item>
+    
+    <item>
+      <title>Solve alembic multiple head revisions are present </title>
+      <link>https://onebite.dev/solve-alembic-multiple-head-revisions-are-present/</link>
+      <pubDate>Sun, 17 Apr 2022 20:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-alembic-multiple-head-revisions-are-present/</guid>
+      <description>Just like git, When you have multiple branches on your migrations of sqlalchemy&amp;rsquo;s alembic. It will tell you that you have two different versions that need to be solved. Normally, it happens when you and your teammate working together and each add migrations. So you need to merge it.
+If you check you heads, with
+alembic history It&amp;rsquo;ll show you that it got&amp;rsquo;s more than one head.
+Two ways to merge your heads in sqlalchemy First,</description>
+    </item>
+    
+    <item>
+      <title>How to convert sqlalchemy object to json in FastAPI</title>
+      <link>https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/</link>
+      <pubDate>Fri, 15 Apr 2022 21:36:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/</guid>
+      <description>Have you struggled on How to convert sqlalchemy object to json in FastAPI? Do you know that fastapi has jsonable_encoder to do exactly this job?
+You just need to import
+from fastapi.encoders import jsonable_encoder Then use it on any sqlachemy object, or any object you want
+jsonable_encoder(Item) It&amp;rsquo;ll turn this object into a json</description>
+    </item>
+    
+    <item>
+      <title>Solve error Alembic Can&#39;t locate revision identified by id_number</title>
+      <link>https://onebite.dev/solve-error-alembic-cant-locate-revision-identified-by-id_number/</link>
+      <pubDate>Thu, 14 Apr 2022 18:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-error-alembic-cant-locate-revision-identified-by-id_number/</guid>
+      <description>If you&amp;rsquo;re using Alembic as your migration tool for sqlalchemy project on your python program, you might encountered this problem before -Alembic Can&amp;rsquo;t locate revision identified by id_number- when running command alembic upgrade head
+Here&amp;rsquo;s how to solve it.
+What caused this error You might delete your revision file on alembic folder manually. While in your database, the version pointed to that version. So it can&amp;rsquo;t find the file. That&amp;rsquo;s why this error shows up.</description>
+    </item>
+    
+    <item>
+      <title>How to bulk update in sqlalchemy python?</title>
+      <link>https://onebite.dev/how-to-bulk-update-in-sqlalchemy-python/</link>
+      <pubDate>Fri, 08 Apr 2022 02:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-bulk-update-in-sqlalchemy-python/</guid>
+      <description>Update multiple columns one by one is daunting. Learn how to do a bulk update on Sqlalchemy in python programing language to update multiple items at once.
+Thanks so much from the gist by doobeh here
+Here&amp;rsquo;s the raw implementation
+from sqlalchemy.sql.expression import bindparam stmt = update(TableName)\ where(TableName.id == bindparam(&amp;#39;_id&amp;#39;)).\ values({ &amp;#39;user_id&amp;#39;: bindparam(&amp;#39;user_id&amp;#39;), &amp;#39;email_address&amp;#39;: bindparam(&amp;#39;email_address&amp;#39;), }) conn.execute(stmt, [ {&amp;#39;user_id&amp;#39;: 1, &amp;#39;email_address&amp;#39; : &amp;#39;me@you.com&amp;#39;, &amp;#39;_id&amp;#39;:1}, {&amp;#39;user_id&amp;#39;: 2, &amp;#39;email_address&amp;#39; : &amp;#39;test@yahoo.com&amp;#39;, &amp;#39;_id&amp;#39;:2}, {&amp;#39;user_id&amp;#39;: 3, &amp;#39;email_address&amp;#39; : &amp;#39;now@then.</description>
+    </item>
+    
+    <item>
+      <title>Convert string to UUID format in Javascript</title>
+      <link>https://onebite.dev/convert-string-to-uuid-format-in-javascript/</link>
+      <pubDate>Tue, 22 Mar 2022 22:40:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/convert-string-to-uuid-format-in-javascript/</guid>
+      <description>This is how to convert a 32 characters string into UUID format with - dash as separator on each 8 - 4 - 4 - 4 - 12 characters.
+function insertString(str, index, value) { return str.substr(0, index) + value + str.substr(index); } function converToUUID(str){ _uuid = insertString(_uuid, 8, &amp;#39;-&amp;#39;) _uuid = insertString(_uuid, 13, &amp;#39;-&amp;#39;) _uuid = insertString(_uuid, 18, &amp;#39;-&amp;#39;) _uuid = insertString(_uuid, 23, &amp;#39;-&amp;#39;) return _uuid } The idea is we insert a string on each of &amp;ldquo;X&amp;rdquo; characters.</description>
+    </item>
+    
+    <item>
+      <title>Laravel empty relation when eager loading</title>
+      <link>https://onebite.dev/laravel-empty-relation-when-eager-loading/</link>
+      <pubDate>Mon, 14 Mar 2022 00:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/laravel-empty-relation-when-eager-loading/</guid>
+      <description>Today I faced a problem, where Laravel shows empty results when query a relation with eager loading. Found the solution, it was I forgot to select the id as well, so the relation didn&amp;rsquo;t know what connects the &amp;ldquo;second table&amp;rdquo; with.
+So the culprit was, when I query a data by select specific columns
+ return Product::with([&amp;#39;tags&amp;#39;,&amp;#39;reviews&amp;#39;]) -&amp;gt;select(&amp;#39;title&amp;#39;, &amp;#39;logo&amp;#39;, &amp;#39;snippet&amp;#39;, &amp;#39;slug&amp;#39;) I need to select the id as well
+ return Product::with([&amp;#39;tags&amp;#39;,&amp;#39;reviews&amp;#39;]) -&amp;gt;select(&amp;#39;id&amp;#39;, &amp;#39;title&amp;#39;, &amp;#39;logo&amp;#39;, &amp;#39;snippet&amp;#39;, &amp;#39;slug&amp;#39;) </description>
+    </item>
+    
+    <item>
+      <title>Solving the Next.js Head problem that auto parse HTML entity</title>
+      <link>https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/</link>
+      <pubDate>Thu, 10 Mar 2022 21:52:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/</guid>
+      <description>I want to share how I finally solved the Next.js Head problem that auto parse HTML entity. In my case, I want to remove &amp;amp; (ampersand sign) being encoded by Next.js Head.
+My case I want to hit ogimpact (social image API) which using amp; (ampersand) sign on the query URL.
+How I solved it With helped from Nextjs issue discussion on GIthub, which answered by @lukeshumard.
+ Preparing the API to redirect the request create /pages/api/foldername/[&amp;hellip;url].</description>
+    </item>
+    
+    <item>
+      <title>Start using mongo shell in docker</title>
+      <link>https://onebite.dev/start-using-mongo-shell-in-docker/</link>
+      <pubDate>Wed, 02 Mar 2022 22:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/start-using-mongo-shell-in-docker/</guid>
+      <description>This is a simple guide on how to Start using mongo shell in docker.
+First, we just need to take the mongo&amp;rsquo;s docker name and run it as interactive shell.
+docker exec -it name_of_your_running_mongo_service mongo //-it, is command for interactive shell
+Then you&amp;rsquo;re in the shell!
+To show all databases, run
+show databases; To go inside one of the collections, run:
+use collection_name; To list data on one of the collections, run:</description>
+    </item>
+    
+    <item>
+      <title>How to install meilisearch in ubuntu for production?</title>
+      <link>https://onebite.dev/how-to-install-meilisearch-in-ubuntu-for-production/</link>
+      <pubDate>Tue, 22 Feb 2022 22:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-install-meilisearch-in-ubuntu-for-production/</guid>
+      <description>The new Algolia, Elasticsearch and Typesense alternative is in town! Introducing Meilisearch
+&amp;ldquo;Meilisearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box.&amp;rdquo;
+In this article, I want to share &amp;ldquo;How to set up meilisearch in ubuntu for production&amp;rdquo;
+Install Meilisearch on Ubuntu Install CURL first
+# Install curl which is required to install Meilisearch in the next step apt install curl -y Install Meilisearch via CURL</description>
+    </item>
+    
+    <item>
+      <title>Remove all unsaved / uncommitted changes in github</title>
+      <link>https://onebite.dev/remove-all-unsaved-/-uncommitted-changes-in-github/</link>
+      <pubDate>Mon, 21 Feb 2022 01:05:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/remove-all-unsaved-/-uncommitted-changes-in-github/</guid>
+      <description>Here&amp;rsquo;s how to remove all unsaved / uncommitted changes in github. In case you make some changes, and want to get back to the last commit you have
+git stash git stash drop </description>
+    </item>
+    
+    <item>
+      <title>Connect Production Docker PostgreSQL In TablePlus/SequelPro</title>
+      <link>https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/</link>
+      <pubDate>Sun, 23 Jan 2022 19:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/</guid>
+      <description>I was struggling to connect my production PostgreSQL database that I setup with docker via database GUI like sequelPro or TablePlus. So I think this will be important to share, at least will help me in the future.
+Find out what&amp;rsquo;s you docker ip address for that database. By running in terminal (after you login via SSH)
+docker inspect -f &amp;#39;{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; DOCKER_DB_ID If you don&amp;rsquo;t know what&amp;rsquo;s your DOCKER_DB_ID, get it via</description>
+    </item>
+    
+    <item>
+      <title>Connect Localhost Docker PostgreSQL in TablePlus</title>
+      <link>https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/</link>
+      <pubDate>Sun, 23 Jan 2022 19:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/</guid>
+      <description>I was struggling to connect my local PostgreSQL database that I setup with docker via database GUI like sequelPro or TablePlus. So I think this will be important to share, at least will help me in the future.
+On your docker-compose file, make sure in database section you add this ports
+ports: - &amp;#34;5432:5432&amp;#34; It will then expose your port publicly.
+Then connecting it is standard. Host/Socker = localhost Port = 5432 Username = Youve setup in docker Password = Youve setup in docker</description>
+    </item>
+    
+    <item>
+      <title>Traits in Rust</title>
+      <link>https://onebite.dev/traits-in-rust/</link>
+      <pubDate>Thu, 07 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/traits-in-rust/</guid>
+      <description>Traits are similar with interface on other language.
+A traits is a way to abstract or share similar behavior on Rust.
+Example use case Let&amp;rsquo;s say we want to make a news aggregator that summarize a news from different resources.
+We create a trait as our (you alone or with teammate) on what function must be implemented later.
+Define a trait We can define a trait like this
+pub trait Summary { fn summarize(&amp;amp;self) -&amp;gt; String; }  We have a trait Summary that have a function called summarize.</description>
+    </item>
+    
+    <item>
+      <title>What is Lifetime in Rust?</title>
+      <link>https://onebite.dev/what-is-lifetime-in-rust/</link>
+      <pubDate>Thu, 07 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-lifetime-in-rust/</guid>
+      <description>Every reference in Rust has a lifetime. It&amp;rsquo;s the scope where that reference is valid.
+Problem example Let&amp;rsquo;s say we want to compare, which variable has longer string
+fn main() { let string1 = String::from(&amp;quot;abcd&amp;quot;); let string2 = &amp;quot;xyz&amp;quot;; let result = longest(string1.as_str(), string2); println!(&amp;quot;The longest string is {}&amp;quot;, result); }  This is our longest function
+fn longest(x: &amp;amp;str, y: &amp;amp;str) -&amp;gt; &amp;amp;str { if x.len() &amp;gt; y.len() { x } else { y } }  It will return an error.</description>
+    </item>
+    
+    <item>
+      <title>Generic Types in Rust</title>
+      <link>https://onebite.dev/generic-types-in-rust/</link>
+      <pubDate>Wed, 06 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/generic-types-in-rust/</guid>
+      <description>Just like it&amp;rsquo;s name , generic types mean we can have a generic data type on something that we need. It could be in enum, function or other concept we&amp;rsquo;ve known so far.
+Rust is strict type language, but on a certain case, we want to abstract our code to avoid duplication, maybe through a function. We can use this generic type to help on this case.
+Syntax In general , you&amp;rsquo;ll see as representation of generic data type.</description>
+    </item>
+    
+    <item>
+      <title>Hash Map in Rust</title>
+      <link>https://onebite.dev/hash-map-in-rust/</link>
+      <pubDate>Wed, 06 Oct 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hash-map-in-rust/</guid>
+      <description>Hash map is one of common collections in Rust, with key value as a pair. HashMap&amp;lt;K, V&amp;gt;
+It&amp;rsquo;s useful when we want to store and retrieve data by a certain name/key not by the index
+Create a Hashmap We can use insert method. Insert take 2 params. First the string as a key, and second is the value.
+use std::collections::HashMap; let mut scores = HashMap::new(); scores.insert(String::from(&amp;quot;Blue&amp;quot;), 10); scores.insert(String::from(&amp;quot;Yellow&amp;quot;), 50);  Warning: Hash maps are homogeneous: all of the keys must have the same type, and all of the values must have the same type.</description>
+    </item>
+    
+    <item>
+      <title>Vector: collection in Rust</title>
+      <link>https://onebite.dev/vector-collection-in-rust/</link>
+      <pubDate>Tue, 05 Oct 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/vector-collection-in-rust/</guid>
+      <description>Vector can be used to storing lists of values in Rust. It&amp;rsquo;s one of the collection that included in standard library in Rust.
+Example usage: lines of text in a file or prices of items in a shopping cart.
+What&amp;rsquo;s the different between vector and array Vector is most similar to array in Rust, the different is array has a fixed length, while vector&amp;rsquo;s can grow!
+How to create a Vector This is how to create an empty vector in Rust</description>
+    </item>
+    
+    <item>
+      <title>Collections data structure in Rust</title>
+      <link>https://onebite.dev/collections-data-structure-in-rust/</link>
+      <pubDate>Tue, 05 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/collections-data-structure-in-rust/</guid>
+      <description>Collections is a number of data structures, that already available in standard library in Rust.
+Collections can contains multiple values.
+Every kind of collection has different power and costs. We need to know what and when to use it.
+In general there are 3 collections in Rust:
+ Vector. Store a variable number of values String, collection of characters Hash Map, use key value as a pair.  </description>
+    </item>
+    
+    <item>
+      <title>If and let in Rust Control flow</title>
+      <link>https://onebite.dev/if-and-let-in-rust-control-flow/</link>
+      <pubDate>Tue, 05 Oct 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/if-and-let-in-rust-control-flow/</guid>
+      <description>Based on previous lesson, we know we can handle a default function in Rust like this
+fn main() { let some_u8_value = Some(0u8); match some_u8_value { Some(3) =&amp;gt; println!(&amp;quot;three&amp;quot;), _ =&amp;gt; (), } }  But.. When there are many possible values and we only care about one value in a control flow, we can use if and let syntax in rust. It&amp;rsquo;s shorter and more clear
+fn main() { let some_u8_value = Some(0u8); if let Some(3) = some_u8_value { println!</description>
+    </item>
+    
+    <item>
+      <title>Match control flow in Rust</title>
+      <link>https://onebite.dev/match-control-flow-in-rust/</link>
+      <pubDate>Mon, 04 Oct 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/match-control-flow-in-rust/</guid>
+      <description>There is one more powerful control flow in Rust, which is match. It&amp;rsquo;s pretty straightforward, we would return a value based on match condition.
+Basic usage of match enum Coin { Penny, Nickel, Dime, Quarter, } fn value_in_cents(coin: Coin) -&amp;gt; u8 { match coin { Coin::Penny =&amp;gt; 1, Coin::Nickel =&amp;gt; 5, Coin::Dime =&amp;gt; 10, Coin::Quarter =&amp;gt; 25, } } fn main() {}  Left side is the condition =&amp;gt; right side is the returned value.</description>
+    </item>
+    
+    <item>
+      <title>The Option Enum in Rust, null alternative</title>
+      <link>https://onebite.dev/the-option-enum-in-rust-null-alternative/</link>
+      <pubDate>Sun, 03 Oct 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/the-option-enum-in-rust-null-alternative/</guid>
+      <description>Rust didn&amp;rsquo;t have a null value. But there is Enum Option that can implement null behavior.
+Enum Option could represents a value: it could be something, or it could be nothing.
+This is how it looks like
+enum Option&amp;lt;T&amp;gt; { None, Some(T), }  T itself is a generic type parameter.
+Here is concrete example of Enum Option:
+fn main() { let some_number = Some(5); let some_string = Some(&amp;quot;a string&amp;quot;); let absent_number: Option&amp;lt;i32&amp;gt; = None; }  Notice, if we want to assign None, we have to declare specific type of Option</description>
+    </item>
+    
+    <item>
+      <title>Enums in Rust</title>
+      <link>https://onebite.dev/enums-in-rust/</link>
+      <pubDate>Sun, 03 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/enums-in-rust/</guid>
+      <description>In general programming language, enums is used to represent a group of constants. But in Rust, enums can be more than constants.
+Enums example Let&amp;rsquo;s say we&amp;rsquo;re working with an API program. We can define the possible responses in Enum.
+enum APIResponse { Error, Success, Unknown }  Error, success and unknown is not coming from a variable, it&amp;rsquo;s just a constant that we initialize up there.
+The type itself is the enum &amp;ldquo;name&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Struct Method in Rust</title>
+      <link>https://onebite.dev/struct-method-in-rust/</link>
+      <pubDate>Sun, 03 Oct 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/struct-method-in-rust/</guid>
+      <description>How to add a method on a struct in Rust. If we do have a special repeatable task for a struct, it&amp;rsquo;s better to put it, in it&amp;rsquo;s own function.
+You can say, method is same as function, but it&amp;rsquo;s defined in the struct context (or enum/ or object).
+Here is a rectangle Struct, with area method, to count it&amp;rsquo;s area
+#[derive(Debug)] struct Rectangle { width: u32, height: u32, } impl Rectangle { fn area(&amp;amp;self) -&amp;gt; u32 { self.</description>
+    </item>
+    
+    <item>
+      <title>Struct data type in Rust</title>
+      <link>https://onebite.dev/struct-data-type-in-rust/</link>
+      <pubDate>Sat, 02 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/struct-data-type-in-rust/</guid>
+      <description>Struct is a custom data type to us group multiple related values together. Sounds like array or tuple, doesn&amp;rsquo;t it? let&amp;rsquo;s see how struck is different.
+ It can contains multiple data type values (like tuples). We assign a name for each of the value as key.  So we won&amp;rsquo;t rely on the order(index) of the values. Rather, we reference it by it&amp;rsquo;s key.
+How to define a struct Example struct named user, with multiple values</description>
+    </item>
+    
+    <item>
+      <title>Slice data type in Rust</title>
+      <link>https://onebite.dev/slice-data-type-in-rust/</link>
+      <pubDate>Sat, 02 Oct 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/slice-data-type-in-rust/</guid>
+      <description>Slice is a data type in Rust that doesn&amp;rsquo;t have ownership system.
+String Slice A string slice is a reference to part of a String.
+//example of String slice let s = String::from(&amp;quot;hello world&amp;quot;); let hello = &amp;amp;s[0..5]; let world = &amp;amp;s[6..11];  We can take a specific part of String by it&amp;rsquo;s index. We use slice by using bracket [starting_index..ending_index]
+If we want to start from 0, we can ignore the starting_index</description>
+    </item>
+    
+    <item>
+      <title>References in Rust</title>
+      <link>https://onebite.dev/references-in-rust/</link>
+      <pubDate>Fri, 01 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/references-in-rust/</guid>
+      <description>This is part of the ownership lesson in Rust.
+References is a cheap way to use other variable on other function without passing the whole value.
+fn main() { let s1 = String::from(&amp;quot;hello&amp;quot;); let len = calculate_length(&amp;amp;s1); println!(&amp;quot;The length of &#39;{}&#39; is {}.&amp;quot;, s1, len); } fn calculate_length(s: &amp;amp;String) -&amp;gt; usize { s.len() }  This program will run. len and s1 will be printed on main function.
+BUT! we&amp;rsquo;ve learned that, a copied or a function that passed to a function will be gone</description>
+    </item>
+    
+    <item>
+      <title>Understand the stack and the heap</title>
+      <link>https://onebite.dev/understand-the-stack-and-the-heap/</link>
+      <pubDate>Fri, 01 Oct 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/understand-the-stack-and-the-heap/</guid>
+      <description>What is stack and what is heap in term of memory allocating in programming language?
+While learning Rust, I met with ownership subject. This topic discuss about memory allocation on Rust. So I decide to learn more about how memory management in general works for programming language.
+About Stack and Heap This is how programming language store it&amp;rsquo;s data on memory (not database) , stuff like variable need a place to be stored while running the program.</description>
+    </item>
+    
+    <item>
+      <title>What is ownership in Rust</title>
+      <link>https://onebite.dev/what-is-ownership-in-rust/</link>
+      <pubDate>Thu, 30 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-ownership-in-rust/</guid>
+      <description>Warning: this part is not basic syntax lesson for Rust, it&amp;rsquo;s a overview of how memory allocating works in Rust
+What is Ownership in Rust? Ownership enables Rust to make memory safety guarantees without needing a garbage collector.
+ Some programming language looks for unused memory using garbage collector Some language, required the programmer to allocate and free the memory Rust has a third approach.  The memory in Rust will be managed by system of ownership.</description>
+    </item>
+    
+    <item>
+      <title>Looping in Rust</title>
+      <link>https://onebite.dev/looping-in-rust/</link>
+      <pubDate>Wed, 29 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/looping-in-rust/</guid>
+      <description>To execute a code block more than once, we can use loops. There are 3 ways to do this in Rust:
+ loop while for  Repetition with Loop We can use loop like this.
+Warning! this program will keep running , unless you stop it manually
+fn main() { loop { println!(&amp;quot;yeayyy!&amp;quot;); } }  It&amp;rsquo;s a common mistake on programming, when we write loop without condition.
+ALWAYS tell your loop when to stop.</description>
+    </item>
+    
+    <item>
+      <title>Variable Scope in Rust</title>
+      <link>https://onebite.dev/variable-scope-in-rust/</link>
+      <pubDate>Wed, 29 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/variable-scope-in-rust/</guid>
+      <description>Understand the variable scope in Rust is important, so we can learn how Rust allocating their memory later
+Each variable declared in Rust has their scope. Scope is where that variable is valid.
+Normally, A variable&amp;rsquo;s scope is only valid on a function where they&amp;rsquo;re declared
+fn main() { let s = &amp;quot;hallo&amp;quot; } //S scope only inside main function  Or if you declare a scope with curly brackets</description>
+    </item>
+    
+    <item>
+      <title>Conditional statement in Rust</title>
+      <link>https://onebite.dev/conditional-statement-in-rust/</link>
+      <pubDate>Tue, 28 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/conditional-statement-in-rust/</guid>
+      <description>It&amp;rsquo;s similar with conditional statement from other programming language.
+We can use if and else keyword. No need to wrap the condition inside rounded bracket &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo;.
+fn main() { let number = 3; if number &amp;lt; 5 { println!(&amp;quot;condition was true&amp;quot;); } else { println!(&amp;quot;condition was false&amp;quot;); } }  Multiple condition with else if fn main() { let number = 6; if number % 4 == 0 { println!</description>
+    </item>
+    
+    <item>
+      <title>String in Rust</title>
+      <link>https://onebite.dev/string-in-rust/</link>
+      <pubDate>Tue, 28 Sep 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/string-in-rust/</guid>
+      <description>String in Rust might be more complex than you think. When people talk about string, it can have multiple meaning.
+String literal The simplest version of string is String literal
+ let s = &amp;quot;hello&amp;quot;;  If we hardcoded a string, then this is a literal String. It&amp;rsquo;s immutable by default, just like other data type.
+String type String It might be a bit confusing for now, but there is other string type we called String.</description>
+    </item>
+    
+    <item>
+      <title>Function in Rust</title>
+      <link>https://onebite.dev/function-in-rust/</link>
+      <pubDate>Mon, 27 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/function-in-rust/</guid>
+      <description>We can group multiple statement/expression that do a certain thing in a function.
+fn main() { println!(&amp;quot;Hello, world!&amp;quot;); }   It&amp;rsquo;s written with fn //I like this! much shorter than writing funciton Main function is like &amp;rsquo;the entry point&amp;rsquo; for the program.  The naming convention use snake_case for multiple words.
+fn main() { println!(&amp;quot;Hello, world!&amp;quot;); another_function(); } fn another_function() { println!(&amp;quot;Another function.&amp;quot;); }  Function parameters A function can accept an argument.</description>
+    </item>
+    
+    <item>
+      <title>Data types in Rust</title>
+      <link>https://onebite.dev/data-types-in-rust/</link>
+      <pubDate>Sun, 26 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/data-types-in-rust/</guid>
+      <description>Learn what data types are available in Rust.
+It also has two subsets: a scalar data type and a compound data type.
+Rust is a statically typed language. It must know the data type of each variable at compile time.
+Scalar types A scalar type used for single value.
+Rust has four scalar types (primary):
+ integers floating-point numbers Booleans and characters.  Find more detail here
+Compound types A compound types can represents group of multiple values.</description>
+    </item>
+    
+    <item>
+      <title>Declare a variable in Rust and mutability</title>
+      <link>https://onebite.dev/declare-a-variable-in-rust-and-mutability/</link>
+      <pubDate>Sat, 25 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/declare-a-variable-in-rust-and-mutability/</guid>
+      <description>This is a common programming concepts. That might be not unique to rust. Let&amp;rsquo;s see how to declare a variable in Rust.
+Immutable variable By default, a variable in Rust is immutable. Meaning this variable is a constant or will not change.
+It&amp;rsquo;s intentionally made immutable by default for safety and easy concurrency.
+let x = 5;  or
+let y = &amp;quot;hallo!&amp;quot;;  If you try to change one of the variable, it will return</description>
+    </item>
+    
+    <item>
+      <title>What is Cargo in Rust</title>
+      <link>https://onebite.dev/what-is-cargo-in-rust/</link>
+      <pubDate>Sat, 25 Sep 2021 08:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-cargo-in-rust/</guid>
+      <description>Cargo is Rust&amp;rsquo;s build system and package manager. It&amp;rsquo;s an optional tool, but it handles a lot of tasks to work with Rust.
+Tasks include:
+build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish We may not need this for now (at least for learning syntax or hello world program).</description>
+    </item>
+    
+    <item>
+      <title>Hello World in Rust</title>
+      <link>https://onebite.dev/hello-world-in-rust/</link>
+      <pubDate>Sat, 25 Sep 2021 00:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hello-world-in-rust/</guid>
+      <description>Create a new file in your project called main.rs and write the following
+fn main() { println!(&amp;#34;Hello, world!&amp;#34;); } In terminal window (mac/linux) run
+rustc main.rs ./main For windows
+&amp;gt; rustc main.rs &amp;gt; .\main.exe There we go! hello World!
+As you notice. Rust requires compiling, before we can run the program. rustrc is the keyword for compiling.
+After running rustrc, if you see your project dir, you can see there is main file besides our source code from before main.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Rust, installation</title>
+      <link>https://onebite.dev/getting-started-with-rust-installation/</link>
+      <pubDate>Fri, 24 Sep 2021 20:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/getting-started-with-rust-installation/</guid>
+      <description>Let&amp;rsquo;s set up our Rust development environment,
+Playground You can play Rust online, without installing anything. Play Rust Lang
+Installing Rustup The recommended way to install Rust is using Rustup. It&amp;rsquo;s both installer and version manager for Rust
+For macOs / Linux
+curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Using other OS? check other installation method here
+Update current version Rust updates frequently. Run rustup update to user the latest update.</description>
+    </item>
+    
+    <item>
+      <title>I start learning Rust</title>
+      <link>https://onebite.dev/i-start-learning-rust/</link>
+      <pubDate>Thu, 23 Sep 2021 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/i-start-learning-rust/</guid>
+      <description>I always see posts about Rust on dev-related blogs. I don&amp;rsquo;t have the motivation to learn about it, as I heard it&amp;rsquo;s built for people who wants super fast application, which I don&amp;rsquo;t need right now.
+Maybe I can use this blog to motivate me.
+As long as we have the time, why not learn something new.
+It might helps in the future. So.. let&amp;rsquo;s go to the Rust website</description>
+    </item>
+    
+    <item>
+      <title>Hover effect on 5 star rating systems</title>
+      <link>https://onebite.dev/hover-effect-on-5-star-rating-systems/</link>
+      <pubDate>Thu, 23 Sep 2021 20:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hover-effect-on-5-star-rating-systems/</guid>
+      <description>This is my solution on how to make a Hover effect on 5 star rating systems
+Drawing stars You can use an image, or generate SVG like this
+//Your HTML content &amp;lt;div id=&amp;#34;ratingstar-submission&amp;#34;&amp;gt;&amp;lt;/span&amp;gt; //In your javascript file $(&amp;#39;#ratingstar-submission&amp;#39;).innerHTML = drawStarsSVG() //======================== //Draw 5 stars //======================== function drawStarsSVG() { let stars = &amp;#39;&amp;#39; for (let i = 0; i &amp;lt; 5; i++) { stars += ` &amp;lt;svg width=&amp;#34;31&amp;#34; height=&amp;#34;28&amp;#34; viewBox=&amp;#34;0 0 31 28&amp;#34; fill=&amp;#34;none&amp;#34; xmlns=&amp;#34;http://www.</description>
+    </item>
+    
+    <item>
+      <title>Solve Unexpected end of JSON input while parsing near... on NPM install</title>
+      <link>https://onebite.dev/solve-unexpected-end-of-json-input-while-parsing-near...-on-npm-install/</link>
+      <pubDate>Mon, 20 Sep 2021 21:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-unexpected-end-of-json-input-while-parsing-near...-on-npm-install/</guid>
+      <description>Yesterday when my internet really slow, I keep failed on installing npm package. The error shows npm ERR! Unexpected end of JSON input while parsing near &amp;hellip;..&#39;
+npm cache clean --force So when the internet back at the speed again, I just clean the npm cache, then reinstall the package I want</description>
+    </item>
+    
+    <item>
+      <title>Add Browser Sync in Gulpjs Project</title>
+      <link>https://onebite.dev/add-browser-sync-in-gulpjs-project/</link>
+      <pubDate>Thu, 16 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-browser-sync-in-gulpjs-project/</guid>
+      <description>How can we auto reload pages when certain changes happen? we can combine the power of browser sync and gulpjs
+Install browsersync Assume you already have gulp installed
+npm install browser-sync --save-dev Basic usage
+var gulp = require(&amp;#39;gulp&amp;#39;); var browserSync = require(&amp;#39;browser-sync&amp;#39;).create(); // Static server gulp.task(&amp;#39;browser-sync&amp;#39;, function() { browserSync.init({ server: { baseDir: &amp;#34;./&amp;#34; } }); }); // or... gulp.task(&amp;#39;browser-sync&amp;#39;, function() { browserSync.init({ proxy: &amp;#34;yourlocal.dev&amp;#34; }); }); How I use it Here is browsersync sample usage in one of my project using gulp js combine with all previous tasks we&amp;rsquo;ve seen in our gulp series</description>
+    </item>
+    
+    <item>
+      <title>Watch Tasks in Gulpjs</title>
+      <link>https://onebite.dev/watch-tasks-in-gulpjs/</link>
+      <pubDate>Wed, 15 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/watch-tasks-in-gulpjs/</guid>
+      <description>Learn how to watch Tasks in Gulpjs so the files can reload themselves when certain task triggered
+Create watch function To make sure every tasks run at the first load, I&amp;rsquo;ll be using series function, which means run multiples tasks in order.
+//Assume I only want watch if any CSS or Javascript files change //So I can run their tasks function watchTask() { gulp.watch([cssPath, jsPath], gulp.parallel(cssTask, jsTask)) } exports.default = gulp.</description>
+    </item>
+    
+    <item>
+      <title>Combine Tasks in Gulpjs With Parallel Function</title>
+      <link>https://onebite.dev/combine-tasks-in-gulpjs-with-parallel-function/</link>
+      <pubDate>Tue, 14 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/combine-tasks-in-gulpjs-with-parallel-function/</guid>
+      <description>As our project grows, the task lists on our gulpfile js file also getting bigger. We need to learn how to combine this tasks and run it with one script
+Compose gulp tasks with series Luckily, we can compose this tasks
+The very basic version of it is using series
+const { series } = require(&amp;#39;gulp&amp;#39;); function transpile(cb) { // body omitted cb(); } function bundle(cb) { // body omitted cb(); } exports.</description>
+    </item>
+    
+    <item>
+      <title>Compress image with GulpJS</title>
+      <link>https://onebite.dev/compress-image-with-gulpjs/</link>
+      <pubDate>Mon, 13 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/compress-image-with-gulpjs/</guid>
+      <description>One way to make sure our website run faster, is by loading image with small size. But we&amp;rsquo;re too lazy to compress our image, each time there is new assets. Don&amp;rsquo;t worry Gulp JS will do it for us
+How to compress image in gulp js Install gulp imagemin
+npm install --save-dev gulp-imagemin Basic Usage
+import gulp from &amp;#39;gulp&amp;#39;; import imagemin from &amp;#39;gulp-imagemin&amp;#39;; export default () =&amp;gt; ( gulp.src(&amp;#39;src/images/*&amp;#39;) .pipe(imagemin()) .</description>
+    </item>
+    
+    <item>
+      <title>Combine Multiple Javascript (JS) Files With GulpJS</title>
+      <link>https://onebite.dev/combine-multiple-javascript-js-files-with-gulpjs/</link>
+      <pubDate>Sun, 12 Sep 2021 19:58:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/combine-multiple-javascript-js-files-with-gulpjs/</guid>
+      <description>Learn how to combine Multiple Javascript (JS) Files With GulpJS. Sometimes we want to separate our javascript file during development process to make it easy for use to maintain it. But in production we still want to only serve one file for faster request time.
+We&amp;rsquo;ll be using same concat package as in our CSS lesson
+For minifying our javascript file, we&amp;rsquo;ll use gulp-minify
+npm i --save-dev gulp-minify Let&amp;rsquo;s write our javascript file in gulpfile.</description>
+    </item>
+    
+    <item>
+      <title>Minify CSS files with Gulp JS</title>
+      <link>https://onebite.dev/minify-css-files-with-gulp-js/</link>
+      <pubDate>Fri, 10 Sep 2021 19:48:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/minify-css-files-with-gulp-js/</guid>
+      <description>Learn how to Minify CSS files with Gulp JS to make it load faster.
+We will use gulp-clean-css
+Using Gulp Clean CSS install
+npm install gulp-clean-css --save-dev basic usage
+const gulp = require(&amp;#39;gulp&amp;#39;); const cleanCSS = require(&amp;#39;gulp-clean-css&amp;#39;); gulp.task(&amp;#39;minify-css&amp;#39;, () =&amp;gt; { return gulp.src(&amp;#39;styles/*.css&amp;#39;) .pipe(cleanCSS({compatibility: &amp;#39;ie8&amp;#39;})) .pipe(gulp.dest(&amp;#39;dist&amp;#39;)); }); Combine it with previous example We&amp;rsquo;ve seen how to combine multiple CSS files into a single file
+Let&amp;rsquo;s combine it with this minify process</description>
+    </item>
+    
+    <item>
+      <title>Simple jquery like selector for vanilla javascript</title>
+      <link>https://onebite.dev/simple-jquery-like-selector-for-vanilla-javascript/</link>
+      <pubDate>Thu, 09 Sep 2021 19:40:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/simple-jquery-like-selector-for-vanilla-javascript/</guid>
+      <description>jQuery make us love javascript. One of the simplest but most useful feature for me is the selector in jQuery
+With just using $ dollar sign, we can target the element. Let&amp;rsquo;s make it happen in our vanilla javascript
+Custom selector function in vanilla JS Do you know that $ sign is valid for a function name?
+That&amp;rsquo;s the trick! we will create a new function that will return an element based on parameter we used.</description>
+    </item>
+    
+    <item>
+      <title>Working with object in localstorage</title>
+      <link>https://onebite.dev/working-with-object-in-localstorage/</link>
+      <pubDate>Wed, 08 Sep 2021 19:31:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/working-with-object-in-localstorage/</guid>
+      <description>We all love localstorage, no database needed to store simple things for our user.
+But what if the data is more than a string or number?
+Let&amp;rsquo;s see how to store and read object in localstorage?
+How to store object in localstorage We need to turn json into a string with JSON.stringify
+localstorage.setItem(key, JSON.stringify(val)); How to read/retrieve object from localstorage We need to parse into json with JSON.parse
+JSON.parse(localstorage.getItem(key)) Bonus: Helper for read and write objects in localstorage function getObjectLS(key) { return JSON.</description>
+    </item>
+    
+    <item>
+      <title>Combine multiple CSS files with GulpJS</title>
+      <link>https://onebite.dev/combine-multiple-css-files-with-gulpjs/</link>
+      <pubDate>Mon, 06 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/combine-multiple-css-files-with-gulpjs/</guid>
+      <description>Learn how to combine multiple CSS files into one file with GulpJS, it&amp;rsquo;s useful to make sure our HTML will only request for one file later (reduce request time).
+Our case Assume we have two different CSS files.
+Maybe you want to separate the concerns, like one file for homepage, one file for single page.
+Or in my case, I sometimes, download any utility CSS, such as gridcss. I try not to mix my custom CSS with other files.</description>
+    </item>
+    
+    <item>
+      <title>GulpJS introduction, how to install </title>
+      <link>https://onebite.dev/gulpjs-introduction-how-to-install/</link>
+      <pubDate>Mon, 06 Sep 2021 22:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/gulpjs-introduction-how-to-install/</guid>
+      <description>As a frontend developer, our task is increasing
+It&amp;rsquo;s not just writing HTML and CSS again.
+We need to compress image, CSS or JS files for faster website load.
+We need to compile our SASS / SCSS files, since we love the syntax but browser doesn&amp;rsquo;t understand it. We need to concatenate our javascript files, since we separate the concerns for easier maintenance.
+Introducing GulpJS All this task need extra seconds of our development process.</description>
+    </item>
+    
+    <item>
+      <title>Display or filter a list of post based on a category or tag in Hugo</title>
+      <link>https://onebite.dev/display-or-filter-a-list-of-post-based-on-a-category-or-tag-in-hugo/</link>
+      <pubDate>Sat, 04 Sep 2021 22:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/display-or-filter-a-list-of-post-based-on-a-category-or-tag-in-hugo/</guid>
+      <description>Learn how to display a list of post based on a category or tags in Hugo . This is not for normal category page, since Hugo will sorted it out for you out of the box. This is for when you want to display certain list on a random page, not on a listing page
+ &amp;lt;ul&amp;gt; {{ range where .Site.RegularPages &amp;#34;.Params.tags&amp;#34; &amp;#34;intersect&amp;#34; (slice &amp;#34;ANYTAG&amp;#34;)}} &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;{{ .Permalink }}&amp;#34;&amp;gt;{{ .</description>
+    </item>
+    
+    <item>
+      <title>Display categories or tag on meta data Hugo inside head tag</title>
+      <link>https://onebite.dev/display-categories-or-tag-on-meta-data-hugo-inside-head-tag/</link>
+      <pubDate>Fri, 03 Sep 2021 22:30:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/display-categories-or-tag-on-meta-data-hugo-inside-head-tag/</guid>
+      <description>Yesterday I struggle with displaying a list of categories or tags inside a head tag of my Hugo project. I want to use this on my meta tag to make it more dynamic a.k.a better for SEO.
+Luckily I found a simple way to do it. The trick is using delimit to combine it as a string and wrap it inside &amp;ldquo;with&amp;rdquo; clause
+{{ with .Params.tags }}{{ delimit . &amp;#34;, &amp;#34;}}{{ end }} Want to save it on a string and reuse it later?</description>
+    </item>
+    
+    <item>
+      <title>How to concatenate string on hugo SSG</title>
+      <link>https://onebite.dev/how-to-concatenate-string-on-hugo-ssg/</link>
+      <pubDate>Thu, 02 Sep 2021 22:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-concatenate-string-on-hugo-ssg/</guid>
+      <description>We can combine a raw string and a variable on a hugo and saved in on a new string
+Example: I want to combine a title with a string
+{{ $title := print .Title &amp;#34; is your title&amp;#34;}} Later we can print or reuse the title above
+{{ $title }} </description>
+    </item>
+    
+    <item>
+      <title>Solve Warning: REMOTE HOST IDENTIFICATION HAS CHANGED</title>
+      <link>https://onebite.dev/solve-warning-remote-host-identification-has-changed/</link>
+      <pubDate>Thu, 02 Sep 2021 00:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-warning-remote-host-identification-has-changed/</guid>
+      <description>Do you got an error that remote host can&amp;rsquo;t be accessed? like this? &amp;ldquo;It is also possible that a host key has just been changed.&amp;rdquo;
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! Someone could be eavesdropping on you right now (man-in-the-middle attack)! It is also possible that a host key has just been changed. The fingerprint for the ECDSA key sent by the remote host is SHA256:XXXX.</description>
+    </item>
+    
+    <item>
+      <title>Create Open Graph Image generator, introducing imagin.live</title>
+      <link>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</link>
+      <pubDate>Sat, 28 Aug 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</guid>
+      <description>We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&amp;rsquo;s why you&amp;rsquo;ll love Imagin! I write regularly on my blog, I know it&amp;rsquo;s not fun to have to prepare Social/OpenGraph Image for each one of the post. We just want to write!
+This is a dynamic image generator, where the image will change according to your title.</description>
+    </item>
+    
+    <item>
+      <title>How to remove last commit on github</title>
+      <link>https://onebite.dev/how-to-remove-last-commit-on-github/</link>
+      <pubDate>Tue, 24 Aug 2021 22:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-remove-last-commit-on-github/</guid>
+      <description>It&amp;rsquo;s just happened to me yesterday, where I push something to main branch, but not the main branch that I want. I start panicking and looking for help how to undo my last commit before anyone see the changes
+The code that safe me
+git push -f origin HEAD^:main change &amp;ldquo;main&amp;rdquo; with any branch you want.
+The result is flawless. People can&amp;rsquo;t see the accident that just happened on you repository 😅</description>
+    </item>
+    
+    <item>
+      <title>Introduce Row Level Security in Supabase</title>
+      <link>https://onebite.dev/introduce-row-level-security-in-supabase/</link>
+      <pubDate>Sat, 14 Aug 2021 23:26:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/introduce-row-level-security-in-supabase/</guid>
+      <description>Supabase has a row level security that useful for protecting our data. Even though we&amp;rsquo;re using anon key publicly or in client side, it&amp;rsquo;s still safe as long as we enable the row level security for that particular table
+Enable RLS in supabase Go to &amp;lsquo;Authentication Menu &amp;gt; Policies &amp;gt; Enable RLS (for any table you want)&amp;rsquo; Different table can have different RLS policy. Maybe you want some table to be protected, some maybe not.</description>
+    </item>
+    
+    <item>
+      <title>Basic of Authentication in Supabase using email invitation</title>
+      <link>https://onebite.dev/basic-of-authentication-in-supabase-using-email-invitation/</link>
+      <pubDate>Fri, 13 Aug 2021 20:44:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/basic-of-authentication-in-supabase-using-email-invitation/</guid>
+      <description>Supabase provides an authentication system for us out of the box. We can use it to manage our users. It has third party logins (social login) and row level security for security.
+There are many options to allow users to register
+ invitation by email magic link via email sign up with email and password Phone confirmation 3rd party login (social login)  Wow.. I&amp;rsquo;m just amazed after writing that. In this article, we&amp;rsquo;ll start with the basic one, invite user by email.</description>
+    </item>
+    
+    <item>
+      <title>Play with Supabase database in website with Javascript</title>
+      <link>https://onebite.dev/play-with-supabase-database-in-website-with-javascript/</link>
+      <pubDate>Thu, 12 Aug 2021 18:40:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/play-with-supabase-database-in-website-with-javascript/</guid>
+      <description>In this article, we&amp;rsquo;ll see how to load our data from Supabase database via it&amp;rsquo;s API by using Javascript in our website.
+init Supabase Start by creating new index.html file (name it whatever you want).
+TO Install supabase, we can use CDN or NPM for this. In this example I&amp;rsquo;ll add it via CDN. Put this in your head tag
+ &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/@supabase/supabase-js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; To start initializing Supabase on our project, create new script tag with this code Change the credential below with yours.</description>
+    </item>
+    
+    <item>
+      <title>Explore table editor in Supabase database</title>
+      <link>https://onebite.dev/explore-table-editor-in-supabase-database/</link>
+      <pubDate>Wed, 11 Aug 2021 04:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/explore-table-editor-in-supabase-database/</guid>
+      <description>We&amp;rsquo;ll start by exploring the database feature in Supabase, which built on top of Postgres, Relational Database. We can use the SQL editor, where we can run our query or &amp;ldquo;Table Mode&amp;rdquo; which makes it like spreadsheet, where we can user the GUI to play around with our data.
+Table Editor Using table editor is just like using a spreadsheet, we have buttons and columns to work with. We can start create a new table, for our database Supabase also allow us to import data by upload a CSV, TSV or XLSV file or even copied text from a spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>Setting up new @Supabase Project</title>
+      <link>https://onebite.dev/setting-up-new-supabase-project/</link>
+      <pubDate>Tue, 10 Aug 2021 23:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/setting-up-new-supabase-project/</guid>
+      <description>This will be a short one, we&amp;rsquo;ll see how to set up a new project at supabase. I must say it&amp;rsquo;s very intuitive, you might not need this guide. But just in case, there is a tips or trick, that might be useful in future regarding setting up a new project, I&amp;rsquo;ll document it here
+Register new account To start a new project on Supabase, we need to sign up first (currently we need to use Github account)</description>
+    </item>
+    
+    <item>
+      <title>Introducing Supabase, your everything for backend</title>
+      <link>https://onebite.dev/introducing-supabase-your-everything-for-backend/</link>
+      <pubDate>Mon, 09 Aug 2021 22:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/introducing-supabase-your-everything-for-backend/</guid>
+      <description>The number of things we have to be grateful for is far more than our ability to do it. One more thing to be grateful for as a developer is Supabase, it&amp;rsquo;s an open source firebase alternative. We can create a backend for our project really fast. Including a Postgres Database, Authentication system, instant APIs for all, realtime subscriptions and Storage, all presented with a beautiful dashboard.
+Supabase&amp;rsquo;s features These are some features that available for use for free, while they&amp;rsquo;re in beta.</description>
+    </item>
+    
+    <item>
+      <title>How to update useState value based on new value reactjs</title>
+      <link>https://onebite.dev/how-to-update-usestate-value-based-on-new-value-reactjs/</link>
+      <pubDate>Sun, 08 Aug 2021 22:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-update-usestate-value-based-on-new-value-reactjs/</guid>
+      <description>When you update / set new state via React useState, it runs asynchronously. Yesterday, I spent a lot of times, why when I add &amp;rsquo;new things&amp;rsquo; on my array state, I can&amp;rsquo;t immediately update it. It&amp;rsquo;s all because the asynchronous &amp;ldquo;feature&amp;rdquo;.
+My state didn&amp;rsquo;t recognize newest addition yet, until re-render happen.
+Get newest value from setValue useState Luckily, we can get the newest state when updating the value, with the callback function inside our setValue</description>
+    </item>
+    
+    <item>
+      <title>Call method only once in useEffect react</title>
+      <link>https://onebite.dev/call-method-only-once-in-useeffect-react/</link>
+      <pubDate>Tue, 03 Aug 2021 20:07:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/call-method-only-once-in-useeffect-react/</guid>
+      <description>useEffect is part of hooks. Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Be careful, it can bring unintentional behavior you don&amp;rsquo;t want.
+useEffect will run multiple times Based on FAQ section in useEffect docs Does useEffect run after every render? Yes! By default, it runs both after the first render and after every update. (We will later talk about how to customize this.</description>
+    </item>
+    
+    <item>
+      <title>Series of article in Hugo website</title>
+      <link>https://onebite.dev/series-of-article-in-hugo-website/</link>
+      <pubDate>Wed, 28 Jul 2021 20:46:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series-of-article-in-hugo-website/</guid>
+      <description>Learn how to add series for your article in Hugo. This way we can group multiple posts on a certain topic or series
+Set up series in config In your configuration e.g. config.toml, add this to taxonomy blog
+[taxonomies] tag = &amp;#34;tags&amp;#34; category = &amp;#34;categories&amp;#34; series = &amp;#34;series&amp;#34; Give series to a post To group your post into a series, put series tag in your markdown file, in parameter section</description>
+    </item>
+    
+    <item>
+      <title>Show future post in Hugo SSG</title>
+      <link>https://onebite.dev/show-future-post-in-hugo-ssg/</link>
+      <pubDate>Wed, 28 Jul 2021 04:12:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/show-future-post-in-hugo-ssg/</guid>
+      <description>Hugo is one of my favorite static site generator, it has so much built in future that makes it super flexible. Today we&amp;rsquo;ll learn how to show future post in Hugo.
+Using if else Unix time Our tools: We have if else statement in Hugo We have now.Unix time to get current time
+Let&amp;rsquo;s use both of them.
+Assume you render your page like this
+{{ range .Pages }} &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;{{.</description>
+    </item>
+    
+    <item>
+      <title>Solve root can&#39;t access server after change password in digital ocean</title>
+      <link>https://onebite.dev/solve-root-cant-access-server-after-change-password-in-digital-ocean/</link>
+      <pubDate>Sun, 25 Jul 2021 21:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-root-cant-access-server-after-change-password-in-digital-ocean/</guid>
+      <description>Digital ocean is a cloud platform that really nailed their Developer Experience (DX). One of the most frustrating thing as a developer is taking care of server or dev ops stuff. Today I can&amp;rsquo;t access my server at all through SSH. There are many problem that can caused this. Let&amp;rsquo;s see each one of them with solution
+Forget your root/user password If you just forget you root or user password. Log in to your Digital Ocean account go to your droplet Choose &amp;lsquo;access&amp;rsquo; in tab Reset root password</description>
+    </item>
+    
+    <item>
+      <title>Handy collection of linux command</title>
+      <link>https://onebite.dev/handy-collection-of-linux-command/</link>
+      <pubDate>Sun, 25 Jul 2021 19:16:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/handy-collection-of-linux-command/</guid>
+      <description>I want to save all linux command that I often needed here.
+Directory and Files stuff List all files with it&amp;rsquo;s sizes du -sh */
+Count how many files in a dir ls -1 | wc -l
+Server stuff Change root password sudo passwd root
+Deleting specific key (hostname/IP address) at known_hosts ssh-keygen -R IP-OR-HOSTNAME</description>
+    </item>
+    
+    <item>
+      <title>Moodle site: The session partition is full error [unsolved]</title>
+      <link>https://onebite.dev/moodle-site-the-session-partition-is-full-error-unsolved/</link>
+      <pubDate>Sat, 24 Jul 2021 01:07:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/moodle-site-the-session-partition-is-full-error-unsolved/</guid>
+      <description>I&amp;rsquo;m not a moodle developer, but I have a friend that I helped to set up his moodle site years ago. Today the site shows an error &amp;ldquo;The session partition is full. It is not possible to log in at this time. Please notify the server administrator.&amp;rdquo;
+Before you go to technical solution below, one thing you should aware of. Don&amp;rsquo;t update big files (image/video/etc..) directly on your moodle. Depend on your CPU size, you could easily run out of memory because of this.</description>
+    </item>
+    
+    <item>
+      <title>Solution for preflight CORS issue in serverless function</title>
+      <link>https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/</link>
+      <pubDate>Wed, 21 Jul 2021 10:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solution-for-preflight-cors-issue-in-serverless-function/</guid>
+      <description>CORS (Cross-Origin Resource Sharing) issue is one of developer&amp;rsquo;s enemy when building API that need to be accessed from different domain. CORS itself is a good thing that prevent any user/client to access our API.
+What is Preflight CORS? Preflight CORS, is a way for browser to check on the server is the current request allowed or not. As the name suggest, &amp;lsquo;pre&amp;rsquo; means before we process the original request, it sends a request before as a verification.</description>
+    </item>
+    
+    <item>
+      <title>Handling API request based on method in Vercel Nodejs</title>
+      <link>https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/</link>
+      <pubDate>Wed, 21 Jul 2021 06:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/handling-api-request-based-on-method-in-vercel-nodejs/</guid>
+      <description>Vercel&amp;rsquo;s serverless function, provides req.method property to read the incoming method request. We can use this to write a beautiful API url endpoint
+For example
+GET: /books GET: /books/{id} POST: /books PUT: /books/{id} DELETE: /books Code example Inside our api/books.js
+module.exports = (req, res) =&amp;gt; { if(req.method === &amp;#39;GET&amp;#39;) { } if(req.method === &amp;#39;POST&amp;#39;) { } if(req.method === &amp;#39;PUT&amp;#39;) { } if(req.method === &amp;#39;DELETE&amp;#39;) { } } You can also use switch case for this.</description>
+    </item>
+    
+    <item>
+      <title>Nodejs serverless function in vercel</title>
+      <link>https://onebite.dev/nodejs-serverless-function-in-vercel/</link>
+      <pubDate>Wed, 21 Jul 2021 00:20:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/nodejs-serverless-function-in-vercel/</guid>
+      <description>We can deploy a serverless function with vercel for free. In a nutshell, with serverless function, we can write backend languages that read HTTP request and return a response. Vercel supports a lot of backend language, one of them is Nodejs (javascript)
+Prepare nodejs file To write our API serverless function in vercel, create a new file called whatever.js (name is up to you) inside a folder called &amp;lsquo;/api&amp;rsquo;,
+As default, vercel provides Nodejs version 14.</description>
+    </item>
+    
+    <item>
+      <title>Create simple deploy script</title>
+      <link>https://onebite.dev/create-simple-deploy-script/</link>
+      <pubDate>Fri, 16 Jul 2021 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-simple-deploy-script/</guid>
+      <description>How many times a day did you do this on command line?
+git add . git commit -m &amp;#34;commit msg&amp;#34; git push origin branchName It&amp;rsquo;s my ritual every time I want to push change on remote git repository. As a developer, we always need to find a way how to make our life easier by using our main principle &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo;
+Create a deploy script Learn how to create a simple deploy script, to automate your code deployment when using git or any other things in command.</description>
+    </item>
+    
+    <item>
+      <title>How to add _blank or open new tab for link in markdown</title>
+      <link>https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/</link>
+      <pubDate>Fri, 16 Jul 2021 22:54:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/</guid>
+      <description>There are some limitations when we&amp;rsquo;re working with markdown, one of them is adding property to our HTML tags. In this case I want to add _blank property on my tag to open a link in a new tab
+Hack it in javascript We don&amp;rsquo;t have control (mostly) with how our markdown will be rendered, but we can hack around it in javascript.
+Let&amp;rsquo;s say you have an article with id &amp;ldquo;article&amp;rdquo; and want to get all the links inside it, here is how</description>
+    </item>
+    
+    <item>
+      <title>Debug javascript in iphone device</title>
+      <link>https://onebite.dev/debug-javascript-in-iphone-device/</link>
+      <pubDate>Fri, 16 Jul 2021 03:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/debug-javascript-in-iphone-device/</guid>
+      <description>&amp;ldquo;But, It works on my computer&amp;rdquo; - said programmer That&amp;rsquo;s what we say when our code not running correctly on other machine. But now, machine is not just a computer, all smartphone including iPhone is also a machine where our code can run.
+So it&amp;rsquo;s important for us to learn how to debug our website in an iPhone
+How to debug website on iPhone using Web Inspector Connect your iPhone/iPad to computer Go to setting on iPhone/iPad Choose Safari Choose &amp;ldquo;advance&amp;rdquo; Enable &amp;ldquo;Web Inspector&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://onebite.dev/hello-world/</link>
+      <pubDate>Mon, 12 Jul 2021 20:32:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hello-world/</guid>
+      <description>Hi, hello world!
+My name is Hilman, I come from Indonesia! I always want to write a blog in English, but there’s always fear and shame that haunt me. I’m not a native English speaker, so you’ll see (hope not that much) some grammar mistake at first. I’ll keep practice and make it better.
+Little bit about me I’ve been a web developer since 2015, and realize how use useful and fun -coding- is.</description>
+    </item>
+    
+    <item>
+      <title>Write HTML dynamically with mini SSG</title>
+      <link>https://onebite.dev/write-html-dynamically-with-mini-ssg/</link>
+      <pubDate>Thu, 08 Jul 2021 23:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/write-html-dynamically-with-mini-ssg/</guid>
+      <description>This is a story about me:
+One day, I need to make a simple static website.
+Create a folder with ONE HTML file. “index.html”
+The next day, I want to add a new file “about.html”, so I make a new file, and then copy-paste all the header, footer, and sidebar to make my pages consistent.
+The next day, I need to add a new file again.. again.. and again. Just like before, I need to copy-paste most of the part, let alone the annoying meta tag between head with all the social graph and Twitter cards.</description>
+    </item>
+    
+    <item>
+      <title>How to improve your skill as a developer</title>
+      <link>https://onebite.dev/how-to-improve-your-skill-as-a-developer/</link>
+      <pubDate>Thu, 01 Jul 2021 02:10:40 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-improve-your-skill-as-a-developer/</guid>
+      <description>Whether you are writing your first or 1000th line of code, I’m sure we all strive to improve our skill as programmers. We want to do more, learn more, and know more about coding.
+How to improve your programming skill? This is the question that we should ask. To answer this question, this article provides a list of how to improve your programming skill
+ Disclaimer:
+This article generated by AI using copy.</description>
+    </item>
+    
+    <item>
+      <title>On building freestuff.dev</title>
+      <link>https://onebite.dev/on-building-freestuff.dev/</link>
+      <pubDate>Wed, 23 Jun 2021 05:58:53 +0000</pubDate>
+      
+      <guid>https://onebite.dev/on-building-freestuff.dev/</guid>
+      <description>Whenever I find some free cool developer tools/services that I can use for my next product, I immediately write it down in my private note.
+The list got bigger, scroll to it in one file not helping anymore.
+I need to categorize it nicely to make it easier to search for something.
+Suddenly I thought, why not bring this list public.
+I found some links that do the same, but surprisingly not many alternatives.</description>
+    </item>
+    
+    <item>
+      <title>How to backup database or Laravel App</title>
+      <link>https://onebite.dev/how-to-backup-database-or-laravel-app/</link>
+      <pubDate>Thu, 22 Apr 2021 07:05:31 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-backup-database-or-laravel-app/</guid>
+      <description>Never underestimate what might happen tomorrow. No one know when your app got hacked or when you accidentally do something wrong with your production database.
+ALWAYS BACKUP.
+If you use laravel as backend framework, good news, the company Spatie already make one package for use to backup our laravel app or our database. Here is the repo Spatie Laravel-Backup
+Later, we just need to run the command
+php artisan backup:run and done!</description>
+    </item>
+    
+    <item>
+      <title>Add live search in Hugo website</title>
+      <link>https://onebite.dev/add-live-search-in-hugo-website/</link>
+      <pubDate>Tue, 08 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-live-search-in-hugo-website/</guid>
+      <description>At first i don&amp;rsquo;t think there are any way to add search function on any static website including Hugo, but apparently there is! At hugo documentation listed bunch of packages for that. I don&amp;rsquo;t like the idea to install nodejs first or any kind of server setup first. So i try to find easier way to implement &amp;ldquo;search system&amp;rdquo; on Hugo site.
+The idea is output JSON file that will list all our posts, and turn it as our &amp;ldquo;database&amp;rdquo; / &amp;ldquo;api&amp;rdquo; source.</description>
+    </item>
+    
+    <item>
+      <title>Migrate from firebase to Hugo</title>
+      <link>https://onebite.dev/migrate-from-firebase-to-hugo/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/migrate-from-firebase-to-hugo/</guid>
+      <description>I want to migrate my firebase website, which data stored in firestore, to Hugo post. The problem is hugo made with files not database per se. So there is no direcy way to export and import from firebase firestore file to hugo markdown files
+Here is how i convert or migrate from firebase to hugo markdown to create post. The step is:
+ Export database from firestore Run script to generate markdowns  Export database from firestore Luckily we don&amp;rsquo;t have to do this ourself, Dalenguyen made a nodejs package for us to use, here is firebase import export</description>
+    </item>
+    
+    <item>
+      <title>Read json file with random key in Go Lang</title>
+      <link>https://onebite.dev/read-json-file-with-random-key-in-go-lang/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/read-json-file-with-random-key-in-go-lang/</guid>
+      <description>I stumbled upon a case, where i should import bunch of data in JSON to convert to other thing. (I&amp;rsquo;ll write about this other thing in other post). Go lang become my first language of choice, to do this. Unfortunately the data saved in json each nested in a random key. Here is how i did it
+Assume your data looks like this
+{ { &amp;#34;0BVxYRh8MixS0mYEtZ8v&amp;#34;:{ &amp;#34;title&amp;#34;:&amp;#34;the titls&amp;#34;, &amp;#34;subject&amp;#34;:&amp;#34;the subject&amp;#34; }, &amp;#34;0BVxYRh8MixasdS0mYEtZ8v&amp;#34;:{ &amp;#34;title&amp;#34;:&amp;#34;the titls2&amp;#34;, &amp;#34;subject&amp;#34;:&amp;#34;the subject2&amp;#34; } } Go gile In our Go file</description>
+    </item>
+    
+    <item>
+      <title>How to get random collection /data in firebase firestore</title>
+      <link>https://onebite.dev/how-to-get-random-collection-/data-in-firebase-firestore/</link>
+      <pubDate>Thu, 29 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-get-random-collection-/data-in-firebase-firestore/</guid>
+      <description>Firebase has a bunch of feature that really help us, but it still lack some of minor things, like how to get a random collection in your data when you are using firebase firestore. Let&amp;rsquo;s learn how to get random collection /data in firebase firestore with a hacky way
+const ref = db.collection(COLLECTION_NAME).doc(); var items = [] db.collection(COLLECTION_NAME).where(admin.firestore.FieldPath.documentId(), &amp;#39;&amp;gt;&amp;#39;, ref.id) .get().then(snapshot =&amp;gt; { snapshot.forEach(doc =&amp;gt; { items.push({ data: doc.data() }); console.</description>
+    </item>
+    
+    <item>
+      <title>How to upload image / file in firebase with progress bar</title>
+      <link>https://onebite.dev/how-to-upload-image-/-file-in-firebase-with-progress-bar/</link>
+      <pubDate>Thu, 29 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-upload-image-/-file-in-firebase-with-progress-bar/</guid>
+      <description>Learn how to upload image or any file in firebase with progress bar to show how many percent your data already uploaded. First we add the upload functionality, don&amp;rsquo;t forget to give it an id
+&amp;lt;input type=&amp;#34;file&amp;#34; value=&amp;#34;upload&amp;#34; id=&amp;#34;uploadButton&amp;#34;&amp;gt; Setup firebase just like other firebase project you have to load the necessary firebase&amp;rsquo;s js file and set the configuration, now specific for the upload part
+var storage = firebase.storage() var button = document.</description>
+    </item>
+    
+    <item>
+      <title>How to solve firebase.database is not a function</title>
+      <link>https://onebite.dev/how-to-solve-firebase.database-is-not-a-function/</link>
+      <pubDate>Tue, 06 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-firebase.database-is-not-a-function/</guid>
+      <description>For new firebase user who start to play with firebase database it&amp;rsquo;s possible you meet with this firebase.database is not a function error. Even after you load the firebase app javscript file before:
+&amp;lt;script src=&amp;quot;https://www.gstatic.com/firebasejs/VERSIONNUMBER/firebase-app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  The problem is documentation for firebase realtime database and firebase firestore not state it clear enough, that you have to load another script for this funciton which is
+&amp;lt;script src=&amp;quot;https://www.gstatic.com/firebasejs/VERSIONNUMBER/firebase-database.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  same with firestore, you just have to change firebase-firestore.</description>
+    </item>
+    
+    <item>
+      <title>How to custom style momentum chrome extensions</title>
+      <link>https://onebite.dev/how-to-custom-style-momentum-chrome-extensions/</link>
+      <pubDate>Sun, 04 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-custom-style-momentum-chrome-extensions/</guid>
+      <description>Do you wish to edit or customize any chrome extensions Chrome extensions is just like other program, it&amp;rsquo;s inside your computer after downloaded, so you can customize it too.
+In this case i don&amp;rsquo;t like the &amp;ldquo;clock&amp;rdquo; display on my momentum dash extensions. Momentum is a &amp;ldquo;new tab&amp;rdquo; view that will show a hearwarming image + quotes, with todo, quotes and other stuff. Unfortunately , i see the clock is a bit off, and i have clock information everywhere.</description>
+    </item>
+    
+    <item>
+      <title>How to upgrade firebase cloud function to node 8</title>
+      <link>https://onebite.dev/how-to-upgrade-firebase-cloud-function-to-node-8/</link>
+      <pubDate>Sat, 03 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-upgrade-firebase-cloud-function-to-node-8/</guid>
+      <description>I always ignore the different version i&amp;rsquo;m using in cloud function and my local computer. My local computer use node version 8, and cloud function (my firebase project use version 6).. not until i got &amp;ldquo;server error&amp;rdquo; and other type of error for my site.
+Luckily, i met this post migrating to node 8 at medium. Let&amp;rsquo;s see how to upgrade your firebase project that using cloud function to node version 8.</description>
+    </item>
+    
+    <item>
+      <title>Create future post for firebase blog</title>
+      <link>https://onebite.dev/create-future-post-for-firebase-blog/</link>
+      <pubDate>Fri, 02 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-future-post-for-firebase-blog/</guid>
+      <description>One of my favorite things this last 1 year is firebase,. I create so many projects with it and &amp;hellip; for free!. It enable us to make static or dynamic website with all the database and authentication features. I have a blog that made with firebase and sometimes i have so many idea, but didn&amp;rsquo;t want to post everything at one day. It&amp;rsquo;s better to schedule some post and here is how you make one</description>
+    </item>
+    
+    <item>
+      <title>How to add HTML content inside sweetalert box</title>
+      <link>https://onebite.dev/how-to-add-html-content-inside-sweetalert-box/</link>
+      <pubDate>Thu, 01 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-html-content-inside-sweetalert-box/</guid>
+      <description>Before you do this, make sure you use sweetalert version 2, not the first one. If you&amp;rsquo;re still using the 1st version, i know you&amp;rsquo;ll back up a bit. Since i&amp;rsquo;m using sweetalert boxes all over my webiste, i feel really lazy too to upgrade to 2nd version, but it&amp;rsquo;s actually very easy, in most cases just use swal.fire instead just swal.
+Okay.. now let&amp;rsquo;s see how you can add html content inside your sweetalert box.</description>
+    </item>
+    
+    <item>
+      <title>My experience learning android with kotlin from web development background</title>
+      <link>https://onebite.dev/my-experience-learning-android-with-kotlin-from-web-development-background/</link>
+      <pubDate>Wed, 10 Jul 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/my-experience-learning-android-with-kotlin-from-web-development-background/</guid>
+      <description>These last few months have been fun and challenging for me, i started learning &amp;ldquo;how to create an android app&amp;rdquo; with my background as a web developer. After stay in my comfort zone (HTML, CSS, JS and backend server) for around 5 years, i finally made my decision to accept this challenge.
+I turned to google to get my head around android development. There are already some sweet technology that can make me comfortable, like Nativescript(using Vue.</description>
+    </item>
+    
+    <item>
+      <title>How to optimize laravel app with caching route and config</title>
+      <link>https://onebite.dev/how-to-optimize-laravel-app-with-caching-route-and-config/</link>
+      <pubDate>Sat, 15 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-optimize-laravel-app-with-caching-route-and-config/</guid>
+      <description>You&amp;rsquo;ve done created a pretty big laravel app and now it&amp;rsquo;s ready to be used by hundreds if not thousands of people. Of course we don&amp;rsquo;t want every time a user access our app, it re-read the config or the route part, since it&amp;rsquo;s not changing that much.
+php artisan cache:clear php artisan config:clear php artisan route:clear Refresh Cache What if you change any configuration and route, suddenly you don&amp;rsquo;t see any new changes in your laravel app.</description>
+    </item>
+    
+    <item>
+      <title>Filter data by interval time (between) in mysql</title>
+      <link>https://onebite.dev/filter-data-by-interval-time-between-in-mysql/</link>
+      <pubDate>Thu, 13 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/filter-data-by-interval-time-between-in-mysql/</guid>
+      <description>Oftentimes we need to filter or select data in mysql by the interval time, luckily mysql provide an INTERVAL query, here is how we do it.
+For example you search for data that made in this week
+SELECT * FROM `tableName` WHERE created_at &amp;lt; NOW() - INTERVAL 1 WEEK the unit is flexible, you can change WEEK, to day, hour, month even year</description>
+    </item>
+    
+    <item>
+      <title>Update text between two words in mysql</title>
+      <link>https://onebite.dev/update-text-between-two-words-in-mysql/</link>
+      <pubDate>Thu, 13 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/update-text-between-two-words-in-mysql/</guid>
+      <description>How to get and update text between two words in mysql. We can use the replace method and combine in with normal Where clause.
+For example, let&amp;rsquo;s say i have a simple markdown for image before but i need to prepend a new folder name since i move the resources folder. To replace a text in &amp;ldquo;columnName&amp;rdquo; that put between [&amp;lsquo;img&amp;rsquo;] and [&amp;rsquo;/img&amp;rsquo;] i use REPLACE(columnName, part text you want to change, new text you want to insert)</description>
+    </item>
+    
+    <item>
+      <title>How to fix Amazon S3 error RequestTimeTooSkewed</title>
+      <link>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</link>
+      <pubDate>Wed, 12 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-fix-amazon-s3-error-requesttimetooskewed/</guid>
+      <description>Suddenly one of my s3 function i use normally got an error with message RequestTimeTooSkewed. Here is how to fix it
+In my case, i use S3 to automate my database backup with Laravel as backend with this error message:
+Exception message: Could not connect to disk s3 because: exception &amp;#39;Aws\\S3\\Exception\\S3Exception&amp;#39; It doesn&amp;rsquo;t really matter what backend language do you use, as long as you got this &amp;ldquo;request time too skewed&amp;rdquo; from S3 message, you can solve this by adjust the timezone on your server</description>
+    </item>
+    
+    <item>
+      <title>How to consume API in Vue with Axios</title>
+      <link>https://onebite.dev/how-to-consume-api-in-vue-with-axios/</link>
+      <pubDate>Mon, 08 Apr 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-consume-api-in-vue-with-axios/</guid>
+      <description>When playing with javascript library like Vuejs, often times we use an API, to display and consume data. There are many ways to play with API in VueJS, one of them is Axios . Axios itself didn&amp;rsquo;t depend on VueJS, it&amp;rsquo;s a standalone promise based HTTP client for the browser (any framework) and node.js.
+Initialize data from an API To initialize data, we use &amp;ldquo;mounted&amp;rdquo; function from VueJS, since it&amp;rsquo;s the first function will be called in our app.</description>
+    </item>
+    
+    <item>
+      <title>Why do we need to save created_at and update_at field in database</title>
+      <link>https://onebite.dev/why-do-we-need-to-save-created_at-and-update_at-field-in-database/</link>
+      <pubDate>Sun, 07 Apr 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/why-do-we-need-to-save-created_at-and-update_at-field-in-database/</guid>
+      <description>You might have seen created__at and updated__at field with time value in your database, without knowing what are they exists for.
+Why do we need these both fields? i&amp;rsquo;m not sure about the history, but from my experience, it would be much easier when we want to play with data when both these fields exist. For example if you have a user table, you can see how active your user is by last time the _updated__at column changes.</description>
+    </item>
+    
+    <item>
+      <title>How to export firebase firestore database for free</title>
+      <link>https://onebite.dev/how-to-export-firebase-firestore-database-for-free/</link>
+      <pubDate>Sun, 07 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-export-firebase-firestore-database-for-free/</guid>
+      <description>So far, we don&amp;rsquo;t have an official and free way to import or export our data in/to firebase firestore. Of course we don&amp;rsquo;t want to any unwanted accident happen, where we lose all of our data without backup.
+Luckily, Dalenguyen made a node package to import and export firestore for us.
+How to:
+1. Download serviceaccount.json from Firebase Console &amp;gt; Project Setting &amp;gt; Service Accounts
+2. Clone the previous repo &amp;quot; git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>How to count most used words in database with python</title>
+      <link>https://onebite.dev/how-to-count-most-used-words-in-database-with-python/</link>
+      <pubDate>Sat, 06 Apr 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-count-most-used-words-in-database-with-python/</guid>
+      <description>Data is one of the hottest things during past few years, being able to get a particular information from data that you collect could be very helpful.
+Here&amp;rsquo;s a little script how you can get / count most common words from your database. In this case we&amp;rsquo;ll be using a mysql, but you can absolutely change it to other database engine, API or any file. We&amp;rsquo;re using Collection Counter from python</description>
+    </item>
+    
+    <item>
+      <title>Manage media/image in forestry with cloudinary</title>
+      <link>https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/</link>
+      <pubDate>Sat, 06 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/manage-media/image-in-forestry-with-cloudinary/</guid>
+      <description>One of the shortage of using static site like Hugo compare to giant CMS like Wordpress is managing image is not that easy. Normally, you have to add it to your local folder and give a reference to your relative path.
+But storing it in our own local file is not scalable and make our hosting heavier. That&amp;rsquo;s why i&amp;rsquo;m looking for a hosting asset solution, and luckily i found cloudinary , it comes with a generous offer if you just getting started.</description>
+    </item>
+    
+    <item>
+      <title>Using forestry as CMS for your Hugo site</title>
+      <link>https://onebite.dev/using-forestry-as-cms-for-your-hugo-site/</link>
+      <pubDate>Fri, 05 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/using-forestry-as-cms-for-your-hugo-site/</guid>
+      <description>We need to make our blogging experience as fun and easy as possible, content management system (CMS) might help us to archieve that. That&amp;rsquo;s why i&amp;rsquo;m searching CMS for this Hugo site, and i found forestry for that.
+Prepare Go to forestry and sign up if you haven&amp;rsquo;t. You can also use github/gitlab or bitbucket account.
+Add new site In Dashboard you can click &amp;ldquo;add site&amp;rdquo; to add your new static site generated (Hugo) site.</description>
+    </item>
+    
+    <item>
+      <title>How to Customize Front Matter in Hugo</title>
+      <link>https://onebite.dev/how-to-customize-front-matter-in-hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 05:27:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-customize-front-matter-in-hugo/</guid>
+      <description>Slowly your Hugo app is growing, the default field you need in your front matter is not just title and date anymore, you always need to include description, tags, or any other field. Hugo provide archetypes as our default template when creating a new content.
+The default location for this is in &amp;ldquo;archetypes/posts.md&amp;rdquo; or if you want in live in your theme &amp;ldquo;themes/my-theme/archetypes/posts.md&amp;rdquo;. Open this particular file and write
+title: &amp;#34;{{ replace .</description>
+    </item>
+    
+    <item>
+      <title>How to Make Dynamic Twitter Card for Hugo</title>
+      <link>https://onebite.dev/how-to-make-dynamic-twitter-card-for-hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 02:26:14 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-dynamic-twitter-card-for-hugo/</guid>
+      <description>Let&amp;rsquo;s see how to make a nice dynamic twitter card in Hugo to optimize our twitter post, so it will show us an image, summary and other relevant information when we share it on twitter.
+I&amp;rsquo;m sure you have a partial header somewhere in your Hugo blog, where you put HTML tag inside. Open that file, and let&amp;rsquo;s attach this meta information
+&amp;lt;meta name=&amp;#34;twitter:card&amp;#34; content=&amp;#34;summary&amp;#34; /&amp;gt; &amp;lt;meta name=&amp;#34;twitter:site&amp;#34; content=&amp;#34;YOURSITENAME&amp;#34; /&amp;gt; &amp;lt;meta name=&amp;#34;twitter:creator&amp;#34; content=&amp;#34;YOURNAME&amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;og:url&amp;#34; content=&amp;#34;{{ .</description>
+    </item>
+    
+    <item>
+      <title>How to Create Simple Pagination in Hugo</title>
+      <link>https://onebite.dev/how-to-create-simple-pagination-in-hugo/</link>
+      <pubDate>Wed, 03 Apr 2019 14:23:13 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-simple-pagination-in-hugo/</guid>
+      <description>If you start looking how to paginate your blog in Hugo, it&amp;rsquo;s a very good sign 🤗 ! why? it means you take your blog seriously, you post more than once (at least 😅). Luckily, Hugo make it very simple to create a pagination
+Add in config Add pagination info in your config.yaml(.toml) file
+paginate : 12 //depend on how much post per page Loop with page Change how you loop your post with .</description>
+    </item>
+    
+    <item>
+      <title>How to Include JQuery via Inspect Console</title>
+      <link>https://onebite.dev/how-to-include-jquery-via-inspect-console/</link>
+      <pubDate>Wed, 03 Apr 2019 07:41:43 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-include-jquery-via-inspect-console/</guid>
+      <description>One day you visit a website, maybe you want to scrape something, count how many elements, or any other thing you normally do easily with javascript. Right click &amp;gt; Inspect &amp;gt; Console tab &amp;gt; try simple command (in this example we want to change all p tag&amp;rsquo;s text)
+$(&amp;#39;p&amp;#39;).text(&amp;#39;hey&amp;#39;) Oops&amp;hellip; Unfortunately the website don&amp;rsquo;t have jquery! Here is how you can inject jquery via the javascript console
+var jq = document.</description>
+    </item>
+    
+    <item>
+      <title>What Is Bash and How It Can Save Your Time</title>
+      <link>https://onebite.dev/what-is-bash-and-how-it-can-save-your-time/</link>
+      <pubDate>Tue, 02 Apr 2019 06:23:48 +0800</pubDate>
+      
+      <guid>https://onebite.dev/what-is-bash-and-how-it-can-save-your-time/</guid>
+      <description>Have you heard about bash (Unix shell)? but not sure what does bash actually do? Let&amp;rsquo;s see how it can save your time.. a lot.
+Think of bash as a little program or function(s), to do whatever tasks you normally do in your terminal/command line faster, just by calling the function&amp;rsquo;s name. As always, don&amp;rsquo;t repeat yourself. You have to write your code and call it later by the name of the function/variable.</description>
+    </item>
+    
+    <item>
+      <title>Create New Hugo Post Faster With Bash</title>
+      <link>https://onebite.dev/create-new-hugo-post-faster-with-bash/</link>
+      <pubDate>Tue, 02 Apr 2019 01:03:49 +0800</pubDate>
+      
+      <guid>https://onebite.dev/create-new-hugo-post-faster-with-bash/</guid>
+      <description>If I can&amp;rsquo;t automate a repetitive task, i always try to find a way to make it faster. One of the pain point in creating new post with hugo is we always have to type.
+hugo new posts/your-new-post.md The dynamic part is only the title itself. So the idea is, i want to run a single word function + title. And i don&amp;rsquo;t like to type minus sign &amp;ldquo;-&amp;rdquo; between words.</description>
+    </item>
+    
+    <item>
+      <title>How to Schedule Post in Future for Hugo</title>
+      <link>https://onebite.dev/how-to-schedule-post-in-future-for-hugo/</link>
+      <pubDate>Mon, 01 Apr 2019 01:46:10 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-schedule-post-in-future-for-hugo/</guid>
+      <description>As i mentioned in previous post, i move my website from github-pages to Netlify , so i can set a schedule for my Hugo post in future.
+How to:
+ in &amp;ldquo;Netlify&amp;rdquo; Menu settings &amp;gt; Build and deploy &amp;gt; check &amp;ldquo;build hooks&amp;rdquo; section, click &amp;ldquo;Add build Hook&amp;rdquo; button.   This will generate a unique url, when we send request post to this link, it will build our site from the repository.</description>
+    </item>
+    
+    <item>
+      <title>Move My Hugo Site From Github Pages to Netlify</title>
+      <link>https://onebite.dev/move-my-hugo-site-from-github-pages-to-netlify/</link>
+      <pubDate>Mon, 01 Apr 2019 08:02:42 +0800</pubDate>
+      
+      <guid>https://onebite.dev/move-my-hugo-site-from-github-pages-to-netlify/</guid>
+      <description>Today i move my static hugo site from github-pages to netlify. I heard a lot of good things about netlify before, but github-pages seems easier to use (less complicated) for me.
+Tiny problem with github-pages Until i found one &amp;ldquo;tiny&amp;rdquo; problem, i can&amp;rsquo;t schedule my post. Since the way github-pages serves our hugo site is by looking what&amp;rsquo;s inside our github public repo, we always have to deploy it manually at the exact time to trigger the changes.</description>
+    </item>
+    
+    <item>
+      <title>Mac Shortcut to Improve Productivity</title>
+      <link>https://onebite.dev/mac-shortcut-to-improve-productivity/</link>
+      <pubDate>Sun, 31 Mar 2019 20:06:47 +0800</pubDate>
+      
+      <guid>https://onebite.dev/mac-shortcut-to-improve-productivity/</guid>
+      <description>I still remember when one of my friend said to me &amp;ldquo;I don&amp;rsquo;t use mouse, I&amp;rsquo;m a keyboard freak&amp;rdquo;. I didn&amp;rsquo;t really get the point back then, why would someone use mouse -less? isn&amp;rsquo;t mouse there to help us work faster? In some cases, the answer is yes, but while I spend so much time work on mac laptop/computer, i already find myself keep looking for shortcut for certain task, since moving my hand from keyboard to mouse &amp;ldquo;takes time&amp;rdquo; and feels like I&amp;rsquo;m breaking the &amp;ldquo;zone&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>How to Tweet Your Blog Post Automatically</title>
+      <link>https://onebite.dev/how-to-tweet-your-blog-post-automatically/</link>
+      <pubDate>Sun, 31 Mar 2019 19:03:13 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-tweet-your-blog-post-automatically/</guid>
+      <description>There are many social media manager out there, like Hootsuite and Buffer, but not many people have heard about dlvr.it. Just like other, it offers a scheduling feature, with a bonus: we can connect our RSS blog feed with dlvr.it to automatically tweet our new post.
+Step by step auto post blog  Sign up to dlvr.it connect one of your social media account Submit your RSS Feed (create, if you don&amp;rsquo;t have one) and choose your social media (Optional) In &amp;ldquo;settings&amp;rdquo; menu you can define how many times and when to look for any new updates  Other alternative: I just found out, there&amp;rsquo;s an IFTTT alternative for this, check this wesferrel&amp;rsquo;s applet</description>
+    </item>
+    
+    <item>
+      <title>Where to Host Website for Free</title>
+      <link>https://onebite.dev/where-to-host-website-for-free/</link>
+      <pubDate>Sun, 31 Mar 2019 05:42:26 +0000</pubDate>
+      
+      <guid>https://onebite.dev/where-to-host-website-for-free/</guid>
+      <description>Is there any place to host your website for free? short answer is YES, long answer.. YEEEEEEES. Today, there are so many generous companies offer us a hosting service for free and very reliable. Many websites already run on these platforms, now is your turn.
+Gitub Pages If you already love github, you&amp;rsquo;ll love them even more. With Github pages you can easily make a website just like creating a new repository.</description>
+    </item>
+    
+    <item>
+      <title>Free and Easy Rest API for Prototype</title>
+      <link>https://onebite.dev/free-and-easy-rest-api-for-prototype/</link>
+      <pubDate>Sun, 31 Mar 2019 05:04:22 +0000</pubDate>
+      
+      <guid>https://onebite.dev/free-and-easy-rest-api-for-prototype/</guid>
+      <description>Do you want to create an app, but not sure how it will go just yet? Thinking about all server setup, managing database, and other stuff is scary. Good news is, we can serve our database from API (Application Programming Interface) without configuring any server or write backend code!
+My JSON Server We can make our own data as easy as make a JSON file and serve it from our github pages with My JSON Server!</description>
+    </item>
+    
+    <item>
+      <title>How to Get All Hugo Tags</title>
+      <link>https://onebite.dev/how-to-get-all-hugo-tags/</link>
+      <pubDate>Sun, 31 Mar 2019 10:10:28 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-get-all-hugo-tags/</guid>
+      <description>If you need all the tags you currently use for your website built with Hugo, you can grab it from .Site.Taxonomis.tags. You can get the Permalink directly and the name itself.
+&amp;lt;ul&amp;gt; {{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{ with $.Site.GetPage (printf &amp;#34;/tags/%s&amp;#34; $name) }} &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;{{ .Permalink }}&amp;#34;&amp;gt;{{ $name }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; {{ end }} {{ end }} &amp;lt;/ul&amp;gt; Limit display at homepage only Maybe you want to make this as your menu navigation that sticks in Homepage&amp;rsquo;s header.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Poster With HTML Canvas</title>
+      <link>https://onebite.dev/how-to-create-poster-with-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 22:14:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-poster-with-html-canvas/</guid>
+      <description>Website is more powerful that we thought, do you know it has canvas element to draw graphics on the web? If we combine this with the ability to manipulate DOM in javascript, we can make our poster generator for our next instagram or any social media post.
+For a little warm up, start by drawing text in canvas and drawing image in canvas
+Sample app we will build Here, we will have a nice little app to produce an image dynamically like this.</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Image in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-image-in-html-canvas/</link>
+      <pubDate>Sun, 31 Mar 2019 06:00:02 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-image-in-html-canvas/</guid>
+      <description>Besides, drawing text in canvas, we also can add an image, whether from url link or browse any image on our library.
+Regardless from which method you choose, always prepare the blank canvas
+var canvas = document.getElementById(&amp;#34;myCanvas&amp;#34;); var ctx = canvas.getContext(&amp;#34;2d&amp;#34;) ctx.fillStyle = &amp;#34;white&amp;#34;; ctx.fillRect(0, 0, canvas.width, canvas.height); Draw image from file browser Input file button for drawing image via browse library
+&amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;file&amp;#34; onchange=&amp;#34;uploadImg(event)&amp;#34;&amp;gt; &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+    <item>
+      <title>How to Be More Productive With Atom</title>
+      <link>https://onebite.dev/how-to-be-more-productive-with-atom/</link>
+      <pubDate>Sat, 30 Mar 2019 20:42:34 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-be-more-productive-with-atom/</guid>
+      <description>There are many things you can do with atom text editor to make you more productive. Installing some nice packages for atom is the first step, now let&amp;rsquo;s go further by learning some shortcut (which means using -mouse- less)!
+Shortcut in atom  To switch between text editor and the treeview, press ⌘ + Shift + \ , if you&amp;rsquo;re on a file, just press right arrow to switch back to the workspace.</description>
+    </item>
+    
+    <item>
+      <title>My Atom Recommended Packages</title>
+      <link>https://onebite.dev/my-atom-recommended-packages/</link>
+      <pubDate>Sat, 30 Mar 2019 20:10:17 +0800</pubDate>
+      
+      <guid>https://onebite.dev/my-atom-recommended-packages/</guid>
+      <description>As a developer, a text editor is not something we can just ignore. Since I found out about atom, I never go back 😘. Even &amp;ldquo;visual studio code&amp;rdquo; clearly run faster on my machine, atom just feels right for me. If you are an atom guy/girl like me, here are some atom packages made by awesome community you might find useful:
+No Title Bar I don&amp;rsquo;t like the title bar that hanging on top of my editor, let&amp;rsquo;s get rid of it by using No Title Bar</description>
+    </item>
+    
+    <item>
+      <title>How to Make Custom Atom Snippet</title>
+      <link>https://onebite.dev/how-to-make-custom-atom-snippet/</link>
+      <pubDate>Sat, 30 Mar 2019 18:53:30 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-custom-atom-snippet/</guid>
+      <description>DRY or don&amp;rsquo;t repeat yourself is one of the most popular advice we got in coding. Not just for the code we write, it also apply for things we do while writing code. If you love using atom as your main text editor, we can make some snippets to help us generate text/code that we often use.
+How to make snippet in Atom Open the &amp;ldquo;Atom menu&amp;rdquo; &amp;gt; &amp;ldquo;Snippets&amp;rdquo; to see and add to our current available snippets, or use the search bar in &amp;ldquo;Help&amp;rdquo; menu and type &amp;ldquo;snippets&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Dark Mode in Website</title>
+      <link>https://onebite.dev/how-to-create-dark-mode-in-website/</link>
+      <pubDate>Sat, 30 Mar 2019 09:38:40 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-dark-mode-in-website/</guid>
+      <description>Oftentimes we see a dark mode in website. For me personally, I can&amp;rsquo;t stare too long on a bright screen, that&amp;rsquo;s why I prefer dark mode for some websites. And as a developer, it&amp;rsquo;s hard not to think &amp;ldquo;how is it made?&amp;rdquo;.
+CSS preparation First, we need to prepare the CSS, both for normal condition and case when it&amp;rsquo;s in dark mode
+body{ /*your normal styling*/ } body.darkmode { background: rgb(57, 57, 57); color: rgb(227, 227, 227); } /*to toggle button*/ .</description>
+    </item>
+    
+    <item>
+      <title>How to Draw Text in Html Canvas</title>
+      <link>https://onebite.dev/how-to-draw-text-in-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 06:00:02 +0700</pubDate>
+      
+      <guid>https://onebite.dev/how-to-draw-text-in-html-canvas/</guid>
+      <description>In case you haven&amp;rsquo;t heard about canvas in HTML, this element enable us to draw something on web, by something, it includes text. Why would you want to draw text in canvas, instead just show it normally? well, the case could be like &amp;ldquo;displaying a captcha image&amp;rdquo;, so bot can&amp;rsquo;t just grab the text via html element to bypass our captcha.
+Prepare a canvas to draw &amp;lt;canvas id=&amp;#34;myCanvas&amp;#34; width=&amp;#34;200&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; Fallback text if browser doesn&amp;#39;t support the canvas el.</description>
+    </item>
+    
+    <item>
+      <title>How to Deploy and Host Hugo in Github Pages</title>
+      <link>https://onebite.dev/how-to-deploy-and-host-hugo-in-github-pages/</link>
+      <pubDate>Sat, 30 Mar 2019 06:45:45 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-deploy-and-host-hugo-in-github-pages/</guid>
+      <description>Github offers a service to host your static site for free. But how about blog? don&amp;rsquo;t worry, now we have a static-site-generator like jekyll, hugo, etc. that make static not just &amp;ldquo;static anymore&amp;rdquo;. You could make a blog or any kind of listing site with this, without always have to copy and paste every layout.
+Let&amp;rsquo;s see how I deploy my Hugo blog site to github pages, this will work for user or organization page:</description>
+    </item>
+    
+    <item>
+      <title>Simple Hugo Blogging Site</title>
+      <link>https://onebite.dev/simple-hugo-blogging-site/</link>
+      <pubDate>Sat, 30 Mar 2019 05:43:40 +0800</pubDate>
+      
+      <guid>https://onebite.dev/simple-hugo-blogging-site/</guid>
+      <description>I always search for something simple for any of my problem. Just like every developer who wants to start a blog, deciding which platform to use is really hard. For me, the criteria are something hackable and fast for the reader. Luckily, I met Hugo! The claim “The world’s fastest framework for building websites” they put in their landing page is an honest slogan! I&amp;rsquo;ve got a very good experience so far with Hugo (I’ve tried Jekyll, Nuxt, Next).</description>
+    </item>
+    
+  </channel>
+</rss>

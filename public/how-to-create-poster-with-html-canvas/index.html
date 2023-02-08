@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+
+
+ 
+     
+    
+
+
+
+
+
+
+
+<title>How to Create Poster With HTML Canvas</title>
+<meta name="description" content="Learn how to make a poster with html canvas, in this example we will make a poster for making a quoter for instagram post" property="og:description">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='https://ogi.sh/article?title=How to Create Poster With HTML Canvas&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png'>
+
+<meta property="og:url" content="https://onebite.dev/how-to-create-poster-with-html-canvas/" />
+<meta property="og:title" content="How to Create Poster With HTML Canvas" />
+<meta property="og:description" content="Learn how to make a poster with html canvas, in this example we will make a poster for making a quoter for instagram post" />
+<meta property="og:image" content="https://ogi.sh/article?title=How to Create Poster With HTML Canvas&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "How to Create Poster With HTML Canvas",
+      "author": {
+        "@type": "Person",
+        "name": "@hilmanski"
+      },
+      "datePublished": "2019-03-30",
+      "description": "Learn how to make a poster with html canvas, in this example we will make a poster for making a quoter for instagram post",
+      "dateModified": "2019-03-30",
+      "image": {
+        "@type": "imageObject",
+        "url": "https:\/\/ogi.sh\/article?title=How to Create Poster With HTML Canvas\u0026subtitle=One%20code%20at%20a%20time\u0026unsplashId=TWMI7B4KeLY\u0026logo=https:\/\/ik.imagekit.io\/kodingclub\/onebite\/onebite-logo_QwhRyJ3b0.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Onebite Dev",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
+    
+    
+   
+    <link rel="stylesheet" href="https://onebite.dev/sass/main.min.25fbe381f72d8542aa860aad857a997416d36ca77c878fa79ead99bd1242bcb7.css">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+    <div class="flex is-align-items is-space-between">
+       <div class="flex-on-mobile is-align-items">
+            <a href="/">
+                <svg width="65" height="54" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7035 2.37363C6.18061 2.37363 1.70346 6.85078 1.70346 12.3736V42.8132C1.70346 48.336 6.18061 52.8132 11.7035 52.8132H56.2751C58.991 52.8132 61.4541 51.7305 63.2562 49.9731C59.5478 48.7036 56.3675 45.7708 54.2339 43.8032C53.3572 42.9947 52.6572 42.3492 52.1699 42.049C50.9353 41.2883 51.2262 38.8772 51.5388 36.2859C51.8271 33.8963 52.1339 31.3536 51.28 29.8105C50.5066 28.4128 50.7229 27.836 51.0768 26.8921C51.5373 25.6638 52.2308 23.8139 51.28 18.7249C49.51 9.25073 56.9581 7.64421 64.0807 6.12227C62.2481 3.83689 59.4325 2.37363 56.2751 2.37363H11.7035Z"
+                        fill="url(#paint0_linear)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.47715 0 0 4.47715 0 10V44C0 49.5228 4.47716 54 10 54H51.2893C54.1006 54 56.6409 52.84 58.4577 50.9725C54.9233 49.6204 51.8919 46.4672 49.8602 44.354C49.0281 43.4885 48.3637 42.7974 47.9012 42.4759C46.7293 41.6616 47.0054 39.0803 47.3022 36.306C47.5758 33.7478 47.867 31.0256 47.0565 29.3736C46.3224 27.8773 46.5277 27.2597 46.8636 26.2491C47.3007 24.9341 47.959 22.9537 47.0565 17.5055C45.3738 7.34702 52.4676 5.63738 59.2376 4.00577C59.2536 4.00191 59.2697 3.99804 59.2857 3.99418C57.461 1.5686 54.5584 0 51.2893 0H10Z"
+                        fill="url(#paint1_linear)" />
+                    <rect x="6" y="12" width="35" height="8" rx="4" fill="#FF9F47" />
+                    <rect x="6" y="24" width="30" height="8" rx="4" fill="#EE7D7D" />
+                    <rect x="6" y="36" width="36" height="8" rx="4" fill="#67D3CD" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="8.3746" y1="15.1221" x2="57.7784" y2="43.7947"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#80305C" />
+                            <stop offset="1" stop-color="#385979" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="6.3405" y1="13.6484" x2="55.9436" y2="39.2057"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9A326B" />
+                            <stop offset="1" stop-color="#4C7AA8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+
+            <div>
+                <a href="/"><p id="title">Onebite.dev</p></a>
+                <p id="subtitle">Developer tips & trick, one bite at a time</p>
+            </div>
+        </div>
+
+        <div>
+            <input id="search" type="text" class="searchbox" placeholder="search here...">
+            <script>
+                document.getElementById("search").addEventListener("keyup", function (event) {
+                        if (event.keyCode === 13) {
+                            event.preventDefault();
+                            const searchQ = document.getElementById("search").value
+                            window.location.href = '/search?q=' + searchQ
+                        }
+                    });
+            </script>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/">All</a> /
+        <a href="/series">Series</a> /
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+        <a href="https://freestuff.dev/" target="_blank">Free Stuff for Dev</a> /
+        <a href="https://finddev.tools" target="_blank">Find Developer Tools</a> /
+        <a href="https://tinyletter.com/onebitedev" target="_blank">Newsletter</a>
+    </nav>
+    </header>
+
+
+<section id="post">
+    <h1 class="title">How to Create Poster With HTML Canvas</h1>
+    <div>
+      <button id="bitesize-btn" onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
+    </div>
+
+    <div class="article"> <p>Website is more powerful that we thought, do you know it has <a href="https://www.w3schools.com/html/html5_canvas.asp">canvas element</a> to draw graphics on the web? If we combine this with the ability to manipulate DOM in javascript, we can make our poster generator for our next instagram or any social media post.</p>
+<p>For a little warm up, start by <a href="/how-to-draw-text-in-html-canvas/">drawing text in canvas</a> and <a href="/how-to-draw-image-in-html-canvas/">drawing image in canvas</a></p>
+<h2 id="sample-app-we-will-build">Sample app we will build</h2>
+<p>Here, we will have a nice little app to produce an image dynamically like this. (<em>we can save it later as an image</em>)</p>
+<p><img src="https://res.cloudinary.com/wegoatdev/image/upload/v1553983982/blog/poster-sample.png" alt=""></p>
+<p>The idea, is pretty simple, i want to allow user to: enter text(quote), a logo or watermark, person&rsquo;s photo who said this quote, and his/her name at the bottom. The position where you want to put things is up to you.</p>
+<h2 id="html-prepartion">HTML prepartion</h2>
+<p>We&rsquo;ll make a HTML Form, with some dynamic value we explained before:</p>
+<pre tabindex="0"><code>&lt;form action=&#34;#&#34; enctype=&#34;multipart/form-data&#34;&gt;
+  &lt;h1&gt;Create Img via HTML Canvas&lt;/h1&gt;
+
+  //main quote
+  &lt;span&gt;Text&lt;/span&gt;
+  &lt;input type=&#34;text&#34; id=&#34;quote&#34; placeholder=&#34;quote of today&#34;&gt;
+
+  //the font size
+  &lt;span&gt;Size&lt;/span&gt;
+  &lt;input type=&#34;text&#34; id=&#34;quote_fs&#34; value=&#34;50&#34; maxlength=&#34;2&#34; size=&#34;2&#34; placeholder=&#34;font size&#34;&gt;
+
+  //line height between quote&#39;s text
+  &lt;span&gt;Line-Height&lt;/span&gt;
+  &lt;input type=&#34;text&#34; id=&#34;quote_lh&#34; value=&#34;50&#34;  maxlength=&#34;2&#34; size=&#34;2&#34; placeholder=&#34;line height&#34;&gt;
+
+  //main function to glue things together
+  &lt;button onclick=&#34;drawText(event)&#34;&gt;Add Text&lt;/button&gt;
+  &lt;br&gt;
+
+  //get image from &#34;open file&#34;
+  &lt;span&gt;Add watermark&lt;/span&gt;
+  &lt;input type=&#34;file&#34; id=&#34;file&#34; onchange=&#34;addBrand(event)&#34;&gt;
+  &lt;br&gt;
+
+  //get image from url
+  &lt;span&gt;People Image&lt;/span&gt;
+  &lt;input type=&#34;url&#34; placeholder=&#34;Url image&#34; id=&#34;people_pic&#34;&gt;
+  &lt;button type=&#34;button&#34; onclick=&#34;addPhoto()&#34;&gt; Add Pic &lt;/button&gt;
+  &lt;br&gt;
+
+  &lt;span&gt;People Name&lt;/span&gt;
+  &lt;input type=&#34;text&#34; placeholder=&#34;nama orang&#34; id=&#34;people_name&#34;&gt;
+  &lt;button type=&#34;button&#34; onclick=&#34;addName()&#34;&gt; Add Name &lt;/button&gt;
+  &lt;br&gt;
+
+  //main function to re-draw any changes without reload everything
+  &lt;button onclick=&#34;reDraw()&#34;&gt;ReDraw&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;br&gt;&lt;br&gt;
+//here is when we want to draw the actual thing
+&lt;canvas id=&#34;myCanvas&#34; width=&#34;512&#34; height=&#34;512&#34; style=&#34;border:1px solid #000000;&#34;&gt;&lt;/canvas&gt;
+</code></pre><h2 id="form-preview">Form preview</h2>
+<p>Here is how the form looks like, you can customize it however you want. We will have 2 ways to upload an image, first the watermark/logo by browse on our file machine, second for the people&rsquo;s image by paste a link, just so we know there are many options we can play with.</p>
+<p><img src="https://res.cloudinary.com/wegoatdev/image/upload/v1553985377/blog/Screen_Shot_2019-03-31_at_6.33.50_AM.png" alt=""></p>
+<h2 id="code-for-creating-poster">Code for creating poster</h2>
+<p>Now the magic part, i&rsquo;ll also explain it more in comments.</p>
+<pre tabindex="0"><code>var canvas = document.getElementById(&#34;myCanvas&#34;)
+var ctx    = canvas.getContext(&#34;2d&#34;)
+var brandImgSrc = &#39;&#39;
+var PhotoImgSrc = &#39;&#39;
+
+//====== Draw Background ======================
+//autorun for first time, to draw blank canvas
+drawBG()
+function drawBG(){
+  ctx.fillStyle = &#34;white&#34;;
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+//===== Draw Text/Quote ======================
+//draw text that depends on font size and line-height,
+//we already gave placeholder as init value
+function drawText(){
+  var text = document.getElementById(&#39;quote&#39;).value
+  var text_fs = document.getElementById(&#39;quote_fs&#39;).value
+  var text_lh = parseInt(document.getElementById(&#39;quote_lh&#39;).value)
+  //font settings, color and style
+  ctx.font = text_fs + &#39;px Calibri&#39;
+  ctx.fillStyle = &#39;rgb(68, 68, 68)&#39;
+  ctx.textAlign = &#39;center&#39;
+  // ctx.fillText(text, canvas.width/2, canvas.height/2)
+
+    var maxWidth = 480;
+    var lineHeight = text_lh;
+
+    //x and y is the starting point of drawing
+    var x = canvas.width/2;
+    var y = canvas.height/2 - 50;
+    wrapText(ctx, text, x, y, maxWidth, lineHeight)
+
+    console.log(&#34;---drawn!---&#34;)
+    return false
+  }
+
+//Redraw will call all the functions, so we don&#39;t have to reload the page
+function reDraw() { 
+  ctx.clearRect(0, 0, canvas.width, canvas.height) 
+    drawBG() 
+    drawText() 
+    drawBrandImg() 
+    addPhoto() 
+    addName() 
+}
+
+//===== Draw Brand/ Watermark
+//read image from file and draw to canvas
+function addBrand(event) {
+  var reader = new FileReader();
+  reader.onload = function(event){
+      brandImgSrc = event.target.result
+      drawBrandImg()
+  }
+  reader.readAsDataURL(event.target.files[0]);
+}
+
+function drawBrandImg() {
+  var img = new Image();
+  img.onload = function(){
+    ctx.drawImage(img, 300, 20, 180, 70);
+  }
+  img.src = brandImgSrc;
+}
+
+//===== Draw Photo ================
+//draw image to canvas from a link
+function addPhoto() {
+  var img = new Image()
+  var size = 80
+  var posX = (canvas.width/2)- (size/2)
+  var posY = 360
+
+  img.onload = function(){
+      ctx.save()
+      roundedImage(posX, posY, size, size, 45)
+      ctx.clip()
+      ctx.drawImage(img, posX, posY, size, size)
+      ctx.restore()
+  }
+
+  PhotoImgSrc = document.getElementById(&#39;people_pic&#39;).value
+  img.src = PhotoImgSrc
+}
+
+function addName(){
+  var text = document.getElementById(&#39;people_name&#39;).value
+  //settings
+  ctx.font = &#39;20pt Calibri&#39;
+  ctx.fillStyle = &#39;rgb(68, 68, 68)&#39;
+  ctx.textAlign = &#39;center&#39;
+  // ctx.fillText(text, canvas.width/2, canvas.height/2)
+
+    var maxWidth = canvas.width/2;
+    var lineHeight = 25;
+    var x = canvas.width/2;
+    var y = canvas.height - 35;
+  wrapText(ctx, text, x, y, maxWidth, lineHeight)
+
+  console.log(&#34;---drawn!---&#34;)
+  return false
+}
+
+//Make our avatar in round shape automatically
+//from: https://stackoverflow.com/questions/19585999/canvas-drawimage-with-round-corners
+function roundedImage(x,y,width,height,radius){
+  ctx.beginPath();
+  ctx.moveTo(x + radius, y);
+  ctx.lineTo(x + width - radius, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+  ctx.lineTo(x + width, y + height - radius);
+  ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+  ctx.lineTo(x + radius, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+  ctx.lineTo(x, y + radius);
+  ctx.quadraticCurveTo(x, y, x + radius, y);
+  ctx.closePath();
+}
+
+//===== Wrap Text  ===========================
+//How to wrap text in html canvas
+//Original Source before edited: https://www.html5canvastutorials.com/tutorials/html5-canvas-wrap-text-tutorial/
+function wrapText(context, text, x, y, maxWidth, lineHeight) {
+    var words = text.split(&#39; &#39;);
+    var line = &#39;&#39;;
+
+    //Make y point depend on font size
+    var perLine    = 4
+    var lines_num  = parseInt(words.length / perLine)
+    y =  y - (lines_num * 10)
+    //---end
+
+  for(var n = 0; n &lt; words.length; n++) {
+      var testLine = line + words[n] + &#39; &#39;;
+      var metrics = context.measureText(testLine);
+      var testWidth = metrics.width;
+
+      if (testWidth &gt; maxWidth &amp;&amp; n &gt; 0) {
+        context.fillText(line, x, y);
+        line = words[n] + &#39; &#39;;
+        y += lineHeight;
+      }
+      else
+        line = testLine;
+  }
+
+  context.fillText(line, x, y);
+  return false
+}
+</code></pre><p>Everytime you see X or Y variable, it&rsquo;s the starting point to draw something, you could try to change the position of each element by playing with these vars.</p>
+<p><a href="https://github.com/wegoatdev/canvas-poster-quote">Full repo on github</a></p>
+ </div>
+
+    
+<div class="">
+
+
+
+
+
+
+    <p> 🧐 See 
+        <a style="color: pink;"
+            href="https://finddev.tools/category/hosting-frontend">list of frontend hosting provider here</a>
+    </p>
+    <p> 🧐  
+        <a style="color: pink;"
+            href="https://finddev.tools/category/hosting-frontend">Compare best frontend hosting provider here</a>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <br>
+
+
+    <ul class="tags text-small">
+      
+      <li><a class="tags-html" href="/topic/html">html</a> </li>
+      
+      <li><a class="tags-javascript" href="/topic/javascript">javascript</a> </li>
+      
+      <li><a class="tags-canvas" href="/topic/canvas">canvas</a> </li>
+      
+      <li id="date"> Sat Mar 30, 2019 </li>
+    </ul>
+
+
+   
+
+  
+    
+      
+      <br><hr/><br>
+      <p>This is a post in the <a class="is-pink" href='/series/exploring-html-canvas'>Exploring HTML Canvas</a> series. </p>
+      <br/>
+        
+        
+        <ul class="series">
+        
+          <small> <li>Mar 30, 2019 - <a class="is-pink" href="https://onebite.dev/how-to-draw-text-in-html-canvas/">How to Draw Text in Html Canvas</a>
+          
+          </li></small>
+
+        
+          <small> <li>Mar 31, 2019 - <a class="is-pink" href="https://onebite.dev/how-to-draw-image-in-html-canvas/">How to Draw Image in Html Canvas</a>
+          
+          </li></small>
+
+        
+          <small> <li>Mar 30, 2019 - <a class="is-pink" href="https://onebite.dev/how-to-create-poster-with-html-canvas/">How to Create Poster With HTML Canvas</a>
+          
+            👈🏼 You are here
+          
+          </li></small>
+
+        
+        </ul>
+      
+   
+
+
+    <br>
+    <a href="/">🏊🏾‍♀️ Back Home</a>
+
+</section>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<style>
+  #bitesize_wrapper {
+    background: #29313D;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    padding: 50px 200px;
+  }
+
+  #bitesize_wrapper h2{
+    line-height: 2.2rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    #bitesize_wrapper {
+      left: 0px;
+      width: 100%;
+      padding: 50px;
+    }
+  }
+
+  #slide-menu{
+    text-align: right;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #slide-menu h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #slide-nav span{
+    font-size: 16px;
+    background: orange;
+    padding: 5px 10px;
+  }
+  #slide-nav span:hover{
+    cursor: pointer;
+  }
+</style>
+
+
+<script src="/js/bitesize-prod.js" defer> </script>
+<script>
+  const _article = document.getElementsByClassName('article')[0]
+  
+  if(!_article.innerHTML.includes("</h2>"))
+    document.getElementById('bitesize-btn').style.display = "none"
+
+  
+  const _links = _article.getElementsByTagName('a')
+  for (var i = 0; i<_links.length; i++) {
+    _links[i].setAttribute('target', '_blank')
+  }
+</script>
+
+
+    <footer>
+        <br> <hr> <br>
+        <small>
+        <p>
+            <a href="/series">Series</a> /
+            <a href="/index.xml">RSS</a> /
+            <a href="/sitemap.xml">Sitemap</a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+            <a href="https://tinyletter.com/onebitedev" target="_blank">Subscribe newsletter</a>
+        </p>
+
+        <p>
+            <a href="https://freestuff.dev/" target="_blank">Free stuff for Dev</a> /
+            <a href="https://finddev.tools" target="_blank">Best Developer Tools</a> /
+            <a href="https://fromdevtodev.com" target="_blank">Art of teaching Dev</a>
+        </p>
+        </small>
+    </footer>
+
+    <script async defer src="https://sa-api.hilman.space/latest.js"></script>
+    <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>

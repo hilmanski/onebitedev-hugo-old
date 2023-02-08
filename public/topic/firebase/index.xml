@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firebase on Onebite Dev</title>
+    <link>https://onebite.dev/topic/firebase/</link>
+    <description>Recent content in firebase on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Oct 2019 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate from firebase to Hugo</title>
+      <link>https://onebite.dev/migrate-from-firebase-to-hugo/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/migrate-from-firebase-to-hugo/</guid>
+      <description>I want to migrate my firebase website, which data stored in firestore, to Hugo post. The problem is hugo made with files not database per se. So there is no direcy way to export and import from firebase firestore file to hugo markdown files
+Here is how i convert or migrate from firebase to hugo markdown to create post. The step is:
+ Export database from firestore Run script to generate markdowns  Export database from firestore Luckily we don&amp;rsquo;t have to do this ourself, Dalenguyen made a nodejs package for us to use, here is firebase import export</description>
+    </item>
+    
+    <item>
+      <title>How to get random collection /data in firebase firestore</title>
+      <link>https://onebite.dev/how-to-get-random-collection-/data-in-firebase-firestore/</link>
+      <pubDate>Thu, 29 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-get-random-collection-/data-in-firebase-firestore/</guid>
+      <description>Firebase has a bunch of feature that really help us, but it still lack some of minor things, like how to get a random collection in your data when you are using firebase firestore. Let&amp;rsquo;s learn how to get random collection /data in firebase firestore with a hacky way
+const ref = db.collection(COLLECTION_NAME).doc(); var items = [] db.collection(COLLECTION_NAME).where(admin.firestore.FieldPath.documentId(), &amp;#39;&amp;gt;&amp;#39;, ref.id) .get().then(snapshot =&amp;gt; { snapshot.forEach(doc =&amp;gt; { items.push({ data: doc.data() }); console.</description>
+    </item>
+    
+    <item>
+      <title>How to upload image / file in firebase with progress bar</title>
+      <link>https://onebite.dev/how-to-upload-image-/-file-in-firebase-with-progress-bar/</link>
+      <pubDate>Thu, 29 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-upload-image-/-file-in-firebase-with-progress-bar/</guid>
+      <description>Learn how to upload image or any file in firebase with progress bar to show how many percent your data already uploaded. First we add the upload functionality, don&amp;rsquo;t forget to give it an id
+&amp;lt;input type=&amp;#34;file&amp;#34; value=&amp;#34;upload&amp;#34; id=&amp;#34;uploadButton&amp;#34;&amp;gt; Setup firebase just like other firebase project you have to load the necessary firebase&amp;rsquo;s js file and set the configuration, now specific for the upload part
+var storage = firebase.storage() var button = document.</description>
+    </item>
+    
+    <item>
+      <title>How to solve firebase.database is not a function</title>
+      <link>https://onebite.dev/how-to-solve-firebase.database-is-not-a-function/</link>
+      <pubDate>Tue, 06 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-firebase.database-is-not-a-function/</guid>
+      <description>For new firebase user who start to play with firebase database it&amp;rsquo;s possible you meet with this firebase.database is not a function error. Even after you load the firebase app javscript file before:
+&amp;lt;script src=&amp;quot;https://www.gstatic.com/firebasejs/VERSIONNUMBER/firebase-app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  The problem is documentation for firebase realtime database and firebase firestore not state it clear enough, that you have to load another script for this funciton which is
+&amp;lt;script src=&amp;quot;https://www.gstatic.com/firebasejs/VERSIONNUMBER/firebase-database.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  same with firestore, you just have to change firebase-firestore.</description>
+    </item>
+    
+    <item>
+      <title>How to upgrade firebase cloud function to node 8</title>
+      <link>https://onebite.dev/how-to-upgrade-firebase-cloud-function-to-node-8/</link>
+      <pubDate>Sat, 03 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-upgrade-firebase-cloud-function-to-node-8/</guid>
+      <description>I always ignore the different version i&amp;rsquo;m using in cloud function and my local computer. My local computer use node version 8, and cloud function (my firebase project use version 6).. not until i got &amp;ldquo;server error&amp;rdquo; and other type of error for my site.
+Luckily, i met this post migrating to node 8 at medium. Let&amp;rsquo;s see how to upgrade your firebase project that using cloud function to node version 8.</description>
+    </item>
+    
+    <item>
+      <title>Create future post for firebase blog</title>
+      <link>https://onebite.dev/create-future-post-for-firebase-blog/</link>
+      <pubDate>Fri, 02 Aug 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-future-post-for-firebase-blog/</guid>
+      <description>One of my favorite things this last 1 year is firebase,. I create so many projects with it and &amp;hellip; for free!. It enable us to make static or dynamic website with all the database and authentication features. I have a blog that made with firebase and sometimes i have so many idea, but didn&amp;rsquo;t want to post everything at one day. It&amp;rsquo;s better to schedule some post and here is how you make one</description>
+    </item>
+    
+    <item>
+      <title>How to export firebase firestore database for free</title>
+      <link>https://onebite.dev/how-to-export-firebase-firestore-database-for-free/</link>
+      <pubDate>Sun, 07 Apr 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-export-firebase-firestore-database-for-free/</guid>
+      <description>So far, we don&amp;rsquo;t have an official and free way to import or export our data in/to firebase firestore. Of course we don&amp;rsquo;t want to any unwanted accident happen, where we lose all of our data without backup.
+Luckily, Dalenguyen made a node package to import and export firestore for us.
+How to:
+1. Download serviceaccount.json from Firebase Console &amp;gt; Project Setting &amp;gt; Service Accounts
+2. Clone the previous repo &amp;quot; git clone https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

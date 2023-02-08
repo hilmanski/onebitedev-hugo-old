@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jquery on Onebite Dev</title>
+    <link>https://onebite.dev/topic/jquery/</link>
+    <description>Recent content in jquery on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Apr 2019 07:41:43 +0800</lastBuildDate><atom:link href="https://onebite.dev/topic/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Include JQuery via Inspect Console</title>
+      <link>https://onebite.dev/how-to-include-jquery-via-inspect-console/</link>
+      <pubDate>Wed, 03 Apr 2019 07:41:43 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-include-jquery-via-inspect-console/</guid>
+      <description>One day you visit a website, maybe you want to scrape something, count how many elements, or any other thing you normally do easily with javascript. Right click &amp;gt; Inspect &amp;gt; Console tab &amp;gt; try simple command (in this example we want to change all p tag&amp;rsquo;s text)
+$(&amp;#39;p&amp;#39;).text(&amp;#39;hey&amp;#39;) Oops&amp;hellip; Unfortunately the website don&amp;rsquo;t have jquery! Here is how you can inject jquery via the javascript console
+var jq = document.</description>
+    </item>
+    
+  </channel>
+</rss>

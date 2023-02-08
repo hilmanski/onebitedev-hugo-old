@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terminal on Onebite Dev</title>
+    <link>https://onebite.dev/topic/terminal/</link>
+    <description>Recent content in terminal on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Aug 2022 00:01:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allow scroll through top iTerm mac</title>
+      <link>https://onebite.dev/allow-scroll-through-top-iterm-mac/</link>
+      <pubDate>Fri, 19 Aug 2022 00:01:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/allow-scroll-through-top-iterm-mac/</guid>
+      <description>If you print or log bunch of data in Terminal (Iterm) normally, you can&amp;rsquo;t scroll back to your latest command. Here is how to do it
+Go to iTerm &amp;gt; Preferences &amp;gt; Profile Tab &amp;gt; Teriminal Check the &amp;ldquo;Unlimited scrollback&amp;rdquo; option
+Now, you can get to the top of your terminal with this</description>
+    </item>
+    
+  </channel>
+</rss>

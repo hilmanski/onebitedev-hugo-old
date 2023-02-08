@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tailwind on Onebite Dev</title>
+    <link>https://onebite.dev/topic/tailwind/</link>
+    <description>Recent content in tailwind on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Sep 2022 23:55:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/tailwind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to have a hover effect on children when parent is hovered in Tailwind</title>
+      <link>https://onebite.dev/how-to-have-a-hover-effect-on-children-when-parent-is-hovered-in-tailwind/</link>
+      <pubDate>Wed, 28 Sep 2022 23:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-have-a-hover-effect-on-children-when-parent-is-hovered-in-tailwind/</guid>
+      <description>Let&amp;rsquo;s learn how to have a hover effect on children element when parent is hovered in Tailwind CSS.
+Only two steps needed  We identify the parent by adding group as a class name Using group-hover:$any_style_here on any children element we want.  Example Here&amp;rsquo;s the example from official Tailwind docs.
+&amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;flex items-center space-x-3&amp;#34;&amp;gt; &amp;lt;svg class=&amp;#34;h-6 w-6 stroke-sky-500 group-hover:stroke-white&amp;#34; fill=&amp;#34;none&amp;#34; viewBox=&amp;#34;0 0 24 24&amp;#34;&amp;gt;&amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>How to add word space in tailwind CSS</title>
+      <link>https://onebite.dev/how-to-add-word-space-in-tailwind-css/</link>
+      <pubDate>Fri, 23 Sep 2022 21:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-word-space-in-tailwind-css/</guid>
+      <description>Is there any way to have a word space in tailwind? Yes, this is useful if you want to have a distance / space between word.
+Even though it&amp;rsquo;s not part of utility yet (not sure why). We can use the flexibility of tailwind using arbitary values. Here&amp;rsquo;s how I implemented it
+&amp;lt;div class=&amp;#34;[word-spacing:-20px]&amp;#34;&amp;gt; my words is long&amp;lt;/div&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

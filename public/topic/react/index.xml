@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react on Onebite Dev</title>
+    <link>https://onebite.dev/topic/react/</link>
+    <description>Recent content in react on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 19:25:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>react developer tools guide 2023</title>
+      <link>https://onebite.dev/react-developer-tools-guide-2023/</link>
+      <pubDate>Sun, 15 Jan 2023 19:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/react-developer-tools-guide-2023/</guid>
+      <description>This is a simple guide on how to use react developer tools in browser like chrome, firefox or safari to help us, debug and inspect everything from components, props and state to identify potential or current problem on our React application.
+How to install React developer tools React developer tool is available as browser extension. Here&amp;rsquo;s the link to install based on your browser
+React dev tool for chrome React dev tool for Edge React dev tool for Firefox</description>
+    </item>
+    
+    <item>
+      <title>Passing children on React component results in error objects are not valid as a React child</title>
+      <link>https://onebite.dev/passing-children-on-react-component-results-in-error-objects-are-not-valid-as-a-react-child/</link>
+      <pubDate>Thu, 24 Nov 2022 17:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/passing-children-on-react-component-results-in-error-objects-are-not-valid-as-a-react-child/</guid>
+      <description>How to solve error &amp;ldquo;objects are not valid as a React child&amp;rdquo; when passing a children into nested React Component.
+The error &amp;ldquo;objects are not valid as a React child&amp;rdquo; has many various cases. In this article, we&amp;rsquo;re talking specifically when passing a children between React Component
+Say we have a child component like this.
+export default function ChildComponent(children) { return ( &amp;lt;div&amp;gt; {children} &amp;lt;/div&amp;gt; ) } It&amp;rsquo;ll show the above error, because we&amp;rsquo;re passing the children the wrong way.</description>
+    </item>
+    
+    <item>
+      <title>Put conditional logic onClick ReactJs</title>
+      <link>https://onebite.dev/put-conditional-logic-onclick-reactjs/</link>
+      <pubDate>Fri, 18 Nov 2022 22:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/put-conditional-logic-onclick-reactjs/</guid>
+      <description>If you need a different behavior of your on click action in ReactJS, depend on if else logic you have, try this
+&amp;lt;div onClick={() =&amp;gt; { (checkLogic == true) ? doSomething() : doSomethingElse() }} &amp;gt; Content &amp;lt;/div&amp;gt; Our on click event now have two different possibilities, depend on checkLogic result. If it&amp;rsquo;s true it will do something, if not then do something else
+Or if you want to turn off the onClick (do nothing), we can pass empty bracket</description>
+    </item>
+    
+    <item>
+      <title>Nested multiple condition on ReactJS</title>
+      <link>https://onebite.dev/nested-multiple-condition-on-reactjs/</link>
+      <pubDate>Mon, 26 Sep 2022 01:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/nested-multiple-condition-on-reactjs/</guid>
+      <description>How to have a multiple if else condition in ReactJS template? It can depend on multiple state variable or any value in general.
+{ isLoading ? &amp;#39;Please wait...&amp;#39; : &amp;lt;&amp;gt; { registerMode ? &amp;#39;Join for free&amp;#39; : &amp;#39;Login&amp;#39; } &amp;lt;/&amp;gt; } In above example I have two variables: isLoading and registerMode . Both have boolean values.
+If isLoading value is true, then only show please wait.. while if it&amp;rsquo;s not on loading, it will depend on the value of regsterMode itself.</description>
+    </item>
+    
+    <item>
+      <title>What is type for onClick event in reactJS using typescript</title>
+      <link>https://onebite.dev/what-is-type-for-onclick-event-in-reactjs-using-typescript/</link>
+      <pubDate>Fri, 16 Sep 2022 22:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-type-for-onclick-event-in-reactjs-using-typescript/</guid>
+      <description>What is the correct type when using onClick event in reactJS using typescript?
+Right now, I have two possibilites:
+ React.MouseEvent&amp;lt;Element&amp;gt; React.MouseEvent&amp;lt;HTMLElement&amp;gt;  function handleClick(event: React.MouseEvent&amp;lt;Element&amp;gt;){ .. } or
+function handleClick(event: React.MouseEvent&amp;lt;HTMLElement&amp;gt;){ .. } </description>
+    </item>
+    
+    <item>
+      <title>Add class name based on ternary operator result in ReactJS</title>
+      <link>https://onebite.dev/add-class-name-based-on-ternary-operator-result-in-reactjs/</link>
+      <pubDate>Wed, 14 Sep 2022 17:44:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-class-name-based-on-ternary-operator-result-in-reactjs/</guid>
+      <description>To toggle an element, normally I add .is-hidden class name on CSS. Any elements I want to hide will use this class
+.is-hidden{ display: none; } Simple usage on single class name Now we can use ternary operator to toggle an element based on other state variable value
+&amp;lt;div className={elementSelected &amp;amp;&amp;amp; &amp;#39;is-hidden&amp;#39;}&amp;gt; In this sample. I have a variable called elementSelected . It will show is-hidden class to this div only if the value is true or not null in general.</description>
+    </item>
+    
+    <item>
+      <title>Solve Too many re-renders. React limits the number of renders to prevent an infinite loop</title>
+      <link>https://onebite.dev/solve-too-many-re-renders.-react-limits-the-number-of-renders-to-prevent-an-infinite-loop/</link>
+      <pubDate>Tue, 13 Sep 2022 21:36:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-too-many-re-renders.-react-limits-the-number-of-renders-to-prevent-an-infinite-loop/</guid>
+      <description>I got an error on my react app says: Too many re-renders. React limits the number of renders to prevent an infinite loop. How can I solve this?
+I&amp;rsquo;m just calling a function event from my component and try to call usestate function.
+&amp;lt;span onClick={editTextElement(&amp;#39;strong&amp;#39;)}&amp;gt; &amp;lt;strong&amp;gt;B&amp;lt;/strong&amp;gt; &amp;lt;/span&amp;gt; But this error occured.
+Solution After searching this problem on stackoverflow: Uncaught Invariant Violation: Too many re-renders. React limits the number of renders to prevent an infinite loop .</description>
+    </item>
+    
+    <item>
+      <title>Solve state variable react can not be read in addEventListener function</title>
+      <link>https://onebite.dev/solve-state-variable-react-can-not-be-read-in-addeventlistener-function/</link>
+      <pubDate>Tue, 13 Sep 2022 20:45:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-state-variable-react-can-not-be-read-in-addeventlistener-function/</guid>
+      <description>I&amp;rsquo;m used to adding .addEventListener function on a particular element in Javascript. This behavior follows me when I&amp;rsquo;m writing React App.
+Today I learned, that we can&amp;rsquo;t access the variable inside addEventListener function we manually write for an element in React, Javascript.
+So I need to move the onClick , directly as attribute of element I want inside the React component.
+// sample &amp;lt;Page key={pageNumber} onClick={event =&amp;gt; handleClick(event)}&amp;gt; Test &amp;lt;/Page&amp;gt; Read this discussion on stackoverflow React.</description>
+    </item>
+    
+    <item>
+      <title>Solving the Next.js Head problem that auto parse HTML entity</title>
+      <link>https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/</link>
+      <pubDate>Thu, 10 Mar 2022 21:52:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solving-the-next.js-head-problem-that-auto-parse-html-entity/</guid>
+      <description>I want to share how I finally solved the Next.js Head problem that auto parse HTML entity. In my case, I want to remove &amp;amp; (ampersand sign) being encoded by Next.js Head.
+My case I want to hit ogimpact (social image API) which using amp; (ampersand) sign on the query URL.
+How I solved it With helped from Nextjs issue discussion on GIthub, which answered by @lukeshumard.
+ Preparing the API to redirect the request create /pages/api/foldername/[&amp;hellip;url].</description>
+    </item>
+    
+    <item>
+      <title>How to update useState value based on new value reactjs</title>
+      <link>https://onebite.dev/how-to-update-usestate-value-based-on-new-value-reactjs/</link>
+      <pubDate>Sun, 08 Aug 2021 22:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-update-usestate-value-based-on-new-value-reactjs/</guid>
+      <description>When you update / set new state via React useState, it runs asynchronously. Yesterday, I spent a lot of times, why when I add &amp;rsquo;new things&amp;rsquo; on my array state, I can&amp;rsquo;t immediately update it. It&amp;rsquo;s all because the asynchronous &amp;ldquo;feature&amp;rdquo;.
+My state didn&amp;rsquo;t recognize newest addition yet, until re-render happen.
+Get newest value from setValue useState Luckily, we can get the newest state when updating the value, with the callback function inside our setValue</description>
+    </item>
+    
+    <item>
+      <title>Call method only once in useEffect react</title>
+      <link>https://onebite.dev/call-method-only-once-in-useeffect-react/</link>
+      <pubDate>Tue, 03 Aug 2021 20:07:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/call-method-only-once-in-useeffect-react/</guid>
+      <description>useEffect is part of hooks. Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Be careful, it can bring unintentional behavior you don&amp;rsquo;t want.
+useEffect will run multiple times Based on FAQ section in useEffect docs Does useEffect run after every render? Yes! By default, it runs both after the first render and after every update. (We will later talk about how to customize this.</description>
+    </item>
+    
+  </channel>
+</rss>

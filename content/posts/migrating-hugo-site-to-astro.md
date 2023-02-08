@@ -14,8 +14,9 @@ I've been a long time Hugo fans. But I still struggle on doing certain query, ro
 
 Read here, if you're looking a simple [comparation between Hugo and Astro](https://onebite.dev/hugo-vs-astro-which-static-site-generator-to-choose-in-2023/)
 
-> **Disclaimer**
-> it's not as simple as running one command line. You need to do your work for understanding astro first (you'll need it sooner or later) and do some manual work
+> **Disclaimer**  
+> it's not as simple as running one command line.   
+You need to do your work for understanding astro first (you'll need it sooner or later) and do some manual work
 
 ## List all your Hugo routes
 To make sure, you're successfully doing the migration. Try to list all current routes you have.

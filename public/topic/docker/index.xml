@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Onebite Dev</title>
+    <link>https://onebite.dev/topic/docker/</link>
+    <description>Recent content in docker on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2023 03:49:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to solve docker containers can not be down or stopped or removed - permission denied error</title>
+      <link>https://onebite.dev/how-to-solve-docker-containers-can-not-be-down-or-stopped-or-removed-permission-denied-error/</link>
+      <pubDate>Thu, 26 Jan 2023 03:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-docker-containers-can-not-be-down-or-stopped-or-removed-permission-denied-error/</guid>
+      <description>A lot of advice is running aa-remove-unkown or teardown the apparmore. Which I HAVE NO KNOWLEDGE ABOUT apparmore and scared to do anything in HOST level.
+So I found much simpler solution (but more hard work).
+How to kill docker container from the inside Find you container-name by running docker ps
+Run.
+docker exec -it &amp;lt;container-name&amp;gt; sh Now you&amp;rsquo;re on a shell, run
+kill 1 Verified the docker stop running by run docker ps again</description>
+    </item>
+    
+    <item>
+      <title>How to auto answer yes or no question when installing with apt in docker</title>
+      <link>https://onebite.dev/how-to-auto-answer-yes-or-no-question-when-installing-with-apt-in-docker/</link>
+      <pubDate>Thu, 19 Jan 2023 17:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-auto-answer-yes-or-no-question-when-installing-with-apt-in-docker/</guid>
+      <description>When running a docker image, sometimes we need to install a package that requires us to answering a yes and no question. But docker will exit because of this.
+So we need to &amp;ldquo;auto answer&amp;rdquo; this question for us during installation.
+Solution That&amp;rsquo;s where -y command parameter comes
+for example, previously I have
+RUN apt-get install libreoffice Docker will exit this, because the question mentioned above. So I need to install it with -y parameter to let it auto anwer for me</description>
+    </item>
+    
+    <item>
+      <title>Empty folder not copied to docker - folder not found on production</title>
+      <link>https://onebite.dev/empty-folder-not-copied-to-docker-folder-not-found-on-production/</link>
+      <pubDate>Tue, 03 Jan 2023 03:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/empty-folder-not-copied-to-docker-folder-not-found-on-production/</guid>
+      <description>If your empty folder not copied to docker while on production and you getting error folder not found - here is how I solve it
+Problem The problem is actually not in docker, but in my case, it&amp;rsquo;s a git issue. Where an empty folder is not copied by my git.
+Add empty folder to git To add your empty folder to git, on your empty directory run
+touch .gitkeep Then re add, commit and push your changes</description>
+    </item>
+    
+    <item>
+      <title>Print X number of docker logs</title>
+      <link>https://onebite.dev/print-x-number-of-docker-logs/</link>
+      <pubDate>Tue, 03 Jan 2023 02:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/print-x-number-of-docker-logs/</guid>
+      <description>Here is how to print certain amount of logs on docker. It is helpful for me to debug what is happening recently
+docker logs -f --tail NUMBER container_name Change NUMBER with how many logs do you want to print, for example we want to show last 10 logs:
+docker logs -f --tail 10 container_name What about CONTAINER_NAME ? You can get container name by running docker ps and copy your desired image</description>
+    </item>
+    
+    <item>
+      <title>Install multiple fonts on docker images</title>
+      <link>https://onebite.dev/install-multiple-fonts-on-docker-images/</link>
+      <pubDate>Mon, 12 Dec 2022 03:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/install-multiple-fonts-on-docker-images/</guid>
+      <description>Looking for a way on how to install multiple fonts on your docker images? here is how I did it
+... WORKDIR /app COPY fonts ./ RUN mkdir -p /usr/share/fonts/truetype RUN install -m644 ./*.ttf /usr/share/fonts/truetype/ RUN rm ./*.ttf ... Explanation:
+ First put all your fonts on fonts folder -&amp;gt; Copy it to docker image Create a new directory to install our fonts /usr/share/fonts/truetype Install with correct permission all *ttf files (assume all you fonts on this file extension) on that new created folder Remove all .</description>
+    </item>
+    
+    <item>
+      <title>Start using mongo shell in docker</title>
+      <link>https://onebite.dev/start-using-mongo-shell-in-docker/</link>
+      <pubDate>Wed, 02 Mar 2022 22:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/start-using-mongo-shell-in-docker/</guid>
+      <description>This is a simple guide on how to Start using mongo shell in docker.
+First, we just need to take the mongo&amp;rsquo;s docker name and run it as interactive shell.
+docker exec -it name_of_your_running_mongo_service mongo //-it, is command for interactive shell
+Then you&amp;rsquo;re in the shell!
+To show all databases, run
+show databases; To go inside one of the collections, run:
+use collection_name; To list data on one of the collections, run:</description>
+    </item>
+    
+  </channel>
+</rss>

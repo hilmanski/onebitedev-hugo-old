@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.97.3" />
+    
+
+
+
+ 
+      
+
+
+
+
+
+
+
+<title>Onebite Dev</title>
+<meta name="description" content="Developer tips and trick one bite at a time" property="og:description">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='https://ik.imagekit.io/kodingclub/onebite/onebite-card_QBGk9ohj5K.png'>
+
+<meta property="og:url" content="https://onebite.dev/" />
+<meta property="og:title" content="Onebite Dev" />
+<meta property="og:description" content="Developer tips and trick one bite at a time" />
+<meta property="og:image" content="https://ik.imagekit.io/kodingclub/onebite/onebite-card_QBGk9ohj5K.png" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Onebite Dev",
+      "author": {
+        "@type": "Person",
+        "name": "@hilmanski"
+      },
+      "datePublished": "2023-02-07",
+      "description": "Developer tips and trick one bite at a time",
+      "dateModified": "2023-02-07",
+      "image": {
+        "@type": "imageObject",
+        "url": "https:\/\/ik.imagekit.io\/kodingclub\/onebite\/onebite-card_QBGk9ohj5K.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Onebite Dev",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
+    
+    
+   
+    <link rel="stylesheet" href="https://onebite.dev/sass/main.min.25fbe381f72d8542aa860aad857a997416d36ca77c878fa79ead99bd1242bcb7.css">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+    <div class="flex is-align-items is-space-between">
+       <div class="flex-on-mobile is-align-items">
+            <a href="/">
+                <svg width="65" height="54" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7035 2.37363C6.18061 2.37363 1.70346 6.85078 1.70346 12.3736V42.8132C1.70346 48.336 6.18061 52.8132 11.7035 52.8132H56.2751C58.991 52.8132 61.4541 51.7305 63.2562 49.9731C59.5478 48.7036 56.3675 45.7708 54.2339 43.8032C53.3572 42.9947 52.6572 42.3492 52.1699 42.049C50.9353 41.2883 51.2262 38.8772 51.5388 36.2859C51.8271 33.8963 52.1339 31.3536 51.28 29.8105C50.5066 28.4128 50.7229 27.836 51.0768 26.8921C51.5373 25.6638 52.2308 23.8139 51.28 18.7249C49.51 9.25073 56.9581 7.64421 64.0807 6.12227C62.2481 3.83689 59.4325 2.37363 56.2751 2.37363H11.7035Z"
+                        fill="url(#paint0_linear)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.47715 0 0 4.47715 0 10V44C0 49.5228 4.47716 54 10 54H51.2893C54.1006 54 56.6409 52.84 58.4577 50.9725C54.9233 49.6204 51.8919 46.4672 49.8602 44.354C49.0281 43.4885 48.3637 42.7974 47.9012 42.4759C46.7293 41.6616 47.0054 39.0803 47.3022 36.306C47.5758 33.7478 47.867 31.0256 47.0565 29.3736C46.3224 27.8773 46.5277 27.2597 46.8636 26.2491C47.3007 24.9341 47.959 22.9537 47.0565 17.5055C45.3738 7.34702 52.4676 5.63738 59.2376 4.00577C59.2536 4.00191 59.2697 3.99804 59.2857 3.99418C57.461 1.5686 54.5584 0 51.2893 0H10Z"
+                        fill="url(#paint1_linear)" />
+                    <rect x="6" y="12" width="35" height="8" rx="4" fill="#FF9F47" />
+                    <rect x="6" y="24" width="30" height="8" rx="4" fill="#EE7D7D" />
+                    <rect x="6" y="36" width="36" height="8" rx="4" fill="#67D3CD" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="8.3746" y1="15.1221" x2="57.7784" y2="43.7947"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#80305C" />
+                            <stop offset="1" stop-color="#385979" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="6.3405" y1="13.6484" x2="55.9436" y2="39.2057"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9A326B" />
+                            <stop offset="1" stop-color="#4C7AA8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+
+            <div>
+                <a href="/"><p id="title">Onebite.dev</p></a>
+                <p id="subtitle">Developer tips & trick, one bite at a time</p>
+            </div>
+        </div>
+
+        <div>
+            <input id="search" type="text" class="searchbox" placeholder="search here...">
+            <script>
+                document.getElementById("search").addEventListener("keyup", function (event) {
+                        if (event.keyCode === 13) {
+                            event.preventDefault();
+                            const searchQ = document.getElementById("search").value
+                            window.location.href = '/search?q=' + searchQ
+                        }
+                    });
+            </script>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/">All</a> /
+        <a href="/series">Series</a> /
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+        <a href="https://freestuff.dev/" target="_blank">Free Stuff for Dev</a> /
+        <a href="https://finddev.tools" target="_blank">Find Developer Tools</a> /
+        <a href="https://tinyletter.com/onebitedev" target="_blank">Newsletter</a>
+    </nav>
+    </header>
+
+    
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/my-cypress-setting-to-run-with-gui-or-not/">
+            <span class="title">  My cypress setting to run with GUI or not </span>
+            <span>Sometimes you want to see your test running with GUI, but sometimes not, you just want run CLI and see the test results. Here is my package json setup</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-cypress" href="/topic/cypress">cypress</a> </li>
+            
+            <li><a class="tags-testing" href="/topic/testing">testing</a> </li>
+            
+            <li id="date"> Fri Oct 28, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/disable-video-recording-when-running-cypress/">
+            <span class="title">  Disable video recording when running Cypress </span>
+            <span>How to Disable video recording when running Cypress run test on you project</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-cypress" href="/topic/cypress">cypress</a> </li>
+            
+            <li><a class="tags-testing" href="/topic/testing">testing</a> </li>
+            
+            <li id="date"> Fri Oct 28, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/should-you-write-an-automated-test-for-your-code/">
+            <span class="title">  Should you write an automated test for your code? </span>
+            <span>Many  developers feel like writing tests is a waste of time because they do not see the immediate benefits. Here is benefits when we write an automated test for our code.</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-testing" href="/topic/testing">testing</a> </li>
+            
+            <li id="date"> Wed Oct 26, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/how-to-solve-error-jest-haste-map-watchman-crawl-failed./">
+            <span class="title">  How to solve Error jest-haste-map Watchman crawl failed. </span>
+            <span>Here is the solution on how to solve Error: jest-haste-map: Watchman crawl failed. Retrying once with node crawler when running Jest Test</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-testing" href="/topic/testing">testing</a> </li>
+            
+            <li><a class="tags-jest" href="/topic/jest">jest</a> </li>
+            
+            <li id="date"> Wed Oct 26, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/rotation-on-a-previously-rotated-page-on-pdf-lib-not-correctly-handled/">
+            <span class="title">  Rotation on a previously rotated page on PDF-lib not correctly handled </span>
+            <span>I found a problem where rotating on a previously rotated page on PDF-lib is not correctly handled. Here is how I solved it</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-pdf-lib" href="/topic/pdf-lib">pdf-lib</a> </li>
+            
+            <li id="date"> Wed Oct 26, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/removing-page-in-pdf-lib-show-error-index-must-be-at-least-x/">
+            <span class="title">  removing page in PDF-lib show error index must be at least x </span>
+            <span>removing page in PDF-lib show error index must be at least x and at most x , but actually... assertRange error. Here is how to solve this</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-pdf-lib" href="/topic/pdf-lib">pdf-lib</a> </li>
+            
+            <li id="date"> Mon Oct 24, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/run-block-of-code-each-time-before-certain-test-in-cypress/">
+            <span class="title">  Run block of code each time before certain test in Cypress </span>
+            <span>Do you need to run same code / function each time running a test? We can automate it with beforeach</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-cypress" href="/topic/cypress">cypress</a> </li>
+            
+            <li><a class="tags-testing" href="/topic/testing">testing</a> </li>
+            
+            <li id="date"> Fri Oct 21, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/waiting-for-element-exists-in-cypress-instead-of-time/">
+            <span class="title">  Waiting for element exists in Cypress instead of time </span>
+            <span>Here is how to wait for a certain element until exists in Cypress instead of time</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-cypress" href="/topic/cypress">cypress</a> </li>
+            
+            <li><a class="tags-testing" href="/topic/testing">testing</a> </li>
+            
+            <li id="date"> Fri Oct 21, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/a-fake-conversation-between-the-best-programmer-in-the-world-with-a-junior/">
+            <span class="title">  A (fake) conversation between the best programmer in the world with a junior </span>
+            <span>This is a fake conversation between the best programmer in the world with a junior generated with Artificial intelligence (AI)</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-softskill" href="/topic/softskill">softskill</a> </li>
+            
+            <li id="date"> Fri Oct 14, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/how-to-choose-the-best-developer-tools-for-your-needs/">
+            <span class="title">  How to choose the best developer tools for your needs </span>
+            <span>A new developer&#39;s guide to choosing the best tools, frameworks, and languages. It&#39;s important to do your research before making a decision.</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-softskill" href="/topic/softskill">softskill</a> </li>
+            
+            <li id="date"> Fri Oct 14, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/dragging-item-on-mobile-also-scrolling-the-parent/">
+            <span class="title">  Dragging item on mobile also scrolling the parent </span>
+            <span>When working with dragging library like interactjs, I got a problem with mobile devices. Where scrolling get buggy and moving the parent as well</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-javascript" href="/topic/javascript">javascript</a> </li>
+            
+            <li id="date"> Tue Oct 4, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/shortcut-bash-function-to-review-github-pull-request-locally/">
+            <span class="title">  Shortcut bash function to review Github Pull Request locally </span>
+            <span>This is my Shortcut bash function to review Github Pull Request locally faster</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-git" href="/topic/git">git</a> </li>
+            
+            <li><a class="tags-bash" href="/topic/bash">bash</a> </li>
+            
+            <li id="date"> Tue Oct 4, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/how-to-have-a-hover-effect-on-children-when-parent-is-hovered-in-tailwind/">
+            <span class="title">  How to have a hover effect on children when parent is hovered in Tailwind </span>
+            <span>Learn how to have a hover effect on children when parent is hovered in Tailwind CSS. Luckily, this case is already covered, no hacky-way needed</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-tailwind" href="/topic/tailwind">tailwind</a> </li>
+            
+            <li id="date"> Wed Sep 28, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/nested-multiple-condition-on-reactjs/">
+            <span class="title">  Nested multiple condition on ReactJS </span>
+            <span>How to have a multiple if else condition in ReactJS template that depends on multiple set state variable or just in general</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-react" href="/topic/react">react</a> </li>
+            
+            <li id="date"> Mon Sep 26, 2022 </li>
+        </ul>
+    </div>
+
+    <div class="mb-40">
+        <div class="content">
+        <a href="https://onebite.dev/how-to-add-word-space-in-tailwind-css/">
+            <span class="title">  How to add word space in tailwind CSS </span>
+            <span>Is there any way to have a word space in tailwind? Yes, this is useful if you want to have a distance / space between word</span>
+        </a>
+        </div>
+
+        <ul class="tags text-small">
+            
+            <li><a class="tags-tailwind" href="/topic/tailwind">tailwind</a> </li>
+            
+            <li id="date"> Fri Sep 23, 2022 </li>
+        </ul>
+    </div>
+
+    <div style="text-align: right;">
+
+<a href="/page/2/"> 👈 Prev Page </a> |
+
+
+
+<a href="/page/4/"> Next Page 👉 </a>
+
+</div>
+
+    <br> <hr>
+    <p class="my-10 text-l">🏷️ Choose Category:</p>
+    <ul class="tags text-small">
+        
+            
+            <li><a class="tags-ai" href="https://onebite.dev/topic/ai/">ai</a></li>
+            
+        
+            
+            <li><a class="tags-api" href="https://onebite.dev/topic/api/">api</a></li>
+            
+        
+            
+            <li><a class="tags-astro" href="https://onebite.dev/topic/astro/">astro</a></li>
+            
+        
+            
+            <li><a class="tags-atom" href="https://onebite.dev/topic/atom/">atom</a></li>
+            
+        
+            
+            <li><a class="tags-aws" href="https://onebite.dev/topic/aws/">aws</a></li>
+            
+        
+            
+            <li><a class="tags-bash" href="https://onebite.dev/topic/bash/">bash</a></li>
+            
+        
+            
+            <li><a class="tags-canvas" href="https://onebite.dev/topic/canvas/">canvas</a></li>
+            
+        
+            
+            <li><a class="tags-computer" href="https://onebite.dev/topic/computer/">computer</a></li>
+            
+        
+            
+            <li><a class="tags-css" href="https://onebite.dev/topic/css/">css</a></li>
+            
+        
+            
+            <li><a class="tags-cypress" href="https://onebite.dev/topic/cypress/">cypress</a></li>
+            
+        
+            
+            <li><a class="tags-database" href="https://onebite.dev/topic/database/">database</a></li>
+            
+        
+            
+            <li><a class="tags-debug" href="https://onebite.dev/topic/debug/">debug</a></li>
+            
+        
+            
+            <li><a class="tags-devops" href="https://onebite.dev/topic/devops/">devops</a></li>
+            
+        
+            
+            <li><a class="tags-docker" href="https://onebite.dev/topic/docker/">docker</a></li>
+            
+        
+            
+            <li><a class="tags-fastapi" href="https://onebite.dev/topic/fastapi/">fastapi</a></li>
+            
+        
+            
+            <li><a class="tags-firebase" href="https://onebite.dev/topic/firebase/">firebase</a></li>
+            
+        
+            
+            <li><a class="tags-git" href="https://onebite.dev/topic/git/">git</a></li>
+            
+        
+            
+            <li><a class="tags-go" href="https://onebite.dev/topic/go/">go</a></li>
+            
+        
+            
+            <li><a class="tags-gulpjs" href="https://onebite.dev/topic/gulpjs/">gulpjs</a></li>
+            
+        
+            
+            <li><a class="tags-hackathon" href="https://onebite.dev/topic/hackathon/">hackathon</a></li>
+            
+        
+            
+            <li><a class="tags-html" href="https://onebite.dev/topic/html/">html</a></li>
+            
+        
+            
+            <li><a class="tags-hugo" href="https://onebite.dev/topic/hugo/">hugo</a></li>
+            
+        
+            
+            <li><a class="tags-image-generation" href="https://onebite.dev/topic/image-generation/">image-generation</a></li>
+            
+        
+            
+            <li><a class="tags-javascript" href="https://onebite.dev/topic/javascript/">javascript</a></li>
+            
+        
+            
+            <li><a class="tags-jest" href="https://onebite.dev/topic/jest/">jest</a></li>
+            
+        
+            
+            <li><a class="tags-jquery" href="https://onebite.dev/topic/jquery/">jquery</a></li>
+            
+        
+            
+            <li><a class="tags-kotlin" href="https://onebite.dev/topic/kotlin/">kotlin</a></li>
+            
+        
+            
+            <li><a class="tags-laravel" href="https://onebite.dev/topic/laravel/">laravel</a></li>
+            
+        
+            
+            <li><a class="tags-linux" href="https://onebite.dev/topic/linux/">linux</a></li>
+            
+        
+            
+            <li><a class="tags-mac" href="https://onebite.dev/topic/mac/">mac</a></li>
+            
+        
+            
+            <li><a class="tags-markdown" href="https://onebite.dev/topic/markdown/">markdown</a></li>
+            
+        
+            
+            <li><a class="tags-moodle" href="https://onebite.dev/topic/moodle/">moodle</a></li>
+            
+        
+            
+            <li><a class="tags-nextjs" href="https://onebite.dev/topic/nextjs/">nextjs</a></li>
+            
+        
+            
+            <li><a class="tags-nodejs" href="https://onebite.dev/topic/nodejs/">nodejs</a></li>
+            
+        
+            
+            <li><a class="tags-npm" href="https://onebite.dev/topic/npm/">npm</a></li>
+            
+        
+            
+            <li><a class="tags-open-source" href="https://onebite.dev/topic/open-source/">open-source</a></li>
+            
+        
+            
+            <li><a class="tags-pdf-lib" href="https://onebite.dev/topic/pdf-lib/">pdf-lib</a></li>
+            
+        
+            
+            <li><a class="tags-postgresql" href="https://onebite.dev/topic/postgresql/">postgresql</a></li>
+            
+        
+            
+            <li><a class="tags-postman" href="https://onebite.dev/topic/postman/">postman</a></li>
+            
+        
+            
+            <li><a class="tags-prisma" href="https://onebite.dev/topic/prisma/">prisma</a></li>
+            
+        
+            
+            <li><a class="tags-productivity" href="https://onebite.dev/topic/productivity/">productivity</a></li>
+            
+        
+            
+            <li><a class="tags-python" href="https://onebite.dev/topic/python/">python</a></li>
+            
+        
+            
+            <li><a class="tags-react" href="https://onebite.dev/topic/react/">react</a></li>
+            
+        
+            
+            <li><a class="tags-redis" href="https://onebite.dev/topic/redis/">redis</a></li>
+            
+        
+            
+            <li><a class="tags-rust" href="https://onebite.dev/topic/rust/">rust</a></li>
+            
+        
+            
+            <li><a class="tags-s3" href="https://onebite.dev/topic/s3/">s3</a></li>
+            
+        
+            
+            <li><a class="tags-search" href="https://onebite.dev/topic/search/">search</a></li>
+            
+        
+            
+            <li><a class="tags-server" href="https://onebite.dev/topic/server/">server</a></li>
+            
+        
+            
+            <li><a class="tags-serverless" href="https://onebite.dev/topic/serverless/">serverless</a></li>
+            
+        
+            
+            <li><a class="tags-sharing" href="https://onebite.dev/topic/sharing/">sharing</a></li>
+            
+        
+            
+            <li><a class="tags-shell" href="https://onebite.dev/topic/shell/">shell</a></li>
+            
+        
+            
+            <li><a class="tags-softskill" href="https://onebite.dev/topic/softskill/">softskill</a></li>
+            
+        
+            
+            <li><a class="tags-sql" href="https://onebite.dev/topic/sql/">sql</a></li>
+            
+        
+            
+            <li><a class="tags-ssg" href="https://onebite.dev/topic/ssg/">ssg</a></li>
+            
+        
+            
+            <li><a class="tags-ssl" href="https://onebite.dev/topic/ssl/">ssl</a></li>
+            
+        
+            
+            <li><a class="tags-study" href="https://onebite.dev/topic/study/">study</a></li>
+            
+        
+            
+            <li><a class="tags-supabase" href="https://onebite.dev/topic/supabase/">supabase</a></li>
+            
+        
+            
+            <li><a class="tags-tailwind" href="https://onebite.dev/topic/tailwind/">tailwind</a></li>
+            
+        
+            
+            <li><a class="tags-terminal" href="https://onebite.dev/topic/terminal/">terminal</a></li>
+            
+        
+            
+            <li><a class="tags-testing" href="https://onebite.dev/topic/testing/">testing</a></li>
+            
+        
+            
+            <li><a class="tags-text-editor" href="https://onebite.dev/topic/text-editor/">text-editor</a></li>
+            
+        
+            
+            <li><a class="tags-toastui" href="https://onebite.dev/topic/toastui/">toastui</a></li>
+            
+        
+            
+            <li><a class="tags-tool" href="https://onebite.dev/topic/tool/">tool</a></li>
+            
+        
+            
+            <li><a class="tags-typescript" href="https://onebite.dev/topic/typescript/">typescript</a></li>
+            
+        
+            
+            <li><a class="tags-unix" href="https://onebite.dev/topic/unix/">unix</a></li>
+            
+        
+            
+            <li><a class="tags-vercel" href="https://onebite.dev/topic/vercel/">vercel</a></li>
+            
+        
+            
+            <li><a class="tags-vite" href="https://onebite.dev/topic/vite/">vite</a></li>
+            
+        
+            
+            <li><a class="tags-vscode" href="https://onebite.dev/topic/vscode/">vscode</a></li>
+            
+        
+            
+            <li><a class="tags-vue" href="https://onebite.dev/topic/vue/">vue</a></li>
+            
+        
+    </ul>
+    
+    <br> <hr>
+
+    <p class="my-10 text-l">🗒 Series:</p> 
+     
+        
+        <li><a class="is-pink capitalize" href="https://onebite.dev/series/automate-frontend-task-with-gulpjs/">Automate frontend task with gulpjs</a></li>
+        
+    
+        
+        <li><a class="is-pink capitalize" href="https://onebite.dev/series/complete-backend-service-with-supabase/">Complete backend service with supabase</a></li>
+        
+    
+        
+        <li><a class="is-pink capitalize" href="https://onebite.dev/series/exploring-html-canvas/">Exploring HTML canvas</a></li>
+        
+    
+        
+        <li><a class="is-pink capitalize" href="https://onebite.dev/series/exploring-serverless-function-in-vercel/">Exploring serverless function in vercel</a></li>
+        
+    
+        
+        <li><a class="is-pink capitalize" href="https://onebite.dev/series/hugo-website-to-the-next-level/">Hugo website to the next level</a></li>
+        
+    
+        
+        <li><a class="is-pink capitalize" href="https://onebite.dev/series/start-learning-rust/">Start learning rust</a></li>
+        
+    
+
+    <footer>
+        <br> <hr> <br>
+        <small>
+        <p>
+            <a href="/series">Series</a> /
+            <a href="/index.xml">RSS</a> /
+            <a href="/sitemap.xml">Sitemap</a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+            <a href="https://tinyletter.com/onebitedev" target="_blank">Subscribe newsletter</a>
+        </p>
+
+        <p>
+            <a href="https://freestuff.dev/" target="_blank">Free stuff for Dev</a> /
+            <a href="https://finddev.tools" target="_blank">Best Developer Tools</a> /
+            <a href="https://fromdevtodev.com" target="_blank">Art of teaching Dev</a>
+        </p>
+        </small>
+    </footer>
+
+    <script async defer src="https://sa-api.hilman.space/latest.js"></script>
+    <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Onebite Dev</title>
+    <link>https://onebite.dev/topic/css/</link>
+    <description>Recent content in css on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Sep 2022 02:33:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make zoom effect in HTML with CSS</title>
+      <link>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</link>
+      <pubDate>Sun, 18 Sep 2022 02:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-zoom-effect-in-html-with-css/</guid>
+      <description>Let&amp;rsquo;s learn how to make zoom effect in HTML with CSS. We will play with scale transformation on CSS to make the element chosen bigger/smaller
+The properties we need to set are:
+ transform: scale(1); transformOrigin: 0% 0% 0px;  transform accept float value with 1 as default size. You can go step by step with 1.1 to 2. transformOrigin will set the the position with top left as anchor. So our element not moving.</description>
+    </item>
+    
+    <item>
+      <title>How to Create Dark Mode in Website</title>
+      <link>https://onebite.dev/how-to-create-dark-mode-in-website/</link>
+      <pubDate>Sat, 30 Mar 2019 09:38:40 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-create-dark-mode-in-website/</guid>
+      <description>Oftentimes we see a dark mode in website. For me personally, I can&amp;rsquo;t stare too long on a bright screen, that&amp;rsquo;s why I prefer dark mode for some websites. And as a developer, it&amp;rsquo;s hard not to think &amp;ldquo;how is it made?&amp;rdquo;.
+CSS preparation First, we need to prepare the CSS, both for normal condition and case when it&amp;rsquo;s in dark mode
+body{ /*your normal styling*/ } body.darkmode { background: rgb(57, 57, 57); color: rgb(227, 227, 227); } /*to toggle button*/ .</description>
+    </item>
+    
+  </channel>
+</rss>

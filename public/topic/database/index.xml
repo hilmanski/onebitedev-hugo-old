@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on Onebite Dev</title>
+    <link>https://onebite.dev/topic/database/</link>
+    <description>Recent content in database on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jan 2022 19:41:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect Production Docker PostgreSQL In TablePlus/SequelPro</title>
+      <link>https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/</link>
+      <pubDate>Sun, 23 Jan 2022 19:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/</guid>
+      <description>I was struggling to connect my production PostgreSQL database that I setup with docker via database GUI like sequelPro or TablePlus. So I think this will be important to share, at least will help me in the future.
+Find out what&amp;rsquo;s you docker ip address for that database. By running in terminal (after you login via SSH)
+docker inspect -f &amp;#39;{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; DOCKER_DB_ID If you don&amp;rsquo;t know what&amp;rsquo;s your DOCKER_DB_ID, get it via</description>
+    </item>
+    
+    <item>
+      <title>Connect Localhost Docker PostgreSQL in TablePlus</title>
+      <link>https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/</link>
+      <pubDate>Sun, 23 Jan 2022 19:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/</guid>
+      <description>I was struggling to connect my local PostgreSQL database that I setup with docker via database GUI like sequelPro or TablePlus. So I think this will be important to share, at least will help me in the future.
+On your docker-compose file, make sure in database section you add this ports
+ports: - &amp;#34;5432:5432&amp;#34; It will then expose your port publicly.
+Then connecting it is standard. Host/Socker = localhost Port = 5432 Username = Youve setup in docker Password = Youve setup in docker</description>
+    </item>
+    
+    <item>
+      <title>Migrate from firebase to Hugo</title>
+      <link>https://onebite.dev/migrate-from-firebase-to-hugo/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/migrate-from-firebase-to-hugo/</guid>
+      <description>I want to migrate my firebase website, which data stored in firestore, to Hugo post. The problem is hugo made with files not database per se. So there is no direcy way to export and import from firebase firestore file to hugo markdown files
+Here is how i convert or migrate from firebase to hugo markdown to create post. The step is:
+ Export database from firestore Run script to generate markdowns  Export database from firestore Luckily we don&amp;rsquo;t have to do this ourself, Dalenguyen made a nodejs package for us to use, here is firebase import export</description>
+    </item>
+    
+    <item>
+      <title>Filter data by interval time (between) in mysql</title>
+      <link>https://onebite.dev/filter-data-by-interval-time-between-in-mysql/</link>
+      <pubDate>Thu, 13 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/filter-data-by-interval-time-between-in-mysql/</guid>
+      <description>Oftentimes we need to filter or select data in mysql by the interval time, luckily mysql provide an INTERVAL query, here is how we do it.
+For example you search for data that made in this week
+SELECT * FROM `tableName` WHERE created_at &amp;lt; NOW() - INTERVAL 1 WEEK the unit is flexible, you can change WEEK, to day, hour, month even year</description>
+    </item>
+    
+    <item>
+      <title>Update text between two words in mysql</title>
+      <link>https://onebite.dev/update-text-between-two-words-in-mysql/</link>
+      <pubDate>Thu, 13 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/update-text-between-two-words-in-mysql/</guid>
+      <description>How to get and update text between two words in mysql. We can use the replace method and combine in with normal Where clause.
+For example, let&amp;rsquo;s say i have a simple markdown for image before but i need to prepend a new folder name since i move the resources folder. To replace a text in &amp;ldquo;columnName&amp;rdquo; that put between [&amp;lsquo;img&amp;rsquo;] and [&amp;rsquo;/img&amp;rsquo;] i use REPLACE(columnName, part text you want to change, new text you want to insert)</description>
+    </item>
+    
+    <item>
+      <title>Why do we need to save created_at and update_at field in database</title>
+      <link>https://onebite.dev/why-do-we-need-to-save-created_at-and-update_at-field-in-database/</link>
+      <pubDate>Sun, 07 Apr 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/why-do-we-need-to-save-created_at-and-update_at-field-in-database/</guid>
+      <description>You might have seen created__at and updated__at field with time value in your database, without knowing what are they exists for.
+Why do we need these both fields? i&amp;rsquo;m not sure about the history, but from my experience, it would be much easier when we want to play with data when both these fields exist. For example if you have a user table, you can see how active your user is by last time the _updated__at column changes.</description>
+    </item>
+    
+  </channel>
+</rss>

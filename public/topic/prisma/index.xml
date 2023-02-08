@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prisma on Onebite Dev</title>
+    <link>https://onebite.dev/topic/prisma/</link>
+    <description>Recent content in prisma on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 03:34:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/prisma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prisma error when doing upsert</title>
+      <link>https://onebite.dev/prisma-error-when-doing-upsert/</link>
+      <pubDate>Wed, 27 Jul 2022 03:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/prisma-error-when-doing-upsert/</guid>
+      <description>When implementing upsert through Prisma you need to make sure that the where clause contains a unique column only.
+Here is an example on how to do an upsert in Prisma
+const upsertUser = await prisma.user.upsert({ where: { email: &amp;#39;viola@prisma.io&amp;#39;, }, update: { name: &amp;#39;Viola the Magnificent&amp;#39;, }, create: { email: &amp;#39;viola@prisma.io&amp;#39;, name: &amp;#39;Viola the Magnificent&amp;#39;, }, }) In where clause, we include the column that we want to check on database, is it exists or not.</description>
+    </item>
+    
+  </channel>
+</rss>

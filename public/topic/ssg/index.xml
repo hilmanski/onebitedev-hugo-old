@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSG on Onebite Dev</title>
+    <link>https://onebite.dev/topic/ssg/</link>
+    <description>Recent content in SSG on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jul 2021 23:38:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/ssg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Write HTML dynamically with mini SSG</title>
+      <link>https://onebite.dev/write-html-dynamically-with-mini-ssg/</link>
+      <pubDate>Thu, 08 Jul 2021 23:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/write-html-dynamically-with-mini-ssg/</guid>
+      <description>This is a story about me:
+One day, I need to make a simple static website.
+Create a folder with ONE HTML file. “index.html”
+The next day, I want to add a new file “about.html”, so I make a new file, and then copy-paste all the header, footer, and sidebar to make my pages consistent.
+The next day, I need to add a new file again.. again.. and again. Just like before, I need to copy-paste most of the part, let alone the annoying meta tag between head with all the social graph and Twitter cards.</description>
+    </item>
+    
+  </channel>
+</rss>

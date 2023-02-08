@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Onebite Dev</title>
+    <link>https://onebite.dev/topic/ai/</link>
+    <description>Recent content in AI on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2023 01:31:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You can ask AI, what is the output of the following code snippet ...</title>
+      <link>https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../</link>
+      <pubDate>Fri, 13 Jan 2023 01:31:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/you-can-ask-ai-what-is-the-output-of-the-following-code-snippet-.../</guid>
+      <description>As a programmer, you may have come across a situation where you&amp;rsquo;re not sure what the output of a certain code snippet will be.
+TLDR Go to ChatGPT3 site and ask it something about your code! you&amp;rsquo;ll be suprised how detail the explanation is.
+Or you may try Github Copilot to get an AI suggestion on your text editor while you code.
+Why do you need it ? Maybe it&amp;rsquo;s code you&amp;rsquo;ve inherited from another developer, or maybe it&amp;rsquo;s code you wrote a while ago and have since forgotten how it works.</description>
+    </item>
+    
+  </channel>
+</rss>

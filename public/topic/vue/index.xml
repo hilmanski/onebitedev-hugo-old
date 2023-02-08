@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vue on Onebite Dev</title>
+    <link>https://onebite.dev/topic/vue/</link>
+    <description>Recent content in vue on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Aug 2021 23:19:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Open Graph Image generator, introducing imagin.live</title>
+      <link>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</link>
+      <pubDate>Sat, 28 Aug 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/</guid>
+      <description>We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&amp;rsquo;s why you&amp;rsquo;ll love Imagin! I write regularly on my blog, I know it&amp;rsquo;s not fun to have to prepare Social/OpenGraph Image for each one of the post. We just want to write!
+This is a dynamic image generator, where the image will change according to your title.</description>
+    </item>
+    
+    <item>
+      <title>Add live search in Hugo website</title>
+      <link>https://onebite.dev/add-live-search-in-hugo-website/</link>
+      <pubDate>Tue, 08 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/add-live-search-in-hugo-website/</guid>
+      <description>At first i don&amp;rsquo;t think there are any way to add search function on any static website including Hugo, but apparently there is! At hugo documentation listed bunch of packages for that. I don&amp;rsquo;t like the idea to install nodejs first or any kind of server setup first. So i try to find easier way to implement &amp;ldquo;search system&amp;rdquo; on Hugo site.
+The idea is output JSON file that will list all our posts, and turn it as our &amp;ldquo;database&amp;rdquo; / &amp;ldquo;api&amp;rdquo; source.</description>
+    </item>
+    
+    <item>
+      <title>How to consume API in Vue with Axios</title>
+      <link>https://onebite.dev/how-to-consume-api-in-vue-with-axios/</link>
+      <pubDate>Mon, 08 Apr 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-consume-api-in-vue-with-axios/</guid>
+      <description>When playing with javascript library like Vuejs, often times we use an API, to display and consume data. There are many ways to play with API in VueJS, one of them is Axios . Axios itself didn&amp;rsquo;t depend on VueJS, it&amp;rsquo;s a standalone promise based HTTP client for the browser (any framework) and node.js.
+Initialize data from an API To initialize data, we use &amp;ldquo;mounted&amp;rdquo; function from VueJS, since it&amp;rsquo;s the first function will be called in our app.</description>
+    </item>
+    
+  </channel>
+</rss>

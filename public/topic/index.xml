@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topic on Onebite Dev</title>
+    <link>https://onebite.dev/topic/</link>
+    <description>Recent content in Topic on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 23:35:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>astro</title>
+      <link>https://onebite.dev/topic/astro/</link>
+      <pubDate>Tue, 07 Feb 2023 23:35:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/astro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://onebite.dev/topic/hugo/</link>
+      <pubDate>Tue, 07 Feb 2023 23:35:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://onebite.dev/topic/docker/</link>
+      <pubDate>Thu, 26 Jan 2023 03:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://onebite.dev/topic/aws/</link>
+      <pubDate>Tue, 24 Jan 2023 02:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://onebite.dev/topic/linux/</link>
+      <pubDate>Thu, 19 Jan 2023 17:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://onebite.dev/topic/python/</link>
+      <pubDate>Tue, 17 Jan 2023 21:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://onebite.dev/topic/react/</link>
+      <pubDate>Sun, 15 Jan 2023 19:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://onebite.dev/topic/tool/</link>
+      <pubDate>Sun, 15 Jan 2023 19:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://onebite.dev/topic/html/</link>
+      <pubDate>Sun, 15 Jan 2023 18:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://onebite.dev/topic/ai/</link>
+      <pubDate>Fri, 13 Jan 2023 01:31:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://onebite.dev/topic/javascript/</link>
+      <pubDate>Thu, 12 Jan 2023 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>https://onebite.dev/topic/nodejs/</link>
+      <pubDate>Thu, 12 Jan 2023 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>softskill</title>
+      <link>https://onebite.dev/topic/softskill/</link>
+      <pubDate>Wed, 11 Jan 2023 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/softskill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>https://onebite.dev/topic/serverless/</link>
+      <pubDate>Mon, 09 Jan 2023 03:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laravel</title>
+      <link>https://onebite.dev/topic/laravel/</link>
+      <pubDate>Thu, 05 Jan 2023 18:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vite</title>
+      <link>https://onebite.dev/topic/vite/</link>
+      <pubDate>Thu, 05 Jan 2023 18:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/vite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jest</title>
+      <link>https://onebite.dev/topic/jest/</link>
+      <pubDate>Wed, 28 Dec 2022 03:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/jest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://onebite.dev/topic/testing/</link>
+      <pubDate>Wed, 28 Dec 2022 03:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://onebite.dev/topic/git/</link>
+      <pubDate>Wed, 14 Dec 2022 23:18:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debug</title>
+      <link>https://onebite.dev/topic/debug/</link>
+      <pubDate>Wed, 16 Nov 2022 22:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/debug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>https://onebite.dev/topic/study/</link>
+      <pubDate>Tue, 08 Nov 2022 04:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text-editor</title>
+      <link>https://onebite.dev/topic/text-editor/</link>
+      <pubDate>Sun, 30 Oct 2022 17:23:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/text-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://onebite.dev/topic/vscode/</link>
+      <pubDate>Sun, 30 Oct 2022 17:23:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cypress</title>
+      <link>https://onebite.dev/topic/cypress/</link>
+      <pubDate>Fri, 28 Oct 2022 02:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/cypress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdf-lib</title>
+      <link>https://onebite.dev/topic/pdf-lib/</link>
+      <pubDate>Wed, 26 Oct 2022 17:32:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/pdf-lib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://onebite.dev/topic/bash/</link>
+      <pubDate>Tue, 04 Oct 2022 00:06:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tailwind</title>
+      <link>https://onebite.dev/topic/tailwind/</link>
+      <pubDate>Wed, 28 Sep 2022 23:55:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/tailwind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://onebite.dev/topic/css/</link>
+      <pubDate>Sun, 18 Sep 2022 02:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://onebite.dev/topic/typescript/</link>
+      <pubDate>Sun, 18 Sep 2022 00:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nextjs</title>
+      <link>https://onebite.dev/topic/nextjs/</link>
+      <pubDate>Thu, 15 Sep 2022 20:57:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/nextjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image-generation</title>
+      <link>https://onebite.dev/topic/image-generation/</link>
+      <pubDate>Wed, 14 Sep 2022 02:46:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/image-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toastUI</title>
+      <link>https://onebite.dev/topic/toastui/</link>
+      <pubDate>Tue, 13 Sep 2022 02:39:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/toastui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://onebite.dev/topic/mac/</link>
+      <pubDate>Fri, 19 Aug 2022 00:01:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://onebite.dev/topic/terminal/</link>
+      <pubDate>Fri, 19 Aug 2022 00:01:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://onebite.dev/topic/redis/</link>
+      <pubDate>Mon, 08 Aug 2022 18:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prisma</title>
+      <link>https://onebite.dev/topic/prisma/</link>
+      <pubDate>Wed, 27 Jul 2022 03:34:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/prisma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postman</title>
+      <link>https://onebite.dev/topic/postman/</link>
+      <pubDate>Sun, 24 Apr 2022 21:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/postman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSL</title>
+      <link>https://onebite.dev/topic/ssl/</link>
+      <pubDate>Sun, 24 Apr 2022 21:53:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fastapi</title>
+      <link>https://onebite.dev/topic/fastapi/</link>
+      <pubDate>Fri, 15 Apr 2022 21:36:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/fastapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>search</title>
+      <link>https://onebite.dev/topic/search/</link>
+      <pubDate>Tue, 22 Feb 2022 22:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://onebite.dev/topic/database/</link>
+      <pubDate>Sun, 23 Jan 2022 19:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://onebite.dev/topic/postgresql/</link>
+      <pubDate>Sun, 23 Jan 2022 19:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://onebite.dev/topic/rust/</link>
+      <pubDate>Thu, 07 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer</title>
+      <link>https://onebite.dev/topic/computer/</link>
+      <pubDate>Fri, 01 Oct 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://onebite.dev/topic/npm/</link>
+      <pubDate>Mon, 20 Sep 2021 21:27:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gulpjs</title>
+      <link>https://onebite.dev/topic/gulpjs/</link>
+      <pubDate>Thu, 16 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/gulpjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://onebite.dev/topic/shell/</link>
+      <pubDate>Thu, 02 Sep 2021 00:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://onebite.dev/topic/unix/</link>
+      <pubDate>Thu, 02 Sep 2021 00:51:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathon</title>
+      <link>https://onebite.dev/topic/hackathon/</link>
+      <pubDate>Sat, 28 Aug 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue</title>
+      <link>https://onebite.dev/topic/vue/</link>
+      <pubDate>Sat, 28 Aug 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/vue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>supabase</title>
+      <link>https://onebite.dev/topic/supabase/</link>
+      <pubDate>Sat, 14 Aug 2021 23:26:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/supabase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://onebite.dev/topic/devops/</link>
+      <pubDate>Sun, 25 Jul 2021 21:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>https://onebite.dev/topic/server/</link>
+      <pubDate>Sun, 25 Jul 2021 21:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>moodle</title>
+      <link>https://onebite.dev/topic/moodle/</link>
+      <pubDate>Sat, 24 Jul 2021 01:07:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/moodle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vercel</title>
+      <link>https://onebite.dev/topic/vercel/</link>
+      <pubDate>Wed, 21 Jul 2021 10:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/vercel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://onebite.dev/topic/productivity/</link>
+      <pubDate>Fri, 16 Jul 2021 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://onebite.dev/topic/markdown/</link>
+      <pubDate>Fri, 16 Jul 2021 22:54:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sharing</title>
+      <link>https://onebite.dev/topic/sharing/</link>
+      <pubDate>Mon, 12 Jul 2021 20:32:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/sharing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>https://onebite.dev/topic/open-source/</link>
+      <pubDate>Thu, 08 Jul 2021 23:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSG</title>
+      <link>https://onebite.dev/topic/ssg/</link>
+      <pubDate>Thu, 08 Jul 2021 23:38:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/ssg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firebase</title>
+      <link>https://onebite.dev/topic/firebase/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://onebite.dev/topic/go/</link>
+      <pubDate>Sat, 05 Oct 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kotlin</title>
+      <link>https://onebite.dev/topic/kotlin/</link>
+      <pubDate>Wed, 10 Jul 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://onebite.dev/topic/sql/</link>
+      <pubDate>Thu, 13 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>https://onebite.dev/topic/s3/</link>
+      <pubDate>Wed, 12 Jun 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>https://onebite.dev/topic/api/</link>
+      <pubDate>Mon, 08 Apr 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jquery</title>
+      <link>https://onebite.dev/topic/jquery/</link>
+      <pubDate>Wed, 03 Apr 2019 07:41:43 +0800</pubDate>
+      
+      <guid>https://onebite.dev/topic/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>canvas</title>
+      <link>https://onebite.dev/topic/canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 22:14:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/topic/canvas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atom</title>
+      <link>https://onebite.dev/topic/atom/</link>
+      <pubDate>Sat, 30 Mar 2019 20:42:34 +0800</pubDate>
+      
+      <guid>https://onebite.dev/topic/atom/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

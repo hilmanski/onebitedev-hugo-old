@@ -50,20 +50,20 @@ The rest is normal HTML with ability to inject  `{variable}` which coming from t
 We need to use [mdx](https://mdxjs.com/) for this. Think of `mdx` as markdown with superpower. 
 
 1. Install mdx on Astro
-[read how to install mdx in Astro](https://docs.astro.build/en/guides/integrations-guide/mdx/)
+    [read how to install mdx in Astro](https://docs.astro.build/en/guides/integrations-guide/mdx/)
 
-2. Import the Component on you `.mdx` files (remember to change your `.md` extension to `.mdx`).
+2. Import the Component on you `.mdx` files  (remember to change your `.md` extension to `.mdx`).
 
-Put the import code outside the `frontmatter` section
-```
----
-//frontmatter sutff
----
-import Mediacontent from '../components/Mediacontent.astro';
-```
+    Put the import code outside the `frontmatter` section
+    ```
+    ---
+    //frontmatter sutff
+    ---
+    import Mediacontent from '../components/Mediacontent.astro';
+    ```
 
 3. Use the component
-If you're familiar with React, then this should be familiar
-```
-<Mediacontent src="https://fielsource.com/" alt="alt text" title="title text" height="150" />
-```
+    If you're familiar with React, then this should be familiar
+    ```
+    <Mediacontent src="https://fielsource.com/" alt="alt text" title="title text" height="150" />
+    ```

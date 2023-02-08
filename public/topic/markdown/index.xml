@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Onebite Dev</title>
+    <link>https://onebite.dev/topic/markdown/</link>
+    <description>Recent content in markdown on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jul 2021 22:54:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add _blank or open new tab for link in markdown</title>
+      <link>https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/</link>
+      <pubDate>Fri, 16 Jul 2021 22:54:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-add-_blank-or-open-new-tab-for-link-in-markdown/</guid>
+      <description>There are some limitations when we&amp;rsquo;re working with markdown, one of them is adding property to our HTML tags. In this case I want to add _blank property on my tag to open a link in a new tab
+Hack it in javascript We don&amp;rsquo;t have control (mostly) with how our markdown will be rendered, but we can hack around it in javascript.
+Let&amp;rsquo;s say you have an article with id &amp;ldquo;article&amp;rdquo; and want to get all the links inside it, here is how</description>
+    </item>
+    
+  </channel>
+</rss>

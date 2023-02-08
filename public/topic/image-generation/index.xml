@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image-generation on Onebite Dev</title>
+    <link>https://onebite.dev/topic/image-generation/</link>
+    <description>Recent content in image-generation on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2022 02:46:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/image-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Play with Image generation tool: MidJourney, Dall-E 2 and Stable Diffusion (DreamStudio)</title>
+      <link>https://onebite.dev/play-with-image-generation-tool-midjourney-dall-e-2-and-stable-diffusion-dreamstudio/</link>
+      <pubDate>Wed, 14 Sep 2022 02:46:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/play-with-image-generation-tool-midjourney-dall-e-2-and-stable-diffusion-dreamstudio/</guid>
+      <description>I was stunned, the first time I saw Dall-E 2. I really want to use it. While waiting for the beta invitation. I got my hand on other image generation, such as: StableDiffusion (via dream studio) and Midjourney.
+This is not a comparing blog post between the three. It&amp;rsquo;s just my raw result from my experience.
+Midjourney  Easy UI. Very fun to play in discord. The image is not as accurate as I want though  StableDiffusion (via Dream Studio)  Image is very far from what I want Found a local-installation (no credit applied?</description>
+    </item>
+    
+  </channel>
+</rss>

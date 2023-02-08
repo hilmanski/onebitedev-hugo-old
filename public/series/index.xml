@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Onebite Dev</title>
+    <link>https://onebite.dev/series/</link>
+    <description>Recent content in Series on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Oct 2021 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>start learning Rust</title>
+      <link>https://onebite.dev/series/start-learning-rust/</link>
+      <pubDate>Thu, 07 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series/start-learning-rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automate frontend task with GulpJS</title>
+      <link>https://onebite.dev/series/automate-frontend-task-with-gulpjs/</link>
+      <pubDate>Thu, 16 Sep 2021 23:08:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series/automate-frontend-task-with-gulpjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complete backend service with Supabase</title>
+      <link>https://onebite.dev/series/complete-backend-service-with-supabase/</link>
+      <pubDate>Sat, 14 Aug 2021 23:26:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series/complete-backend-service-with-supabase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo website to the next level</title>
+      <link>https://onebite.dev/series/hugo-website-to-the-next-level/</link>
+      <pubDate>Wed, 28 Jul 2021 20:46:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series/hugo-website-to-the-next-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Serverless function in Vercel</title>
+      <link>https://onebite.dev/series/exploring-serverless-function-in-vercel/</link>
+      <pubDate>Wed, 21 Jul 2021 10:49:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series/exploring-serverless-function-in-vercel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring HTML Canvas</title>
+      <link>https://onebite.dev/series/exploring-html-canvas/</link>
+      <pubDate>Sat, 30 Mar 2019 22:14:17 +0000</pubDate>
+      
+      <guid>https://onebite.dev/series/exploring-html-canvas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

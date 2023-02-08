@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rust on Onebite Dev</title>
+    <link>https://onebite.dev/topic/rust/</link>
+    <description>Recent content in rust on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Oct 2021 16:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traits in Rust</title>
+      <link>https://onebite.dev/traits-in-rust/</link>
+      <pubDate>Thu, 07 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/traits-in-rust/</guid>
+      <description>Traits are similar with interface on other language.
+A traits is a way to abstract or share similar behavior on Rust.
+Example use case Let&amp;rsquo;s say we want to make a news aggregator that summarize a news from different resources.
+We create a trait as our (you alone or with teammate) on what function must be implemented later.
+Define a trait We can define a trait like this
+pub trait Summary { fn summarize(&amp;amp;self) -&amp;gt; String; }  We have a trait Summary that have a function called summarize.</description>
+    </item>
+    
+    <item>
+      <title>What is Lifetime in Rust?</title>
+      <link>https://onebite.dev/what-is-lifetime-in-rust/</link>
+      <pubDate>Thu, 07 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-lifetime-in-rust/</guid>
+      <description>Every reference in Rust has a lifetime. It&amp;rsquo;s the scope where that reference is valid.
+Problem example Let&amp;rsquo;s say we want to compare, which variable has longer string
+fn main() { let string1 = String::from(&amp;quot;abcd&amp;quot;); let string2 = &amp;quot;xyz&amp;quot;; let result = longest(string1.as_str(), string2); println!(&amp;quot;The longest string is {}&amp;quot;, result); }  This is our longest function
+fn longest(x: &amp;amp;str, y: &amp;amp;str) -&amp;gt; &amp;amp;str { if x.len() &amp;gt; y.len() { x } else { y } }  It will return an error.</description>
+    </item>
+    
+    <item>
+      <title>Generic Types in Rust</title>
+      <link>https://onebite.dev/generic-types-in-rust/</link>
+      <pubDate>Wed, 06 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/generic-types-in-rust/</guid>
+      <description>Just like it&amp;rsquo;s name , generic types mean we can have a generic data type on something that we need. It could be in enum, function or other concept we&amp;rsquo;ve known so far.
+Rust is strict type language, but on a certain case, we want to abstract our code to avoid duplication, maybe through a function. We can use this generic type to help on this case.
+Syntax In general , you&amp;rsquo;ll see as representation of generic data type.</description>
+    </item>
+    
+    <item>
+      <title>Hash Map in Rust</title>
+      <link>https://onebite.dev/hash-map-in-rust/</link>
+      <pubDate>Wed, 06 Oct 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hash-map-in-rust/</guid>
+      <description>Hash map is one of common collections in Rust, with key value as a pair. HashMap&amp;lt;K, V&amp;gt;
+It&amp;rsquo;s useful when we want to store and retrieve data by a certain name/key not by the index
+Create a Hashmap We can use insert method. Insert take 2 params. First the string as a key, and second is the value.
+use std::collections::HashMap; let mut scores = HashMap::new(); scores.insert(String::from(&amp;quot;Blue&amp;quot;), 10); scores.insert(String::from(&amp;quot;Yellow&amp;quot;), 50);  Warning: Hash maps are homogeneous: all of the keys must have the same type, and all of the values must have the same type.</description>
+    </item>
+    
+    <item>
+      <title>Vector: collection in Rust</title>
+      <link>https://onebite.dev/vector-collection-in-rust/</link>
+      <pubDate>Tue, 05 Oct 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/vector-collection-in-rust/</guid>
+      <description>Vector can be used to storing lists of values in Rust. It&amp;rsquo;s one of the collection that included in standard library in Rust.
+Example usage: lines of text in a file or prices of items in a shopping cart.
+What&amp;rsquo;s the different between vector and array Vector is most similar to array in Rust, the different is array has a fixed length, while vector&amp;rsquo;s can grow!
+How to create a Vector This is how to create an empty vector in Rust</description>
+    </item>
+    
+    <item>
+      <title>Collections data structure in Rust</title>
+      <link>https://onebite.dev/collections-data-structure-in-rust/</link>
+      <pubDate>Tue, 05 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/collections-data-structure-in-rust/</guid>
+      <description>Collections is a number of data structures, that already available in standard library in Rust.
+Collections can contains multiple values.
+Every kind of collection has different power and costs. We need to know what and when to use it.
+In general there are 3 collections in Rust:
+ Vector. Store a variable number of values String, collection of characters Hash Map, use key value as a pair.  </description>
+    </item>
+    
+    <item>
+      <title>If and let in Rust Control flow</title>
+      <link>https://onebite.dev/if-and-let-in-rust-control-flow/</link>
+      <pubDate>Tue, 05 Oct 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/if-and-let-in-rust-control-flow/</guid>
+      <description>Based on previous lesson, we know we can handle a default function in Rust like this
+fn main() { let some_u8_value = Some(0u8); match some_u8_value { Some(3) =&amp;gt; println!(&amp;quot;three&amp;quot;), _ =&amp;gt; (), } }  But.. When there are many possible values and we only care about one value in a control flow, we can use if and let syntax in rust. It&amp;rsquo;s shorter and more clear
+fn main() { let some_u8_value = Some(0u8); if let Some(3) = some_u8_value { println!</description>
+    </item>
+    
+    <item>
+      <title>Match control flow in Rust</title>
+      <link>https://onebite.dev/match-control-flow-in-rust/</link>
+      <pubDate>Mon, 04 Oct 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/match-control-flow-in-rust/</guid>
+      <description>There is one more powerful control flow in Rust, which is match. It&amp;rsquo;s pretty straightforward, we would return a value based on match condition.
+Basic usage of match enum Coin { Penny, Nickel, Dime, Quarter, } fn value_in_cents(coin: Coin) -&amp;gt; u8 { match coin { Coin::Penny =&amp;gt; 1, Coin::Nickel =&amp;gt; 5, Coin::Dime =&amp;gt; 10, Coin::Quarter =&amp;gt; 25, } } fn main() {}  Left side is the condition =&amp;gt; right side is the returned value.</description>
+    </item>
+    
+    <item>
+      <title>The Option Enum in Rust, null alternative</title>
+      <link>https://onebite.dev/the-option-enum-in-rust-null-alternative/</link>
+      <pubDate>Sun, 03 Oct 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/the-option-enum-in-rust-null-alternative/</guid>
+      <description>Rust didn&amp;rsquo;t have a null value. But there is Enum Option that can implement null behavior.
+Enum Option could represents a value: it could be something, or it could be nothing.
+This is how it looks like
+enum Option&amp;lt;T&amp;gt; { None, Some(T), }  T itself is a generic type parameter.
+Here is concrete example of Enum Option:
+fn main() { let some_number = Some(5); let some_string = Some(&amp;quot;a string&amp;quot;); let absent_number: Option&amp;lt;i32&amp;gt; = None; }  Notice, if we want to assign None, we have to declare specific type of Option</description>
+    </item>
+    
+    <item>
+      <title>Enums in Rust</title>
+      <link>https://onebite.dev/enums-in-rust/</link>
+      <pubDate>Sun, 03 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/enums-in-rust/</guid>
+      <description>In general programming language, enums is used to represent a group of constants. But in Rust, enums can be more than constants.
+Enums example Let&amp;rsquo;s say we&amp;rsquo;re working with an API program. We can define the possible responses in Enum.
+enum APIResponse { Error, Success, Unknown }  Error, success and unknown is not coming from a variable, it&amp;rsquo;s just a constant that we initialize up there.
+The type itself is the enum &amp;ldquo;name&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Struct Method in Rust</title>
+      <link>https://onebite.dev/struct-method-in-rust/</link>
+      <pubDate>Sun, 03 Oct 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/struct-method-in-rust/</guid>
+      <description>How to add a method on a struct in Rust. If we do have a special repeatable task for a struct, it&amp;rsquo;s better to put it, in it&amp;rsquo;s own function.
+You can say, method is same as function, but it&amp;rsquo;s defined in the struct context (or enum/ or object).
+Here is a rectangle Struct, with area method, to count it&amp;rsquo;s area
+#[derive(Debug)] struct Rectangle { width: u32, height: u32, } impl Rectangle { fn area(&amp;amp;self) -&amp;gt; u32 { self.</description>
+    </item>
+    
+    <item>
+      <title>Struct data type in Rust</title>
+      <link>https://onebite.dev/struct-data-type-in-rust/</link>
+      <pubDate>Sat, 02 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/struct-data-type-in-rust/</guid>
+      <description>Struct is a custom data type to us group multiple related values together. Sounds like array or tuple, doesn&amp;rsquo;t it? let&amp;rsquo;s see how struck is different.
+ It can contains multiple data type values (like tuples). We assign a name for each of the value as key.  So we won&amp;rsquo;t rely on the order(index) of the values. Rather, we reference it by it&amp;rsquo;s key.
+How to define a struct Example struct named user, with multiple values</description>
+    </item>
+    
+    <item>
+      <title>Slice data type in Rust</title>
+      <link>https://onebite.dev/slice-data-type-in-rust/</link>
+      <pubDate>Sat, 02 Oct 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/slice-data-type-in-rust/</guid>
+      <description>Slice is a data type in Rust that doesn&amp;rsquo;t have ownership system.
+String Slice A string slice is a reference to part of a String.
+//example of String slice let s = String::from(&amp;quot;hello world&amp;quot;); let hello = &amp;amp;s[0..5]; let world = &amp;amp;s[6..11];  We can take a specific part of String by it&amp;rsquo;s index. We use slice by using bracket [starting_index..ending_index]
+If we want to start from 0, we can ignore the starting_index</description>
+    </item>
+    
+    <item>
+      <title>References in Rust</title>
+      <link>https://onebite.dev/references-in-rust/</link>
+      <pubDate>Fri, 01 Oct 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/references-in-rust/</guid>
+      <description>This is part of the ownership lesson in Rust.
+References is a cheap way to use other variable on other function without passing the whole value.
+fn main() { let s1 = String::from(&amp;quot;hello&amp;quot;); let len = calculate_length(&amp;amp;s1); println!(&amp;quot;The length of &#39;{}&#39; is {}.&amp;quot;, s1, len); } fn calculate_length(s: &amp;amp;String) -&amp;gt; usize { s.len() }  This program will run. len and s1 will be printed on main function.
+BUT! we&amp;rsquo;ve learned that, a copied or a function that passed to a function will be gone</description>
+    </item>
+    
+    <item>
+      <title>Understand the stack and the heap</title>
+      <link>https://onebite.dev/understand-the-stack-and-the-heap/</link>
+      <pubDate>Fri, 01 Oct 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/understand-the-stack-and-the-heap/</guid>
+      <description>What is stack and what is heap in term of memory allocating in programming language?
+While learning Rust, I met with ownership subject. This topic discuss about memory allocation on Rust. So I decide to learn more about how memory management in general works for programming language.
+About Stack and Heap This is how programming language store it&amp;rsquo;s data on memory (not database) , stuff like variable need a place to be stored while running the program.</description>
+    </item>
+    
+    <item>
+      <title>What is ownership in Rust</title>
+      <link>https://onebite.dev/what-is-ownership-in-rust/</link>
+      <pubDate>Thu, 30 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-ownership-in-rust/</guid>
+      <description>Warning: this part is not basic syntax lesson for Rust, it&amp;rsquo;s a overview of how memory allocating works in Rust
+What is Ownership in Rust? Ownership enables Rust to make memory safety guarantees without needing a garbage collector.
+ Some programming language looks for unused memory using garbage collector Some language, required the programmer to allocate and free the memory Rust has a third approach.  The memory in Rust will be managed by system of ownership.</description>
+    </item>
+    
+    <item>
+      <title>Looping in Rust</title>
+      <link>https://onebite.dev/looping-in-rust/</link>
+      <pubDate>Wed, 29 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/looping-in-rust/</guid>
+      <description>To execute a code block more than once, we can use loops. There are 3 ways to do this in Rust:
+ loop while for  Repetition with Loop We can use loop like this.
+Warning! this program will keep running , unless you stop it manually
+fn main() { loop { println!(&amp;quot;yeayyy!&amp;quot;); } }  It&amp;rsquo;s a common mistake on programming, when we write loop without condition.
+ALWAYS tell your loop when to stop.</description>
+    </item>
+    
+    <item>
+      <title>Variable Scope in Rust</title>
+      <link>https://onebite.dev/variable-scope-in-rust/</link>
+      <pubDate>Wed, 29 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/variable-scope-in-rust/</guid>
+      <description>Understand the variable scope in Rust is important, so we can learn how Rust allocating their memory later
+Each variable declared in Rust has their scope. Scope is where that variable is valid.
+Normally, A variable&amp;rsquo;s scope is only valid on a function where they&amp;rsquo;re declared
+fn main() { let s = &amp;quot;hallo&amp;quot; } //S scope only inside main function  Or if you declare a scope with curly brackets</description>
+    </item>
+    
+    <item>
+      <title>Conditional statement in Rust</title>
+      <link>https://onebite.dev/conditional-statement-in-rust/</link>
+      <pubDate>Tue, 28 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/conditional-statement-in-rust/</guid>
+      <description>It&amp;rsquo;s similar with conditional statement from other programming language.
+We can use if and else keyword. No need to wrap the condition inside rounded bracket &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo;.
+fn main() { let number = 3; if number &amp;lt; 5 { println!(&amp;quot;condition was true&amp;quot;); } else { println!(&amp;quot;condition was false&amp;quot;); } }  Multiple condition with else if fn main() { let number = 6; if number % 4 == 0 { println!</description>
+    </item>
+    
+    <item>
+      <title>String in Rust</title>
+      <link>https://onebite.dev/string-in-rust/</link>
+      <pubDate>Tue, 28 Sep 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/string-in-rust/</guid>
+      <description>String in Rust might be more complex than you think. When people talk about string, it can have multiple meaning.
+String literal The simplest version of string is String literal
+ let s = &amp;quot;hello&amp;quot;;  If we hardcoded a string, then this is a literal String. It&amp;rsquo;s immutable by default, just like other data type.
+String type String It might be a bit confusing for now, but there is other string type we called String.</description>
+    </item>
+    
+    <item>
+      <title>Function in Rust</title>
+      <link>https://onebite.dev/function-in-rust/</link>
+      <pubDate>Mon, 27 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/function-in-rust/</guid>
+      <description>We can group multiple statement/expression that do a certain thing in a function.
+fn main() { println!(&amp;quot;Hello, world!&amp;quot;); }   It&amp;rsquo;s written with fn //I like this! much shorter than writing funciton Main function is like &amp;rsquo;the entry point&amp;rsquo; for the program.  The naming convention use snake_case for multiple words.
+fn main() { println!(&amp;quot;Hello, world!&amp;quot;); another_function(); } fn another_function() { println!(&amp;quot;Another function.&amp;quot;); }  Function parameters A function can accept an argument.</description>
+    </item>
+    
+    <item>
+      <title>Data types in Rust</title>
+      <link>https://onebite.dev/data-types-in-rust/</link>
+      <pubDate>Sun, 26 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/data-types-in-rust/</guid>
+      <description>Learn what data types are available in Rust.
+It also has two subsets: a scalar data type and a compound data type.
+Rust is a statically typed language. It must know the data type of each variable at compile time.
+Scalar types A scalar type used for single value.
+Rust has four scalar types (primary):
+ integers floating-point numbers Booleans and characters.  Find more detail here
+Compound types A compound types can represents group of multiple values.</description>
+    </item>
+    
+    <item>
+      <title>Declare a variable in Rust and mutability</title>
+      <link>https://onebite.dev/declare-a-variable-in-rust-and-mutability/</link>
+      <pubDate>Sat, 25 Sep 2021 16:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/declare-a-variable-in-rust-and-mutability/</guid>
+      <description>This is a common programming concepts. That might be not unique to rust. Let&amp;rsquo;s see how to declare a variable in Rust.
+Immutable variable By default, a variable in Rust is immutable. Meaning this variable is a constant or will not change.
+It&amp;rsquo;s intentionally made immutable by default for safety and easy concurrency.
+let x = 5;  or
+let y = &amp;quot;hallo!&amp;quot;;  If you try to change one of the variable, it will return</description>
+    </item>
+    
+    <item>
+      <title>What is Cargo in Rust</title>
+      <link>https://onebite.dev/what-is-cargo-in-rust/</link>
+      <pubDate>Sat, 25 Sep 2021 08:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/what-is-cargo-in-rust/</guid>
+      <description>Cargo is Rust&amp;rsquo;s build system and package manager. It&amp;rsquo;s an optional tool, but it handles a lot of tasks to work with Rust.
+Tasks include:
+build your project with cargo build run your project with cargo run test your project with cargo test build documentation for your project with cargo doc publish a library to crates.io with cargo publish We may not need this for now (at least for learning syntax or hello world program).</description>
+    </item>
+    
+    <item>
+      <title>Hello World in Rust</title>
+      <link>https://onebite.dev/hello-world-in-rust/</link>
+      <pubDate>Sat, 25 Sep 2021 00:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/hello-world-in-rust/</guid>
+      <description>Create a new file in your project called main.rs and write the following
+fn main() { println!(&amp;#34;Hello, world!&amp;#34;); } In terminal window (mac/linux) run
+rustc main.rs ./main For windows
+&amp;gt; rustc main.rs &amp;gt; .\main.exe There we go! hello World!
+As you notice. Rust requires compiling, before we can run the program. rustrc is the keyword for compiling.
+After running rustrc, if you see your project dir, you can see there is main file besides our source code from before main.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Rust, installation</title>
+      <link>https://onebite.dev/getting-started-with-rust-installation/</link>
+      <pubDate>Fri, 24 Sep 2021 20:33:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/getting-started-with-rust-installation/</guid>
+      <description>Let&amp;rsquo;s set up our Rust development environment,
+Playground You can play Rust online, without installing anything. Play Rust Lang
+Installing Rustup The recommended way to install Rust is using Rustup. It&amp;rsquo;s both installer and version manager for Rust
+For macOs / Linux
+curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Using other OS? check other installation method here
+Update current version Rust updates frequently. Run rustup update to user the latest update.</description>
+    </item>
+    
+    <item>
+      <title>I start learning Rust</title>
+      <link>https://onebite.dev/i-start-learning-rust/</link>
+      <pubDate>Thu, 23 Sep 2021 20:24:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/i-start-learning-rust/</guid>
+      <description>I always see posts about Rust on dev-related blogs. I don&amp;rsquo;t have the motivation to learn about it, as I heard it&amp;rsquo;s built for people who wants super fast application, which I don&amp;rsquo;t need right now.
+Maybe I can use this blog to motivate me.
+As long as we have the time, why not learn something new.
+It might helps in the future. So.. let&amp;rsquo;s go to the Rust website</description>
+    </item>
+    
+  </channel>
+</rss>

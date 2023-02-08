@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL on Onebite Dev</title>
+    <link>https://onebite.dev/topic/postgresql/</link>
+    <description>Recent content in PostgreSQL on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jan 2022 19:41:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect Production Docker PostgreSQL In TablePlus/SequelPro</title>
+      <link>https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/</link>
+      <pubDate>Sun, 23 Jan 2022 19:41:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/connect-production-docker-postgresql-in-tableplus/sequelpro/</guid>
+      <description>I was struggling to connect my production PostgreSQL database that I setup with docker via database GUI like sequelPro or TablePlus. So I think this will be important to share, at least will help me in the future.
+Find out what&amp;rsquo;s you docker ip address for that database. By running in terminal (after you login via SSH)
+docker inspect -f &amp;#39;{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; DOCKER_DB_ID If you don&amp;rsquo;t know what&amp;rsquo;s your DOCKER_DB_ID, get it via</description>
+    </item>
+    
+    <item>
+      <title>Connect Localhost Docker PostgreSQL in TablePlus</title>
+      <link>https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/</link>
+      <pubDate>Sun, 23 Jan 2022 19:37:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/connect-localhost-docker-postgresql-in-tableplus/</guid>
+      <description>I was struggling to connect my local PostgreSQL database that I setup with docker via database GUI like sequelPro or TablePlus. So I think this will be important to share, at least will help me in the future.
+On your docker-compose file, make sure in database section you add this ports
+ports: - &amp;#34;5432:5432&amp;#34; It will then expose your port publicly.
+Then connecting it is standard. Host/Socker = localhost Port = 5432 Username = Youve setup in docker Password = Youve setup in docker</description>
+    </item>
+    
+  </channel>
+</rss>

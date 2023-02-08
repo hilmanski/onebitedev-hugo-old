@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fastapi on Onebite Dev</title>
+    <link>https://onebite.dev/topic/fastapi/</link>
+    <description>Recent content in fastapi on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2022 21:36:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/fastapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to convert sqlalchemy object to json in FastAPI</title>
+      <link>https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/</link>
+      <pubDate>Fri, 15 Apr 2022 21:36:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-convert-sqlalchemy-object-to-json-in-fastapi/</guid>
+      <description>Have you struggled on How to convert sqlalchemy object to json in FastAPI? Do you know that fastapi has jsonable_encoder to do exactly this job?
+You just need to import
+from fastapi.encoders import jsonable_encoder Then use it on any sqlachemy object, or any object you want
+jsonable_encoder(Item) It&amp;rsquo;ll turn this object into a json</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VSCode on Onebite Dev</title>
+    <link>https://onebite.dev/topic/vscode/</link>
+    <description>Recent content in VSCode on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Oct 2022 17:23:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case sensitive when multiple select - cursor on VS Code</title>
+      <link>https://onebite.dev/case-sensitive-when-multiple-select-cursor-on-vs-code/</link>
+      <pubDate>Sun, 30 Oct 2022 17:23:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/case-sensitive-when-multiple-select-cursor-on-vs-code/</guid>
+      <description>I often found myself selecting multiple variable on VSCode, but the problem is, it is case insensitive. Today I learn how to make it case sensitive.
+When selecting with cmmd/ctrl + D, in right corner on that file, you&amp;rsquo;ll see the toolbar shows up. See the &amp;ldquo;Aa, ab, .*&amp;rdquo; toolbar.
+If you click on the &amp;lsquo;Aa&amp;rsquo; button , then it&amp;rsquo;ll only select the exact case sensitive for you
+Shortcut to make selection case sensitive To be able to use this feature without moving cursor/mouse, we can use shortcut to make selection case sensitive -&amp;gt; cmmd + opt + c</description>
+    </item>
+    
+  </channel>
+</rss>

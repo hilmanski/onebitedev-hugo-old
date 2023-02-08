@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac on Onebite Dev</title>
+    <link>https://onebite.dev/topic/mac/</link>
+    <description>Recent content in mac on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Aug 2022 00:01:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allow scroll through top iTerm mac</title>
+      <link>https://onebite.dev/allow-scroll-through-top-iterm-mac/</link>
+      <pubDate>Fri, 19 Aug 2022 00:01:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/allow-scroll-through-top-iterm-mac/</guid>
+      <description>If you print or log bunch of data in Terminal (Iterm) normally, you can&amp;rsquo;t scroll back to your latest command. Here is how to do it
+Go to iTerm &amp;gt; Preferences &amp;gt; Profile Tab &amp;gt; Teriminal Check the &amp;ldquo;Unlimited scrollback&amp;rdquo; option
+Now, you can get to the top of your terminal with this</description>
+    </item>
+    
+    <item>
+      <title>How to Install Laravel on Mac OS</title>
+      <link>https://onebite.dev/how-to-install-laravel-on-mac-os/</link>
+      <pubDate>Wed, 06 Jul 2022 02:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-install-laravel-on-mac-os/</guid>
+      <description>Laravel has a lot of fans around the world. Maybe you just want to tryout Laravel as well. Welcome to the club!
+If you&amp;rsquo;re using Mac, I hope this guide can help you install it.
+Install brew Hombrew, is a package manager for Mac OS. It can help us, as a developer to install various things. Including PHP , composer and other necessary package later. So let&amp;rsquo;s install this first</description>
+    </item>
+    
+    <item>
+      <title>Mac Shortcut to Improve Productivity</title>
+      <link>https://onebite.dev/mac-shortcut-to-improve-productivity/</link>
+      <pubDate>Sun, 31 Mar 2019 20:06:47 +0800</pubDate>
+      
+      <guid>https://onebite.dev/mac-shortcut-to-improve-productivity/</guid>
+      <description>I still remember when one of my friend said to me &amp;ldquo;I don&amp;rsquo;t use mouse, I&amp;rsquo;m a keyboard freak&amp;rdquo;. I didn&amp;rsquo;t really get the point back then, why would someone use mouse -less? isn&amp;rsquo;t mouse there to help us work faster? In some cases, the answer is yes, but while I spend so much time work on mac laptop/computer, i already find myself keep looking for shortcut for certain task, since moving my hand from keyboard to mouse &amp;ldquo;takes time&amp;rdquo; and feels like I&amp;rsquo;m breaking the &amp;ldquo;zone&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

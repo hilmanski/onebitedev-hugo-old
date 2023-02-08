@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+
+
+ 
+     
+    
+
+
+
+
+
+
+
+<title>How to auto delete files in AWS s3 every X times interval in Nodejs</title>
+<meta name="description" content="Here is how you can auto delete files from certain bucker in AWS s3 storage every X times interval in Nodejs, whether less than a day, an hour or any time you choose" property="og:description">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='https://ogi.sh/article?title=How to auto delete files in AWS s3 every X times interval in Nodejs&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png'>
+
+<meta property="og:url" content="https://onebite.dev/how-to-auto-delete-files-in-aws-s3-every-x-times-interval-in-nodejs/" />
+<meta property="og:title" content="How to auto delete files in AWS s3 every X times interval in Nodejs" />
+<meta property="og:description" content="Here is how you can auto delete files from certain bucker in AWS s3 storage every X times interval in Nodejs, whether less than a day, an hour or any time you choose" />
+<meta property="og:image" content="https://ogi.sh/article?title=How to auto delete files in AWS s3 every X times interval in Nodejs&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "How to auto delete files in AWS s3 every X times interval in Nodejs",
+      "author": {
+        "@type": "Person",
+        "name": "@hilmanski"
+      },
+      "datePublished": "2023-01-24",
+      "description": "Here is how you can auto delete files from certain bucker in AWS s3 storage every X times interval in Nodejs, whether less than a day, an hour or any time you choose",
+      "dateModified": "2023-01-24",
+      "image": {
+        "@type": "imageObject",
+        "url": "https:\/\/ogi.sh\/article?title=How to auto delete files in AWS s3 every X times interval in Nodejs\u0026subtitle=One%20code%20at%20a%20time\u0026unsplashId=TWMI7B4KeLY\u0026logo=https:\/\/ik.imagekit.io\/kodingclub\/onebite\/onebite-logo_QwhRyJ3b0.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Onebite Dev",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
+    
+    
+   
+    <link rel="stylesheet" href="https://onebite.dev/sass/main.min.25fbe381f72d8542aa860aad857a997416d36ca77c878fa79ead99bd1242bcb7.css">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+    <div class="flex is-align-items is-space-between">
+       <div class="flex-on-mobile is-align-items">
+            <a href="/">
+                <svg width="65" height="54" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7035 2.37363C6.18061 2.37363 1.70346 6.85078 1.70346 12.3736V42.8132C1.70346 48.336 6.18061 52.8132 11.7035 52.8132H56.2751C58.991 52.8132 61.4541 51.7305 63.2562 49.9731C59.5478 48.7036 56.3675 45.7708 54.2339 43.8032C53.3572 42.9947 52.6572 42.3492 52.1699 42.049C50.9353 41.2883 51.2262 38.8772 51.5388 36.2859C51.8271 33.8963 52.1339 31.3536 51.28 29.8105C50.5066 28.4128 50.7229 27.836 51.0768 26.8921C51.5373 25.6638 52.2308 23.8139 51.28 18.7249C49.51 9.25073 56.9581 7.64421 64.0807 6.12227C62.2481 3.83689 59.4325 2.37363 56.2751 2.37363H11.7035Z"
+                        fill="url(#paint0_linear)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.47715 0 0 4.47715 0 10V44C0 49.5228 4.47716 54 10 54H51.2893C54.1006 54 56.6409 52.84 58.4577 50.9725C54.9233 49.6204 51.8919 46.4672 49.8602 44.354C49.0281 43.4885 48.3637 42.7974 47.9012 42.4759C46.7293 41.6616 47.0054 39.0803 47.3022 36.306C47.5758 33.7478 47.867 31.0256 47.0565 29.3736C46.3224 27.8773 46.5277 27.2597 46.8636 26.2491C47.3007 24.9341 47.959 22.9537 47.0565 17.5055C45.3738 7.34702 52.4676 5.63738 59.2376 4.00577C59.2536 4.00191 59.2697 3.99804 59.2857 3.99418C57.461 1.5686 54.5584 0 51.2893 0H10Z"
+                        fill="url(#paint1_linear)" />
+                    <rect x="6" y="12" width="35" height="8" rx="4" fill="#FF9F47" />
+                    <rect x="6" y="24" width="30" height="8" rx="4" fill="#EE7D7D" />
+                    <rect x="6" y="36" width="36" height="8" rx="4" fill="#67D3CD" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="8.3746" y1="15.1221" x2="57.7784" y2="43.7947"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#80305C" />
+                            <stop offset="1" stop-color="#385979" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="6.3405" y1="13.6484" x2="55.9436" y2="39.2057"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9A326B" />
+                            <stop offset="1" stop-color="#4C7AA8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+
+            <div>
+                <a href="/"><p id="title">Onebite.dev</p></a>
+                <p id="subtitle">Developer tips & trick, one bite at a time</p>
+            </div>
+        </div>
+
+        <div>
+            <input id="search" type="text" class="searchbox" placeholder="search here...">
+            <script>
+                document.getElementById("search").addEventListener("keyup", function (event) {
+                        if (event.keyCode === 13) {
+                            event.preventDefault();
+                            const searchQ = document.getElementById("search").value
+                            window.location.href = '/search?q=' + searchQ
+                        }
+                    });
+            </script>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/">All</a> /
+        <a href="/series">Series</a> /
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+        <a href="https://freestuff.dev/" target="_blank">Free Stuff for Dev</a> /
+        <a href="https://finddev.tools" target="_blank">Find Developer Tools</a> /
+        <a href="https://tinyletter.com/onebitedev" target="_blank">Newsletter</a>
+    </nav>
+    </header>
+
+
+<section id="post">
+    <h1 class="title">How to auto delete files in AWS s3 every X times interval in Nodejs</h1>
+    <div>
+      <button id="bitesize-btn" onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
+    </div>
+
+    <div class="article"> <p>Here is how you can auto delete files from certain bucker in AWS s3 storage every X times interval in Nodejs, whether less than a day, an hour or any time you choose</p>
+<h2 id="raw-logic-to-choose-which-files-to-delete">Raw logic to choose which files to delete</h2>
+<p>Not like MYSQL query, where we have a <code>where</code> clause to run on a query. We have to implement a different strategy for AWS.</p>
+<p>The big picture:</p>
+<ul>
+<li>List all the files</li>
+<li>Collect only where files older than X times</li>
+<li>Put Keys of selected files in an array</li>
+<li>delete objest based on this paramter (array of keys)</li>
+</ul>
+<h2 id="initalize-the-aws-s3">Initalize the AWS S3</h2>
+<p>Assume you have .env file to store the sensitive informations</p>
+<pre tabindex="0"><code>import AWS from &#39;aws-sdk&#39;
+import dotenv from &#39;dotenv&#39;
+
+dotenv.config()
+
+const s3 = new AWS.S3({
+    endpoint: process.env.DO_SPACES_FILE_ENDPOINT,
+    accessKeyId: process.env.DO_SPACES_KEY_ID,
+    secretAccessKey: process.env.DO_SPACES_SECRET_ACCESS_KEY,
+    region: process.env.DO_SPACES_REGION,
+})
+</code></pre><h2 id="collect-all-keys-from-selected-bucket-and-folder">Collect all keys from selected bucket and folder</h2>
+<p>List all the files</p>
+<pre tabindex="0"><code>const params = {
+    Bucket: process.env.DO_SPACES_BUCKET || &#39;&#39;,
+    Prefix: &#39;user-upload-folder/&#39;,
+}
+
+const data = await s3.listObjectsV2(params).promise()
+</code></pre><p>Now we have all files, in selected bucket and folder.
+<code>user-upload-folder</code> is my sample of folder&rsquo;s name.
+If you want to check files in all folders, then you can let prefix empty.</p>
+<h2 id="filter-only-items-less-than-x-days">Filter only items less than X days</h2>
+<p>Now, we have all the files in <code>data.Contents</code>.</p>
+<pre tabindex="0"><code>const keys = data.Contents?.map((item) =&gt; {
+    // exception for the folder
+    if (item.Key === &#39;user-upload-folder/&#39;) {
+        return
+    }
+
+    const fileTime = item.LastModified?.getTime()
+    const currentTime = new Date().getTime()
+    console.log(&#39;fileTime: &#39;, fileTime)
+
+    // if file is older than 1 hour
+    if (fileTime &amp;&amp; currentTime - fileTime &gt; 3600000) {
+        return { Key: item.Key }
+    }
+})
+</code></pre><ul>
+<li>we loop with map function</li>
+<li>we exclude the folder name</li>
+<li>check if time older than 1 hour. Feel free to change the time <code>3600000</code> based on time you want to checked.</li>
+<li>Collect only items with following structure <code>{Key: $key_object}</code></li>
+</ul>
+<h2 id="clean-up-our-objects">Clean up our objects</h2>
+<p>Since on our loop, we potentially have null values, let&rsquo;s filter it with</p>
+<pre tabindex="0"><code>// remove null from keys array
+//  Used for folder name . to not remove the folder
+const filteredKeys = keys?.filter((item) =&gt; item !== undefined)
+</code></pre><h2 id="magic-part-delete">Magic part: delete!</h2>
+<p>Now the moment we&rsquo;ve been waiting. Let&rsquo;s delete this keys from cleaned up data</p>
+<ul>
+<li>I use typescript, so you&rsquo;ll see some typed object</li>
+</ul>
+<pre tabindex="0"><code>// prepare the data (correct parameter needed)
+const deleteParams = {
+    Bucket: process.env.DO_SPACES_BUCKET || &#39;&#39;,
+    Delete: {
+        Objects: filteredKeys,
+        Quiet: false,
+    },
+} as AWS.S3.DeleteObjectsRequest
+
+try {
+    const responseDelete = await s3
+        .deleteObjects(deleteParams)
+        .promise()
+    console.log(&#39;Successfully deleted files&#39;)
+    console.log(responseDelete)
+    return res.status(200).json({ data: responseDelete })
+} catch (error) {
+    console.log(&#39;Failed to delete files&#39;)
+    console.log(error)
+}
+</code></pre><h2 id="how-to-auto-run-">How to auto run ?</h2>
+<p>You can hit the endpoint where you have all the logics above with a <a href="https://en.wikipedia.org/wiki/Cron">CRON</a>.</p>
+<p>Once your endpoint is online, you can use any service you want to hit the endpoint on the interval necessary for your case. For example you can use <a href="https://cron-job.org/en/">cron-job or for free</a></p>
+<p>That&rsquo;s it!</p>
+ </div>
+
+    
+<div class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <br>
+
+
+    <ul class="tags text-small">
+      
+      <li><a class="tags-aws" href="/topic/aws">aws</a> </li>
+      
+      <li id="date"> Tue Jan 24, 2023 </li>
+    </ul>
+
+
+   
+
+  
+    
+   
+
+
+    <br>
+    <a href="/">🏊🏾‍♀️ Back Home</a>
+
+</section>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<style>
+  #bitesize_wrapper {
+    background: #29313D;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    padding: 50px 200px;
+  }
+
+  #bitesize_wrapper h2{
+    line-height: 2.2rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    #bitesize_wrapper {
+      left: 0px;
+      width: 100%;
+      padding: 50px;
+    }
+  }
+
+  #slide-menu{
+    text-align: right;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #slide-menu h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #slide-nav span{
+    font-size: 16px;
+    background: orange;
+    padding: 5px 10px;
+  }
+  #slide-nav span:hover{
+    cursor: pointer;
+  }
+</style>
+
+
+<script src="/js/bitesize-prod.js" defer> </script>
+<script>
+  const _article = document.getElementsByClassName('article')[0]
+  
+  if(!_article.innerHTML.includes("</h2>"))
+    document.getElementById('bitesize-btn').style.display = "none"
+
+  
+  const _links = _article.getElementsByTagName('a')
+  for (var i = 0; i<_links.length; i++) {
+    _links[i].setAttribute('target', '_blank')
+  }
+</script>
+
+
+    <footer>
+        <br> <hr> <br>
+        <small>
+        <p>
+            <a href="/series">Series</a> /
+            <a href="/index.xml">RSS</a> /
+            <a href="/sitemap.xml">Sitemap</a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+            <a href="https://tinyletter.com/onebitedev" target="_blank">Subscribe newsletter</a>
+        </p>
+
+        <p>
+            <a href="https://freestuff.dev/" target="_blank">Free stuff for Dev</a> /
+            <a href="https://finddev.tools" target="_blank">Best Developer Tools</a> /
+            <a href="https://fromdevtodev.com" target="_blank">Art of teaching Dev</a>
+        </p>
+        </small>
+    </footer>
+
+    <script async defer src="https://sa-api.hilman.space/latest.js"></script>
+    <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>

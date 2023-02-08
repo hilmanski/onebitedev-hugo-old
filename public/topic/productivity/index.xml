@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on Onebite Dev</title>
+    <link>https://onebite.dev/topic/productivity/</link>
+    <description>Recent content in productivity on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jul 2021 23:09:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create simple deploy script</title>
+      <link>https://onebite.dev/create-simple-deploy-script/</link>
+      <pubDate>Fri, 16 Jul 2021 23:09:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/create-simple-deploy-script/</guid>
+      <description>How many times a day did you do this on command line?
+git add . git commit -m &amp;#34;commit msg&amp;#34; git push origin branchName It&amp;rsquo;s my ritual every time I want to push change on remote git repository. As a developer, we always need to find a way how to make our life easier by using our main principle &amp;ldquo;Don&amp;rsquo;t Repeat Yourself&amp;rdquo;
+Create a deploy script Learn how to create a simple deploy script, to automate your code deployment when using git or any other things in command.</description>
+    </item>
+    
+    <item>
+      <title>What Is Bash and How It Can Save Your Time</title>
+      <link>https://onebite.dev/what-is-bash-and-how-it-can-save-your-time/</link>
+      <pubDate>Tue, 02 Apr 2019 06:23:48 +0800</pubDate>
+      
+      <guid>https://onebite.dev/what-is-bash-and-how-it-can-save-your-time/</guid>
+      <description>Have you heard about bash (Unix shell)? but not sure what does bash actually do? Let&amp;rsquo;s see how it can save your time.. a lot.
+Think of bash as a little program or function(s), to do whatever tasks you normally do in your terminal/command line faster, just by calling the function&amp;rsquo;s name. As always, don&amp;rsquo;t repeat yourself. You have to write your code and call it later by the name of the function/variable.</description>
+    </item>
+    
+    <item>
+      <title>Create New Hugo Post Faster With Bash</title>
+      <link>https://onebite.dev/create-new-hugo-post-faster-with-bash/</link>
+      <pubDate>Tue, 02 Apr 2019 01:03:49 +0800</pubDate>
+      
+      <guid>https://onebite.dev/create-new-hugo-post-faster-with-bash/</guid>
+      <description>If I can&amp;rsquo;t automate a repetitive task, i always try to find a way to make it faster. One of the pain point in creating new post with hugo is we always have to type.
+hugo new posts/your-new-post.md The dynamic part is only the title itself. So the idea is, i want to run a single word function + title. And i don&amp;rsquo;t like to type minus sign &amp;ldquo;-&amp;rdquo; between words.</description>
+    </item>
+    
+    <item>
+      <title>Mac Shortcut to Improve Productivity</title>
+      <link>https://onebite.dev/mac-shortcut-to-improve-productivity/</link>
+      <pubDate>Sun, 31 Mar 2019 20:06:47 +0800</pubDate>
+      
+      <guid>https://onebite.dev/mac-shortcut-to-improve-productivity/</guid>
+      <description>I still remember when one of my friend said to me &amp;ldquo;I don&amp;rsquo;t use mouse, I&amp;rsquo;m a keyboard freak&amp;rdquo;. I didn&amp;rsquo;t really get the point back then, why would someone use mouse -less? isn&amp;rsquo;t mouse there to help us work faster? In some cases, the answer is yes, but while I spend so much time work on mac laptop/computer, i already find myself keep looking for shortcut for certain task, since moving my hand from keyboard to mouse &amp;ldquo;takes time&amp;rdquo; and feels like I&amp;rsquo;m breaking the &amp;ldquo;zone&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>How to Tweet Your Blog Post Automatically</title>
+      <link>https://onebite.dev/how-to-tweet-your-blog-post-automatically/</link>
+      <pubDate>Sun, 31 Mar 2019 19:03:13 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-tweet-your-blog-post-automatically/</guid>
+      <description>There are many social media manager out there, like Hootsuite and Buffer, but not many people have heard about dlvr.it. Just like other, it offers a scheduling feature, with a bonus: we can connect our RSS blog feed with dlvr.it to automatically tweet our new post.
+Step by step auto post blog  Sign up to dlvr.it connect one of your social media account Submit your RSS Feed (create, if you don&amp;rsquo;t have one) and choose your social media (Optional) In &amp;ldquo;settings&amp;rdquo; menu you can define how many times and when to look for any new updates  Other alternative: I just found out, there&amp;rsquo;s an IFTTT alternative for this, check this wesferrel&amp;rsquo;s applet</description>
+    </item>
+    
+    <item>
+      <title>How to Be More Productive With Atom</title>
+      <link>https://onebite.dev/how-to-be-more-productive-with-atom/</link>
+      <pubDate>Sat, 30 Mar 2019 20:42:34 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-be-more-productive-with-atom/</guid>
+      <description>There are many things you can do with atom text editor to make you more productive. Installing some nice packages for atom is the first step, now let&amp;rsquo;s go further by learning some shortcut (which means using -mouse- less)!
+Shortcut in atom  To switch between text editor and the treeview, press ⌘ + Shift + \ , if you&amp;rsquo;re on a file, just press right arrow to switch back to the workspace.</description>
+    </item>
+    
+    <item>
+      <title>How to Make Custom Atom Snippet</title>
+      <link>https://onebite.dev/how-to-make-custom-atom-snippet/</link>
+      <pubDate>Sat, 30 Mar 2019 18:53:30 +0800</pubDate>
+      
+      <guid>https://onebite.dev/how-to-make-custom-atom-snippet/</guid>
+      <description>DRY or don&amp;rsquo;t repeat yourself is one of the most popular advice we got in coding. Not just for the code we write, it also apply for things we do while writing code. If you love using atom as your main text editor, we can make some snippets to help us generate text/code that we often use.
+How to make snippet in Atom Open the &amp;ldquo;Atom menu&amp;rdquo; &amp;gt; &amp;ldquo;Snippets&amp;rdquo; to see and add to our current available snippets, or use the search bar in &amp;ldquo;Help&amp;rdquo; menu and type &amp;ldquo;snippets&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

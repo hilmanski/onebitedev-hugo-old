@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+
+
+ 
+     
+    
+
+
+
+
+
+
+
+<title>Create Open Graph Image generator, introducing imagin.live</title>
+<meta name="description" content="We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&#39;s why you&#39;ll love Imagin. It&#39;s a post about how I make Imagin, dynamic open graph image generator" property="og:description">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta name="twitter:image" content='https://ogi.sh/article?title=Create Open Graph Image generator, introducing imagin.live&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png'>
+
+<meta property="og:url" content="https://onebite.dev/create-open-graph-image-generator-introducing-imagin.live/" />
+<meta property="og:title" content="Create Open Graph Image generator, introducing imagin.live" />
+<meta property="og:description" content="We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&#39;s why you&#39;ll love Imagin. It&#39;s a post about how I make Imagin, dynamic open graph image generator" />
+<meta property="og:image" content="https://ogi.sh/article?title=Create Open Graph Image generator, introducing imagin.live&subtitle=One%20code%20at%20a%20time&unsplashId=TWMI7B4KeLY&logo=https://ik.imagekit.io/kodingclub/onebite/onebite-logo_QwhRyJ3b0.png" />
+
+<script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Create Open Graph Image generator, introducing imagin.live",
+      "author": {
+        "@type": "Person",
+        "name": "@hilmanski"
+      },
+      "datePublished": "2021-08-28",
+      "description": "We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That's why you'll love Imagin. It's a post about how I make Imagin, dynamic open graph image generator",
+      "dateModified": "2021-08-28",
+      "image": {
+        "@type": "imageObject",
+        "url": "https:\/\/ogi.sh\/article?title=Create Open Graph Image generator, introducing imagin.live\u0026subtitle=One%20code%20at%20a%20time\u0026unsplashId=TWMI7B4KeLY\u0026logo=https:\/\/ik.imagekit.io\/kodingclub\/onebite\/onebite-logo_QwhRyJ3b0.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Onebite Dev",
+        "logo": {
+          "@type": "imageObject",
+          "url": "https://onebite.dev/favicon-32x32.png"
+        }
+      }
+    }
+  </script>
+    
+    
+   
+    <link rel="stylesheet" href="https://onebite.dev/sass/main.min.25fbe381f72d8542aa860aad857a997416d36ca77c878fa79ead99bd1242bcb7.css">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+    <div class="flex is-align-items is-space-between">
+       <div class="flex-on-mobile is-align-items">
+            <a href="/">
+                <svg width="65" height="54" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.7035 2.37363C6.18061 2.37363 1.70346 6.85078 1.70346 12.3736V42.8132C1.70346 48.336 6.18061 52.8132 11.7035 52.8132H56.2751C58.991 52.8132 61.4541 51.7305 63.2562 49.9731C59.5478 48.7036 56.3675 45.7708 54.2339 43.8032C53.3572 42.9947 52.6572 42.3492 52.1699 42.049C50.9353 41.2883 51.2262 38.8772 51.5388 36.2859C51.8271 33.8963 52.1339 31.3536 51.28 29.8105C50.5066 28.4128 50.7229 27.836 51.0768 26.8921C51.5373 25.6638 52.2308 23.8139 51.28 18.7249C49.51 9.25073 56.9581 7.64421 64.0807 6.12227C62.2481 3.83689 59.4325 2.37363 56.2751 2.37363H11.7035Z"
+                        fill="url(#paint0_linear)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.47715 0 0 4.47715 0 10V44C0 49.5228 4.47716 54 10 54H51.2893C54.1006 54 56.6409 52.84 58.4577 50.9725C54.9233 49.6204 51.8919 46.4672 49.8602 44.354C49.0281 43.4885 48.3637 42.7974 47.9012 42.4759C46.7293 41.6616 47.0054 39.0803 47.3022 36.306C47.5758 33.7478 47.867 31.0256 47.0565 29.3736C46.3224 27.8773 46.5277 27.2597 46.8636 26.2491C47.3007 24.9341 47.959 22.9537 47.0565 17.5055C45.3738 7.34702 52.4676 5.63738 59.2376 4.00577C59.2536 4.00191 59.2697 3.99804 59.2857 3.99418C57.461 1.5686 54.5584 0 51.2893 0H10Z"
+                        fill="url(#paint1_linear)" />
+                    <rect x="6" y="12" width="35" height="8" rx="4" fill="#FF9F47" />
+                    <rect x="6" y="24" width="30" height="8" rx="4" fill="#EE7D7D" />
+                    <rect x="6" y="36" width="36" height="8" rx="4" fill="#67D3CD" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="8.3746" y1="15.1221" x2="57.7784" y2="43.7947"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#80305C" />
+                            <stop offset="1" stop-color="#385979" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="6.3405" y1="13.6484" x2="55.9436" y2="39.2057"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9A326B" />
+                            <stop offset="1" stop-color="#4C7AA8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+
+            <div>
+                <a href="/"><p id="title">Onebite.dev</p></a>
+                <p id="subtitle">Developer tips & trick, one bite at a time</p>
+            </div>
+        </div>
+
+        <div>
+            <input id="search" type="text" class="searchbox" placeholder="search here...">
+            <script>
+                document.getElementById("search").addEventListener("keyup", function (event) {
+                        if (event.keyCode === 13) {
+                            event.preventDefault();
+                            const searchQ = document.getElementById("search").value
+                            window.location.href = '/search?q=' + searchQ
+                        }
+                    });
+            </script>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/">All</a> /
+        <a href="/series">Series</a> /
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+        <a href="https://freestuff.dev/" target="_blank">Free Stuff for Dev</a> /
+        <a href="https://finddev.tools" target="_blank">Find Developer Tools</a> /
+        <a href="https://tinyletter.com/onebitedev" target="_blank">Newsletter</a>
+    </nav>
+    </header>
+
+
+<section id="post">
+    <h1 class="title">Create Open Graph Image generator, introducing imagin.live</h1>
+    <div>
+      <button id="bitesize-btn" onclick="window.location.href = window.location.href + '?mode=bitesize' ">Read in bitesize</button>
+    </div>
+
+    <div class="article"> <p>We need an image for each of our blog post to make it stand out on social media. But generating for each one for our post is not fun. That&rsquo;s why you&rsquo;ll love <a href="https://imagin.live/about">Imagin</a>! I write regularly on my blog, I know it&rsquo;s not fun to have to prepare Social/OpenGraph Image for each one of the post. We just want to write!</p>
+<p>This is a dynamic image generator, where the image will change according to your title. You just have to put our API link once. <em>Imagin</em> that!</p>
+<p>I create this project as part of Auth0 and Hashnode hackathon #Auth0  #Auth0Hackathon. It&rsquo;s an Idea I have a long time ago, but definitely need a push. Thanks for Hashnode to create this hackathon event, which force me to do it.</p>
+<h2 id="separating-concerns">Separating concerns</h2>
+<p>To make this project maintainable, I need to make 4 separate repository, each have it&rsquo;s own job. Here is the link repository with explanation of it&rsquo;s job</p>
+<ul>
+<li><a href="https://github.com/hilmanski/imagin-web">Client App</a> : this is where user will create their account and template</li>
+<li><a href="https://github.com/hilmanski/imagin-API">Main API</a> : The Client App will using this API to interact with our database for stuff like updating template and website&rsquo;s information</li>
+<li><a href="https://github.com/hilmanski/imagin-template">Template</a> :  Static file. I keep it clean to easily modify our template (image)</li>
+<li><a href="https://github.com/hilmanski/imagin-screenshot">Screenshot API</a> : When user get the &ldquo;API Code&rdquo;, they will access our screenshot API to generate an image</li>
+</ul>
+<h2 id="authentication">Authentication</h2>
+<p>Thanks to <a href="https://auth0.com/">auth0</a>, I don&rsquo;t have to spare a lot of time on creating register, login and other authentication functionality on this app. They will take care everything for us. Since I use vuejs for my client side app, I pick <a href="https://github.com/lstyles/vue3-auth0-sample/">this repo by Istyles</a> as a starter for connecting auth0 and vuejs 3 App.</p>
+<p>Auth0 also has an &ldquo;action flows&rdquo;. Where we can trigger a custom code to our API, if anything happen on out authentication process.
+<img src="https://i.ibb.co/2cTy2xP/Screen-Shot-2021-08-30-at-7-10-35-AM.png" alt="ss flow auth0"></p>
+<p>In this sample, I save a fresh registered user on my database too.
+You can do more with auth0&rsquo;s action</p>
+<h2 id="hosting-and-database">Hosting and Database</h2>
+<p>Luckily, to make a prototype, a lot of company has a generous offer for us to host our data or our site. For this project, I host my site at <a href="https://vercel.com/">vercel</a> and database at <a href="deta.sh">Deta</a>.</p>
+<p>Currently I store the image using <a href="https://imagekit.io/">imagekit</a>. Imagekit also has a benefit as a CDN, to load our image faster</p>
+<h2 id="overview-on-how-it-works">Overview on how it works</h2>
+<p><img src="https://i.ibb.co/rdCJcJb/Screen-Shot-2021-08-30-at-6-58-08-AM.png" alt="ss template imagin"></p>
+<h3 id="register">Register</h3>
+<p>User needs to create an account first. This is  important, since we don&rsquo;t want to just anyone use our API or abuse the service without limit. Using auth0 action&rsquo;s our user will be also saved in our Detabase. For later usage.</p>
+<h3 id="creating-tempalte">Creating tempalte</h3>
+<p>User can create a template from the client App which made from VueJS.  They can choose which font, position, logo, color or background for their image&rsquo;s template. Currently it only offered default font on the web such as &lsquo;serif, san-serif, monospace and cursive&rsquo;, but adding one is pretty straighforward.</p>
+<h3 id="get-the-api">Get the API</h3>
+<p>After saving their template. User get their API-link. This API link can be user in their website to generate image automatically. The API will be pointed to nodejs code, where we run a pupptr (background headless browser) to visit our template and customize how it look based on the API and take the screenshot.</p>
+<p>We upload this image to ImageKit and return the URL.</p>
+<p>It will take a few seconds, for generating the first image, but since we also save the image on our database, the next times, it will be much much faster.</p>
+<h3 id="how-to-use">How to use</h3>
+<p>User put this code on their meta image (twitter or on open graph) and change the title, whether manually or dynamically.
+If you are a developer, you can look at the API, it&rsquo;s very flexible, you can generate more unique image by playing with the parameter</p>
+ </div>
+
+    
+<div class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <br>
+
+
+    <ul class="tags text-small">
+      
+      <li><a class="tags-nodejs" href="/topic/nodejs">nodejs</a> </li>
+      
+      <li><a class="tags-vue" href="/topic/vue">vue</a> </li>
+      
+      <li><a class="tags-hackathon" href="/topic/hackathon">hackathon</a> </li>
+      
+      <li id="date"> Sat Aug 28, 2021 </li>
+    </ul>
+
+
+   
+
+  
+    
+   
+
+
+    <br>
+    <a href="/">🏊🏾‍♀️ Back Home</a>
+
+</section>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<style>
+  #bitesize_wrapper {
+    background: #29313D;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    padding: 50px 200px;
+  }
+
+  #bitesize_wrapper h2{
+    line-height: 2.2rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    #bitesize_wrapper {
+      left: 0px;
+      width: 100%;
+      padding: 50px;
+    }
+  }
+
+  #slide-menu{
+    text-align: right;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #slide-menu h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #slide-nav span{
+    font-size: 16px;
+    background: orange;
+    padding: 5px 10px;
+  }
+  #slide-nav span:hover{
+    cursor: pointer;
+  }
+</style>
+
+
+<script src="/js/bitesize-prod.js" defer> </script>
+<script>
+  const _article = document.getElementsByClassName('article')[0]
+  
+  if(!_article.innerHTML.includes("</h2>"))
+    document.getElementById('bitesize-btn').style.display = "none"
+
+  
+  const _links = _article.getElementsByTagName('a')
+  for (var i = 0; i<_links.length; i++) {
+    _links[i].setAttribute('target', '_blank')
+  }
+</script>
+
+
+    <footer>
+        <br> <hr> <br>
+        <small>
+        <p>
+            <a href="/series">Series</a> /
+            <a href="/index.xml">RSS</a> /
+            <a href="/sitemap.xml">Sitemap</a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a> /
+            <a href="https://tinyletter.com/onebitedev" target="_blank">Subscribe newsletter</a>
+        </p>
+
+        <p>
+            <a href="https://freestuff.dev/" target="_blank">Free stuff for Dev</a> /
+            <a href="https://finddev.tools" target="_blank">Best Developer Tools</a> /
+            <a href="https://fromdevtodev.com" target="_blank">Art of teaching Dev</a>
+        </p>
+        </small>
+    </footer>
+
+    <script async defer src="https://sa-api.hilman.space/latest.js"></script>
+    <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>

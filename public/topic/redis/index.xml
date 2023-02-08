@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redis on Onebite Dev</title>
+    <link>https://onebite.dev/topic/redis/</link>
+    <description>Recent content in redis on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Aug 2022 18:11:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Error Laravel Please make sure the PHP Redis extension is installed and enabled</title>
+      <link>https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/</link>
+      <pubDate>Mon, 08 Aug 2022 18:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/</guid>
+      <description>Encountered this error? Error Laravel Please make sure the PHP Redis extension is installed and enabled. Lets see how to solve it.
+Using Redis can make our site faster by enabling in-memory cache data. Instead of always requesting to database. If you just install redis on Laravel but not working with the error above. Here&amp;rsquo;s what you need to do:
+Add REDIS_CLIENT=predis on your .env file. Don&amp;rsquo;t forget to restart your server</description>
+    </item>
+    
+    <item>
+      <title>Solve Class Redis not found on Laravel project</title>
+      <link>https://onebite.dev/solve-class-redis-not-found-on-laravel-project/</link>
+      <pubDate>Mon, 08 Aug 2022 17:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-class-redis-not-found-on-laravel-project/</guid>
+      <description>Do you encounter error Class Redis not found on Laravel project and looking for a solution how to resolve this bug?
+You might instal phpredis already, but you forgot to install redis itself.
+  Make sure to install redis Install Redis based on your OS
+  Make sure to run redis: example for mac user using brew
+  brew services start redis </description>
+    </item>
+    
+  </channel>
+</rss>

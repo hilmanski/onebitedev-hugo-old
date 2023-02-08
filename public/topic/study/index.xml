@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>study on Onebite Dev</title>
+    <link>https://onebite.dev/topic/study/</link>
+    <description>Recent content in study on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Nov 2022 04:03:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to learn new skills while having a job as a programmer</title>
+      <link>https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/</link>
+      <pubDate>Tue, 08 Nov 2022 04:03:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-learn-new-skills-while-having-a-job-as-a-programmer/</guid>
+      <description>On average, we work 40 hours per week. If you&amp;rsquo;re single, that leaves around 16 hours per week to dedicate to learning new skills. Of course, it is different for everyone. Some people may have family and kids that take up most of their time, while others have another job that they are working in addition to their programming job. So learning new skills might not be a priority (or possible) for everyone.</description>
+    </item>
+    
+  </channel>
+</rss>

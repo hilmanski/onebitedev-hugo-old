@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laravel on Onebite Dev</title>
+    <link>https://onebite.dev/topic/laravel/</link>
+    <description>Recent content in laravel on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 18:25:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to solve  Unable to locate file in Vite manifest app sass at deploy</title>
+      <link>https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/</link>
+      <pubDate>Thu, 05 Jan 2023 18:25:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-solve-unable-to-locate-file-in-vite-manifest-app-sass-at-deploy/</guid>
+      <description>When deploying my laravel site that use Vite and sass (CSS-preprocessor), I got this error &amp;quot; Unable to locate file in Vite manifest: resources/sass/app.sass&amp;quot;
+Turns out, I need to update the vite config file
+import { defineConfig } from &amp;#39;vite&amp;#39;; import laravel from &amp;#39;laravel-vite-plugin&amp;#39;; export default defineConfig({ plugins: [ laravel({ input: [ &amp;#39;resources/sass/app.sass&amp;#39;, &amp;#39;resources/js/app.js&amp;#39;, ], refresh: true, }), ], }); To that. or whatever the name of your sass file is</description>
+    </item>
+    
+    <item>
+      <title>Error Laravel Please make sure the PHP Redis extension is installed and enabled</title>
+      <link>https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/</link>
+      <pubDate>Mon, 08 Aug 2022 18:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/error-laravel-please-make-sure-the-php-redis-extension-is-installed-and-enabled/</guid>
+      <description>Encountered this error? Error Laravel Please make sure the PHP Redis extension is installed and enabled. Lets see how to solve it.
+Using Redis can make our site faster by enabling in-memory cache data. Instead of always requesting to database. If you just install redis on Laravel but not working with the error above. Here&amp;rsquo;s what you need to do:
+Add REDIS_CLIENT=predis on your .env file. Don&amp;rsquo;t forget to restart your server</description>
+    </item>
+    
+    <item>
+      <title>Solve Class Redis not found on Laravel project</title>
+      <link>https://onebite.dev/solve-class-redis-not-found-on-laravel-project/</link>
+      <pubDate>Mon, 08 Aug 2022 17:22:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/solve-class-redis-not-found-on-laravel-project/</guid>
+      <description>Do you encounter error Class Redis not found on Laravel project and looking for a solution how to resolve this bug?
+You might instal phpredis already, but you forgot to install redis itself.
+  Make sure to install redis Install Redis based on your OS
+  Make sure to run redis: example for mac user using brew
+  brew services start redis </description>
+    </item>
+    
+    <item>
+      <title>How to Install Laravel on Mac OS</title>
+      <link>https://onebite.dev/how-to-install-laravel-on-mac-os/</link>
+      <pubDate>Wed, 06 Jul 2022 02:21:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-install-laravel-on-mac-os/</guid>
+      <description>Laravel has a lot of fans around the world. Maybe you just want to tryout Laravel as well. Welcome to the club!
+If you&amp;rsquo;re using Mac, I hope this guide can help you install it.
+Install brew Hombrew, is a package manager for Mac OS. It can help us, as a developer to install various things. Including PHP , composer and other necessary package later. So let&amp;rsquo;s install this first</description>
+    </item>
+    
+    <item>
+      <title>Laravel empty relation when eager loading</title>
+      <link>https://onebite.dev/laravel-empty-relation-when-eager-loading/</link>
+      <pubDate>Mon, 14 Mar 2022 00:11:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/laravel-empty-relation-when-eager-loading/</guid>
+      <description>Today I faced a problem, where Laravel shows empty results when query a relation with eager loading. Found the solution, it was I forgot to select the id as well, so the relation didn&amp;rsquo;t know what connects the &amp;ldquo;second table&amp;rdquo; with.
+So the culprit was, when I query a data by select specific columns
+ return Product::with([&amp;#39;tags&amp;#39;,&amp;#39;reviews&amp;#39;]) -&amp;gt;select(&amp;#39;title&amp;#39;, &amp;#39;logo&amp;#39;, &amp;#39;snippet&amp;#39;, &amp;#39;slug&amp;#39;) I need to select the id as well
+ return Product::with([&amp;#39;tags&amp;#39;,&amp;#39;reviews&amp;#39;]) -&amp;gt;select(&amp;#39;id&amp;#39;, &amp;#39;title&amp;#39;, &amp;#39;logo&amp;#39;, &amp;#39;snippet&amp;#39;, &amp;#39;slug&amp;#39;) </description>
+    </item>
+    
+    <item>
+      <title>How to backup database or Laravel App</title>
+      <link>https://onebite.dev/how-to-backup-database-or-laravel-app/</link>
+      <pubDate>Thu, 22 Apr 2021 07:05:31 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-backup-database-or-laravel-app/</guid>
+      <description>Never underestimate what might happen tomorrow. No one know when your app got hacked or when you accidentally do something wrong with your production database.
+ALWAYS BACKUP.
+If you use laravel as backend framework, good news, the company Spatie already make one package for use to backup our laravel app or our database. Here is the repo Spatie Laravel-Backup
+Later, we just need to run the command
+php artisan backup:run and done!</description>
+    </item>
+    
+    <item>
+      <title>How to optimize laravel app with caching route and config</title>
+      <link>https://onebite.dev/how-to-optimize-laravel-app-with-caching-route-and-config/</link>
+      <pubDate>Sat, 15 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/how-to-optimize-laravel-app-with-caching-route-and-config/</guid>
+      <description>You&amp;rsquo;ve done created a pretty big laravel app and now it&amp;rsquo;s ready to be used by hundreds if not thousands of people. Of course we don&amp;rsquo;t want every time a user access our app, it re-read the config or the route part, since it&amp;rsquo;s not changing that much.
+php artisan cache:clear php artisan config:clear php artisan route:clear Refresh Cache What if you change any configuration and route, suddenly you don&amp;rsquo;t see any new changes in your laravel app.</description>
+    </item>
+    
+  </channel>
+</rss>

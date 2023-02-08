@@ -152,15 +152,23 @@ button
         line-height: 16px
     li
         line-height: 30px
+        white-space: nowrap
+        p:first-child
+            display: inline-block
     a
         text-decoration: underline
         color: pink
         &:hover
             color: #f98dec
     blockquote
-        background: #333
-        padding: 0 20px
+        white-space: normal
+        background: #212833
+        padding: 20px
+        border-radius: 20px
         font-style: italic
+        font-size: 1rem
+        ul
+            margin: 0px
 
 .is-hidden
     display: none

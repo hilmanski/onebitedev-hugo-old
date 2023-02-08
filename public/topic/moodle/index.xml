@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>moodle on Onebite Dev</title>
+    <link>https://onebite.dev/topic/moodle/</link>
+    <description>Recent content in moodle on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jul 2021 01:07:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/moodle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moodle site: The session partition is full error [unsolved]</title>
+      <link>https://onebite.dev/moodle-site-the-session-partition-is-full-error-unsolved/</link>
+      <pubDate>Sat, 24 Jul 2021 01:07:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/moodle-site-the-session-partition-is-full-error-unsolved/</guid>
+      <description>I&amp;rsquo;m not a moodle developer, but I have a friend that I helped to set up his moodle site years ago. Today the site shows an error &amp;ldquo;The session partition is full. It is not possible to log in at this time. Please notify the server administrator.&amp;rdquo;
+Before you go to technical solution below, one thing you should aware of. Don&amp;rsquo;t update big files (image/video/etc..) directly on your moodle. Depend on your CPU size, you could easily run out of memory because of this.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer on Onebite Dev</title>
+    <link>https://onebite.dev/topic/computer/</link>
+    <description>Recent content in computer on Onebite Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 10:00:00 +0000</lastBuildDate><atom:link href="https://onebite.dev/topic/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understand the stack and the heap</title>
+      <link>https://onebite.dev/understand-the-stack-and-the-heap/</link>
+      <pubDate>Fri, 01 Oct 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://onebite.dev/understand-the-stack-and-the-heap/</guid>
+      <description>What is stack and what is heap in term of memory allocating in programming language?
+While learning Rust, I met with ownership subject. This topic discuss about memory allocation on Rust. So I decide to learn more about how memory management in general works for programming language.
+About Stack and Heap This is how programming language store it&amp;rsquo;s data on memory (not database) , stuff like variable need a place to be stored while running the program.</description>
+    </item>
+    
+  </channel>
+</rss>
